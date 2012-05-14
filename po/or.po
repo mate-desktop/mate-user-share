@@ -1,0 +1,249 @@
+# translation of gnome-user-share.master.or.po to Oriya
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share.master.or\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"POT-Creation-Date: 2009-06-26 10:10+0000\n"
+"PO-Revision-Date: 2009-09-17 20:34+0530\n"
+"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"ଯଦି ଏହା true, ଚାଳକ ମୂଖ୍ୟ ପଞ୍ଜିକାରେ ସାର୍ବଜନିକ ଡିରେକ୍ଟୋରୀ ଚାଳକ ଲଗଇନ ହେବାମାତ୍ରେ ଆହରଣ "
+"ଡିରେକ୍ଟୋରୀ ମାଧ୍ଯମରେ ସହଭାଗ ହୋଇଥାଏ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"ଯଦି ଏହା true, ଚାଳକ ମୂଖ୍ୟ ପଞ୍ଜିକାରେ ସାର୍ବଜନିକ ଡିରେକ୍ଟୋରୀ ଚାଳକ ଲଗଇନ ହେବାମାତ୍ରେ ବ୍ଲୁଟୁଥ "
+"ମାଧ୍ଯମରେ ସହଭାଗ ହୋଇଥାଏ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"ଯଦି ଏହା true, ଚାଳକ ମୂଖ୍ୟ ପଞ୍ଜିକାରେ ସାର୍ବଜନିକ ଡିରେକ୍ଟୋରୀ ନେଟୱର୍କରେ ଚାଳକ ଲଗଇନ ହେବାମାତ୍ରେ "
+"ସହଭାଗ ହୋଇଥାଏ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ସାର୍ବଜନିକ ଡିରେକ୍ଟୋରୀକୁ ସହଭାଗ କରନ୍ତୁ"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "ନେଟୱର୍କ ଉପରେ ସାର୍ବଜନିକ ଡିରେକ୍ଟୋରୀକୁ ସହଭାଗ କରନ୍ତୁ"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ପଠାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକୁ କେତେବେଳେ ଗ୍ରହଣ କରିବା ଉଚିତ"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgstr ""
+"ବ୍ଲୁଟୁଥ ଉପରେ ପଠାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକୁ କେତେବେଳେ ଗ୍ରହଣ କରିବା ଉଚିତ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି "
+"\"always\", \"bonded\", \"bonded_trusted\" ଏବଂ \"ask\"।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"ପ୍ରବେଶ ସଂକେତ ପାଇଁ କେତେବେଳେ ପଚାରିବା ଉଚିତ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି \"never\", \"on_write"
+"\", ଏବଂ\"always\"।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "ପ୍ରବେଶ ସଂକେତ କେତେବେଳେ ଆବଶ୍ୟକ"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "ObexPush ବ୍ୟବହାର କରି ବ୍ୱୁଟୁଥ ଗ୍ରାହକ ମାନେ ଫାଇଲଗୁଡ଼ିକୁ ପଠାଇବା ଉଚିତ କି।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "ଫାଇଲ ପଠାଇବା ପାଇଁ ବ୍ୱୁଟୁଥ ଗ୍ରାହକମାନଙ୍କୁ କମ୍ପୁଟର ସହିତ ଯୋଡ଼ିହେବା ଉଚିତ କି।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"ଫାଇଲ ଲେଖିବା ପାଇଁ ବ୍ୱୁଟୁଥ ଫାଇଲଗୁଡ଼ିକୁ ଅନୁମତି ଦେବା ଉଚିତ କି, କିମ୍ବା କେବଳ ପଠନୀୟ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ "
+"କରନ୍ତୁ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "ବ୍ଲୁଟୁଥ ଗ୍ରାହକମାନଙ୍କୁ ଫାଇଲ ଲେଖିବା ପାଇଁ ଅନୁମତି ଦେବା ଉଚିତ କି।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "ନୂତନ ଭାବରେ ଗ୍ରହଣ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକ ବିଷୟରେ ବିଜ୍ଞପ୍ତି ଦେବା ଉଚିତ କି।"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>ବ୍ଲୁଟୁଥ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ଗ୍ରହଣ କରନ୍ତୁ</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>ବ୍ଲୁଟୁଥ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>ନେଟୱର୍କ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "ସୂଦୂର ଉଫକରଣକୁ ଫାଇଲ ଅପସାରଣ କରିବା ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ (_w)"
+
+#: ../data/file-share-properties.ui.h:5
+#| msgid "File Sharing Preferences"
+msgid "Personal File Sharing Preferences"
+msgstr "ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗ ପସନ୍ଦଗୁଡ଼ିକ"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ଆହରଣ ଫୋଲଡରରେ ଫାଇଲଗୁଡ଼ିକୁ ଗ୍ରହଣ କରିଥାଏ (_D)"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "ଏହି କମ୍ପୁଟର ସହିତ ବାନ୍ଧିହେବା ପାଇଁ ସୂଦୂର ଉପକରଣ ଆବଶ୍ୟକ (_m)"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ (_B)"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "ଫାଇଲ ଗ୍ରହଣ କରନ୍ତୁ (_A):"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "ଗ୍ରହଣ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକ ବିଷୟରେ ବିଜ୍ଞପ୍ତି ଦିଅନ୍ତୁ (_N)"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "ପ୍ରବେଶ ସଂଙ୍କେତ (_P):"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "ପ୍ରବେଶ ସଂକେତ ଆବଶ୍ୟକ (_R):"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "ନେଟୱର୍କରେ ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ (_S)"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2
+msgid "Personal File Sharing"
+msgstr "ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗ"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+#| msgid "Preferences for sharing of personal files"
+msgid "Preferences for sharing of files"
+msgstr "ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରିବା ପାଇଁ ପସନ୍ଦ"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+#| msgid "Launch User Sharing if enabled"
+msgid "Launch Personal File Sharing if enabled"
+msgstr "ଯଦି ସକ୍ରିୟ ଥାଏ ତେବେ ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗକୁ ଆରମ୍ଭ କରନ୍ତୁ"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "କୌଣସି କାରଣ ନାହିଁ"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "ସହାୟତା ସୂଚୀକୁ ଦର୍ଶାଇ ହେବ ନାହିଁ।"
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "ଅନ୍ତରାପୃଷ୍ଠ ନିର୍ମାଣ କରିହେବ ନାହିଁ।"
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "କେବେ ନୁହେଁ"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "ଫାଇଲ ଲେଖିବା ସମୟରେ"
+
+#: ../src/file-share-properties.c:549 ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "ସର୍ବଦା"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for Bonded devices"
+msgstr "କେବଳ ବାନ୍ଧିହୋଇଥିବା ଉପକରଣଗୁଡ଼ିକ ପାଇଁ"
+
+#: ../src/file-share-properties.c:578
+msgid "Only for Bonded and Trusted devices"
+msgstr "କେବଳ ବାନ୍ଧିହୋଇଥିବା ଏବଂ ବିଶ୍ୱସ୍ଥ ଉପକରଣଗୁଡ଼ିକ ପାଇଁ"
+
+#: ../src/file-share-properties.c:583
+msgid "Ask"
+msgstr "ପଚାର"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%sର ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକ"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s ଉପରେ %sର ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକ"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "ଅତିଥି ଚାଳକ ଭାବରେ ଲରଇନ କରନ୍ତୁ"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:138
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "ଆପଣ ବ୍ଲୁଟୁଥ ମାଧ୍ଯମରେ \"%s\" କୁ ଗ୍ରହଣ କରିଛନ୍ତି"
+
+#: ../src/obexpush.c:140
+msgid "You received a file"
+msgstr "ଆପଣ ଗୋଟିଏ ଫାଇଲ ଗ୍ରହଣ କରିଛନ୍ତି"
+
+#: ../src/obexpush.c:151
+msgid "Open File"
+msgstr "ଫାଇଲକୁ ଖୋଲନ୍ତୁ"
+
+#: ../src/obexpush.c:155
+msgid "Reveal File"
+msgstr "ଫାଇଲ ପ୍ରକଟକରନ୍ତୁ"
+

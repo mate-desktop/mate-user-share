@@ -1,0 +1,253 @@
+# Slovenian translations for gnome-user-share help.
+# Copyright (C) 2009 gnome-user-share COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-user-share package.
+#
+# Ime Priimek <email>, leto
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share help master\n"
+"POT-Creation-Date: 2010-10-11 14:49+0000\n"
+"PO-Revision-Date: 2010-10-13 11:35+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: C/legal.xml:2(para)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+
+#: C/legal.xml:12(para)
+msgid "This manual is part of a collection of GNOME manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
+msgstr ""
+
+#: C/legal.xml:19(para)
+msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any GNOME documentation, and the members of the GNOME Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
+msgstr ""
+
+#: C/legal.xml:35(para)
+msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+
+#: C/legal.xml:28(para)
+msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:81(None)
+msgid "@@image: 'figures/file-sharing-preferences.png'; md5=7ae616b8043b36be1f4943ba06d8a5ed"
+msgstr "@@image: 'figures/file-sharing-preferences.png'; md5=7ae616b8043b36be1f4943ba06d8a5ed"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:99(None)
+msgid "@@image: 'figures/sharing-over-the-network.png'; md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
+msgstr "@@image: 'figures/sharing-over-the-network.png'; md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:143(None)
+msgid "@@image: 'figures/sharing-over-bluetooth.png'; md5=0a950502b42b1e7fdb9a57d5017e919c"
+msgstr "@@image: 'figures/sharing-over-bluetooth.png'; md5=0a950502b42b1e7fdb9a57d5017e919c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:168(None)
+msgid "@@image: 'figures/receiving-over-bluetooth.png'; md5=f292daef06767f39e346b222d3c448be"
+msgstr "@@image: 'figures/receiving-over-bluetooth.png'; md5=f292daef06767f39e346b222d3c448be"
+
+#: C/gnome-user-share.xml:10(title)
+msgid "Personal File Sharing Manual"
+msgstr ""
+
+#: C/gnome-user-share.xml:12(year)
+#: C/gnome-user-share.xml:29(date)
+msgid "2009"
+msgstr "2009"
+
+#: C/gnome-user-share.xml:13(holder)
+msgid "Red Hat, Inc."
+msgstr ""
+
+#: C/gnome-user-share.xml:19(firstname)
+msgid "Matthias"
+msgstr ""
+
+#: C/gnome-user-share.xml:20(surname)
+msgid "Clasen"
+msgstr ""
+
+#: C/gnome-user-share.xml:28(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: C/gnome-user-share.xml:31(para)
+msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
+msgstr ""
+
+#: C/gnome-user-share.xml:35(releaseinfo)
+msgid "This manual describes version 2.26 of gnome-user-share."
+msgstr ""
+
+#: C/gnome-user-share.xml:37(title)
+msgid "Feedback"
+msgstr ""
+
+#: C/gnome-user-share.xml:38(para)
+msgid "To report a bug or make a suggestion regarding the gnome-user-share application or this manual, follow the directions in the <ulink url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr ""
+
+#: C/gnome-user-share.xml:41(para)
+msgid "gnome-user-share is a session service that enables easy sharing of files between several computers."
+msgstr ""
+
+#: C/gnome-user-share.xml:45(primary)
+msgid "gnome-user-share"
+msgstr ""
+
+#: C/gnome-user-share.xml:46(primary)
+msgid "file sharing"
+msgstr ""
+
+#: C/gnome-user-share.xml:47(primary)
+msgid "sharing"
+msgstr ""
+
+#: C/gnome-user-share.xml:50(title)
+msgid "Introduction"
+msgstr ""
+
+#: C/gnome-user-share.xml:51(para)
+msgid "gnome-user-share is a session service that exports the contents of the <filename>Public</filename> folder in your home directory, so that they can easily be accessed from other computers on the same local network. On the other computers, the shared folder will appear with a name like '<replaceable>user</replaceable>'s shared files' in the <application>nautilus</application> Network window, where <replaceable>user</replaceable> will be replaced by your user name."
+msgstr ""
+
+#: C/gnome-user-share.xml:54(para)
+msgid "gnome-user-share uses a WebDAV server to share the <filename>Public</filename> folder, and advertises the share on the local network using mDNS."
+msgstr ""
+
+#: C/gnome-user-share.xml:57(para)
+msgid "Additionally, gnome-user-share can make the shared files available via ObexFTP over Bluetooth, and receive files that are sent to your computer via Bluetooth via ObexPush."
+msgstr ""
+
+#: C/gnome-user-share.xml:63(title)
+msgid "Getting started"
+msgstr ""
+
+#: C/gnome-user-share.xml:66(title)
+msgid "Starting gnome-user-share"
+msgstr ""
+
+#: C/gnome-user-share.xml:68(para)
+msgid "The gnome-user-share service is normally started by <application>gnome-session</application> when you log in. You can change this by opening <menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying the 'User Sharing' entry in the list of startup programs."
+msgstr ""
+
+#: C/gnome-user-share.xml:72(para)
+msgid "To configure various aspects of file sharing, use the File Sharing Preferences, which can be found in the <guimenu>System</guimenu> menu under <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice>."
+msgstr ""
+
+#: C/gnome-user-share.xml:77(title)
+msgid "File Sharing Preferences"
+msgstr ""
+
+#: C/gnome-user-share.xml:89(title)
+msgid "Enabling file sharing over the network"
+msgstr ""
+
+#: C/gnome-user-share.xml:90(para)
+#: C/gnome-user-share.xml:134(para)
+#: C/gnome-user-share.xml:159(para)
+msgid "Open the File Sharing Preferences using <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
+msgstr ""
+
+#: C/gnome-user-share.xml:95(title)
+msgid "Share Files over the Network"
+msgstr ""
+
+#: C/gnome-user-share.xml:106(para)
+msgid "Some firewall configurations on the local machine might cause problems with the advertisment, as well as the access to the shared files. Consult your system administrator for more details."
+msgstr ""
+
+#: C/gnome-user-share.xml:109(para)
+msgid "Select <guilabel>Never</guilabel> to allow everybody to freely read or write files in the shared folder."
+msgstr ""
+
+#: C/gnome-user-share.xml:115(para)
+msgid "Select <guilabel>Always</guilabel> to require the password to read or write files in the shared folder."
+msgstr ""
+
+#: C/gnome-user-share.xml:121(para)
+msgid "Select <guilabel>When writing files</guilabel> to allow everybody to freely read files in the shared folder, but require the password when writing files."
+msgstr ""
+
+#: C/gnome-user-share.xml:128(para)
+msgid "When you set a password, you have to give the password to all users that you want to have access to the shared files. Therefore, you should use a password that is different from other passwords you use."
+msgstr ""
+
+#: C/gnome-user-share.xml:104(para)
+msgid "To enable file sharing via WebDAV, use the <guilabel>Share public files on network</guilabel> checkbox. When file sharing it enabled, the controls for password protection allow to set a password that needs to be specified before a user on another computer is granted access to the shared files. <placeholder-1/><placeholder-2/><placeholder-3/>"
+msgstr ""
+
+#: C/gnome-user-share.xml:133(title)
+msgid "Enabling file sharing over Bluetooth"
+msgstr ""
+
+#: C/gnome-user-share.xml:139(title)
+msgid "Share Files over Bluetooth"
+msgstr ""
+
+#: C/gnome-user-share.xml:152(para)
+msgid "When you allow unbonded remote devices to access your shared files, anybody with a Bluetooth-enabled cell phone in the vicinity of your computer can access and perhaps even modify your shared files."
+msgstr ""
+
+#: C/gnome-user-share.xml:148(para)
+msgid "To enable file sharing via Bluetooth, use the <guilabel>Share public files over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to delete files in your shared folder, use the <guilabel>Allow remote devices to delete files</guilabel> checkbox. To allow remote Bluetooth devices to access your shared files even when they are not bonded with your computer, use the <guilabel>Require remote devices to pair with this computer</guilabel> checkbox. <placeholder-1/>"
+msgstr ""
+
+#: C/gnome-user-share.xml:158(title)
+msgid "Receiving Files over Bluetooth"
+msgstr ""
+
+#: C/gnome-user-share.xml:164(title)
+msgid "Receive Files over Bluetooth"
+msgstr ""
+
+#: C/gnome-user-share.xml:177(para)
+msgid "Select <guilabel>Always</guilabel> to allow any remote device to send files."
+msgstr ""
+
+#: C/gnome-user-share.xml:184(para)
+msgid "Bonded devices are the ones that were connected to your computer, and had to enter a PIN code to connect to or from."
+msgstr ""
+
+#: C/gnome-user-share.xml:182(para)
+msgid "Select <guilabel>Only for Bonded devices</guilabel> to accept files only from bonded devices. <placeholder-1/>"
+msgstr ""
+
+#: C/gnome-user-share.xml:191(para)
+msgid "Devices can be marked as trusted in the <application>bluetooth-properties</application>'s <guilabel>Known devices</guilabel> section."
+msgstr ""
+
+#: C/gnome-user-share.xml:189(para)
+msgid "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept files only from bonded devices. <placeholder-1/>"
+msgstr ""
+
+#: C/gnome-user-share.xml:173(para)
+msgid "To let remote Bluetooth devices send files to your computer, use the <guilabel>Receive files in Downloads folder over Bluetooth</guilabel> checkbox. Received files will be stored in the <filename>Downloads</filename> folder in your home directory. When receiving files is enabled, the <guilabel>Accept files</guilabel> selection allows you to determine which remote devices are allowed to send files. <placeholder-1/>"
+msgstr ""
+
+#: C/gnome-user-share.xml:196(para)
+msgid "Use the <guilabel>Notify about received files</guilabel> checkbox to select whether you want to be notified whenever a file is received via Bluetooth."
+msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/gnome-user-share.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+

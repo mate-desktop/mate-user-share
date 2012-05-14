@@ -1,0 +1,253 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gnome-user-share&component=general\n"
+"POT-Creation-Date: 2009-06-26 10:10+0000\n"
+"PO-Revision-Date: 2009-09-19 16:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: Assamese <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"মান সত্য হলে, লগ-ইন কৰা হলে ব্লু-টুথ ডিভাইসৰ পৰা ব্যৱহাৰকাৰীদেৰ Downloads "
+"ডিৰেক্টৰিত নথিপত্ৰ স্থানান্তৰ কৰা যাবে ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"মান সত্য হলে, ব্যৱহাৰকাৰী লগ-ইন কৰলে ব্যৱহাৰকাৰীৰ ব্যক্তিগত ডিৰেক্টৰিত উপস্থিত "
+"Public ডিৰেক্টৰিটি ব্লু-টুথ ডিভাইসেৰ মাধ্যমে যৌথ ব্যৱহাৰেৰৰ বাবে উপস্থিত কৰা যাবে ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"মান সত্য হলে, ব্যৱহাৰকাৰী লগ-ইন কৰলে ব্যৱহাৰকাৰীৰ ব্যক্তিগত ডিৰেক্টৰিত উপস্থিত "
+"Public ডিৰেক্টৰিটি নেটৱৰ্কেৰ মাধ্যমে যৌথ ব্যৱহাৰেৰৰ বাবে উপস্থিত কৰা যাবে ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "যৌথ ব্যৱহাৰেৰ বাবে ব্লু-টুথেৰ মাধ্যমে Public ডিৰেক্টৰি উপলব্ধ কৰা হ'ব"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "যৌথ ব্যৱহাৰেৰ বাবে নেটৱৰ্কেৰ মাধ্যমে Public ডিৰেক্টৰি উপলব্ধ কৰা হ'ব"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "ব্লু-টুথেৰ মাধ্যমে উপলব্ধ নথিপত্ৰ কখন গ্ৰহণ কৰা হ'ব"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgstr ""
+"ব্লু-টুথেৰ মাধ্যমে উপলব্ধ নথিপত্ৰ কখন গ্ৰহণ কৰা হ'ব । সম্ভাব্য মান হল: \"always "
+"(সদায়ে)"
+"\", \"যুক্ত\", \"bonded_যুক্ত আৰু বিশ্বস্ত\" আৰু \"ask (জিজ্ঞাসা)\" ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"গুপ্তশব্দ উল্লেখেৰ অনুৰোধ কখন কৰা হ'ব । সম্ভাব্য মান হল: \"never (কেতিয়াও না)\", "
+"\"on_write (লেখাৰ সময়)\", আৰু \"always (সদায়ে)\" ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "গুপ্তশব্দ কখন আবশ্যক হ'ব"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "ObexPush-ৰ সাহায্যে ব্লু-টিথ ক্লায়েন্ট দ্বাৰা নথিপত্ৰ পাঠানো সম্ভব হ'ব নে নাই ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr ""
+"নথিপত্ৰ পাঠানোৰ বাবে, ব্লু-টুথ ক্লায়েন্ট দ্বাৰা কখন একটি কম্পিউটাৰেৰ সাথে যুগ্মভাবে "
+"সঞ্চালন কৰা আবশ্যক ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"ব্লু-টুথ ক্লায়েন্ট দ্বাৰা নথিপত্ৰ লেখা সম্ভব হ'ব না কি অকল পাঠযোগ্য অনুমতি সহ "
+"নথিপত্ৰৰ যৌথ "
+"ব্যৱহাৰ কৰা যাবে ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "ব্লু-টুথ ক্লায়েন্টেৰ বাবে নথিপত্ৰে লেখাৰ অনুমতি উপস্থিত থাকিব নে নাই ।"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "নতুন প্ৰাপ্ত নথিপত্ৰ সম্পৰ্কে সূচনা প্ৰদান কৰা হ'ব নে নাই ।"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>ব্লু-টুথেৰ মাধ্যমে নথিপত্ৰ গ্ৰহণ কৰা হ'ব</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>ব্লু-টুথেৰ মাধ্যমে যৌথৰূপে নথিপত্ৰ ব্যৱহাৰ কৰা হ'ব</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>নেটৱৰ্কেৰ মাধ্যমে যৌথৰূপে নথিপত্ৰ ব্যৱহাৰ কৰা হ'ব</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "দূৰবৰ্তী ডিভাইস দ্বাৰা নথিপত্ৰ মুছে ফেলাৰ অনুমতি প্ৰদান কৰা হ'ব (_w)"
+
+#: ../data/file-share-properties.ui.h:5
+#| msgid "File Sharing Preferences"
+msgid "Personal File Sharing Preferences"
+msgstr "নথিপত্ৰৰ যৌথ ব্যৱহাৰ সংক্ৰান্ত পছন্দৰ মান"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "ব্লু-টুথেৰ মাধ্যমে উপলব্ধ নথিপত্ৰ Downloads ফোল্ডাৰে সংৰক্ষণ কৰা হ'ব (_D)"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "দূৰবৰ্তী ডিভাইসেৰ ক্ষেত্ৰে এই কম্পিউটাৰেৰ সাথে সংযোগ স্থাপন কৰা আবশ্যক (_m)"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "যৌথ ব্যৱহাৰেৰ বাবে ব্লু-টুথেৰ মাধ্যমে সাৰ্বজনীন উপলব্ধ কৰা হ'ব (_B)"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "নথিপত্ৰ গ্ৰহণ কৰা হ'ব: (_A)"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "নতুন প্ৰাপ্ত নথিপত্ৰ সম্পৰ্কে সূচনা প্ৰদান কৰা হ'ব (_N)"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "গুপ্তশব্দ: (_P)"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "গুপ্তশব্দ আবশ্যক: (_R)"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "যৌথ ব্যৱহাৰেৰ বাবে নেটৱৰ্কেৰ মাধ্যমে সাৰ্বজনীন নথিপত্ৰ উপলব্ধ কৰা হ'ব"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2
+msgid "Personal File Sharing"
+msgstr "ব্যক্তিগত নথিপত্ৰৰ যৌথ ব্যৱহাৰ"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+#| msgid "Preferences for sharing of personal files"
+msgid "Preferences for sharing of files"
+msgstr "ব্যক্তিগত নথিপত্ৰৰ যৌথ ব্যৱহাৰ সংক্ৰান্ত পছন্দৰ মান"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+#| msgid "Launch User Sharing if enabled"
+msgid "Launch Personal File Sharing if enabled"
+msgstr "সক্ৰিয় থাকিলে, User Sharing আৰম্ভ কৰা হ'ব"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "বিনা কাৰণে"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "সাহায্যেৰ সূচী প্ৰদৰ্শন কৰা সম্ভব হয়নি ।"
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "ইন্টাৰফেস নিৰ্মাণ কৰতে ব্যৰ্থ ।"
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "কেতিয়াও নহয়"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "নথিপত্ৰ লেখাৰ সময়"
+
+#: ../src/file-share-properties.c:549 ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "সদায়ে"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for Bonded devices"
+msgstr "অকল যুক্ত ডিভাইসেৰ ক্ষেত্ৰে"
+
+#: ../src/file-share-properties.c:578
+msgid "Only for Bonded and Trusted devices"
+msgstr "অকল যুক্ত আৰু বিশ্বস্ত ডিভাইসেৰ ক্ষেত্ৰে"
+
+#: ../src/file-share-properties.c:583
+msgid "Ask"
+msgstr "জিজ্ঞাসা কৰা হ'ব"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s-ৰ সাৰ্বজনীন নথিপত্ৰ"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s-ৰ %s-এ উপস্থিত সাৰ্বজনীন নথিপত্ৰ"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "অনুগ্ৰহ কৰে অতিথি ব্যৱহাৰকাৰী ৰূপে লগ-ইন কৰুন"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:138
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "ব্লু-টুথেৰ মাধ্যমে আপনি \"%s\" প্ৰাপ্ত কৰেছেন"
+
+#: ../src/obexpush.c:140
+msgid "You received a file"
+msgstr "আপনি একটি নথিপত্ৰ প্ৰাপ্ত কৰেছেন"
+
+#: ../src/obexpush.c:151
+msgid "Open File"
+msgstr "নথিপত্ৰ খোলক"
+
+#: ../src/obexpush.c:155
+msgid "Reveal File"
+msgstr "নথিপত্ৰ প্ৰকাশ কৰা হ'ব"
+
+#~ msgid "User Sharing"
+#~ msgstr "যৌথ ব্যবহাৰেৰ সামগ্ৰী"
+

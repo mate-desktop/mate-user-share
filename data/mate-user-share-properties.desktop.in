@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Personal File Sharing
+_Comment=Preferences for sharing of files
+Exec=mate-file-share-properties
+Icon=folder-remote
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=MATE;Settings;X-MATE-NetworkSettings;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-user-share
+X-MATE-Bugzilla-Component=general
+

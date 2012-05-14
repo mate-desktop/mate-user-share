@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-01 03:50+0100\n"
+"PO-Revision-Date: 2006-11-02 12:22+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../desktop_gnome_file_sharing.schemas.in.h:1
+msgid "If this is true, the Public directory in the users home directory will be shared when the user is logged in."
+msgstr "འ་ནི་འདི་བདེན་པ་ཨིན་པ་ཅིན་ ལག་ལེན་པའི་ཁྱིམ་སྣོད་ཐོ་འདི་ནང་གི་ མི་མང་གི་སྣོད་ཐོ་འདི་ ལག་ལེན་པ་འདི་ནང་བསྐྱོད་འབད་ཡོད་པའི་སྐབས་ རུབ་སྤྱོད་འབད་འོང་།"
+
+#: ../desktop_gnome_file_sharing.schemas.in.h:2
+msgid "Share Public directory"
+msgstr "མི་མང་གི་སྣོད་ཐོ་རུབ་སྤྱོད་འབད་"
+
+#: ../desktop_gnome_file_sharing.schemas.in.h:3
+msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
+msgstr "ཆོག་ཡིག་ཚུ་གི་དོན་ལུ་ནམ་འདྲི་ནི་ཨིན་ན། འབད་ཚུགས་པའི་གནས་གོང་ \"never\"  \"on_write\"  དང་ \"always\" ཚུ་ཨིན།"
+
+#: ../desktop_gnome_file_sharing.schemas.in.h:4
+msgid "When to require passwords"
+msgstr "ཆོག་ཡིག་ཚུ་ནམ་དགོཔ་ཨིན་ན་"
+
+#: ../file-share-properties.c:290
+msgid "Never"
+msgstr "ནམ་ཡང་"
+
+#: ../file-share-properties.c:293
+msgid "When writing files"
+msgstr "ཡིག་སྣོད་ཚུ་རྩོམ་སྒྲིག་འབད་བའི་སྐབས་"
+
+#: ../file-share-properties.c:296
+msgid "Always"
+msgstr "ཨ་རྟག་རང་"
+
+#: ../file-share-properties.glade.h:1
+msgid "<b>Share Files</b>"
+msgstr "<b>ཡིག་སྣོད་ཚུ་རུབ་སྤྱོད་འབད་</b>"
+
+#: ../file-share-properties.glade.h:2
+msgid "File Sharing Preferences"
+msgstr "ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ནིའི་དགའ་གདམ་ཚུ་"
+
+#: ../file-share-properties.glade.h:3
+msgid "Share Public files on network"
+msgstr "ཡོངགས་འབྲེལ་གུ་ལུ་ མི་མང་གི་ཡིག་སྣོད་ཚུ་རུབ་སྤྱོད་འབད་"
+
+#: ../file-share-properties.glade.h:4
+msgid "_Password:"
+msgstr "ཆོག་ཡིག་:(_P)"
+
+#: ../file-share-properties.glade.h:5
+msgid "_Require password:"
+msgstr "དགོས་མཁོ་ཡོད་པའི་ཆོག་ཡིག་: (_R)"
+
+#: ../gnome-user-share-properties.desktop.in.h:1
+msgid "Personal File Sharing"
+msgstr "རང་དོན་གྱི་ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ནི་"
+
+#: ../gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of personal files"
+msgstr "རང་དོན་གྱི་ཡིག་སྣོད་ཚུ་གི་རུབ་སྤྱོད་འབད་ནིའི་དོན་ལུ་ དགའ་གདམ་ཚུ་"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../user_share.c:130
+#, c-format
+msgid "%s's public files"
+msgstr "%s གི་མི་མང་ཡིག་སྣོད་ཚུ་"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../user_share.c:134
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s གི་མི་མང་ཡིག་སྣོད་ཚུ་ %s གུ་"
+

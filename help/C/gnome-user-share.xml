@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [ 
+  <!ENTITY appversion "2.26">
+  <!ENTITY app "gnome-user-share">
+]>
+
+<article id="index" lang="en">
+  <articleinfo>
+	 <title>Personal File Sharing Manual</title>
+	 <copyright>
+		<year>2009</year>
+		<holder>Red Hat, Inc.</holder>
+         </copyright>
+
+	 <xi:include href="legal.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+	 <authorgroup>
+           <author role="maintainer">
+             <firstname>Matthias</firstname>
+             <surname>Clasen</surname>
+           </author>
+	 </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+	 <revhistory>
+		<revision>
+		  <revnumber>1.0</revnumber>
+		  <date>2009</date>
+		  <revdescription>
+			 <para role="author">Matthias Clasen <email>mclasen@redhat.com</email></para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo>This manual describes version &appversion; of &app;.</releaseinfo>
+	 <legalnotice>
+		<title>Feedback</title>
+		<para>To report a bug or make a suggestion regarding the &app; application or this manual, follow the directions in the <ulink url="ghelp:user-guide?feedback-bugs" type="help">GNOME Feedback Page</ulink>.</para>
+	 </legalnotice>
+    <abstract role="description">
+      <para>&app; is a session service that enables easy sharing of files
+      between several computers.</para>
+    </abstract>
+  </articleinfo>
+  <indexterm><primary>gnome-user-share</primary></indexterm>
+  <indexterm><primary>file sharing</primary></indexterm>
+  <indexterm><primary>sharing</primary></indexterm>
+
+  <sect1 id="gnome-user-share-intro">
+	 <title>Introduction</title>
+	 <para>
+		&app; is a session service that exports the contents of the <filename>Public</filename> folder in your home directory, so that they can easily be accessed from other computers on the same local network. On the other computers, the shared folder will appear with a name like '<replaceable>user</replaceable>'s shared files' in the <application>nautilus</application> Network window, where <replaceable>user</replaceable> will be replaced by your user name.
+	 </para>
+	 <para>
+		&app; uses a WebDAV server to share the <filename>Public</filename> folder, and advertises the share on the local network using mDNS.
+	 </para>
+         <para>
+		Additionally, &app; can make the shared files available via ObexFTP over Bluetooth, and receive files that are sent to your computer via Bluetooth via ObexPush.
+         </para>
+  </sect1>
+
+  <sect1 id="gnome-user-share-getting-started">
+    <title>Getting started</title>
+
+    <sect2 id="gnome-user-share-start">
+       <title>Starting &app;</title>
+
+       <para>
+         The &app; service is normally started by <application>gnome-session</application> when you log in. You can change this by opening <menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying the 'User Sharing' entry in the list of startup programs.
+       </para>
+
+       <para>
+         To configure various aspects of file sharing, use the File Sharing Preferences, which can be found in the <guimenu>System</guimenu> menu under
+         <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice>.
+       </para>
+       <figure id="file-sharing-preferences">
+         <title>File Sharing Preferences</title>
+         <screenshot>
+           <mediaobject>
+             <imageobject>
+               <imagedata fileref="figures/file-sharing-preferences.png" format="PNG"/>
+             </imageobject>
+           </mediaobject>
+         </screenshot>
+       </figure>
+ 
+     </sect2>
+     <sect2 id="gnome-user-share-enabling-sharing">
+       <title>Enabling file sharing over the network</title>
+       <para>
+         Open the File Sharing Preferences using
+         <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu.  
+       </para>
+       <figure id="sharing-over-the-network">
+         <title>Share Files over the Network</title>
+         <screenshot>
+           <mediaobject>
+             <imageobject>
+               <imagedata fileref="figures/sharing-over-the-network.png" format="PNG"/>
+             </imageobject>
+           </mediaobject>
+         </screenshot>
+       </figure>
+       <para>
+	       To enable file sharing via WebDAV, use the <guilabel>Share public files on network</guilabel> checkbox. When file sharing it enabled, the controls for password protection allow to set a password that needs to be specified before a user on another computer is granted access to the shared files. 
+	 <note><para>Some firewall configurations on the local machine might cause problems with the advertisment, as well as the access to the shared files. Consult your system administrator for more details.</para></note>
+         <itemizedlist>
+           <listitem>
+              <para>
+                Select <guilabel>Never</guilabel> to allow everybody to 
+                freely read or write files in the shared folder.
+              </para>
+           </listitem>
+           <listitem>
+              <para>
+                Select <guilabel>Always</guilabel> to require the password 
+                to read or write files in the shared folder.
+              </para>
+           </listitem>
+           <listitem>
+              <para>
+                Select <guilabel>When writing files</guilabel> to allow everybody
+                to freely read files in the shared folder, but require the
+                password when writing files.
+              </para>
+           </listitem>
+         </itemizedlist>
+        <note><para>When you set a password, you have to give the password to all users that you want to have access to the shared files. Therefore, you should use a password that is different from other passwords you use.</para></note>
+       </para>  
+     </sect2>
+
+     <sect2 id="gnome-user-share-enabling-bluetooth">
+       <title>Enabling file sharing over Bluetooth</title>
+       <para>
+         Open the File Sharing Preferences using
+         <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu.  
+       </para>
+       <figure id="sharing-over-bluetooth">
+         <title>Share Files over Bluetooth</title>
+         <screenshot>
+           <mediaobject>
+             <imageobject>
+               <imagedata fileref="figures/sharing-over-bluetooth.png" format="PNG"/>
+             </imageobject>
+           </mediaobject>
+         </screenshot>
+       </figure>
+       <para>
+         To enable file sharing via Bluetooth, use the <guilabel>Share public files over Bluetooth</guilabel> checkbox.
+         To allow remote Bluetooth devices to delete files in your shared folder, use the <guilabel>Allow remote devices to delete files</guilabel> checkbox.
+         To allow remote Bluetooth devices to access your shared files even when they are not bonded with your computer, use the <guilabel>Require remote devices to pair with this computer</guilabel> checkbox.
+         <note><para>When you allow unbonded remote devices to access your shared files, anybody with a Bluetooth-enabled cell phone in the vicinity of your computer can access and perhaps even modify your shared files.
+         </para></note>
+       </para>
+     </sect2>
+
+     <sect2 id="gnome-user-share-bluetooth-receiving">
+       <title>Receiving Files over Bluetooth</title>
+       <para>
+         Open the File Sharing Preferences using
+         <menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu.  
+       </para>
+       <figure id="receiving-over-bluetooth">
+         <title>Receive Files over Bluetooth</title>
+         <screenshot>
+           <mediaobject>
+             <imageobject>
+               <imagedata fileref="figures/receiving-over-bluetooth.png" format="PNG"/>
+             </imageobject>
+           </mediaobject>
+         </screenshot>
+       </figure>
+       <para>
+         To let remote Bluetooth devices send files to your computer, use the <guilabel>Receive files in Downloads folder over Bluetooth</guilabel> checkbox. Received files will be stored in the <filename>Downloads</filename> folder in your home directory. When receiving files is enabled, the <guilabel>Accept files</guilabel> selection allows you to determine which remote devices are allowed to send files.
+          <itemizedlist>
+            <listitem>
+              <para>
+                 Select <guilabel>Always</guilabel> to allow any remote device to send files.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                  Select <guilabel>Only for Bonded devices</guilabel> to accept files only from bonded devices.
+		  <note><para>Bonded devices are the ones that were connected to your computer, and had to enter a PIN code to connect to or from.</para></note>
+                    
+	      </para>
+            </listitem>
+            <listitem>
+              <para>
+                  Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept files only from bonded devices.
+		  <note><para>Devices can be marked as trusted in the <application>bluetooth-properties</application>'s <guilabel>Known devices</guilabel> section.</para></note>
+              </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+        <para>
+          Use the <guilabel>Notify about received files</guilabel> checkbox to select whether you want to be notified whenever a file is received via Bluetooth.
+       </para>
+     </sect2>
+  </sect1>
+
+</article>

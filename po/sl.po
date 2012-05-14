@@ -1,0 +1,253 @@
+# Slovenian translation of gnome-user-share.
+# Copyright (C) 2005-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-user-share package.
+#
+# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"POT-Creation-Date: 2009-10-27 20:46+0000\n"
+"PO-Revision-Date: 2010-06-02 15:04+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
+msgstr "Možnost omogoča, da Bluetooth naprave pošiljajo datoteke v uporabnikovo mapo prejetih datotek, ko je uporabnik prijavljen v sistem."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
+msgstr "Možnost omogoča, da je javna mapa v uporabnikovi domači mapi v souporabi preko Bluetooth, ko je uporabnik prijavljen v sistem."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
+msgstr "Možnost omogoča, da je javna mapa v uporabnikovi domači mapi v souporabi preko omrežja, ko je uporabnik prijavljen v sistem."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Souporaba javne mape preko Bluetooth povezave"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Souporaba javne mape na omrežju"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "Kdaj sprejeti datoteke poslane preko Bluetooth."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
+msgstr "Kdaj naj bodo sprejete datoteke poslane preko bluetooth vmesnika? Mogoče vrednosti so \"always\" (vedno), \"bonded\" (ob povezavi) in \"ask\" (vprašaj)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
+msgstr "Kdaj zahtevati geslo. Mogoče vrednosti so \"never\" (nikoli), \"on_write\" (ob pisanju), in \"always\" (vedno)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "Kdaj zahtevati geslo"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Možnost omogoča, da Bluetooth odjemalci pošiljajo datoteke preko ObexPush sistema."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "Možnost omogoča, da se morajo Bluetooth odjemalci najprej povezati z računalnikom za pošiljanje datotek."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
+msgstr "Možnost omogoča, da Bluetooth odjemalci zapisujejo datoteke ali souporabljajo datoteke le za branje."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Možnost omogoča, da Bluetooth odjemalci zapisujejo datoteke."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Možnost omogoča, da sistem obvesti o novo prispelih datotekah."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Prejemanje datotek preko Bluetooth vmesnika</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Souporaba datotek preko Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Souporaba datotek preko omrežja</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "Omogoči _oddaljenim napravam brisanje datotek."
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "Možnosti osebne souporabe datotek"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Prejmi datoteke poslane preko Bluetooth sistema v mapo _Prejeto."
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Zahtevaj od _oddaljenih naprav povezavo z računalnikom"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "Souporaba javnih datotek preko _Bluetooth načina"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_Sprejmi datoteke: "
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "_Opozori na prejete datoteke"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Geslo:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_Zahtevano geslo:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "_Souporaba javnih datotek na omrežju"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2
+#: ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "Osebna souporaba datotek"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Možnosti souporabe osebnih datotek"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Zaženi osebno souporabo datotek, kadar je ta omogočena"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "Možnosti zagona"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "Zagon možnosti osebne souporabe datotek"
+
+#: ../src/share-extension.c:81
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "Ni mogoče zagnati možnosti osebne souporabe datotek"
+
+#: ../src/share-extension.c:166
+msgid "You can share files from this folder and receive files to it"
+msgstr "Datoteke iz te mape lahko souporabljate in hkrati v to mapo prejemate nove datoteke"
+
+#: ../src/share-extension.c:168
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "Datoteke iz te mape lahko souporabljate preko omrežja in preko vmesnika Bluetooth"
+
+#: ../src/share-extension.c:170
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "Datoteke, prejete preko Bluetooth vmesnika, lahko prejmete v to mapo"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "Brez razloga"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "Ni mogoče prikazati vsebine pomoči."
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "Ni mogoče izgraditi vmesnika."
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "Nikoli"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "Med pisanjem datotek"
+
+#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "Vedno"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for set up devices"
+msgstr "Le za nameščene naprave"
+
+#: ../src/file-share-properties.c:580
+msgid "Ask"
+msgstr "Vprašaj"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s - javno dostopne datoteke"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s - javno dostopne datoteke na %s"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "Prijavite se kot gost"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Prejeli ste datoteko \"%s\" preko Bluetooth povezave"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "Prejeli ste datoteko"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "Odpri datoteko"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "Razkrij datoteko"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "Prejemanje datoteke je končano"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "Le za povezane in varne naprave"
+#~ msgid "User Sharing"
+#~ msgstr "Osebna souporaba"
+

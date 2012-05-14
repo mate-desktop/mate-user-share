@@ -1,0 +1,315 @@
+# Bengali translation for gnome-user-share
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+# Israt Jahan <israt@ankur.org.bd>, 2009.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"user-share&component=general\n"
+"POT-Creation-Date: 2010-03-23 17:10+0000\n"
+"PO-Revision-Date: 2010-01-24 11:12+0600\n"
+"Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
+"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"মান true (সত্য) হলে, লগইন করার পর ব্লু-টুথ ডিভাইস ব্যবহারকারীর ডাউনলোড ডিরেক্টরিতে "
+"ফাইল প্রেরণ করতে পারে।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"মান true (সত্য) হলে, ব্যবহারকারী লগইন করলে ব্যবহারকারীর প্রধান ডিরেক্টরির মধ্যে "
+"উপস্থিত পাবলিক ডিরেক্টরিটি ব্লু-টুথের মাধ্যমে শেয়ার করা যাবে।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"মান true (সত্য) হলে, ব্যবহারকারী লগইন করলে ব্যবহারকারীর প্রধান ডিরেক্টরির মধ্যে "
+"উপস্থিত পাবলিক ডিরেক্টরিটি নেটওয়ার্কের মাধ্যমে শেয়ার করা যাবে।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "পাবলিক ডিরেক্টরি ব্লু-টুথের মাধ্যমে শেয়ার করা হবে"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "পাবলিক ডিরেক্টরি নেটওয়ার্কের মাধ্যমে শেয়ার করা হবে"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "ব্লু-টুথের মাধ্যমে প্রেরিত ফাইল কখন গ্রহণ করা হবে"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"ব্লু-টুথের মাধ্যমে প্রেরিত ফাইল কখন গ্রহণ করা হবে। সম্ভাব্য মান হলো: \"সর্বদা\", "
+"\"সংযুক্ত করা হবে\",  ও \"জিজ্ঞাসা করা হবে\"।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"পাসওয়ার্ড কখন জানতে চাওয়া হবে। সম্ভাব্য মান হলো: \"কখনো না\", \"লেখার সময় (_w)"
+"\", ও \"সর্বদা\"।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "কখন পাসওয়ার্ড প্রয়োজন হবে"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "ObexPush এর সাহায্যে ব্লু-টুথ ক্লায়েন্টরা ফাইল পাঠাতে পারবেন কি না।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "ফাইল পাঠানোর জন্য ব্লু-টুথ ক্লায়েন্টদের কম্পিউটারের সাথে যুক্ত হতে হবে কিনা।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"ব্লু-টুথ ক্লায়েন্টরা শেয়ারকৃত ফাইল শুধুমাত্র পাঠ করতে পারবে, না কি তাদের লেখারও অনুমতি "
+"দেয়া হবে।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "ব্লু-টুথ ক্লায়েন্টেদের ফাইলে লেখার অনুমতি দেয়া হবে কি না।"
+
+# Translated by sadia
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "নতুন গৃহীত ফাইল সম্পর্কে ঘোষনা প্রদান করা হবে কি না।"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>ব্লু-টুথের মাধ্যমে ফাইল গ্রহণ করা হবে</b>"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>ব্লু-টুথের মাধ্যমে ফাইল শেয়ার করা হবে</b>"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>নেটওয়ার্কের মাধ্যমে ফাইল শেয়ার করা হবে</b>"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "দূরবর্তী ডিভাইসগুলোকে ফাইল মুছে ফেলার অনুমতি প্রদান করা হবে (_w)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "ব্যক্তিগত ফাইল শেয়ারকরণের পছন্দসমূহ"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "ব্লু-টুথের মাধ্যমে গৃহীত ফাইলসমূহ ডাউনলোড ফোল্ডারে সংরক্ষণ করা হবে (_D)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "দূরবর্তী ডিভাইসগুলো এই কম্পিউটারের সাথে যুক্ত করা আবশ্যক (_m)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "ব্লু-টুথের মাধ্যমে পাবলিক ফাইল শেয়ার করা হবে (_B)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "ফাইল গ্রহণ করা হবে: (_A)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "গৃহীত ফাইল সম্পর্কে ঘোষনা প্রদান করা হবে (_N)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "পাসওয়ার্ড: (_P)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "পাসওয়ার্ড আবশ্যক: (_R)"
+
+# Translated by sadia
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "নেটওয়ার্কে পাবলিক ফাইল শেয়ার করা হবে (_S)"
+
+# Translated by sadia
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "ব্যক্তিগত ফাইল শেয়ারকরণ"
+
+# Translated by sadia
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "ফাইল শেয়ারকরণের পছন্দসমূহ"
+
+# Translated by sadia
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "সক্রিয় করা থাকলে, ব্যক্তিগতভাবে শেয়ারকৃত ফাইল চালু করা হবে"
+
+# Translated by sadia
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "পছন্দসমূহ চালু করা হবে"
+
+# Translated by sadia
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "ব্যক্তিগতভাবে শেয়ারকৃত ফাইলের পছন্দসমূহ চালু করা হবে"
+
+# Translated by sadia
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "ব্যক্তিগতভাবে শেয়ারকৃত ফাইলের পছন্দসমূহ চালু করতে ব্যর্থ"
+
+# Translated by sadia
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "এই ফোল্ডার থেকে আপনি ফাইল শেয়ার করতে পারেন এবং গ্রহণও করতে পারেন"
+
+# Translated by sadia
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "এই ফোল্ডার থেকে আপনি নেটওয়ার্ক ও ব্লুটুথের মাধ্যমে ফাইল শেয়ার করতে পারেন"
+
+# Translated by sadia
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "এই ফোল্ডারে আপনি ব্লুটুথের মাধ্যমে ফাইল গ্রহণ করতে পারেন "
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "বিনা কারণে"
+
+# Translated by sadia
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "সহায়িকার বিষয়বস্তু প্রদর্শন করা সম্ভব হয়নি।"
+
+# Translated by sadia
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "ইন্টারফেস নির্মাণ করা যায়নি।"
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "কখনো না"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "ফাইল লেখার সময়"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "সর্বদা"
+
+# Translated by sadia
+#: ../src/file-share-properties.c:598
+msgid "Only for set up devices"
+msgstr "শুধুমাত্র ডিভাইস সেট আপের জন্য"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "জিজ্ঞাসা করা হবে"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s এর পাবলিক ফাইল"
+
+# Translated by sadia
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s-এর পাবলিক ফাইল %s-এ"
+
+# Translated by sadia
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "ব্লু-টুথের মাধ্যমে আপনি \"%s\" গ্রহণ করেছেন"
+
+# Translated by sadia
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "আপনি একটি ফাইল গ্রহণ করেছেন"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "ফাইল খুলুন"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "ফাইল প্রকাশ করা হবে"
+
+# Translated by sadia
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "ফাইল গ্রহণ প্রক্রিয়া সম্পন্ন"
+
+# Translated by sadia
+#~ msgid "Please log in as the user guest"
+#~ msgstr "অনুগ্রহ করে অতিথি ব্যবহারকারী হিসেবে লগইন করুন"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "শুধুমাত্র Bonded (যুক্ত) ও Trusted (বিশ্বস্ত) ডিভাইসের ক্ষেত্রে"

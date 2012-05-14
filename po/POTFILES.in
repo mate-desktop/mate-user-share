@@ -1,0 +1,12 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/desktop_gnome_file_sharing.schemas.in
+[type: gettext/glade]data/file-share-properties.ui
+data/gnome-user-share-properties.desktop.in
+data/gnome-user-share.desktop.in.in
+src/nautilus-share-bar.c
+src/share-extension.c
+src/file-share-properties.c
+src/http.c
+src/obexpush.c
+src/user_share.c

@@ -1,0 +1,270 @@
+# translation of ml.po to
+# translation of gnome-user-share.master.ml.po to
+# translation of gnome-user-share.HEAD.ml.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ani Peter <apeter@redhat.com>, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ml\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"POT-Creation-Date: 2010-03-27 19:35+0000\n"
+"PO-Revision-Date: 2010-04-08 17:01+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"ഇതു് ട്രൂ ആണു് എങ്കില്‍, ലോഗിന്‍ ചെയ്യുമ്പോള്‍, ബ്ലൂടുത് ഡിവൈസുകള്‍ക്കു് ഉപയോക്താവിന്റെ ഡൌണ്‍ലോട് "
+"ഡയറക്ടറിയിലേക്കു് ഫയലുകള്‍ അയയ്ക്കാം."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"ഇതു് true ആണെങ്കില്‍, ഉപയോക്താവ് ലോഗിന്‍ ചെയ്യുമ്പോള്‍, ഹോം ഡയറക്ടറിയിലുള്ള പബ്ലിക് ഡയറക്ടറി "
+"ബ്ലൂടൂത് വഴി പങ്കിടുന്നു."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"ഇതു് true ആണെങ്കില്‍, ഉപയോക്താവ് ലോഗിന്‍ ചെയ്യുമ്പോള്‍, ഹോം ഡയറക്ടറിയിലുള്ള പബ്ലിക് ഡയറക്ടറി "
+"നെറ്റ്‌വര്‍ക്ക് വഴി പങ്കിടുന്നു."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "ബ്ലൂടൂതില്‍ പബ്ലിക് ഡയറക്ടറി പങ്കിടുക"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "നെറ്റ്‌വര്‍ക്കില്‍ പബ്ലിക് ഡയറക്ടറി പങ്കിടുക"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "ബ്ലൂടൂത് വഴി എപ്പോഴാണു് ഫയലുകള്‍ സ്വീകരിക്കേണ്ടതു്. "
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#| msgid ""
+#| "When to accept files sent over Bluetooth. Possible values are \"always\", "
+#| "\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"ബ്ലൂടൂത് വഴി എപ്പോഴാണു് ഫയലുകള്‍ സ്വീകരിക്കേണ്ടതു്. സാധ്യമായ മൂല്ല്യങ്ങള്‍ \"always\", "
+"\"bonded\",  \"ask\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"പാസ്‌വേര്‍ഡുകള്‍ക്കായി ആവശ്യപ്പെടണമോ എന്നു്. സാധ്യമായ മൂല്ല്യങ്ങള്‍ \"never\", \"on_write\", "
+"\"always\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "പാസ്‌വേര്‍ഡുകള്‍ എപ്പോഴാണു് ആവശ്യപ്പടേണ്ടതു്"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "ബ്ലൂട്ടുത് ക്ലൈന്റുകള്‍ക്കു് ObexPush ഉപയോഗിച്ചു് ഫയലുകള്‍ അയയ്ക്കുവാന്‍ സാധിക്കുമോ."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "ബ്ലൂട്ടുത് ക്ലൈന്റുകള്‍ക്കു് ഫയലുകള്‍ അയയ്ക്കുന്നതിനായി മറ്റൊരു കമ്പ്യൂട്ടറുമായി ഒത്തുപോകണമോ."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr "ബ്ലൂടൂത് ക്ലൈന്റുകളെ ഫയലുകള്‍ എഴുതുന്നതിനോ, റീഡ് ഒണ്‍ലി ആയി ഫയലുകള്‍ പങ്കിടുന്നതിനോ അനുവദിക്കണമോ എന്നു്."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "ഫയലുകള്‍ എഴുതുന്നതിനായി ബ്ലൂടൂത് ക്ലൈന്റുകളെ അനുവദിക്കണമോ എന്നു്."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "പുതുതായി ലഭ്യമാകുന്ന ഫയലുകളെപ്പറ്റി അറിയിക്കണമോ എന്നു്."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>ബ്ലൂടൂത് വഴി ഫയലുകള്‍ ലഭ്യമാകുക</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>ബ്ലൂടൂത് വഴി ഫയലുകള്‍ പങ്കിടുക</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>നെറ്റ്‌വര്‍ക്കില്‍ ഫയലുകള്‍ പങ്കിടുക</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "ഫയലുകള്‍ നീക്കം ചെയ്യുന്നതിനായി റിമോട്ട് ഡിവൈസുകളെ _അനുവദിക്കുക."
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "ബ്ലൂടൂതിലുള്ള _Downloads ഫോള്‍ഡറില്‍ ഫയലുകള്‍ ലഭ്യമാക്കുക"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "ഈ കമ്പ്യൂട്ടറുമായി ചേര്‍ന്നുപോകുന്നതിനായി _റിമോട്ട് ഡിവൈസുകള്‍ ആവശ്യമുണ്ടു്"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "_ബ്ലൂടൂത് വഴി പബ്ലിക് ഫയലുകള്‍ പങ്കിടുക"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "ഫയലുകള്‍ _സ്വീകരിക്കുക:"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "ലഭ്യമായ ഫയലുകളെക്കുറിച്ചു് _അറിയിക്കുക"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_പാസ്‌വേര്‍ഡ്:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "പാസ്‌വേര്‍ഡ് _ആവശ്യമുണ്ടു്:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "പബ്ലിക് ഫയലുകള്‍ നെറ്റ്‌വര്‍ക്കില്‍ _പങ്കിടുക"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടല്‍"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "ഫയലുകള്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "പ്രവര്‍ത്തന സജ്ജമെങ്കില്‍ സ്വകാര്യ ഫയല്‍ പങ്കിടല്‍ ലഭ്യമാക്കുക"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുക"
+
+#: ../src/nautilus-share-bar.c:187
+#| msgid "Personal File Sharing Preferences"
+msgid "Launch Personal File Sharing Preferences"
+msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുക"
+
+#: ../src/share-extension.c:82
+#| msgid "Personal File Sharing Preferences"
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമല്ല"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "ഈ ഫോള്‍ഡറില്‍ നിന്നും നിങ്ങള്‍ക്കു് ഫയലുകള്‍ പങ്കിടുവാനും അതിലേക്കു് അയയ്ക്കുവാനും സാധിക്കുന്നു"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "നെറ്റ്‌വര്‍ക്ക് അല്ലെങ്കില്‍ ബ്ലൂടൂത് വഴി ഈ ഫോള്‍ഡറില്‍ നിന്നും നിങ്ങള്‍ക്കു് ഫയലുകള്‍ പങ്കിടുവാനും സാധിക്കുന്നു"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "ബ്ലൂടൂത് വഴി നിങ്ങള്‍ക്കു് ഈ ഫോള്‍ഡറില്‍ ഫയലുകള്‍ ലഭ്യമാക്കാം"
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "കാരണമില്ല"
+
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "സഹായത്തിനുള്ള വിശദാംശങ്ങള്‍ ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല."
+
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "ഇന്റര്‍ഫെയിസ് നിര്‍മ്മിക്കുവാന്‍ സാധിച്ചില്ല."
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "ഒരിക്കലും വേണ്ട"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "ഫയലുകളിലേക്കു് ഡേറ്റാ സൂക്ഷിക്കുമ്പോള്‍"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "എപ്പോഴും"
+
+#: ../src/file-share-properties.c:598
+#| msgid "Only for Bonded devices"
+msgid "Only for set up devices"
+msgstr "സജ്ജമാക്കിയ ഡിവൈസുകള്‍ക്കു് മാത്രം"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "ചോദിക്കുക"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s'-നുള്ള പബ്ലിക് ഫയലുകള്‍"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s'-നുള്ള പബ്ലിക് ഫയലുകള്‍ - %s-ല്‍"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "നിങ്ങള്‍ക്കു് ബ്ലൂടൂത് വഴി \"%s\" ലഭിച്ചിരിക്കുന്നു."
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "നിങ്ങള്‍ക്കു് ഒരു ഫയല്‍ ലഭിച്ചിരിക്കുന്നു"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "ഫയല്‍ തുറക്കുക"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "ഫയല്‍ കാണിക്കുക"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "ഫയല്‍ റിസപ്ഷന്‍ പൂര്‍ത്തിയാക്കി"
+

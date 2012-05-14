@@ -1,0 +1,4 @@
+# List of source files that should NOT be translated.
+# Please keep this file sorted alphabetically.
+data/file-share-properties.ui
+data/gnome-user-share.desktop.in

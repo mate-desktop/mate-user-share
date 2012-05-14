@@ -1,0 +1,247 @@
+# translation of gnome-user-share to Turkish
+# Copyright (C) 2007
+# This file is distributed under the same license as the gnome-user-share package.
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2007.
+# Baris Cicek <baris@teamforce.name.tr>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-10 00:28+0300\n"
+"PO-Revision-Date: 2009-09-10 00:29+0300\n"
+"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"Eğer bu true ise, Bluetooth aygıtları kullanıcının İndirilenler dizinine "
+"giriş yaptığında dosya gönderebilecekler."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"Eğer bu true ise, kullanıcı başlangıç dizininde bulunan Genel dizini "
+"kullanıcı giriş yaptığında Bluetooth üzerinden paylaştırılacak."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"Eğer bu true ise, kullanıcı başlangıç dizininde bulunan Genel dizini "
+"kullanıcı giriş yaptığında ağ üzerinden paylaştırılacak."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Bluetooth Üzerinden Genel Dizinini Paylaştır"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Ağ Üzerinden Genel Dizinini Paylaştır"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "Bluetooth üzerinden gönderilen dosyaların ne zaman kabul edileceği"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgstr ""
+"Bluetooth üzerinden gönderilen dosyaların ne zaman kabul edileceği. Geçerli "
+"değerler \"always\" , \"bonded\", \"bonded_trusted\" ve \"ask\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"Parola sor seçildiğinde. Geçerli değerler \"never\" (asla), \"on_write"
+"\" (yazıldığında), ve \"always\" (her zaman)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "Ne zaman parola gerektiği"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Bluetooth istemcilerinin ObexPush kullanarak dosya gönderebilmeleri."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr ""
+"Bluetooth istemcilerinin dosya gönderebilmek için bir bilgisayar ile "
+"eşleşmelerine gerek olması."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"Bluetooth istemcilerinin dosyalara yazabilmeleri ya da dosyaları salt-okunur "
+"olarak paylaşmaları."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Bluetooth istemcilerin dosyalara yazmasına izin verilmesi."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Yeni alınan dosyalar hakkında bildirimde bulunulması."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Dosyaları Bluetooth Üzerinden Al</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Dosyaları Bluetooth Üzerinden Paylaştır</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Dosyaları Ağ Üzerinden Paylaştır</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "Uzaktaki aygıtların dosya _silebilmelerine izin ver"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "Kişisel Dosya Paylaşma Tercihleri"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Dosyaları Bluetooth üzerinden İ_ndirilenler klasörüne al"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "_Uzaktaki aygıtların bu bilgisayar ile bağlanmış olmalarını gerektir"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "Genel dosyaları _Bluetooth üzerinden paylaştır"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_Dosyaları kabul et: "
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "Alınan _dosyaları bildir"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_Parola gerektir:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "Genel dosyaları _ağ üzerinden paylaştır"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2
+msgid "Personal File Sharing"
+msgstr "Kişisel Dosya Paylaşımı"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Dosyaların paylaşımı için tercihler"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Eğer etkinse Kişisel Kullanıcı Paylaşımını başlat"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "Sebep yok"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "Yardım içeriği gösterilemedi."
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "Arayüz inşa edilemedi."
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "Asla"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "Dosya yazılmaya çalışıldığında"
+
+#: ../src/file-share-properties.c:549 ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "Her zaman"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for Bonded devices"
+msgstr "Sadece Bağlı aygıtlar için"
+
+#: ../src/file-share-properties.c:578
+msgid "Only for Bonded and Trusted devices"
+msgstr "Sadece Bağlı ve Güvenilir aygıtlar için"
+
+#: ../src/file-share-properties.c:583
+msgid "Ask"
+msgstr "Sor"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s kullanıcısının genel dosyaları"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s kullanıcısının %s üzerindeki genel dosyaları"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "Kullanıcı guest olarak giriş yapın"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:138
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Bluetooth aracılığıyla \"%s\" aldınız"
+
+#: ../src/obexpush.c:140
+msgid "You received a file"
+msgstr "Bir dosya aldınız"
+
+#: ../src/obexpush.c:151
+msgid "Open File"
+msgstr "Dosya Aç"
+
+#: ../src/obexpush.c:155
+msgid "Reveal File"
+msgstr "Dosyayı Göster"
+
+#~ msgid "User Sharing"
+#~ msgstr "Kullanıcı Paylaşımı"

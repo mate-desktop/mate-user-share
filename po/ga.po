@@ -1,0 +1,252 @@
+# Irish translations for gnome-user-share package.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-user-share package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-20 09:51-0600\n"
+"PO-Revision-Date: 2009-08-21 03:21-0600\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n%"
+"10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"Má tá sé seo fíor, is féidir le gléasanna Bluetooth comhaid a sheoladh go "
+"dtí comhadlann \"Íosluchtuithe\" an úsáideora nuair atá an t-úsáideoir "
+"logáilte isteach."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"Má tá sé seo fíor, comhroinntear an chomhadlann \"Poiblí\" i gcomhadlann "
+"bhaile an úsáideora trí Bluetooth nuair atá an t-úsáideoir logáilte isteach."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"Má tá sé seo fíor, comhroinntear an chomhadlann \"Poiblí\" i gcomhadlann "
+"bhaile an úsáideora tríd an líonra nuair atá an t-úsáideoir logáilte isteach."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Comhroinn an chomhadlann \"Poiblí\" trí Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Comhroinn an chomhadlann \"Poiblí\" tríd an líonra"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "An t-am le glacadh le comhaid seolta trí Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgstr ""
+"An t-am le glacadh le comhaid seolta trí Bluetooth. Is iad na luachanna a "
+"d'fhéadfadh a bheith ann ná \"always\", \"bonded\", \"bonded_trusted\", agus "
+"\"ask\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"An t-am le hiarr focail faire. Is iad na luachanna a d'fhéadfadh a bheith "
+"ann ná \"never\", \"on_write\", agus \"always\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "An t-am focail faire le héileamh"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr ""
+"Cé acu an bhfuil cliaint Bluetooth in ann comhaid a sheoladh trí ObexPush nó "
+"nach bhfuil."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr ""
+"Cé acu an bhfuil gá ag cliaint Bluetooth le péireáil leis an ríomhaire chun "
+"comhaid a sheoladh nó nach bhfuil."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"Cé acu a cheadófar do chliaint Bluetooth comhaid a scríobh, nó na comhaid a "
+"chomhroinnt inléite-amháin."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr ""
+"Cé acu a cheadófar do chliaint Bluetooth comhaid a scríobh, nó nach "
+"gceadófar."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr ""
+"Cé acu a chuirfear in iúl maidir le comhaid faighte go nua, nó nach "
+"gcuirfear."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Faigh Comhaid trí Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Comhroinn Comhaid trí Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Comhroinn Comhaid Tríd an Líonra</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "Ceadaigh _scriosadh comhad do ghléasanna cianda"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "Sainroghanna Chomhroinnt Chomhad Pearsanta"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Faigh comhaid san fhillteán \"Í_osluchtuithe\" trí Bluetooth"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Ceangal _gléasanna cianda leis an ríomhaire seo de dhíth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "Comhroinn comhaid poiblí trí _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_Glac le comhaid:"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "Cuir in _iúl maidir le comhaid faighte"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Focal faire:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "Focal faire de _dhíth:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "_Comhroinn comhaid poiblí ar an líonra"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2
+msgid "Personal File Sharing"
+msgstr "Comhroinnt Chomhad Pearsanta"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Sainroghanna ar chomhroinnt chomhad"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Tosaigh Comhroinnt Chomhad Pearsanta má chumasaithe"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "Gan chúis"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "Níorbh fhéidir inneachar cabhrach a thaispeáint."
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "Níorbh fhéidir comhéadan a thógáil."
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "Riamh"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "Agus comhaid á scríobh"
+
+#: ../src/file-share-properties.c:549 ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "I gCónaí"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for Bonded devices"
+msgstr "Do ghléasanna Nasctha amháin"
+
+#: ../src/file-share-properties.c:578
+msgid "Only for Bonded and Trusted devices"
+msgstr "Do ghléasanna Nasctha agus Iontaofa amháin"
+
+#: ../src/file-share-properties.c:583
+msgid "Ask"
+msgstr "Fiafraigh"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "comhaid poiblí %s"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "comhaid poiblí %s ar %s"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "Logáil isteach mar an t-úsáideoir guest le do thoil"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:138
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Fuair tú \"%s\" trí Bluetooth"
+
+#: ../src/obexpush.c:140
+msgid "You received a file"
+msgstr "Fuair tú comhad"
+
+#: ../src/obexpush.c:151
+msgid "Open File"
+msgstr "Oscail Comhad"
+
+#: ../src/obexpush.c:155
+msgid "Reveal File"
+msgstr "Nocht Comhad"

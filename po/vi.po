@@ -1,0 +1,272 @@
+# Vietnamese translation for GNOME User Share.
+# Copyright © 2009 GNOME i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share TRUNK\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"user-share&component=general\n"
+"POT-Creation-Date: 2009-01-31 14:14+0000\n"
+"PO-Revision-Date: 2009-02-07 16:48+1030\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#| msgid ""
+#| "If this is true, the Public directory in the users home directory will be "
+#| "shared when the user is logged in."
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"Nếu đúng thì thiết bị Bluetooth có khả năng gửi tập tin cho thư mục Tải Về (Downloads) của người dùng khi họ được đăng nhập."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#| msgid ""
+#| "If this is true, the Public directory in the users home directory will be "
+#| "shared when the user is logged in."
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"Nếu đúng thì thư mục Công (Public) trong thư mục chính của người dùng sẽ được chia sẻ "
+"thông qua Bluetooth khi họ được đăng nhập."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#| msgid ""
+#| "If this is true, the Public directory in the users home directory will be "
+#| "shared when the user is logged in."
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"Nếu đúng thì thư mục Công (Public) trong thư mục chính của người dùng sẽ được chia sẻ "
+"qua mạng khi họ được đăng nhập."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#| msgid "Share Public directory"
+msgid "Share Public directory over Bluetooth"
+msgstr "Chia sẻ thư mục Công qua Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#| msgid "Share Public files on network"
+msgid "Share Public directory over the network"
+msgstr "Chia sẻ tập tin Công qua mạng"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "Khi nào nên chấp nhận tập tin gửi qua Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#| msgid ""
+#| "When to ask for passwords. Possible values are \"never\", \"on_write\", "
+#| "and \"always\"."
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\", \"bonded_trusted\" and \"ask\"."
+msgstr ""
+"Khi nào nên chấp nhận tập tin gửi qua Bluetooth. GIá trị có thể:\n"
+" • always		lúc nào cũng làm\n"
+" • bonded	được cam kết\n"
+" • bonded trusted	được cam kết và tin cậy\n"
+" • ask		hỏi."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"Khi nào nên yêu cầu mật khẩu. Giá trị có thể:\n"
+" • never		không bao giờ\n"
+" • on_write	khi ghi\n"
+" • always		lúc nào cũng làm."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "Khi nào nên yêu cầu mật khẩu"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Ứng dụng khách Bluetooth có khả năng gửi tập tin dùng ObexPush, hay không."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "Ứng dụng khách Bluetooth cần kết đôi với máy tính để gửi tập tin, hay không."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr "Có nên cho phép ứng dụng khách Bluetooth ghi tập tin, hoặc chia sẻ tập tin chỉ-đọc."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Có nên cho phép ứng dụng khách Bluetooth ghi tập tin hay không."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Có nên thông báo về tập tin mới nhận hay không."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Nhận tập tin qua Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:2
+#| msgid "<b>Share Files</b>"
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Chia sẻ tập tin qua Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:3
+#| msgid "<b>Share Files</b>"
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Chia sẻ tập tin qua mạng</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "Cho phép thiết bị từ xa xoá tập tin"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "File Sharing Preferences"
+msgstr "Tuỳ thích Chia sẻ Tập tin"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Nhận tập tin trong thư mục _Tải Về qua Bluetooth"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Yêu cầu thiết bị từ xa ca_m kết với máy tính này"
+
+#: ../data/file-share-properties.ui.h:8
+#| msgid "Share Public files on network"
+msgid "Share public files over _Bluetooth"
+msgstr "Chia sẻ tập tin công qua Bluetooth"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "Chấ_p nhận tập tin:"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "Báo về tập tin mới _nhận"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Mật khẩu :"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_Yêu cầu mật khẩu :"
+
+#: ../data/file-share-properties.ui.h:13
+#| msgid "Share Public files on network"
+msgid "_Share public files on network"
+msgstr "Chia _sẻ tập tin công trên mạng"
+
+#: ../data/file-share-properties.ui.h:14
+msgid "gtk-help"
+msgstr "gtk-help"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+msgid "Personal File Sharing"
+msgstr "Chia sẻ Tập tin Cá nhân"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of personal files"
+msgstr "Tuỳ thích về chức năng chia sẻ tập tin cá nhân"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch User Sharing if enabled"
+msgstr "Khởi chạy Chia sẻ Người dùng nếu được bật"
+
+#: ../data/gnome-user-share.desktop.in.in.h:2
+#| msgid "Personal File Sharing"
+msgid "User Sharing"
+msgstr "Chia sẻ Người dùng"
+
+#: ../src/file-share-properties.c:35
+#: ../src/http.c:250
+msgid "Please log in as the user guest"
+msgstr "Hãy đăng nhập là người dùng khách"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "Không có lý do"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "Không thể hiển thị nội dung trợ giúp."
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "Không thể xây dựng giao diện."
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "Khi ghi tập tin"
+
+#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "Lúc nào cũng làm"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for Bonded devices"
+msgstr "Chỉ cho thiết bị Cam kết"
+
+#: ../src/file-share-properties.c:578
+msgid "Only for Bonded and Trusted devices"
+msgstr "Chỉ cho thiết bị Cam kết và Tin cậy"
+
+#: ../src/file-share-properties.c:583
+msgid "Ask"
+msgstr "Hỏi"
+
+#: ../src/http.c:121
+#, c-format
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+msgid "%s's public files"
+msgstr "Các tập tin công của %s"
+
+#: ../src/http.c:125
+#, c-format
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+msgid "%s's public files on %s"
+msgstr "Các tập tin công của %s trên %s"
+
+#: ../src/obexpush.c:138
+#, c-format
+#. Translators: %s is the name of the filename received
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Mới nhận « %s » qua Bluetooth"
+
+#: ../src/obexpush.c:140
+msgid "You received a file"
+msgstr "Mới nhận tập tin"
+
+#: ../src/obexpush.c:154
+msgid "Open File"
+msgstr "Mở tập tin"
+
+#: ../src/obexpush.c:158
+msgid "Reveal File"
+msgstr "Hiện tập tin"

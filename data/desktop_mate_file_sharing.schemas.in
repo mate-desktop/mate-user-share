@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/enabled</key>
+      <applyto>/desktop/mate/file_sharing/enabled</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Share Public directory over the network</short>
+        <long>If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/require_password</key>
+      <applyto>/desktop/mate/file_sharing/require_password</applyto>
+      <owner>mate-user-share</owner>
+      <type>string</type>
+      <default>never</default>
+      <locale name="C">
+        <short>When to require passwords</short>
+	<long>When to ask for passwords. Possible values are "never", "on_write", and "always".</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_enabled</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_enabled</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Share Public directory over Bluetooth</short>
+        <long>If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_allow_write</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_allow_write</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Whether to allow Bluetooth clients to write files.</short>
+        <long>Whether to allow Bluetooth clients to write files, or share the files read-only.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_require_pairing</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_require_pairing</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether Bluetooth clients need to pair with the computer to send files.</short>
+        <long>Whether Bluetooth clients need to pair with the computer to send files.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_obexpush_enabled</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_obexpush_enabled</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Whether Bluetooth clients can send files using ObexPush.</short>
+        <long>If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_accept_files</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_accept_files</applyto>
+      <owner>mate-user-share</owner>
+      <type>string</type>
+      <default>bonded</default>
+      <locale name="C">
+        <short>When to accept files sent over Bluetooth</short>
+	<long>When to accept files sent over Bluetooth. Possible values are "always", "bonded" and "ask".</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/mate/file_sharing/bluetooth_notify</key>
+      <applyto>/desktop/mate/file_sharing/bluetooth_notify</applyto>
+      <owner>mate-user-share</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Whether to notify about newly received files.</short>
+        <long>Whether to notify about newly received files.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
+

@@ -1,0 +1,1069 @@
+2009-06-11  Bastien Nocera  <hadess@hadess.net>
+
+	* src/obexpush.c (show_notification): Fix work-around
+	for possible double-free, as seen in:
+	https://bugzilla.redhat.com/show_bug.cgi?id=451001
+
+2009-03-25  Claude Paroz  <claude@2xlibre.net>
+
+	* help/fr/figures/*.png:
+	* help/fr/fr.po: Added French translation, by Claude Paroz and Bruno
+	Brouard.
+	* help/Makefile.am: Added fr to DOC_LINGUAS.
+
+2009-03-16  Andre Klapper  <a9016009@gmx.de>
+
+	* help/cs/cs.po: Added Czech translation by Martin Picek.
+	* help/Makefile.am: Added cs to DOC_LINGUAS.
+
+=== gnome-user-share 2.26.0 ===
+
+2009-03-16  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 2.26.0
+
+2009-03-14  Philip Withnall  <philip@tecnocode.co.uk>
+
+	* help/en_GB/en_GB.po: Updated British English translation by Jen
+	Ockwell <jenfraggleubuntu@gmail.com>.
+
+2009-03-03  Philip Withnall  <philip@tecnocode.co.uk>
+
+	* help/Makefile.am:
+	* help/en_GB/en_GB.po: Added British English translation.
+
+=== gnome-user-share 2.25.92 ===
+
+2009-03-03  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 2.25.92
+
+2009-03-01  Simos Xenitellis  <simos@gnome.org>
+
+	* help/Makefile.am: Added el to DOC_LINGUAS.
+	* help/el/el.po: Added Greek translation by Michael Kotsarinis.
+
+2009-02-18  Daniel Nylander <po@danielnylander.se>
+
+	* help/sv/sv.po: Updating Swedish translation.
+
+2009-02-15  Daniel Nylander <po@danielnylander.se>
+
+	* help/sv/sv.po: Updating Swedish translation.
+	* help/sv/figures: Adding screenshots.
+
+=== gnome-user-share 2.25.91 ===
+
+2009-02-03  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 2.25.91
+
+2009-02-03  Frederic Peters  <fpeters@0d.be>
+
+	* data/dav_user_2.2.conf: fixed runtime substitution of
+	HTTP_MODULES_PATH in configuration file.
+
+=== gnome-user-share 2.25.90 ===
+
+2009-02-03  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 2.25.90
+	* help/C/gnome-user-share.xml: Fix build
+	* help/de/legal.xml:
+	* help/es/legal.xml:
+	* help/sv/legal.xml: Update from the tools
+
+2009-02-02  Frederic Peters  <fpeters@0d.be>
+
+	* configure.in: remove buildtime checks for Apache.
+
+	* src/Makefile.am:
+	* src/http.c: (get_httpd_program), (get_httpd_modules_path),
+	(get_httpd_config), (spawn_httpd): lookup Apache at runtime, with
+	checks for its version number and mod_dnssd.
+
+	* data/Makefile.am:
+	* data/dav_user_2.2.conf.in: no longer generate dav_user_2.2.conf at
+	build time.
+
+	(Closes: #569669)
+
+2009-01-31  Claude Paroz  <claude@2xlibre.net>
+
+	* help/C/gnome-user-share.xml: Contents in <node> tag have to be enclosed
+	in <para> to be Docbook-compliant.
+
+2009-01-31  Claude Paroz  <claude@2xlibre.net>
+
+	* data/file-share-properties.ui: Removed translatable property on stock
+	label (gtk-help).
+
+2009-01-31  Claude Paroz  <claude@2xlibre.net>
+
+	* help/Makefile.am: legal.xml should be in DOC_INCLUDES when it is
+	included through xi:include.
+	(Closes #569962)
+
+2009-01-31  Mario Blättermann  <mariobl@svn.gnome.org>
+
+	* help/de/de.po: Updated German translation
+
+2009-01-29  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in: Require mod_dnssd 0.6
+	* data/dav_user_2.2.conf.in: Set the u=guest TXT record
+	as we used to do in the past, before the mod_dnssd move
+	(Closes: #567587)
+
+2009-01-27  Bastien Nocera  <hadess@hadess.net>
+
+	* src/user_share.c (main): Remove unused variable
+
+=== gnome-user-share 2.25.5 ===
+
+2009-01-27  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 2.25.5
+
+2009-01-27  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in: don't check for gtk-builder-convert, we
+	don't use it anymore
+
+2009-01-27  Bastien Nocera  <hadess@hadess.net>
+
+	* help/Makefile.in: Remove
+
+	* src/file-share-properties.c (main): Remove use of "Paired"
+	in the UI
+
+	* help/C/gnome-user-share.xml: Add notes about firewalls,
+	and what trusted and bonded mean, and changes for the above
+
+2009-01-26  Daniel Nylander <po@danielnylander.se>
+
+	* help/sv/sv.po: Adding Swedish translation.
+	* help/Makefile.am: Added sv to DOC_LINGUAS
+	* po/sv.po: Updated Swedish translation.
+
+2009-01-24  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* data/Makefile.am: Don't remove the ui file with make clean
+	as it breaks make clean; make.
+
+2009-01-19  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in: Allow disabling httpd binary name and version
+	checks for use in build systems, using
+	--with-i-know-i-need-apache-httpd-installed-to-make-this-work
+	With help from Frederic Peters
+
+2009-01-19  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am:
+	* data/file-share-properties.glade: Remove
+	* data/file-share-properties.ui: add, and add help button
+	* src/file-share-properties.c (write_out_password), (error_dialog),
+	(help_button_clicked), (main): Add a button to launch the
+	gnome-user-share help
+
+2009-01-19  Bastien Nocera  <hadess@hadess.net>
+
+	* data/dav_user_2.2.conf.in: Revert unneeded changes
+	to the configuration
+
+2009-01-19  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am:
+	* configure.in:
+	* data/dav_user_2.2.conf.in:
+	* help/C/gnome-user-share.xml:
+	* help/C/legal.xml:
+	* help/Makefile.am:
+	* help/Makefile.in:
+	* help/gnome-user-share.omf.in: Patch from Matthias Clasen
+	to add some documentation
+
+2009-01-19  Bastien Nocera  <hadess@hadess.net>
+
+	* src/user_share.c (main): gnome-user-share cannot
+	run as root, there's the potential for sharing files that
+	shouldn't be shared, such as system files
+
+2009-01-13  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in:
+	* data/dav_user_2.2.conf.in:
+	* src/Makefile.am:
+	* src/http.c (spawn_httpd), (http_up), (http_down), (http_init):
+	Remove loads of code and direct Avahi/Howl dependency by using
+	mod_dnssd to advertise the share (Closes: #567442)
+	Disable Apache 2.0 support, somebody with access to it will have
+	to fix this
+
+=== gnome-user-share 0.41 ===
+
+2008-12-17  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.41
+
+2008-12-16  Baptiste Mille-Mathias  <baptiste.millemathias@gmail.com>
+
+	* src/obexpush.c:
+	* po/*.po: correct a typo (Bluetooh instead of Bluetooth).
+	(Closes bug 564784)
+
+2008-11-27  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in:
+	- detect httpd, apache2 and httpd2 for SUSE and Ubuntu compat
+	- Better parsing of httpd versions from Vincent Untz
+	<vuntz@gnome.org>
+	- Bail out if the httpd version isn't supported, or badly detected
+	(Closes: #542513)
+
+2008-11-27  Bastien Nocera  <hadess@hadess.net>
+
+	* data/dav_user_2.2.conf.in: Fix httpd startup error when
+	the module_path doesn't have a trailing slash (Closes: #561621)
+
+2008-10-08  Christian Persch  <chpe@gnome.org>
+
+	Bug 555555 – minor HIG layout problems in the prefs dialogue
+
+	* data/file-share-properties.glade: Fix prefs dialogue border,
+	spacings, strings to be HIG compliant. Add mnemonics.
+
+2008-10-08  Bastien Nocera  <hadess@hadess.net>
+
+	* src/obexpush.c (notification_launch_action_on_file_cb):
+	Require gtk+ 2.14.0 now that it's out
+
+2008-09-22  Bastien Nocera  <hadess@hadess.net>
+
+	* src/obexpush.c (device_is_authorised), (cancelled_cb):
+	Port to the BlueZ 4.x API (Closes: #522404)
+
+=== gnome-user-share 0.40 ===
+
+2008-09-22  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.40
+
+2008-08-23  Baptiste Mille-Mathias  <baptiste.millemathias@gmail.com>
+
+	* data/file-share-properties.glade:
+	Modify GtkFrame widgets to avoid they expand on vertical resizing.
+	(Closes: #549053)
+
+2008-06-13  Baptiste Mille-Mathias
+
+	* src/user-share.c (consolekit_init), (sessionchanged_cb):
+	Check Active session using ConsolerKit, and disable obex sharing
+	if the session is not the action one.
+	<baptiste.millemathias@gmail.com> (Closes: #515553)
+
+2008-06-12  Bastien Nocera  <hadess@hadess.net>
+
+	* src/obexpush.c (notification_launch_action_on_file_cb),
+	(show_notification): Add a "Reveal File" button on the transfer
+	notifications, patch by Baptiste Mille-Mathias
+	<baptiste.millemathias@gmail.com> (Closes: #534794)
+
+2008-05-25  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in:
+	* src/file-share-properties.c (main):
+	* src/obexpush.c (hide_statusicon), (on_close_notification),
+	(launch_viewer_for_file), (show_notification), (show_icon),
+	(transfer_completed_cb), (obexpush_init), (obexpush_set_notify):
+	Implement notifications when transfers are received, so people
+	can open the received files, based on work by Baptiste Mille-Mathias
+	<baptiste.millemathias@gmail.com> (Closes: #519060)
+
+2008-04-22  Bastien Nocera  <hadess@hadess.net>
+
+	* data/dav_user_2.2.conf.in: Patch from Thorsten Vollmer
+	<thorsten@thvo.de> to make the httpd configuration file support
+	multiple Apache MPMs (Closes: #526621)
+
+2008-04-15  Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+
+	* data/dav_user_2.0.conf:
+	* data/dav_user_2.2.conf.in:
+	* src/file-share-properties.c (write_out_password):
+	* src/http.c (ensure_conf_dir), (spawn_httpd):
+	* src/user_share.c (migrate_old_configuration), (main):
+	move the configuration to Freedesktop
+	compliant location (Closes: #519058)
+
+=== gnome-user-share 0.31 ===
+
+2008-04-07  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.31
+
+2008-04-04  Bastien Nocera  <hadess@hadess.net>
+
+	* src/obexpush.c (obexpush_init): And the same thing in ObexPush
+
+2008-04-04  Matthias Clasen  <mclasen@redhat.com>
+
+	* src/obexftp.c: Don't exit when dbus goes away.
+
+2008-04-03  Bastien Nocera  <hadess@hadess.net>
+
+	* src/user_share.c (main): Revert, you can't catch SIGKILL (duh!)
+
+2008-04-03  Bastien Nocera  <hadess@hadess.net>
+
+	* src/user_share.c (main): Handle SIGKILL as well
+
+2008-03-31  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Don't ship dav_user_2.2.conf in the tarball,
+	spotted by Thorsten Vollmer <thorsten@thvo.de> (Closes: #525372)
+
+=== gnome-user-share 0.30 ===
+
+2008-03-31  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.30
+
+2008-03-25  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in:
+	* src/user_share.c (main): Use the GTK+ main loop, not our own,
+	re-use the X Display opened by GTK+ for ourselves, rather than opening
+	a different one, fixes httpd children not getting killed properly
+	when exiting the session (Closes: #519804)
+
+2008-03-25  Bastien Nocera  <hadess@hadess.net>
+
+	* configure.in:
+	* data/Makefile.am:
+	* data/dav_user_2.2.conf.in: Allow users and distributions
+	to change the default location for HTTPD modules with
+	--with-modules-path=..., still defaults to /etc/httpd/modules/
+	(Closes: #518647)
+
+2008-03-25  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Generate the dav_user_2.2.conf
+	file so the location of the dav_groupfile is the
+	one used in the installation
+	* data/dav_user_2.2.conf: Rename to...
+	* data/dav_user_2.2.conf.in: ... this
+	(Closes: #518681)
+
+2008-03-08  Jaap Haitsma  <jaap@haitsma.org>
+
+	* configure.in:
+	* data/Makefile.am:
+	* src/file-share-properties.c: (flush_password), (update_ui),
+	(main):
+	Move from libglade to gtkbuilder. Fixes bug #519634
+
+2008-03-04  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Fix more stupidness
+
+2008-03-04  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Fix dav configuration linking, again
+
+2008-03-02  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Patch from Baptiste Mille-Mathias
+	<bmm80@free.fr> to install the autostart desktop file
+	in the right directory (Closes: #519806)
+
+2008-02-29  Jaap Haitsma  <jaap@haitsma.org>
+
+	* Makefile.am: Remove gnome-user-share.spec
+
+2008-02-29  Jaap Haitsma  <jaap@haitsma.org>
+
+	* README: Add to readme that also Avahi can be used
+
+2008-02-29  Bastien Nocera  <hadess@hadess.net>
+
+	* gnome-user-share.spec: Remove, it's outdated
+
+2008-02-29  Bastien Nocera  <hadess@hadess.net>
+
+	* data/Makefile.am: Fix installation of the dav_user.conf
+	file
+
+2008-02-29  Michael Monreal  <mmonreal@svn.gnome.org>
+
+	* data/file-share-properties.glade: use new icon
+	* data/gnome-user-share-properties.desktop.in: use new icon
+
+	Use folder-remote instead of the deprecated apacheconf icon for 
+	now. If someone can come up with a nicer metaphor, we can do a 
+	new icon for gnome-user-share. Fixes bug #519116.
+
+2008-02-27  Jaap Haitsma  <jaap@haitsma.org>
+
+	* .cvsignore: Remove
+
+2008-02-27  Jaap Haitsma  <jaap@haitsma.org>
+
+	Major restructuring of directory structure. Fixes bug #518472
+	Use po/LINGUAS for translations
+
+=== gnome-user-share 0.22 ===
+
+2008-02-24  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.22
+	* Makefile.am: Fix distcheck
+	* obexpush.c (cancelled_cb), (obexpush_up):
+	Add some more debug
+
+2008-02-23  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am:
+	* configure.in:
+	* desktop_gnome_file_sharing.schemas.in:
+	* file-share-properties.c (update_ui),
+	(file_sharing_bluetooth_obexpush_enabled_changed),
+	(file_sharing_bluetooth_obexpush_accept_files_changed),
+	(file_sharing_bluetooth_obexpush_notify_changed), (launch_share),
+	(enable_obexpush_check_toggled), (accept_obexpush_combo_changed),
+	(notify_received_obexpush_check_toggled), (main):
+	* file-share-properties.glade:
+	* marshal.list:
+	* obexpush.c (show_icon), (device_is_authorised),
+	(transfer_started_cb), (transfer_completed_cb), (cancelled_cb),
+	(error_occurred_cb), (session_created_cb), (obexpush_up),
+	(obexpush_stop), (obexpush_down), (obexpush_restart),
+	(obexpush_init), (obexpush_set_accept_files_policy),
+	(obexpush_set_notify):
+	* obexpush.h:
+	* user_share-private.c (password_string_from_setting),
+	(password_setting_from_string), (accept_string_from_setting),
+	(accept_setting_from_string):
+	* user_share-private.h:
+	* user_share.c (disabled_timeout_callback),
+	(file_sharing_bluetooth_allow_write_changed),
+	(file_sharing_bluetooth_require_pairing_changed),
+	(file_sharing_bluetooth_enabled_changed),
+	(file_sharing_bluetooth_obexpush_enabled_changed),
+	(file_sharing_bluetooth_obexpush_accept_files_changed),
+	(file_sharing_bluetooth_obexpush_notify_changed), (main):
+
+	Add an ObexPush server, notifications when transfers have finished,
+	or on errors and "Ask" accept methods aren't implemented yet
+
+	Fix the ObexFTP being starting when changing one of its settings, and
+	the service isn't actually enabled (only possible via GConf, when
+	gnome-user-share is running for another service)
+
+	* obexftp.c (obexftp_up), (obexftp_stop): Better error messages, now
+	that we have ObexPush support
+
+	* icons/*: Add new icons from Andreas Nilsson <nisses.mail@home.se>
+	(Closes: #484403)
+
+2008-02-22  Bastien Nocera  <hadess@hadess.net>
+
+	* desktop_gnome_file_sharing.schemas.in: Require pairing by
+	default for better security by default
+
+2008-02-22  Bastien Nocera  <hadess@hadess.net>
+
+	* file-share-properties.c:
+	(bluetooth_require_pairing_check_toggled), (main):
+	Make the toggle button for "require pairing" actually work
+
+	* user_share.c: (file_sharing_bluetooth_require_pairing_changed):
+	Fully restart the obex manager, as we need to tear down to
+	use "require pairing"
+
+	* obexftp.c: (obexftp_up), (obexftp_stop): Call "Close" instead
+	of "Stop" to tear down the server object
+
+2008-02-21  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am:
+	* desktop_gnome_file_sharing.schemas.in:
+	* file-share-properties.c (password_string_from_setting),
+	(update_ui), (file_sharing_bluetooth_require_pairing_changed),
+	(launch_share), (main):
+	* file-share-properties.glade:
+	* http.c (get_share_name):
+	* obexftp.c (obexftp_up):
+	* user_share-private.h:
+	* user_share.c (lookup_download_dir),
+	(file_sharing_bluetooth_require_pairing_changed), (main):
+	* user_share.h:
+	Add support for the new "Require pairing" from obex-data-server
+	0.2, update API usage for 0.3
+
+2008-02-11  Bastien Nocera  <hadess@hadess.net>
+
+	* obexftp.c: (obexftp_up): Fix running with newer
+	obex-data-server
+
+2008-01-25  Matthias Clasen  <mclasen@redhat.com>
+
+	* file-share-properties.glade: Clarify a string
+
+=== gnome-user-share 0.21 ===
+
+2008-01-25  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.21
+
+2008-01-25  Bastien Nocera  <hadess@hadess.net>
+
+	* obexftp.c: (obexftp_up): Fix allow_write being
+	the wrong way around
+
+=== gnome-user-share 0.20 ===
+
+2008-01-22  Bastien Nocera  <hadess@hadess.net>
+
+	* NEWS: upd
+	* configure.in: 0.20
+
+2008-01-22  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am: upd
+	* configure.in: Require dbus-glib
+
+	* desktop_gnome_file_sharing.schemas.in:
+	* file-share-properties.c:
+	Add UI for the Bluetooth file sharing
+
+	* http.c:
+	* http.h: Split from user_share.c
+
+	* obexftp.c:
+	* obexftp.h: New files with ObexFTP support
+
+	* user_share.c: Remove HTTP code and add ObexFTP support
+	* user_share.h: new file
+
+	Add ObexFTP server support to gnome-user-share, requires
+	obex-data-server (Closes: #509938)
+
+2008-01-22  Bastien Nocera  <hadess@hadess.net>
+
+	* user_share.c: (lookup_public_dir):
+	Fix some stupidness
+
+2008-01-22  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am: update for changes
+	* configure.in: update requirements
+
+	* md5.c:
+	* md5.h: Remove
+
+	* file-share-properties.c: (password_string_from_setting),
+	(write_out_password), (enable_check_toggled):
+	Use GChecksum API to get the MD5 version of the password
+
+	* user_share.c: (lookup_public_dir), (get_port), (get_share_name),
+	(new_text_record_list), (create_service), (ensure_conf_dir),
+	(spawn_httpd): 
+	Use g_get_user_special_dir() to get the Public directory,
+	Use g_mkdir_with_parents() to create the directory if missing
+
+	(Closes: #511159)
+
+2008-01-18  Gil Forcada  <gforcada@gnome.org>
+
+	* configure.in: Added es, mk, tr and zh_CN to ALL_LINGUAS.
+
+2008-01-18  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am: Fix distcheck
+
+2008-01-18  Bastien Nocera  <hadess@hadess.net>
+
+	* gnome-user-share.desktop.in.in: Mark strings
+	for translation
+
+2008-01-18  Bastien Nocera  <hadess@hadess.net>
+
+	* user_share.c: (spawn_httpd): Patch by Matthias
+	Clasen <mclasen@redhat.com> to fix a small leak
+	(Closes: #475994)
+
+2008-01-18  Bastien Nocera  <hadess@hadess.net>
+
+	* file-share-properties.c: (main): Exit when the close
+	button from the WM is used (Closes: #397865)
+
+2008-01-18  Bastien Nocera  <hadess@hadess.net>
+
+	* Makefile.am:
+	* configure.in:
+	* gnome-user-share.desktop.in.in:
+	* user_share.c: (main): Use the XDG autostart spec to
+	automatically start gnome-user-share on login, exit
+	straight away if file sharing isn't enabled
+	(Closes: #334173)
+
+2007-11-22  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* configure.in: Added Portuguese (pt) to ALL_LINGUAS.
+
+2007-10-14  Yannig Marchegay  <yannig@marchegay.org>
+
+	* configure.in: Added 'oc' to ALL_LINGUAS.
+
+2007-09-16  Matthias Clasen  <mclasen@redhat.com>
+
+	* MAINTAINERS: Add this file to allow commits again.
+
+2007-07-24  Matthias Clasen  <mclasen@redhat.com>
+
+	* file-share-properties.glade: Don't hardcode the invisible
+	character.  (#422047)
+
+2007-07-13  Matthias Clasen  <mclasen@redhat.com>
+
+	* file-share-properties.c: Disable the password entry if
+	the password setting is "never".  (#456390)
+
+2007-07-10  Owen Taylor  <otaylor@redhat.com>
+
+	* configure.ac: Check for DBUS 1.1
+	* user_share.c: When we have DBUS 1.1 export an additional TXT record via
+	Avahi that the GUID of the user's D-BUS session to allow associating the
+	export with other information exported about the user. (#455307)
+
+2007-06-14  Alexander Larsson  <alexl@redhat.com>
+
+	* user_share.c (lookup_public_dir):
+	Don't export all of home if PUBLICSHARE points to that (i.e. if disabled)
+
+2007-03-06  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post release version bump
+
+=== gnome-user-share 0.11 ===
+	
+2007-03-06  Alexander Larsson  <alexl@redhat.com>
+
+	* NEWS:
+	Update for release
+
+2007-03-06  Alexander Larsson  <alexl@redhat.com>
+
+        * dav_user_2.0.conf:
+        * dav_user_2.2.conf:
+        * user_share.c:
+	Use PUBLICSHARE from xdg-user-dirs as default.
+	Fall back to ~/Public otherwise.
+
+2007-01-24  Matthias Clasen  <mclasen@redhat.com>
+
+	* gnome-user-share-properties.desktop.in: Remove
+	invalid Applications category, add X-GNOME-NetworkSettings.
+
+2006-12-15  Pema Geyleg  <pgeyleg@gmail.com>
+
+	* cofigure.in: Added 'dz' to ALL_LINGUAS
+
+2006-12-12  Ankit Patel  <ankit644@yahoo.com>
+
+	* configure.in: Added 'gu' in ALL_LINGUAS
+
+2006-12-08  Alexander Larsson  <alexl@redhat.com>
+
+	* file-share-properties.c: (main):
+	Add textdomain boiler plate (#383092)
+
+2006-07-20  Leonid Kanter <leon@asplinux.ru>
+
+        * configure.in: Added "ru" to ALL_LINGUAS
+
+2006-04-19  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post-release version bump
+	
+=== gnome-user-share 0.10 ===
+	
+2006-04-19  Alexander Larsson  <alexl@redhat.com>
+
+	* NEWS:
+	Update for release.
+
+2006-04-19  Alexander Larsson  <alexl@redhat.com>
+
+	* user_share.c (get_share_name):
+	Include hostname in name string (if availible) (#335879)
+
+2006-04-19  Alexander Larsson  <alexl@redhat.com>
+
+	* Makefile.am:
+	* configure.in:
+	* dav_groupfile:
+	* dav_user.conf:
+	* dav_user_2.0.conf:
+	* dav_user_2.2.conf:
+	Add configuration for httpd 2.2.
+	Autodetect version or allow manual specification.
+
+2006-04-17  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Remove obsolete entry for no_NO
+	* po/no.po: And the translation.
+
+2006-01-24  Clytie Siddall <clytie@riverland.net.au>
+
+	* configure.in	Added vi in ALL_LINGUAS line.
+	
+	2006-01-06  Kjartan Maraas <kmaraas@gnome.org>
+
+	* configure.in: Add nb and no to ALL_LINGUAS.
+
+2006-01-04  Christophe Merlet  <redfox@redfoxcenter.org>
+
+        * configure.in: Added "fr" to ALL_LINGUAS.
+
+2005-11-22  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post release version bump
+
+=== gnome-user-share 0.9 ===
+	
+2005-11-22  Alexander Larsson  <alexl@redhat.com>
+
+	* NEWS:
+	Update for release
+	
+	* configure.in:
+	Bump version to 0.9
+	
+2005-11-22  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in: 
+	* user_share.c: 
+	Update to avahi 0.6
+
+=== gnome-user-share 0.8 ===
+	
+2005-11-14  Alexander Larsson  <alexl@redhat.com>
+
+	* NEWS:
+	Update for release
+
+2005-11-14  Alexander Larsson  <alexl@redhat.com>
+
+	* file-share-properties.c: (main):
+	Connect to clicked, not pressed on close button
+	
+	* user_share.c: (get_share_name), (publish_service):
+	Fix howl build. Don't leak share name.
+
+2005-11-09  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in: 
+	Post release version bump.
+
+=== gnome-user-share 0.7 ===
+	
+2005-11-09  Alexander Larsson  <alexl@redhat.com>
+
+	* gnome-user-share-properties.desktop.in: 
+	* Makefile.am:
+	* gnome-user-share.spec:
+	Add desktop file.
+
+2005-11-09  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in: 
+	post release version bump
+	
+=== gnome-user-share 0.6 ===
+	
+2005-11-09  Alexander Larsson  <alexl@redhat.com>
+
+	* gnome-user-share.spec: 
+	* NEWS: 
+	Update for release.
+
+2005-11-09  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in: 
+	* Makefile.am:
+	* user_share.c:
+	Support both avahi and howl.
+
+2005-08-03  Maxim Dziumanenko <mvd@mylinux.ua>
+
+        * configure.in: Added "uk" to ALL_LINGUAS.
+
+2005-06-26  Marcel Telka  <marcel@telka.sk>
+
+	* configure.in (ALL_LINGUAS): Added sk.
+
+2005-06-12  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
+
+	* configure.in: Added 'gl' to ALL_LINGUAS.
+
+2005-06-02  Pawan Chitrakar  <pawan@nplinux.org>
+
+	* configure.in: Added ne in ALL_LINGUAS
+
+2005-05-15  David Zeuthen  <davidz@redhat.com>
+
+	* user_share.c (publish_service): Fix signedness
+
+	* md5.c (gnome_user_share_md5_string): Fix signedness
+	(gnome_user_share_md5_digest_to_ascii): Fix signedness
+
+2005-05-08  Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>
+
+        * configure.in: Added "zh_TW" to ALL_LINGUAS.
+
+2005-04-01  Steve Murphy  <murf@e-tools.com>
+
+        * configure.in: Added "rw" to ALL_LINGUAS.
+
+2005-03-14  Josep Puigdemont  <josep@imatge-sintetica.com>
+
+	* configure.in: Added ca to ALL_LINGUAS.
+
+2005-02-13  David Lodge  <dave@cirt.net>
+  
+        * configure.in: Added en_GB to ALL_LINGUAS.
+
+2005-02-10  Kostas Papadimas  <pkst@gnome.org>
+  
+        * configure.in: Added el (Greek) to ALL_LINGUAS.
+
+2005-02-04  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post release version bump
+
+=== gnome-user-share 0.5 ===
+	
+2005-02-04  Alexander Larsson  <alexl@redhat.com>
+
+	* Makefile.am (SUBDIRS):
+	Add po subdir.
+
+2005-02-04  Alexander Larsson  <alexl@redhat.com>
+
+	* desktop_gnome_file_sharing.schemas.in:
+	* user_share.c: (publish_service):
+	Fix some strings: #163652, #163647, #163646.
+
+	* NEWS:
+	Update for 0.5
+
+2005-02-01  Martin Willemoes Hansen  <mwh@sysrq.dk>
+
+	* configure.in: Added da (Danish) to ALL_LINGUAS.
+
+2005-01-23  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* configure.in: Added "it" (Italian) to ALL_LINGUAS.
+
+2005-01-22  Changwoo Ryu  <cwryu@debian.org>
+
+	* configure.in: Added ko to ALL_LINGUAS.
+
+2005-01-18  Alexander Shopov  <ash@contact.bg>
+
+	* configure.in (ALL_LINGUAS): Added "bg" (Bulgarian)
+
+2005-01-16  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.in: Added 'ja' (Japanese) to ALL_LINGUAS.
+
+2005-01-15  Frank Arnold  <farnold@cvs.gnome.org>
+
+	* configure.in: Added de to ALL_LINGUAS.
+
+2005-01-15  Raphael Higino  <raphaelh@cvs.gnome.org>
+
+	* configure.in: Added pt_BR to ALL_LINGUAS.
+
+2005-01-14	Amanpreet Singh Alam <amanpreetalam@yahoo.com>
+	
+	*configure.in: Added "pa" Punjabi to ALL_LINGUAS
+
+2005-01-12  Tommi Vainikainen  <thv@iki.fi>
+
+	* configure.in: Added "fi" (Finnish) to ALL_LINGUAS.
+
+2005-01-11  Christian Rose  <menthos@menthos.com>
+
+	* configure.in: Added "sv" to ALL_LINGUAS.
+
+2005-01-11  Žygimantas Beručka  <uid0@akl.lt>
+
+	* configure.in: Added lt to ALL_LINGUAS.
+
+2005-01-10  Adam Weinberger  <adamw@gnome.org>
+
+	* configure.in: Added en_CA to ALL_LINGUAS.
+
+2005-01-10  Alexander Larsson  <alexl@redhat.com>
+
+	* Makefile.am:
+	* configure.in:
+	* po/POTFILES.in:
+	Translate schemas file too.
+
+	* po/Makefile.in.in:
+	Remove
+
+2005-01-10  Alexander Larsson  <alexl@redhat.com>
+
+	* .cvsignore:
+	* configure.in:
+	* po/.cvsignore:
+	* po/Makefile.in.in:
+	* po/POTFILES.in:
+	* po/POTFILES.skip:
+	* po/gnome-user-share.pot:
+	Add gettext support.
+
+2004-12-16  Dan Williams  <dcbw@redhat.com>
+	* user_share.c: (spawn_httpd):
+	Set error = NULL so we don't spew messages.
+
+2004-12-06  Alexander Larsson  <alexl@redhat.com>
+
+	* file-share-properties.c:
+	* user_share.c: (httpd_child_setup):
+	Build fixes from j@bootlab.org
+
+2004-12-03  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post release version bump
+
+=== gnome-user-share 0.4 ===
+	
+2004-12-03  Alexander Larsson  <alexl@redhat.com>
+
+	* gnome-user-share.spec: 
+	* NEWS:
+	Update for release.
+
+2004-11-29  Alexander Larsson  <alexl@redhat.com>
+
+	* Makefile.am:
+	* configure.in:
+	* user_share.c:
+	If selinux availible, make sure we don't go to selinux context
+	when exec:ing apache.
+	Re-indent code.
+
+2004-11-29  Alexander Larsson  <alexl@redhat.com>
+
+	* dav_user.conf:
+	* user_share.c: (get_port), (spawn_httpd):
+	Some generic fixes and BSD port changes from
+	Joe Marcus Clarke <marcus@FreeBSD.org>
+
+2004-11-26  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Post release version bump
+
+	* user_share.c: 
+	* file-share-properties.c:
+	Add copyright headers.
+
+=== gnome-user-share 0.3 ===
+	
+2004-11-26  Alexander Larsson  <alexl@redhat.com>
+	
+	* NEWS:
+	Update for release
+
+	* file-share-properties.c: 
+	* dav_user.conf:
+	Change user to guest and realm to something
+	that describes what user to use.
+	
+2004-11-26  Alexander Larsson  <alexl@redhat.com>
+
+	* .cvsignore:
+	Add new files
+
+	* md5.[ch]:
+	Add md5 checksum implementation, required for the digest auth
+
+	* desktop_gnome_file_sharing.schemas.in:
+	* user_share.c:
+	* dav_user.conf:
+	Implement password support
+
+	* Makefile.am:
+	* file-share-properties.c:
+	* file-share-properties.glade:
+	Add properties ui
+	
+	* configure.in:
+	Bump version to 0.3
+	
+	* gnome-user-share.spec:
+	Update for new version
+	
+2004-09-11  Bastien Nocera  <hadess@hadess.net>
+
+	* .cvsignore: added
+	* user_share.c: (spawn_httpd): fix warning
+
+2004-09-09  Alexander Larsson  <alexl@redhat.com>
+
+	* gnome-user-share.spec: 
+	* configure.in:
+	Bump version to 0.2
+	
+2004-09-09  Alexander Larsson  <alexl@redhat.com>
+
+	* Makefile.am:
+	* configure.in:
+	Find and link to X.
+	
+	* dav_user.conf:
+	Set MaxSpareServers to 1
+	
+	* user_share.c: (spawn_httpd), (file_sharing_enabled_changed),
+	(x_io_error_handler), (x_input), (main):
+	Connect to X to follow X session lifetime.
+	Make error spew on stderr.
+
+2004-09-09  Alexander Larsson  <alexl@redhat.com>
+
+	* configure.in:
+	Require howl 0.9.6
+
+	* NEWS: 
+	* README:
+	Add some text
+
+2004-09-09  Alexander Larsson  <alexl@redhat.com>
+
+	* user_share.c:
+	Create Public dir if needed.
+	Make httpd run in minimal environment.

@@ -1,0 +1,503 @@
+# Brazilian Portuguese translation for gnome-user-share.
+# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-user-share package.
+# Marcelo  Rodrigues <marcelopires@mmsantos.com.br>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share master\n"
+"POT-Creation-Date: 2010-10-29 00:33+0000\n"
+"PO-Revision-Date: 2010-09-27 15:39+0000\n"
+"Last-Translator: Marcelo Rodrigues Pires Filho <marcelopires@mmsantos.com."
+"br>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: C/legal.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"É dada permissão para copiar, distribuir e/ ou modificar este documento sob "
+"os termos da Licença de Documentação Livre GNU(GFDL)(GNU Free Documentation "
+"License (GFDL)), versão 1.1 ou qualquer versão mais atual publicada pela  "
+"Fundação do Software Livre (Free Software Foundation) sem Seções Invariáveis, "
+"sem textos de capa a sem textos de contra capa. você pode encontrar uma "
+"cópia da GFDL neste <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou "
+"no arquivo COPYING-DOCS distribuído com este material."
+
+#: C/legal.xml:12(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Este manual é parte de uma coleção dos manuais GNOME distribuídos sob a "
+"GFDL. Se você quer distribuir este manual separadamente da coleção, você "
+"pode fazê-lo  adicionando uma cópia da licença ao manual, como descrito na "
+"seção 6 da licença."
+
+#: C/legal.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Muitos dos nomes usados por companhias para distinguir seus produtos e "
+"serviços são referidas como marcas registradas. Aqui estes nomes aparecem em "
+"qualquer documentação do GNOME, e os membros do Projeto de Documentação GNOME"
+"(GNOME Project Documentation) são orientados sobre estas marcas registradas, "
+"então estes nomes estão em letras maiúsculas ou letras iniciais maiúsculas."
+
+#: C/legal.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"O DOCUMENTO É FORNECIDO NA BASE \"COMO ESTÁ\", SEM GARANTIAS DE QUALQUER "
+"TIPO, TANTO EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADO A, GARANTIAS "
+"DE QUE O DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO SEJA COMERCIALIZÁVEL, "
+"LIVRE DE DEFEITOS, PRÓPRIO PARA UM PROPÓSITO ESPECÍFICO OU SEM INFRAÇÕES. "
+"TODO O RISCO A RESPEITO DA QUALIDADE, EXATIDÃO, E DESEMPENHO DO DOCUMENTO OU "
+"VERSÕES MODIFICADAS DO DOCUMENTO É DE SUA RESPONSABILIDADE. SE ALGUM "
+"DOCUMENTO OU VERSÃO MODIFICADA SE PROVAR DEFEITUOSO EM QUALQUER ASPECTO, "
+"VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUIDOR) ASSUME O CUSTO "
+"DE QUALQUER SERVIÇO NECESSÁRIO, REPARO OU CORREÇÃO. ESSA RENÚNCIA DE "
+"GARANTIAS CONSTITUI UMA PARTE ESSENCIAL DESTA LICENÇA. NENHUM USO DESTE "
+"DOCUMENTO OU VERSÃO MODIFICADA DESTE DOCUMENTO É AUTORIZADO SE NÃO FOR SOB "
+"ESSA RENÚNCIA; E SOB NENHUMA CIRCUNSTÂNCIA E SOB NENHUMA TEORIA LEGAL, TANTO "
+"EM DANO (INCLUINDO NEGLIGÊNCIA), CONTRATO, OU OUTROS, DEVEM O AUTOR, "
+"ESCRITOR INICIAL, QUALQUER CONTRIBUIDOR, OU QUALQUER DISTRIBUIDOR DO "
+"DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO, OU QUALQUER FORNECEDOR DE "
+"ALGUMA DESSAS PARTES, SER CONSIDERADOS RESPONSÁVEIS A QUALQUER PESSOA POR "
+"QUALQUER DANO, SEJA DIRETO, INDIRETO, ESPECIAL, ACIDENTAL OU CONSEQUENCIAL "
+"DE QUALQUER INDIVÍDUO, INCLUINDO, MAS NÃO LIMITADO A, DANOS POR PERDA DE BOA "
+"VONTADE, TRABALHO PARADO, FALHA OU MAU FUNCIONAMENTO DO COMPUTADOR, OU "
+"QUALQUER E TODOS OS OUTROS DANOS OU PERDAS RESULTANTES OU RELACIONADOS AO "
+"USO DO DOCUMENTO E VERSÕES MODIFICADAS, MESMO QUE TAL PARTE TENHA SIDO "
+"INFORMADA DA POSSIBILIDADE DE TAIS DANOS."
+
+#: C/legal.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO PROVIDENCIADAS SOB OS "
+"TERMOS DA LICENÇA DE DOCUMENTAÇÃO LIVRE GNU COM OS MAIORES ENTENDIMENTOS "
+"QUE: <placeholder-1/>"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:81(None)
+msgid ""
+"@@image: 'figures/file-sharing-preferences.png'; "
+"md5=7ae616b8043b36be1f4943ba06d8a5ed"
+msgstr ""
+"@@image: 'figures/file-sharing-preferences.png'; "
+"md5=7ae616b8043b36be1f4943ba06d8a5ed"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:99(None)
+msgid ""
+"@@image: 'figures/sharing-over-the-network.png'; "
+"md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
+msgstr ""
+"@@image: 'figures/sharing-over-the-network.png'; "
+"md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:143(None)
+msgid ""
+"@@image: 'figures/sharing-over-bluetooth.png'; "
+"md5=0a950502b42b1e7fdb9a57d5017e919c"
+msgstr ""
+"@@image: 'figures/sharing-over-bluetooth.png'; "
+"md5=0a950502b42b1e7fdb9a57d5017e919c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:168(None)
+msgid ""
+"@@image: 'figures/receiving-over-bluetooth.png'; "
+"md5=f292daef06767f39e346b222d3c448be"
+msgstr ""
+"@@image: 'figures/receiving-over-bluetooth.png'; "
+"md5=f292daef06767f39e346b222d3c448be"
+
+#: C/gnome-user-share.xml:10(title)
+msgid "Personal File Sharing Manual"
+msgstr "Manual de Compartilhamento de Arquivos Pessoais"
+
+#: C/gnome-user-share.xml:12(year) C/gnome-user-share.xml:29(date)
+msgid "2009"
+msgstr "2009"
+
+#: C/gnome-user-share.xml:13(holder)
+msgid "Red Hat, Inc."
+msgstr "Red Hat, Inc."
+
+#: C/gnome-user-share.xml:19(firstname)
+msgid "Matthias"
+msgstr "Matthias"
+
+#: C/gnome-user-share.xml:20(surname)
+msgid "Clasen"
+msgstr "Clasen"
+
+#: C/gnome-user-share.xml:28(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: C/gnome-user-share.xml:31(para)
+msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
+
+#: C/gnome-user-share.xml:35(releaseinfo)
+msgid "This manual describes version 2.26 of gnome-user-share."
+msgstr "Este manual descreve a versão 2.26 do gnome-user-share."
+
+#: C/gnome-user-share.xml:37(title)
+msgid "Feedback"
+msgstr "Feedback"
+
+#: C/gnome-user-share.xml:38(para)
+msgid ""
+"To report a bug or make a suggestion regarding the gnome-user-share "
+"application or this manual, follow the directions in the <ulink url=\"ghelp:"
+"user-guide?feedback-bugs\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr ""
+"Para reportar uma falha ou fazer uma sugestão a respeito do aplicação do "
+"gnome-user-share ou este manual, siga as direções no <ulink url=\"ghelp:user-"
+"guide?feedback-bugs\" type=\"help\">Página de feedback do GNOME</ulink>."
+
+#: C/gnome-user-share.xml:41(para)
+msgid ""
+"gnome-user-share is a session service that enables easy sharing of files "
+"between several computers."
+msgstr ""
+"gnome-user-share é um serviço de sessão que possibilita o compartilhamento "
+"de arquivos entre diversos computadores."
+
+#: C/gnome-user-share.xml:45(primary)
+msgid "gnome-user-share"
+msgstr "gnome-user-share"
+
+#: C/gnome-user-share.xml:46(primary)
+msgid "file sharing"
+msgstr "compartilhamento de arquivos"
+
+#: C/gnome-user-share.xml:47(primary)
+msgid "sharing"
+msgstr "compartilhamento"
+
+#: C/gnome-user-share.xml:50(title)
+msgid "Introduction"
+msgstr "Introdução"
+
+#: C/gnome-user-share.xml:51(para)
+msgid ""
+"gnome-user-share is a session service that exports the contents of the "
+"<filename>Public</filename> folder in your home directory, so that they can "
+"easily be accessed from other computers on the same local network. On the "
+"other computers, the shared folder will appear with a name like "
+"'<replaceable>user</replaceable>'s shared files' in the "
+"<application>nautilus</application> Network window, where <replaceable>user</"
+"replaceable> will be replaced by your user name."
+msgstr ""
+"gnome-user-share é um serviço de sessão que exporta conteúdo da pasta "
+"<filename>Pública</filename> para seu diretório home, para que este conteúdo "
+"possa ser facilmente acessado de outros computadores na mesma rede local. "
+"Nos outros computadores, a pasta compartilhada aparecera com um nome "
+"parecido com 'arquivos compartilhados do <replaceable>usuário</replaceable>' "
+"na janela de rede do <application>nautilus</application>, onde "
+"<replaceable>usuário</replaceable> será substituído pelo nome do usuário."
+
+#: C/gnome-user-share.xml:54(para)
+msgid ""
+"gnome-user-share uses a WebDAV server to share the <filename>Public</"
+"filename> folder, and advertises the share on the local network using mDNS."
+msgstr ""
+"O gnome-user-share usa um servidor WebDAV para compartilhar a pasta "
+"<filename>Public</filename>, e anuncia o compartilhamento na rede local "
+"usando mDNS."
+
+#: C/gnome-user-share.xml:57(para)
+msgid ""
+"Additionally, gnome-user-share can make the shared files available via "
+"ObexFTP over Bluetooth, and receive files that are sent to your computer via "
+"Bluetooth via ObexPush."
+msgstr ""
+"Adicionalmente, o gnome-user-share pode tornar arquivos compartilhados "
+"disponíveis via ObexFTP por Bluetooth, e receber arquivos que são enviados "
+"ao seu computador por Bluetooth via ObexPush."
+
+#: C/gnome-user-share.xml:63(title)
+msgid "Getting started"
+msgstr "Iniciando"
+
+#: C/gnome-user-share.xml:66(title)
+msgid "Starting gnome-user-share"
+msgstr "Iniciando o gnome-user-share"
+
+#: C/gnome-user-share.xml:68(para)
+msgid ""
+"The gnome-user-share service is normally started by <application>gnome-"
+"session</application> when you log in. You can change this by opening "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</"
+"guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying "
+"the 'User Sharing' entry in the list of startup programs."
+msgstr ""
+"O serviço gnome-user-share é normalmente iniciado por <application>gnome-"
+"session</application> quando você entra no sistema. você pode mudar isto "
+"abrindo <menuchoice><guimenu>Preferências</guimenu><guimenu>Aplicativos de "
+"sessão</guimenu></menuchoice> no menu <guimenu>Sistema</guimenu>, e "
+"modificando a opção 'Compartilhamento de arquivos' na lista de programas "
+"iniciais."
+
+#: C/gnome-user-share.xml:72(para)
+msgid ""
+"To configure various aspects of file sharing, use the File Sharing "
+"Preferences, which can be found in the <guimenu>System</guimenu> menu under "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</"
+"guimenu></menuchoice>."
+msgstr ""
+"Para configurar vários aspectos do compartilhamento de arquivos, use "
+"Preferência de compartilhamento de arquivos, que pode ser encontrado no menu "
+"<guimenu>Sistema</guimenu> <menuchoice><guimenu>Preferências</"
+"guimenu><guimenu>Compartilhamento de arquivos pessoais</guimenu></"
+"menuchoice>."
+
+#: C/gnome-user-share.xml:77(title)
+msgid "File Sharing Preferences"
+msgstr "Preferências de compartilhamento de arquivos"
+
+#: C/gnome-user-share.xml:89(title)
+msgid "Enabling file sharing over the network"
+msgstr "Habilitando compartilhamento de arquivos na rede"
+
+#: C/gnome-user-share.xml:90(para) C/gnome-user-share.xml:134(para)
+#: C/gnome-user-share.xml:159(para)
+msgid ""
+"Open the File Sharing Preferences using <menuchoice><guimenu>Preferences</"
+"guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the "
+"<guimenu>System</guimenu> menu."
+msgstr ""
+"Abra as Preferências de compartilhamento de arquivos "
+"<menuchoice><guimenu>Preferências</guimenu><guimenu>Compatilhamento de "
+"Arquivos pessoais</guimenu></menuchoice> no menu <guimenu>Sistema</guimenu>."
+
+#: C/gnome-user-share.xml:95(title)
+msgid "Share Files over the Network"
+msgstr "Compartilhar arquivos na rede"
+
+#: C/gnome-user-share.xml:106(para)
+msgid ""
+"Some firewall configurations on the local machine might cause problems with "
+"the advertisment, as well as the access to the shared files. Consult your "
+"system administrator for more details."
+msgstr ""
+"Algumas configurações de Firewall na maquina local devem causar problemas "
+"com a exibição, assim como ao acesso de arquivos compartilhados. Consulte "
+"seu administrador de sistema para mais detalhes."
+
+#: C/gnome-user-share.xml:109(para)
+msgid ""
+"Select <guilabel>Never</guilabel> to allow everybody to freely read or write "
+"files in the shared folder."
+msgstr ""
+"Selecione <guilabel>Nunca</guilabel> para permitir a todos acessar e "
+"escrever livremente arquivos numa pasta compartilhada."
+
+#: C/gnome-user-share.xml:115(para)
+msgid ""
+"Select <guilabel>Always</guilabel> to require the password to read or write "
+"files in the shared folder."
+msgstr ""
+"Selecione <guilabel>Sempre</guilabel> para requisitar a senha para ler ou "
+"escrever arquivos numa pasta compartilhada."
+
+#: C/gnome-user-share.xml:121(para)
+msgid ""
+"Select <guilabel>When writing files</guilabel> to allow everybody to freely "
+"read files in the shared folder, but require the password when writing files."
+msgstr ""
+"Selecione <guilabel>Quando escrevendo arquivos</guilabel> para permitir a "
+"todos que leiam livremente arquivos na pasta compartilhada, mas requisite "
+"senha quando escrever arquivos."
+
+#: C/gnome-user-share.xml:128(para)
+msgid ""
+"When you set a password, you have to give the password to all users that you "
+"want to have access to the shared files. Therefore, you should use a "
+"password that is different from other passwords you use."
+msgstr ""
+"Quando você define uma senha, você deve dar a senha para todos os usuários "
+"que você quer que tenham acesso aos seus arquivos compartilhados. Assim, "
+"você deve usar uma senha diferente de outras senhas que você use."
+
+#: C/gnome-user-share.xml:104(para)
+msgid ""
+"To enable file sharing via WebDAV, use the <guilabel>Share public files on "
+"network</guilabel> checkbox. When file sharing it enabled, the controls for "
+"password protection allow to set a password that needs to be specified "
+"before a user on another computer is granted access to the shared files. "
+"<placeholder-1/><placeholder-2/><placeholder-3/>"
+msgstr ""
+"Para habilitar o compartilhamento de arquivo por WebDAV, use a opção "
+"<guilabel>Compartilhar arquivos públicos na rede</guilabel>. Quando o "
+"compartilhamento de arquivos é habilitado os controles de proteção de senha "
+"permitem a definição de senha que necessite ser especificado antes que um "
+"usuário em outro computador tenha o acesso permitido a arquivos "
+"compartilhados. <placeholder-1/><placeholder-2/><placeholder-3/>"
+
+#: C/gnome-user-share.xml:133(title)
+msgid "Enabling file sharing over Bluetooth"
+msgstr "Habilitando o compartilhamento de arquivos por Bluetooth"
+
+#: C/gnome-user-share.xml:139(title)
+msgid "Share Files over Bluetooth"
+msgstr "Compartilhe Arquivos por Bluetooth"
+
+#: C/gnome-user-share.xml:152(para)
+msgid ""
+"When you allow unbonded remote devices to access your shared files, anybody "
+"with a Bluetooth-enabled cell phone in the vicinity of your computer can "
+"access and perhaps even modify your shared files."
+msgstr ""
+"Quando você permite serviços remotos externos a acessar seus arquivos "
+"compartilhados, qualquer um com um celular com Bluetooth no alcance de seu "
+"computador pode acessar e talvez até modificar seus arquivos compartilhados."
+
+#: C/gnome-user-share.xml:148(para)
+msgid ""
+"To enable file sharing via Bluetooth, use the <guilabel>Share public files "
+"over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to "
+"delete files in your shared folder, use the <guilabel>Allow remote devices "
+"to delete files</guilabel> checkbox. To allow remote Bluetooth devices to "
+"access your shared files even when they are not bonded with your computer, "
+"use the <guilabel>Require remote devices to pair with this computer</"
+"guilabel> checkbox. <placeholder-1/>"
+msgstr ""
+"Para habilitar o compartilhamento de arquivos por Bluetooth, use marque a "
+"opção <guilabel>Compartilhar arquivos públicos por Bluetooth</guilabel>. "
+"Para permitir dispositivos Bluetooth remotos deletarem seus arquivos "
+"compartilhados use a opção <guilabel>Permitir que dispositivos remotos "
+"deletem arquivos</guilabel>. Para permitir que dispositivos Bluetooth "
+"remotos acessem seus arquivos compartilhados até quando eles não estão "
+"interligados com seu computador, marque a opção <guilabel>Requisitar que "
+"dispositivos remotos pareiem com esse computador</guilabel>.  "
+"<placeholder-1/>"
+
+#: C/gnome-user-share.xml:158(title)
+msgid "Receiving Files over Bluetooth"
+msgstr "Recebendo Arquivos por Bluetooth"
+
+#: C/gnome-user-share.xml:164(title)
+msgid "Receive Files over Bluetooth"
+msgstr "Receba Arquivos por Bluetooth"
+
+#: C/gnome-user-share.xml:177(para)
+msgid ""
+"Select <guilabel>Always</guilabel> to allow any remote device to send files."
+msgstr ""
+"Selecione <guilabel>Sempre</guilabel> para permitir qualquer dispositivo "
+"remoto enviar arquivos."
+
+#: C/gnome-user-share.xml:184(para)
+msgid ""
+"Bonded devices are the ones that were connected to your computer, and had to "
+"enter a PIN code to connect to or from."
+msgstr ""
+"Dispositivos interligados são aqueles que estão conectados ao seu "
+"computador, e tiveram que entrar com um código PIN para se conectar com ele "
+"ou dele."
+
+#: C/gnome-user-share.xml:182(para)
+msgid ""
+"Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
+"from bonded devices. <placeholder-1/>"
+msgstr ""
+"Selecione <guilabel>Apenas para dispositivos interligados</guilabel> para "
+"aceitar arquivos apenas de dispositivos interligados. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:191(para)
+msgid ""
+"Devices can be marked as trusted in the <application>bluetooth-properties</"
+"application>'s <guilabel>Known devices</guilabel> section."
+msgstr ""
+"Aparelhos podem ser marcados como confiáveis na "
+"sessão <application>propriedades de bluetooth</ application> dentro "
+"de <guilabel>Dispositivos conhecidos</guilabel>."
+
+#: C/gnome-user-share.xml:189(para)
+msgid ""
+"Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
+"files only from bonded devices. <placeholder-1/>"
+msgstr ""
+"Selecione <guilabel>Apenas para dispositivos confiáveis e interligados</"
+"guilabel> para aceitar arquivos apenas de dispositivos interligados. "
+"<placeholder-1/>"
+
+#: C/gnome-user-share.xml:173(para)
+msgid ""
+"To let remote Bluetooth devices send files to your computer, use the "
+"<guilabel>Receive files in Downloads folder over Bluetooth</guilabel> "
+"checkbox. Received files will be stored in the <filename>Downloads</"
+"filename> folder in your home directory. When receiving files is enabled, "
+"the <guilabel>Accept files</guilabel> selection allows you to determine "
+"which remote devices are allowed to send files. <placeholder-1/>"
+msgstr ""
+"Para deixar dispositivos Bluetooth remotos enviarem arquivos para seu "
+"computador, marque a opção <guilabel>Receber arquivos por Bluetooth na pasta "
+"Downloads</guilabel>Arquivos recebidos serão armazenados na pasta "
+"<filename>Downloads</filename> no seu diretório home. Quando o recebimento "
+"de arquivos é habilitado, a seleção <guilabel>Aceitar arquivos</guilabel> "
+"permite que você determine quais dispositivos remotos são permitidos a "
+"enviar arquivos. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:196(para)
+msgid ""
+"Use the <guilabel>Notify about received files</guilabel> checkbox to select "
+"whether you want to be notified whenever a file is received via Bluetooth."
+msgstr ""
+"Use a opção <guilabel>Notificar sobre arquivos recebidos</guilabel> para "
+"selecionar se você quer ser notificado quando um arquivo é recebido por "
+"Bluetooth."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/gnome-user-share.xml:0(None)
+msgid "translator-credits"
+msgstr "Marcelo Rodrigues Pires Filho <marcelopires@mmsantos.com.br>, 2010"
+

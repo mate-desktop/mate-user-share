@@ -1,0 +1,272 @@
+# Traditional Chinese translation of gnome-user-share.HEAD
+# Copyright (C) 1999, 2002, 2003 Free Software Foundation, Inc.
+# Kevin Tse <kevinkit@netvigator.com>, 2005.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share 2.28.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-16 10:13+0800\n"
+"PO-Revision-Date: 2010-02-15 17:19+0800\n"
+"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"Language-Team: Chinese (traditional)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Virtaal 0.4.0\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"如果設定為 true，藍牙裝置就可以在使用者登入時傳送檔案到他的下載目錄中。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"如果設定為 true，使用者的家目錄裡之公用目錄會在他/她登入時透過藍牙分享出來。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"如果設定為 true，使用者的家目錄裡之公用目錄會在他/她登入時透過網路分享出來。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "以藍牙分享公用目錄"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "以網路分享公用目錄"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "何時接受透過藍牙傳送的檔案"
+
+# (pofilter) gconf: do not translate gconf attribute: "always", "bonded", "bonded_trusted", "ask"
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"何時接受透過藍牙傳送的檔案。可能的數值是「always」(永遠)、「bonded」(已配"
+"對)、「bonded_trusted」(已配對且信任)和「ask」(詢問)。"
+
+# (pofilter) gconf: do not translate gconf attribute: "never", "on_write", "always"
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"何時會詢問密碼。可能的數值是「never」(永不)、「on_write」(寫入時)和「always」"
+"(永遠)。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "何時需要密碼"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "藍牙客戶端是否可以使用 ObexPush 傳送檔案。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "藍牙客戶端是否需要與電腦配對才能傳送檔案。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr "是否允許藍牙客戶端寫入檔案，或以唯讀方式分享檔案。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "是否允許藍牙客戶端寫入檔案。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "是否通知有最新接收到的檔案。"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>透過藍牙接收檔案</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>以藍牙分享檔案</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>以網路分享檔案</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "允許遠端裝置刪除檔案(_W)"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "個人檔案分享偏好設定"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "透過藍牙接收檔案到下載資料夾(_D)"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "要求遠端裝置與這個電腦配對(_M)"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "以藍牙分享公用檔案(_B)"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "接受檔案(_A):"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "通知有接收檔案(_N)"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "密碼(_P):"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "需要密碼(_R):"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "以網路分享公用檔案(_S)"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "個人檔案分享"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "用於分享個人檔案的偏好設定"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "若啟用則執行個人檔案分享"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "執行偏好設定"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "執行個人檔案分享偏好設定"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "無法執行個人檔案分享偏好設定"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "您可以分享這個資料夾中的檔案或接收檔案到資料夾裡"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "您可以透過網路和藍牙分享這個資料夾中的檔案"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "您可以透過藍牙接收檔案到這個資料夾裡"
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "沒有原因"
+
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "無法顯示求助文件的內容。"
+
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "無法建立介面。"
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "永不"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "當寫入至檔案"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "經常"
+
+#: ../src/file-share-properties.c:598
+msgid "Only for set up devices"
+msgstr "只有設定的裝置"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "詢問"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s 的公用檔案"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s 的公用檔案於 %s"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "請以使用者訪客登入"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "您已經透過藍牙接收到「%s」"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "您已經接收到檔案"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "開啟檔案"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "顯示檔案"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "檔案接收已完成"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "只允許繫結與受信任的裝置"
+
+#~ msgid "User Sharing"
+#~ msgstr "使用者分享"
+
+#~ msgid "gtk-help"
+#~ msgstr "gtk-help"

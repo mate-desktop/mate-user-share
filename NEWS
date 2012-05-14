@@ -1,0 +1,138 @@
+This is mate-user-share 2.30.2, a system for easy sharing of user files.
+
+Major changes since 2.30.1 are:
+* Updated translations
+* Don't use deprecated libnotify API
+
+Major changes since 2.30.0 are:
+* Updated translations
+* Fix compilation failure
+
+Major changes since 2.29.92 are:
+* Updated translations
+
+Major changes since 2.29.91 are:
+* Fix extension conflicting with nautilus-share's
+
+Major changes since 2.28.0 are:
+* Add a helper bar in nautilus to enable/disable sharing
+* Add sound notification of files being received
+* Don't use Bonded and trusted terms in the UI
+and many other fixes
+
+Major changes since 2.27.0 are:
+* Fix WebDAV share name being untranslated
+* Updated translations
+
+Major changes since 2.26.0 are:
+* Fix WebDAV sharing not working when service names are too long
+* Fix login problems to WebDAV
+* Don't error out if the Obex services are already started
+* Fix Obex services not working any more when bluetoothd is exited
+* UI fixes for rejected ObexPush transfers
+* Updated translations
+
+Major changes since 2.25.92 are:
+* Updated translations
+
+Major changes since 2.25.91 are:
+* Update Swedish help manual, add Greek manual
+
+Major changes since 2.25.90 are:
+* Fix httpd configuration file
+
+Major changes since 2.25.5 are:
+* Use mod_dnssd 0.6 to export the user TXT record, necessary to work
+  with the latest gvfs
+* Check for httpd version and binary location at run-time, rather than
+  compile-time
+* Documentation updates
+
+Major changes since 0.41 are:
+* Use Apache's mod_dnssd module instead of doing the work ourselves
+* Refuse to run as root, so as to avoid sensitive files being shared
+* Add end-user documentation, and UI changes to match
+* Make it possible for build daemons to build without Apache installed
+
+Major changes since 0.40 are:
+* Port to BlueZ 4.x API
+* UI fixes in the preferences dialogue
+* Fix web file sharing on some distributions
+
+Major changes since 0.31 are:
+* Notify when receiving files via ObexPush, and allow opening
+  or revealing the received file
+* Disable Bluetooth file sharing when the user isn't at the console
+  (fast-user switching)
+* Better support for other Apache httpd MPMs
+* Move the configuration files to XDG locations
+
+Major changes since 0.30 are:
+* Don't exit when the d-bus session bus goes away, fixes httpd processes
+  lying around after logout when Bluetooth sharing is enabled
+* Small build fix when using custom modules path
+
+Major changes since 0.22 are:
+* Allow distributors to set the location of their httpd modules,
+  so that they don't need to create their own configuration file
+  See --with-modules-path in the configure output
+* Use GtkBuilder instead of libglade
+* Fix the httpd daemon being left running when logging out
+* Misc UI and build fixes
+
+Major changes since 0.21 are:
+* Add a simple ObexPush server
+* Add support for "Require pairing" for ObexFTP, for better
+  security
+* Update to run with obex-data-server 0.3
+* Clarify a string in the UI
+
+Major changes since 0.20 are:
+* Fix ObexFTP sharing allow deletes/writes when it shouldn't
+
+Major changes since 0.11 are:
+* Add ObexFTP sharing through obex-data-server
+* Use XDG autostart to start mate-user-share on login, exit straight-away
+  if we're not sharing any files
+* Use glib to get the Public directory and set the password for our HTTP share
+* Disable the password entry if the password setting is "never"
+* Exit the configuration tool when the "Close" button from the window
+  manager is pressed
+
+Major changes since 0.10 are:
+* Show more strings translated in the UI
+* Use xdg-user-dirs for finding public dir
+
+Major changes since 0.9 are:
+* Include hostname in published name
+* Support apache 2.2 config file format
+
+Major changes since 0.8 are:
+* Updated for avahi 0.6
+* Translations
+
+Major changes since 0.7 are:
+* Fix close button behaviour
+* Fix build with howl
+* Fix leak
+	
+Major changes since 0.6 are:
+* Added desktop file
+
+Major changes since 0.5 are:
+* Avahi support
+* Fix sign warnings
+* Translations
+
+Major changes since 0.4 are:
+* Translations
+* build fixes
+
+Major changes since 0.3 are:
+* Selinux workaround
+* BSD support
+
+Major changes since 0.2 are:
+* Added properties dialog
+* Added password protection support
+

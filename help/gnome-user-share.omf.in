@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omf>
+  <resource>
+    <subject category="GNOME|Internet"/>
+    <type>
+      user's guide
+    </type>
+    <relation seriesid="04f734df-8acb-c0b2-8ba6-5dc2193da6ae60"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Red Hat, Inc."/>
+  </resource>        
+</omf>

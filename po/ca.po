@@ -1,0 +1,277 @@
+# Catalan translation of gnome-user-share.
+# Copyright (C) 2005, 2006 The gnome-user-share's copyright holder
+# This file is distributed under the same license as the
+#    gnome-user-share package.
+#
+# Gil Forcada <gilforcada@guifi.net>, 2005, 2006, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-13 18:00+0100\n"
+"PO-Revision-Date: 2010-03-13 18:00+0100\n"
+"Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"Si és cert, els dispositius Bluetooth poden enviar fitxers a la carpeta de "
+"baixades de l'usuari quan aquest usuari hagi entrat."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"Si és cert, la carpeta Públic de la carpeta d'inici de l'usuari es "
+"compartirà a través del Bluetooth quan aquest hagi entrat."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"Si és cert, la carpeta Públic de la carpeta d'inici de cada usuari es "
+"compartirà a través de la xarxa quan l'usuari entri."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Comparteix la carpeta Públic a través del Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Comparteix la carpeta Públic a través de la xarxa"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "Quan s'han d'acceptar fitxers enviats a través del Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"Quan s'hagin d'acceptar fitxers a través del Bluetooth. Els possibles valors "
+"són «always» (sempre), «bonded» (vinculat) i «ask» (pregunta)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"Quan s'ha de demanar contrasenya. Els possibles valors són «never» (mai), "
+"«on_write» (en escriure), i «always» (sempre)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "Quan s'ha de demanar contrasenya"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Si els clients del Bluetooth poden enviar fitxers amb ObexPush."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr ""
+"Si cal que els clients del Bluetooth s'aparellin amb l'ordinador per a poder "
+"enviar fitxers."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"Si es permet escriure fitxers als clients del Bluetooth, o si només es "
+"compartiran en mode lectura."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Si es permet escriure fitxers als clients del Bluetooth."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Si s'ha de notificar sobre els fitxers rebuts nous."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Recepció de fitxers a través del Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Compartició de fitxers a través del Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Compartició de fitxers a través de la xarxa</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "Permet que els dispositius remots suprimeixin _fitxers"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "Preferències de la compartició de fitxers personals"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr ""
+"Desa els fitxers rebuts a través del Bluetooth a la carpeta de _baixades"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Requereix que els dispositius _remots es vinculin amb aquest ordinador"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "Comparteix els fitxers públics a través del _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_Accepta els fitxers: "
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "_Notifica en rebre fitxers"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Contrasenya:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_Requereix contrasenya:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "_Comparteix els fitxers públics a la xarxa"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "Compartició de fitxers personals"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Preferències per a compartir fitxers"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Executa la compartició de fitxers personals si està habilitat"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "Inicia les preferències"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "Inicia les preferències de la compartició de fitxers personals"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr ""
+"No s'ha pogut iniciar les preferències de la compartició de fitxers personals"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "Podeu compartir fitxers des d'aquesta carpeta i rebre'n-hi"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr ""
+"Podeu compartir fitxers des d'aquesta carpeta a través de la xarxa i de "
+"Bluetooth"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "Podeu rebre fitxers en aquesta carpeta a través de Bluetooth"
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "Cap motiu"
+
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "No s'ha pogut mostrar l'ajuda."
+
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "No s'ha pogut construir la interfície."
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "Mai"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "Quan s'escriguin fitxers"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "Sempre"
+
+#: ../src/file-share-properties.c:598
+msgid "Only for set up devices"
+msgstr "Només per a dispositius configurats"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "Pregunta"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "Fitxers públics de %s"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "Fitxers públics de %s a %s"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Heu rebut «%s» a través del Bluetooth"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "Heu rebut un fitxer"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "Obre el fitxer"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "Revela el fitxer"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "S'ha completat la recepció del fitxer"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "Només per a dispositius vinculats i de confiança"
+
+#~ msgid "Please log in as the user guest"
+#~ msgstr "Entreu com a usuari convidat"
+
+#~ msgid "User Sharing"
+#~ msgstr "Compartició d'usuari"

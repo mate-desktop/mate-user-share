@@ -1,0 +1,263 @@
+# Norwegian Nynorsk translation for gnome-user-share.
+# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-user-share package.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"user-share&component=general\n"
+"POT-Creation-Date: 2010-03-30 20:22+0000\n"
+"PO-Revision-Date: 2010-04-03 12:57+0200\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"Om denne er sann så vil blåtanneiningar kunne senda filer til "
+"nedlastningsmappa til brukaren når han er logga på."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"Om denne er sann så vil den offentlege mappa i heimemappa til brukaren verta "
+"delt over blåtann når brukaren er logga på."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"Om denne er sann så vil den offentlege mappa i heimemappa til brukaren verta "
+"delt over nettverket når brukaren er logga på."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Del den offentlege mappa over blåtann"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Del den offentlege mappa over nettverket"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "Når filer sendt over blåtann skal godtakast"
+
+# «bonded»?
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"Når filer sendt over blåtann skal godtakast. Moglege verdiar er "
+"«always» (alltid), «bonded» (bunde) og «ask» (spør)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"Når passord skal spørjast etter. Moglege verdiar er «never» (aldri), "
+"«on_write» (under tilskriving) og «always» (alltid)."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "Når passord skal spørjast etter"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Om blåtannklientar kan senda filer ved bruk av ObexPush."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "Om blåtannklientar må para med datamaskina for å senda filer"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"Om blåtannklientar kan skriva filer, eller berre dela filene med berre-"
+"lesbar-løyve."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Om blåtannklientar kan skriva filer."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Om det skal sendast varsel om nyleg mottekne filer."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Tek imot filer over blåtann</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Del filer over blåtann</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Del filer over nettverket</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "_Tillat eksterne einingar å sletta filer"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "Personleg delingsinnstillingar"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Motta filer i _nedlastningsmappa over blåtann"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Krev at _eksterne einingar må bindast med denne maskina"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "Del offentlege filer over _blåtann"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_Ta imot filer:"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "_Varsla om motekne filer"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "_Passord:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_Krev passord:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "_Del offentlege filer på nettverket"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "Personleg fildeling"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Innstillingar for deling av filer"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Køyr personleg fildeling om slått på"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "Køyr innstillingar"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "Køyr personleg fildelingsinnstillingar"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "Klarte ikkje å køyra dei personleg delingsinnstillingar"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "Du kan dela og motta filer i denne mappa"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "Du kan dela filer frå denne mappa over nettverket og blåtann"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "Du kan ta imot filer over blåtann til denne mappa"
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "Ingen grunn"
+
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "Klarte ikkje visa hjelpeinnhald"
+
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "Klarte ikkje byggja grensesnitt."
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "Aldri"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "Når filer skrivast"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "Alltid"
+
+#: ../src/file-share-properties.c:598
+msgid "Only for set up devices"
+msgstr "Berre for oppsette einingar"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "Spør"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%ss offentlege filer"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%ss offentlege filer på %s"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Du mottok «%s» via blåtann"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "Du mottok ei fil"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "Opna fil"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "Openbar fil"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "Mottaking av fil fullførd"

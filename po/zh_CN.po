@@ -1,0 +1,266 @@
+# gnome-user-share的简体中文翻译.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-user-share package.
+# Funda Wang <fundawang@gmail.com>, 2005, 2009.
+# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009.
+# Hinker <hinkerliu@163.com>, 2009.
+# Aron Xu <happyaron.xu@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-14 17:31+0800\n"
+"PO-Revision-Date: 2009-11-14 17:34+0800\n"
+"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr "如果为真(true)，则用户登录时，蓝牙设备能发送文件到用户的“下载“目录。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr "如果为真(true)，则用户登录时，用户主目录中的“公开”目录将在蓝牙中共享。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr "如果为真(true)，则用户登录时，用户主目录中的“公开”目录将在网络中共享。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "在蓝牙中共享“公开“目录"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "在网络中共享“公开“目录"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "何时接收通过蓝牙发送的文件"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"何时接受通过蓝牙发送的文件，可能的选项"
+"是“always”、“bonded”、“bonded_trusted”和“ask”。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr "何时询问密码，可供选择的选项是：“never”、“on_write”和“always”。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "何时请求密码"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "蓝牙客户是否能使用 ObexPus 发送文件。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "蓝牙客户要发送文件是否需要先和电脑配对。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr "是否允许蓝牙客户写入文件，还是只允许读取共享文件。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "是否允许蓝牙客户写入文件。"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "是否通知关于新收到的文件。"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>接收通过蓝牙发送的文件</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>在蓝牙中共享文件</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>在网络中共享文件</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "允许远端设备删除文件(_W)"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "个人文件共享选项"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "接收通过蓝牙发送的文件到“下载“文件夹中(_D)"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "要求远端设备与本电脑绑定"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "在蓝牙中共享公开文件(_B)"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "接收文件(_A)："
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "通知关于已收到的文件(_N)"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "密码(_P)："
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "要求密码(_R)"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "在网络中共享公开文件(_S)"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "个人文件共享"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "文件共享选项"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "如果已启用则启动个人文件共享"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "启动首选项"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "个人文件共享选项"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "无法启动个人文件共享选项"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "您可以使用此文件夹共享文件"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "您可以通过网络或蓝牙共享此文件夹"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "您可以通过蓝牙向此文件夹接收文件"
+
+#: ../src/file-share-properties.c:435
+msgid "No reason"
+msgstr "无原因"
+
+#: ../src/file-share-properties.c:463
+msgid "Could not display the help contents."
+msgstr "无法显示帮助目录。"
+
+#: ../src/file-share-properties.c:503
+msgid "Could not build interface."
+msgstr "无法创建界面。"
+
+#: ../src/file-share-properties.c:543
+msgid "Never"
+msgstr "从不"
+
+#: ../src/file-share-properties.c:546
+msgid "When writing files"
+msgstr "写入文件时"
+
+#: ../src/file-share-properties.c:549 ../src/file-share-properties.c:572
+msgid "Always"
+msgstr "总是"
+
+#: ../src/file-share-properties.c:575
+msgid "Only for set up devices"
+msgstr "仅对绑定的设备"
+
+#: ../src/file-share-properties.c:580
+msgid "Ask"
+msgstr "询问"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "%s 的公开文件"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "%s 在 %s 上的公开文件"
+
+#: ../src/http.c:372
+msgid "Please log in as the user guest"
+msgstr "请作为访客登录"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "你通过蓝牙收到了“%s”"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "你收到了一个文件"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "打开文件"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "显示文件"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "文件接收完成"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "仅对绑定且信任的设备"
+
+#~ msgid "gtk-help"
+#~ msgstr "gtk-help"
+
+#~ msgid "User Sharing"
+#~ msgstr "用户共享"

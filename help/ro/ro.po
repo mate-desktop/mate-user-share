@@ -1,0 +1,504 @@
+# Romanian translation for gnome-user-share.
+# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-user-share package.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-user-share master\n"
+"POT-Creation-Date: 2010-09-27 15:39+0000\n"
+"PO-Revision-Date: 2010-10-11 17:47+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: C/legal.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Copierea, distribuirea și/sau modificarea acestui document este permisă în "
+"conformitate cu termenii GNU Free Documentation License (GFDL), versiunea "
+"1.1 sau orice versiune ulterioară publicată de Free Software Foundation fără "
+"Invariant Sections, fără Front-Cover Texts și fără Back-Cover Texts. Puteți "
+"găsi o copie a GFDL la acestă <ulink type=\"help\" "
+"url=\"ghelp:fdl\">legătură</ulink> sau în fișierul COPYING-DOCS distribuit "
+"împreună cu acest manual."
+
+#: C/legal.xml:12(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Acest manual este parte dintr-o colecție de manuale GNOME distribuit sub "
+"GFDL. Dacă doriți să distribuiți acest manual separat de colecție, puteți "
+"face acest lucru adăugând manualului o copie a licenței, conform descrierii "
+"din secțiunea 6 a licenței."
+
+#: C/legal.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Multe dintre numele utilizate de companii pentru a distinge produsele și "
+"serviciile lor sunt revendicate ca mărci comerciale. Atunci când aceste nume "
+"apar în orice documentație GNOME, și membrii proiectului de documentare "
+"GNOME sunt informați despre aceste mărci comerciale, ele sunt scrise cu "
+"majuscule sau cu majusculă inițială."
+
+#: C/legal.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"Document este oferit \"CA ATARE\", FĂRĂ NICIUN FEL DE GARANŢIE, FIE EXPLICITA "
+"SAU IMPLICITE, INCLUSIV, FĂRĂ LIMITARE, GARANŢIILE că versiunea DOCUMENT sau "
+"modificate a documentului este fără defecte VÂNZARE, pentru un anumit scop "
+"anume sau ne -încalcă. RISCUL CA LA TOATA calitate, precizie, ŞI PERFORMANŢA "
+"a documentului sau versiunea modificată a DOCUMENT este cu tine. AR TREBUI "
+"orice document sau versiunea modificată DOVEDESTE DEFECT în nici o privinţă, "
+"TU (NU AUTORUL INIŢIALĂ, autorul sau orice contribuabil) ASUMATI de cost "
+"ale oricăror NECESARE SERVICE, REPARATII SAU CORECTARE. Această denegare de "
+"responsabilitate DE GARANŢIE CONSTITUIE o parte esenţială a acestei licenţe. "
+"Nici un folos a oricărui document sau versiunea modificată a documentului "
+"este AICI autorizate decât în Această denegare de responsabilitate; şi sub "
+"nicio formă şi în nici un TEORIE juridică, cu sau delictuale (inclusiv "
+"neglijenta), CONTRACT, SAU ALTFEL, VA AUTOR, scriitor iniţială, "
+"Contribuabil, SAU ORICE DISTRIBUITOR a documentului sau versiunea modificată "
+"a document, sau orice furnizor de uneia dintre părţi, poate fi supus "
+"niciunei persoană pentru orice DAUNE DIRECTE, INDIRECTE, SPECIALE, "
+"ACCIDENTALE sau rezultate, de orice caracter INCLUSIV, FĂRĂ LIMITARE, DAUNE "
+"PENTRU PIERDEREA DE BUNĂVOINŢEI, întrerupere a activităţii, eşec al "
+"calculatorului sau funcţionarea defectuoasă, SAU ORICE SI tuturor celorlalte "
+"daune sau pierderile rezultate din sau în legătură cu UTILIZAREA ale "
+"documentului şi versiuni modificate ale document, chiar dacă partidul ASTFEL "
+"DE trebuie să fi fost informaţi despre posibilitatea ASTFEL DE DAUNE."
+
+#: C/legal.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"ACEST DOCUMENT ȘI VERSIUNILE MODIFICATE ALE ACESTUI DOCUMENT SUNT FURNIZATE "
+"ÎN CONFORMITATE CU TERMENII GNU FREE DOCUMENTATION LICENSE CU ÎNȚELEGEREA "
+"CĂ: </placeholder-1>"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:81(None)
+msgid ""
+"@@image: 'figures/file-sharing-preferences.png'; "
+"md5=7ae616b8043b36be1f4943ba06d8a5ed"
+msgstr ""
+"@@image: 'figures/file-sharing-preferences.png'; "
+"md5=7a89627da860f3d477c3d366be4e01c5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:99(None)
+msgid ""
+"@@image: 'figures/sharing-over-the-network.png'; "
+"md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
+msgstr ""
+"@@image: 'figures/sharing-over-the-network.png'; "
+"md5=f76c4ab238b5459823fd488724f267db"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:143(None)
+msgid ""
+"@@image: 'figures/sharing-over-bluetooth.png'; "
+"md5=0a950502b42b1e7fdb9a57d5017e919c"
+msgstr ""
+"@@image: 'figures/sharing-over-bluetooth.png'; "
+"md5=6c15e5752ef412cf21ff778852251e4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-user-share.xml:168(None)
+msgid ""
+"@@image: 'figures/receiving-over-bluetooth.png'; "
+"md5=f292daef06767f39e346b222d3c448be"
+msgstr ""
+"@@image: 'figures/receiving-over-bluetooth.png'; "
+"md5=36d19cc30ebfec357855be4c30a2be94"
+
+#: C/gnome-user-share.xml:10(title)
+msgid "Personal File Sharing Manual"
+msgstr "Manual Partajare fișiere cu caracter personal"
+
+#: C/gnome-user-share.xml:12(year) C/gnome-user-share.xml:29(date)
+msgid "2009"
+msgstr "2009"
+
+#: C/gnome-user-share.xml:13(holder)
+msgid "Red Hat, Inc."
+msgstr "Red Hat, Inc"
+
+#: C/gnome-user-share.xml:19(firstname)
+msgid "Matthias"
+msgstr "Matthias"
+
+#: C/gnome-user-share.xml:20(surname)
+msgid "Clasen"
+msgstr "Clasen"
+
+#: C/gnome-user-share.xml:28(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: C/gnome-user-share.xml:31(para)
+msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
+
+#: C/gnome-user-share.xml:35(releaseinfo)
+msgid "This manual describes version 2.26 of gnome-user-share."
+msgstr "Acest manual descrie versiunea 2.26 a lui gnome-user-share."
+
+#: C/gnome-user-share.xml:37(title)
+msgid "Feedback"
+msgstr "Sugestii"
+
+#: C/gnome-user-share.xml:38(para)
+msgid ""
+"To report a bug or make a suggestion regarding the gnome-user-share "
+"application or this manual, follow the directions in the <ulink url=\"ghelp:"
+"user-guide?feedback-bugs\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr ""
+"Pentru a raporta o eroare sau a face o sugestie în privința aplicației "
+"gnome-user-share sau asupra acestui manual, urmați sfaturile de pe <ulink "
+"url=\"ghelp:gnome-feedback\" type=\"help\">pagina de sugestii GNOME</ulink>."
+
+#: C/gnome-user-share.xml:41(para)
+msgid ""
+"gnome-user-share is a session service that enables easy sharing of files "
+"between several computers."
+msgstr ""
+"gnome-user-social este un serviciu de sesiune care permite partajarea simplă "
+"a fișierelor între mai multe calculatoare."
+
+#: C/gnome-user-share.xml:45(primary)
+msgid "gnome-user-share"
+msgstr "gnome-user-share"
+
+#: C/gnome-user-share.xml:46(primary)
+msgid "file sharing"
+msgstr "partajare fișiere"
+
+#: C/gnome-user-share.xml:47(primary)
+msgid "sharing"
+msgstr "partajare"
+
+#: C/gnome-user-share.xml:50(title)
+msgid "Introduction"
+msgstr "Introducere"
+
+#: C/gnome-user-share.xml:51(para)
+msgid ""
+"gnome-user-share is a session service that exports the contents of the "
+"<filename>Public</filename> folder in your home directory, so that they can "
+"easily be accessed from other computers on the same local network. On the "
+"other computers, the shared folder will appear with a name like "
+"'<replaceable>user</replaceable>'s shared files' in the "
+"<application>nautilus</application> Network window, where <replaceable>user</"
+"replaceable> will be replaced by your user name."
+msgstr ""
+"gnome-user-share este un serviciu de sesiune care exportă conținutul "
+"dosarului <filename>Public</filename> din dosarul personal, astfel încât să "
+"poată fi accesat cu ușurință de pe alte calculatoare din aceeași rețea "
+"locală. Pe celelalte calculatoare din rețea, dosarul partajat va apărea în "
+"fereastra de rețea a aplicației <application>nautilus</application> cu un "
+"nume de genul „Fișiere partajate de <replaceable>utilizator</replaceable>”, "
+"unde <replaceable>utilizator</replaceable> va fi înlocuit cu numele "
+"dumneavoastră de utilizator."
+
+#: C/gnome-user-share.xml:54(para)
+msgid ""
+"gnome-user-share uses a WebDAV server to share the <filename>Public</"
+"filename> folder, and advertises the share on the local network using mDNS."
+msgstr ""
+"gnome-user-share utilizează un server WebDAV pentru a partaja dosarul "
+"<filename>Public</filename>, și anunță elementele partajate pe rețeaua "
+"locală utilizând mDNS."
+
+#: C/gnome-user-share.xml:57(para)
+msgid ""
+"Additionally, gnome-user-share can make the shared files available via "
+"ObexFTP over Bluetooth, and receive files that are sent to your computer via "
+"Bluetooth via ObexPush."
+msgstr ""
+"În plus, gnome-user-share poate face disponibile fișierele partajate prin "
+"intermediul ObexFTP prin Bluetooth, și poate primi fișierele care sunt "
+"trimise calculatorului dumneavoastră prin Bluetooth, prin intermediul "
+"ObexPush."
+
+#: C/gnome-user-share.xml:63(title)
+msgid "Getting started"
+msgstr "Primii pași"
+
+#: C/gnome-user-share.xml:66(title)
+msgid "Starting gnome-user-share"
+msgstr "Pornirea gnome-user-share"
+
+#: C/gnome-user-share.xml:68(para)
+msgid ""
+"The gnome-user-share service is normally started by <application>gnome-"
+"session</application> when you log in. You can change this by opening "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</"
+"guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying "
+"the 'User Sharing' entry in the list of startup programs."
+msgstr ""
+"Serviciul gnome-user-share este în mod normal pornit de <application>gnome-"
+"sesion</application> atunci când vă autentificați. Puteți schimba acest "
+"lucru prin deschiderea meniului <menuchoice><guimenu>Sistem</guimenu><guimen"
+"u>Preferinţe</guimenu><guimenu>Aplicații pornite după "
+"autentificare</guimenu></menuchoice> și modificați intrarea „Partajare de "
+"fișiere personale” din lista de programe pornite după autentificare."
+
+#: C/gnome-user-share.xml:72(para)
+msgid ""
+"To configure various aspects of file sharing, use the File Sharing "
+"Preferences, which can be found in the <guimenu>System</guimenu> menu under "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File Sharing</"
+"guimenu></menuchoice>."
+msgstr ""
+"Pentru a configura diverse aspecte ale partajării de fișiere, utilizați "
+"Preferințele Partajării de fișiere, care pot fi găsite în meniul <menuchoice"
+"><guimenu>Sistem</guimenu><guimenu>Preferințe</guimenu><guimenu>Partajare de "
+"fișiere personale</guimenu></menuchoice> ."
+
+#: C/gnome-user-share.xml:77(title)
+msgid "File Sharing Preferences"
+msgstr "Preferințe pentru partajarea de fișiere"
+
+#: C/gnome-user-share.xml:89(title)
+msgid "Enabling file sharing over the network"
+msgstr "Activarea partajării de fișiere în rețea"
+
+#: C/gnome-user-share.xml:90(para) C/gnome-user-share.xml:134(para)
+#: C/gnome-user-share.xml:159(para)
+msgid ""
+"Open the File Sharing Preferences using <menuchoice><guimenu>Preferences</"
+"guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the "
+"<guimenu>System</guimenu> menu."
+msgstr ""
+"Deschideți Preferințele Partajării de fișiere folosind meniul <menuchoice><g"
+"uimenu>Sistem</guimenu><guimenu>Preferințe</guimenu><guimenu>Partajare de "
+"fișiere personale</guimenu></menuchoice>."
+
+#: C/gnome-user-share.xml:95(title)
+msgid "Share Files over the Network"
+msgstr "Partajare de fișiere în rețea"
+
+#: C/gnome-user-share.xml:106(para)
+msgid ""
+"Some firewall configurations on the local machine might cause problems with "
+"the advertisment, as well as the access to the shared files. Consult your "
+"system administrator for more details."
+msgstr ""
+"Unele configurații ale paravanului de protecție de pe calculatorul local pot "
+"cauza probleme la publicarea și accesarea fișierelor partajate. Consultați "
+"administratorul de sistem pentru mai multe detalii."
+
+#: C/gnome-user-share.xml:109(para)
+msgid ""
+"Select <guilabel>Never</guilabel> to allow everybody to freely read or write "
+"files in the shared folder."
+msgstr ""
+"Selectați <guilabel>Niciodată</guilabel> pentru a permite fiecăruia să "
+"citească sau să scrie fișiere în folderul partajat."
+
+#: C/gnome-user-share.xml:115(para)
+msgid ""
+"Select <guilabel>Always</guilabel> to require the password to read or write "
+"files in the shared folder."
+msgstr ""
+"Selectați <guilabel>Întotdeauna</guilabel> pentru a fi necesară parola "
+"pentru a citi sau scrie în dosarul partajat."
+
+#: C/gnome-user-share.xml:121(para)
+msgid ""
+"Select <guilabel>When writing files</guilabel> to allow everybody to freely "
+"read files in the shared folder, but require the password when writing files."
+msgstr ""
+"Selectați <guilabel>La scrierea fișierelor</guilabel> pentru a permite "
+"tuturor să citească liber fișierele din dosarul partajat, dar să necesite "
+"parola pentru a le scrie."
+
+#: C/gnome-user-share.xml:128(para)
+msgid ""
+"When you set a password, you have to give the password to all users that you "
+"want to have access to the shared files. Therefore, you should use a "
+"password that is different from other passwords you use."
+msgstr ""
+"Când stabiliți o parolă, trebuie să dați parola tuturor utilizatorilor care "
+"vor acces la fișierele partajate. Prin urmare, ar trebui să utilizați o "
+"parolă diferită de celelalte parole pe care le utilizați."
+
+#: C/gnome-user-share.xml:104(para)
+msgid ""
+"To enable file sharing via WebDAV, use the <guilabel>Share public files on "
+"network</guilabel> checkbox. When file sharing it enabled, the controls for "
+"password protection allow to set a password that needs to be specified "
+"before a user on another computer is granted access to the shared files. "
+"<placeholder-1/><placeholder-2/><placeholder-3/>"
+msgstr ""
+"Pentru a activa partajarea fișierelor prin intermediul WebDAV, folosiți "
+"căsuța de bifare <guilabel>Partajare de fișiere publice în rețea</guilabel>. "
+"Când partajarea fișierelor este activată, comenzile pentru protecția "
+"parolei vă vor permite să stabiliți o parolă care trebuie specificată "
+"înainte ca un utilizator de pe alt calculator să aibă acces la fișierele "
+"partajate. <placeholder-1/><placeholder-2/><placeholder-3/>"
+
+#: C/gnome-user-share.xml:133(title)
+msgid "Enabling file sharing over Bluetooth"
+msgstr "Activarea partajării de fișiere prin Bluetooth"
+
+#: C/gnome-user-share.xml:139(title)
+msgid "Share Files over Bluetooth"
+msgstr "Partajați fișiere prin Bluetooth"
+
+#: C/gnome-user-share.xml:152(para)
+msgid ""
+"When you allow unbonded remote devices to access your shared files, anybody "
+"with a Bluetooth-enabled cell phone in the vicinity of your computer can "
+"access and perhaps even modify your shared files."
+msgstr ""
+"Când permiteți dispozitivelor neasociate să acceseze fișierele partajate, "
+"oricine deține un telefon celular compatibil Bluetooth din apropierea "
+"calculatorului dumneavoastră poate accesa și chiar modifica fișierele "
+"partajate."
+
+#: C/gnome-user-share.xml:148(para)
+msgid ""
+"To enable file sharing via Bluetooth, use the <guilabel>Share public files "
+"over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to "
+"delete files in your shared folder, use the <guilabel>Allow remote devices "
+"to delete files</guilabel> checkbox. To allow remote Bluetooth devices to "
+"access your shared files even when they are not bonded with your computer, "
+"use the <guilabel>Require remote devices to pair with this computer</"
+"guilabel> checkbox. <placeholder-1/>"
+msgstr ""
+"Pentru a activa partajarea fișierelor prin Bluetooth, utilizați căsuța de "
+"bifare <guilabel>Partajați fișiere publice prin Bluetooth</guilabel>. Pentru "
+"a permite dispozitivelor Bluetooth de la distanță să șteargă fișierele din "
+"dosarul partajat, utilizați căsuța de bifare <guilabel>Permite "
+"dispozitivelor la distanță să șteargă fișiere</guilabel>. Pentru a permite "
+"dispozitivelor Bluetooth să acceseze fișierele partajate chiar și atunci "
+"când nu sunt asociate cu calculatorul dumneavoastră, utilizați căsuța de "
+"bifare <guilabel>Cere dispozitivelor la distanță să se asocieze cu acest "
+"calculator</guilabel>. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:158(title)
+msgid "Receiving Files over Bluetooth"
+msgstr "Primirea fișierelor prin Bluetooth"
+
+#: C/gnome-user-share.xml:164(title)
+msgid "Receive Files over Bluetooth"
+msgstr "Primire Fișiere prin Bluetooth"
+
+#: C/gnome-user-share.xml:177(para)
+msgid ""
+"Select <guilabel>Always</guilabel> to allow any remote device to send files."
+msgstr ""
+"Selectați <guilabel>Întotdeauna</guilabel> pentru a permite oricărui "
+"dispozitiv de la distanță să trimită fișiere."
+
+#: C/gnome-user-share.xml:184(para)
+msgid ""
+"Bonded devices are the ones that were connected to your computer, and had to "
+"enter a PIN code to connect to or from."
+msgstr ""
+"Dispozitivele asociate sunt cele care au fost conectate la calculator, și "
+"pentru care ați introdus un cod PIN pentru a le conecta."
+
+#: C/gnome-user-share.xml:182(para)
+msgid ""
+"Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
+"from bonded devices. <placeholder-1/>"
+msgstr ""
+"Selectați <guilabel>Doar pentru dispozitivele asociate</guilabel> pentru a "
+"accepta fișiere numai de la dispozitivele asociate. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:191(para)
+msgid ""
+"Devices can be marked as trusted in the <application>bluetooth-properties</"
+"application>'s <guilabel>Known devices</guilabel> section."
+msgstr ""
+"Dispozitivele pot fi marcate „de încredere” în secția <guilabel>Dispozitive "
+"cunoscute<guilabel> din <application>bluetooth-properties</application>."
+
+#: C/gnome-user-share.xml:189(para)
+msgid ""
+"Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
+"files only from bonded devices. <placeholder-1/>"
+msgstr ""
+"Selectați <guilabel>Doar pentru dispozitivele asociate și de încredere</"
+"guilabel> pentru a accepta fișiere numai de la dispozitivele asociate și de "
+"încredere. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:173(para)
+msgid ""
+"To let remote Bluetooth devices send files to your computer, use the "
+"<guilabel>Receive files in Downloads folder over Bluetooth</guilabel> "
+"checkbox. Received files will be stored in the <filename>Downloads</"
+"filename> folder in your home directory. When receiving files is enabled, "
+"the <guilabel>Accept files</guilabel> selection allows you to determine "
+"which remote devices are allowed to send files. <placeholder-1/>"
+msgstr ""
+"Pentru a permite dispozitivelor Bluetooth să trimită fișiere către "
+"calculatorul dumneavoastră, folosiți căsuța de bifare <guilabel>Primește "
+"fișiere prin Bluetooth în dosarul Descărcări</guilabel>. Fișierele primite "
+"vor fi stocate în dosarul <filename>Descărcări</filename> din directorul "
+"Acasă. Când primirea fișierelor este activată, selecția <guilabel>Acceptă "
+"fișiere</guilabel> vă permite să determinați care dintre dispozitive au "
+"dreptul să trimită fișiere. <placeholder-1/>"
+
+#: C/gnome-user-share.xml:196(para)
+msgid ""
+"Use the <guilabel>Notify about received files</guilabel> checkbox to select "
+"whether you want to be notified whenever a file is received via Bluetooth."
+msgstr ""
+"Utilizați căsuța de bifare <guilabel>Notifică fișierele primite</guilabel> "
+"pentru a selecta dacă doriți să fiți notificat ori de câte ori un fișier "
+"este primit prin Bluetooth."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/gnome-user-share.xml:0(None)
+msgid "translator-credits"
+msgstr "Daniel Șerbănescu <cyber19rider@gmail.com>, 2010"

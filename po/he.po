@@ -1,0 +1,269 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-30 04:10+0300\n"
+"PO-Revision-Date: 2010-05-30 04:14+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+msgid "Share Public directory over Bluetooth"
+msgstr "Share Public directory over Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+msgid "Share Public directory over the network"
+msgstr "Share Public directory over the network"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+msgid "When to accept files sent over Bluetooth"
+msgstr "When to accept files sent over Bluetooth"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+msgid "When to require passwords"
+msgstr "When to require passwords"
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Whether Bluetooth clients can send files using ObexPush."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+msgid "Whether Bluetooth clients need to pair with the computer to send files."
+msgstr ""
+"Whether Bluetooth clients need to pair with the computer to send files."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Whether to allow Bluetooth clients to write files."
+
+#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+msgid "Whether to notify about newly received files."
+msgstr "Whether to notify about newly received files."
+
+#: ../data/file-share-properties.ui.h:1
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>קבל קבצים דרך Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>שתף קבצים דרך Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>שתף קבצים ברשת</b>"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "Allo_w remote devices to delete files"
+msgstr "_אפשר להתקנים מרוחקים למחוק קבצים"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "Personal File Sharing Preferences"
+msgstr "העדפות לשיתוף קבצים אישיים"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "קבל _קבצים אל תיקיית ההורדות דרך Bluetooth"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Require re_mote devices to bond with this computer"
+msgstr "דרוש מהתקנים מרוחקים ליצור _איגוד עם מחשב זה"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Share public files over _Bluetooth"
+msgstr "שיתוף קבצים _ציבוריים דרך Bluetooth"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "_Accept files: "
+msgstr "_קבלת קבצים:"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "_Notify about received files"
+msgstr "ה_ודעה אודות קבצים שהתקבלו"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "_Password:"
+msgstr "ססמה:"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Require password:"
+msgstr "_דרישת סיסמה:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Share public files on network"
+msgstr "_שיתוף קבצים ציבוריים ברשת"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+msgid "Personal File Sharing"
+msgstr "שיתוף קבצים אישיים"
+
+#: ../data/gnome-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "העדפות לשיתוף קבצים"
+
+#: ../data/gnome-user-share.desktop.in.in.h:1
+msgid "Launch Personal File Sharing if enabled"
+msgstr "טעינת שיתוף קבצים אישיים אם פעיל"
+
+#: ../src/nautilus-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "העדפות הטעינה"
+
+#: ../src/nautilus-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "טעינת העדפות שיתוף הקבצים האישיים"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "לא ניתן לטעון את העדפות שיתוף הקבצים האישיים"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "ניתן לשתף קבצים מתיקייה זו ולקבל אליה קבצים"
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "ניתן לשתף קבצים בתוך הרשת ודרך Bluetooth"
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "ניתן לקבל קבצים באמצעות Bluetooth לתיקייה זו"
+
+#: ../src/file-share-properties.c:436
+msgid "No reason"
+msgstr "ללא סיבה"
+
+#: ../src/file-share-properties.c:464
+msgid "Could not display the help contents."
+msgstr "לא ניתן להציג את תכני העזרה"
+
+#: ../src/file-share-properties.c:524
+msgid "Could not build interface."
+msgstr "לא ניתן לבנות את המנשק."
+
+#: ../src/file-share-properties.c:566
+msgid "Never"
+msgstr "לעולם לא"
+
+#: ../src/file-share-properties.c:569
+msgid "When writing files"
+msgstr "בכתיבת קבצים"
+
+#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+msgid "Always"
+msgstr "תמיד"
+
+#: ../src/file-share-properties.c:598
+msgid "Only for set up devices"
+msgstr "רק עבור התקנים שהותקנו"
+
+#: ../src/file-share-properties.c:603
+msgid "Ask"
+msgstr "הצגת שאלה"
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:134
+#, c-format
+msgid "%s's public files"
+msgstr "הקבצים הציבוריים של %s"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:138
+#, c-format
+msgid "%s's public files on %s"
+msgstr "הקבצים הציבוריים של %s על %s"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:140
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "קיבלת \"%s\" דרך Bluetooth"
+
+#: ../src/obexpush.c:142
+msgid "You received a file"
+msgstr "קבלת קובץ"
+
+#: ../src/obexpush.c:153
+msgid "Open File"
+msgstr "פתיחת קובץ"
+
+#: ../src/obexpush.c:157
+msgid "Reveal File"
+msgstr "גילוי קובץ"
+
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr "קבלת הקובץ הושלמה"
+
+#~ msgid "Only for Bonded and Trusted devices"
+#~ msgstr "רק עבור התקנים מאוגדים ומהימנים"
+
+#~ msgid "Please log in as the user guest"
+#~ msgstr "אנא התחבר כאורח"
+
+#~ msgid "User Sharing"
+#~ msgstr "שיתוף משתמשים"
