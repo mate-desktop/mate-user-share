@@ -1,4 +1,4 @@
-# translation of gnome-user-share.master.gu.po to Gujarati
+# translation of mateuser-share.master.gu.po to Gujarati
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -6,8 +6,8 @@
 # Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share.master.gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"Project-Id-Version: mateuser-share.master.gu\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mateuser-share&component=general\n"
 "POT-Creation-Date: 2009-12-14 21:47+0000\n"
 "PO-Revision-Date: 2010-02-05 16:41+0530\n"
 "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -27,7 +27,7 @@ msgstr ""
 "જો આ ખરું હોય, તો વપરાશકર્તાઓ ડાઉનલોડ ડિરેક્ટરીમાં બ્લુટુથ ઉપકરણો એ ફાઇલો ને મોકલી શકે "
 "છે જ્યારે વપરાશકર્તા પ્રવેશ કરે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -35,7 +35,7 @@ msgstr ""
 "જો આ ખરું હોય, તો વપરાશકર્તાઓ ઘર ડિરેક્ટરીમાંની જાહેર ડિરેક્ટરી બ્લુટુથ પર વહેંચાશે જ્યારે "
 "વપરાશકર્તા પ્રવેશ કરે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -43,19 +43,19 @@ msgstr ""
 "જો આ ખરું હોય, તો વપરાશકર્તાઓ ઘર ડિરેક્ટરીમાંની જાહેર ડિરેક્ટરી નેટવર્ક પર વહેંચાશે જ્યારે "
 "વપરાશકર્તા પ્રવેશ કરે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "બ્લુટુથ પર જાહેર ડિરેક્ટરી વહેંચો"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "નેટવર્ક પર જાહેર ડિરેક્ટરીને વહેંચો"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "ક્યારે બ્લુટુથ પર મોકલેલ ફાઇલોને સ્વીકારો છો"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 #| msgid ""
 #| "When to accept files sent over Bluetooth. Possible values are \"always\", "
 #| "\"bonded\", \"bonded_trusted\" and \"ask\"."
@@ -64,25 +64,25 @@ msgid ""
 "\"bonded\" and \"ask\"."
 msgstr "ક્યારે બ્લૂટુથ પર મોકલેલ ફાઇલોને સ્વીકારો છો. શક્ય કિંમતો \"always\", \"bonded\", અને \"ask\" છે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr "પાસવર્ડો માટે ક્યારે પૂછવું. \"ક્યારેય નહિં\", \"લખવા પર\", અને \"હંમેશા\" શક્ય કિંમતો છે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "ક્યારે પાસવર્ડો જરૂરી છે"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "ક્યાંતો ObexPush ની મદદથી બ્લુટુથ ક્લાઇન્ટો ફાઇલો ને મોકલી શકે છે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "ક્યાંતો ફાઇલો ને મોકલવા માટે કૉમ્પયુટર સાથે બ્લુટુથ ક્લાઇન્ટોને જોડીની જરૂર છે."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -90,11 +90,11 @@ msgstr ""
 "ક્યાંતો ફાઇલો ને લખવા માટે બ્લુટુથ ક્લાઇન્ટોને પરવાનગી આપો. અથવા ફક્ત વાંચી શકાય તેવી "
 "ફાઇલોને વહેંચો."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "ક્યાંતો ફાઇલો ને લખવા માટે બ્લુટુથ ક્લાઇન્ટોને પરવાનગી આપો."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "ક્યાંતો નવી મેળવેલ ફાઇલો વિશે સૂચિત કરો."
 
@@ -150,24 +150,24 @@ msgstr "જરૂરી પાસવર્ડ (_R):"
 msgid "_Share public files on network"
 msgstr "નેટવર્ક પર જાહેર ફાઈલો વહેંચો (_S)"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "ખાનગી ફાઈલ વહેંચણી"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "ફાઇલોની વહેંચણી માટે પસંદગીઓ"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "વ્યક્તિગત ફાઇલ વહેંચણીને પ્રકાશિત કરો જો સક્રિય હોય તો"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "શરૂ કરવાની પસંદગીઓ"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 #| msgid "Personal File Sharing Preferences"
 msgid "Launch Personal File Sharing Preferences"
 msgstr "વ્યક્તિગત ફાઈલ વહેંચણી પસંદગીઓને શરૂ કરો"

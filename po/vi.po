@@ -4,8 +4,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share TRUNK\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share TRUNK\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2009-01-31 14:14+0000\n"
 "PO-Revision-Date: 2009-02-07 16:48+1030\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.8\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 #| msgid ""
 #| "If this is true, the Public directory in the users home directory will be "
 #| "shared when the user is logged in."
@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Nếu đúng thì thiết bị Bluetooth có khả năng gửi tập tin cho thư mục Tải Về (Downloads) của người dùng khi họ được đăng nhập."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 #| msgid ""
 #| "If this is true, the Public directory in the users home directory will be "
 #| "shared when the user is logged in."
@@ -38,7 +38,7 @@ msgstr ""
 "Nếu đúng thì thư mục Công (Public) trong thư mục chính của người dùng sẽ được chia sẻ "
 "thông qua Bluetooth khi họ được đăng nhập."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 #| msgid ""
 #| "If this is true, the Public directory in the users home directory will be "
 #| "shared when the user is logged in."
@@ -49,21 +49,21 @@ msgstr ""
 "Nếu đúng thì thư mục Công (Public) trong thư mục chính của người dùng sẽ được chia sẻ "
 "qua mạng khi họ được đăng nhập."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 #| msgid "Share Public directory"
 msgid "Share Public directory over Bluetooth"
 msgstr "Chia sẻ thư mục Công qua Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 #| msgid "Share Public files on network"
 msgid "Share Public directory over the network"
 msgstr "Chia sẻ tập tin Công qua mạng"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Khi nào nên chấp nhận tập tin gửi qua Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 #| msgid ""
 #| "When to ask for passwords. Possible values are \"never\", \"on_write\", "
 #| "and \"always\"."
@@ -77,7 +77,7 @@ msgstr ""
 " • bonded trusted	được cam kết và tin cậy\n"
 " • ask		hỏi."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -87,29 +87,29 @@ msgstr ""
 " • on_write	khi ghi\n"
 " • always		lúc nào cũng làm."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Khi nào nên yêu cầu mật khẩu"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Ứng dụng khách Bluetooth có khả năng gửi tập tin dùng ObexPush, hay không."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Ứng dụng khách Bluetooth cần kết đôi với máy tính để gửi tập tin, hay không."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
 msgstr "Có nên cho phép ứng dụng khách Bluetooth ghi tập tin, hoặc chia sẻ tập tin chỉ-đọc."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Có nên cho phép ứng dụng khách Bluetooth ghi tập tin hay không."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Có nên thông báo về tập tin mới nhận hay không."
 
@@ -173,19 +173,19 @@ msgstr "Chia _sẻ tập tin công trên mạng"
 msgid "gtk-help"
 msgstr "gtk-help"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
+#: ../data/mateuser-share-properties.desktop.in.h:1
 msgid "Personal File Sharing"
 msgstr "Chia sẻ Tập tin Cá nhân"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of personal files"
 msgstr "Tuỳ thích về chức năng chia sẻ tập tin cá nhân"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch User Sharing if enabled"
 msgstr "Khởi chạy Chia sẻ Người dùng nếu được bật"
 
-#: ../data/gnome-user-share.desktop.in.in.h:2
+#: ../data/mateuser-share.desktop.in.in.h:2
 #| msgid "Personal File Sharing"
 msgid "User Sharing"
 msgstr "Chia sẻ Người dùng"

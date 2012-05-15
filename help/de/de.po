@@ -1,13 +1,13 @@
-# German translation of the gnome-user-share manual.
-# Mario Blättermann <mariobl@gnome.org>, 2009, 2010.
+# German translation of the mateuser-share manual.
+# Mario Blättermann <mariobl@mateorg>, 2009, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-12-14 21:47+0000\n"
 "PO-Revision-Date: 2010-01-17 13:21+0100\n"
-"Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
-"Language-Team: German <gnome-de@gnome.org>\n"
+"Last-Translator: Mario Blättermann <mariobl@mateorg>\n"
+"Language-Team: German <matede@mateorg>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,7 +120,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:81(None)
+#: C/mateuser-share.xml:81(None)
 msgid ""
 "@@image: 'figures/file-sharing-preferences.png'; "
 "md5=7ae616b8043b36be1f4943ba06d8a5ed"
@@ -130,7 +130,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:99(None)
+#: C/mateuser-share.xml:99(None)
 msgid ""
 "@@image: 'figures/sharing-over-the-network.png'; "
 "md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
@@ -140,7 +140,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:143(None)
+#: C/mateuser-share.xml:143(None)
 msgid ""
 "@@image: 'figures/sharing-over-bluetooth.png'; "
 "md5=0a950502b42b1e7fdb9a57d5017e919c"
@@ -150,7 +150,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:168(None)
+#: C/mateuser-share.xml:168(None)
 msgid ""
 "@@image: 'figures/receiving-over-bluetooth.png'; "
 "md5=f292daef06767f39e346b222d3c448be"
@@ -158,47 +158,47 @@ msgstr ""
 "@@image: 'figures/receiving-over-bluetooth.png'; "
 "md5=f292daef06767f39e346b222d3c448be"
 
-#: C/gnome-user-share.xml:10(title)
+#: C/mateuser-share.xml:10(title)
 msgid "Personal File Sharing Manual"
 msgstr "»Persönliche Dateifreigabe«-Handbuch"
 
-#: C/gnome-user-share.xml:12(year) C/gnome-user-share.xml:29(date)
+#: C/mateuser-share.xml:12(year) C/mateuser-share.xml:29(date)
 msgid "2009"
 msgstr "2009"
 
-#: C/gnome-user-share.xml:13(holder)
+#: C/mateuser-share.xml:13(holder)
 msgid "Red Hat, Inc."
 msgstr "Red Hat, Inc."
 
-#: C/gnome-user-share.xml:19(firstname)
+#: C/mateuser-share.xml:19(firstname)
 msgid "Matthias"
 msgstr "Matthias"
 
-#: C/gnome-user-share.xml:20(surname)
+#: C/mateuser-share.xml:20(surname)
 msgid "Clasen"
 msgstr "Clasen"
 
-#: C/gnome-user-share.xml:28(revnumber)
+#: C/mateuser-share.xml:28(revnumber)
 msgid "1.0"
 msgstr "1.0"
 
-#: C/gnome-user-share.xml:31(para)
+#: C/mateuser-share.xml:31(para)
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
 msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
-#: C/gnome-user-share.xml:35(releaseinfo)
-msgid "This manual describes version 2.26 of gnome-user-share."
+#: C/mateuser-share.xml:35(releaseinfo)
+msgid "This manual describes version 2.26 of mateuser-share."
 msgstr ""
 "Dieses Handbuch beschreibt Version 2.26 der <application>Persönlichen "
 "Dateifreigabe</application>."
 
-#: C/gnome-user-share.xml:37(title)
+#: C/mateuser-share.xml:37(title)
 msgid "Feedback"
 msgstr "Rückmeldungen"
 
-#: C/gnome-user-share.xml:38(para)
+#: C/mateuser-share.xml:38(para)
 msgid ""
-"To report a bug or make a suggestion regarding the gnome-user-share "
+"To report a bug or make a suggestion regarding the mateuser-share "
 "application or this manual, follow the directions in the <ulink url=\"ghelp:"
 "user-guide?feedback-bugs\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
@@ -208,39 +208,39 @@ msgstr ""
 "feedback-bugs\" type=\"help\">Abschnitt Rückmeldungen des Benutzerhandbuchs</"
 "ulink>.\""
 
-#: C/gnome-user-share.xml:41(para)
+#: C/mateuser-share.xml:41(para)
 msgid ""
-"gnome-user-share is a session service that enables easy sharing of files "
+"mateuser-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
 "Die <application>Persönliche Dateifreigabe</application> ist ein "
 "Sitzungsdienst, der das einfache Freigeben von Dateien zur Nutzung auf "
 "mehreren Rechnern ermöglicht."
 
-#: C/gnome-user-share.xml:45(primary)
-msgid "gnome-user-share"
-msgstr "gnome-user-share"
+#: C/mateuser-share.xml:45(primary)
+msgid "mateuser-share"
+msgstr "mateuser-share"
 
-#: C/gnome-user-share.xml:46(primary)
+#: C/mateuser-share.xml:46(primary)
 msgid "file sharing"
 msgstr "Dateifreigabe"
 
-#: C/gnome-user-share.xml:47(primary)
+#: C/mateuser-share.xml:47(primary)
 msgid "sharing"
 msgstr "Freigabe"
 
-#: C/gnome-user-share.xml:50(title)
+#: C/mateuser-share.xml:50(title)
 msgid "Introduction"
 msgstr "Einführung"
 
-#: C/gnome-user-share.xml:51(para)
+#: C/mateuser-share.xml:51(para)
 msgid ""
-"gnome-user-share is a session service that exports the contents of the "
+"mateuser-share is a session service that exports the contents of the "
 "<filename>Public</filename> folder in your home directory, so that they can "
 "easily be accessed from other computers on the same local network. On the "
 "other computers, the shared folder will appear with a name like "
 "'<replaceable>user</replaceable>'s shared files' in the "
-"<application>nautilus</application> Network window, where <replaceable>user</"
+"<application>caja</application> Network window, where <replaceable>user</"
 "replaceable> will be replaced by your user name."
 msgstr ""
 "Die <application>Persönliche Dateifreigabe</application> ist ein "
@@ -252,18 +252,18 @@ msgstr ""
 "<application>Nautilus</application>, wobei <replaceable>Benutzer</"
 "replaceable> durch Ihren Benutzernamen ersetzt wird."
 
-#: C/gnome-user-share.xml:54(para)
+#: C/mateuser-share.xml:54(para)
 msgid ""
-"gnome-user-share uses a WebDAV server to share the <filename>Public</"
+"mateuser-share uses a WebDAV server to share the <filename>Public</"
 "filename> folder, and advertises the share on the local network using mDNS."
 msgstr ""
 "Die <application>Persönliche Dateifreigabe</application> benutzt zur Freigabe "
 "des Ordners <filename>Öffentlich</filename> einen WebDAV-Server und "
 "veröffentlicht die Freigabe im lokalen Netzwerk unter Verwendung von mDNS."
 
-#: C/gnome-user-share.xml:57(para)
+#: C/mateuser-share.xml:57(para)
 msgid ""
-"Additionally, gnome-user-share can make the shared files available via "
+"Additionally, mateuser-share can make the shared files available via "
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via "
 "Bluetooth via ObexPush."
 msgstr ""
@@ -272,30 +272,30 @@ msgstr ""
 "Empfang von zu Ihrem Rechner per Bluetooth über ObexPush gesendeten Dateien "
 "ist ebenfalls möglich."
 
-#: C/gnome-user-share.xml:63(title)
+#: C/mateuser-share.xml:63(title)
 msgid "Getting started"
 msgstr "Erste Schritte"
 
-#: C/gnome-user-share.xml:66(title)
-msgid "Starting gnome-user-share"
+#: C/mateuser-share.xml:66(title)
+msgid "Starting mateuser-share"
 msgstr "Persönliche Dateifreigabe starten"
 
-#: C/gnome-user-share.xml:68(para)
+#: C/mateuser-share.xml:68(para)
 msgid ""
-"The gnome-user-share service is normally started by <application>gnome-"
+"The mateuser-share service is normally started by <application>mate"
 "session</application> when you log in. You can change this by opening "
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</"
 "guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying "
 "the 'User Sharing' entry in the list of startup programs."
 msgstr ""
 "Der Dienst zur <application>Persönliche Dateifreigabe</application> wird "
-"normalerweise bereits durch <application>gnome-session</application> nach "
+"normalerweise bereits durch <application>matesession</application> nach "
 "Ihrer Anmeldung gestartet. Sie können dies ändern, indem Sie "
 "<menuchoice><guimenu>Einstellungen</guimenu><guimenu>Startprogramme</"
 "guimenu></menuchoice> im Menü  <guimenu>System</guimenu> öffnen. Ändern Sie "
 "hier den Eintrag »Benutzerfreigabe« in der Liste der Startprogramme."
 
-#: C/gnome-user-share.xml:72(para)
+#: C/mateuser-share.xml:72(para)
 msgid ""
 "To configure various aspects of file sharing, use the File Sharing "
 "Preferences, which can be found in the <guimenu>System</guimenu> menu under "
@@ -307,16 +307,16 @@ msgstr ""
 "<menuchoice><guimenu>Einstellungen</guimenu><guimenu>Persönliche "
 "Dateifreigabe</guimenu></menuchoice>."
 
-#: C/gnome-user-share.xml:77(title)
+#: C/mateuser-share.xml:77(title)
 msgid "File Sharing Preferences"
 msgstr "Einstellungen zur Freigabe persönlicher Dateien"
 
-#: C/gnome-user-share.xml:89(title)
+#: C/mateuser-share.xml:89(title)
 msgid "Enabling file sharing over the network"
 msgstr "Aktivieren der Dateifreigabe über das Netzwerk"
 
-#: C/gnome-user-share.xml:90(para) C/gnome-user-share.xml:134(para)
-#: C/gnome-user-share.xml:159(para)
+#: C/mateuser-share.xml:90(para) C/mateuser-share.xml:134(para)
+#: C/mateuser-share.xml:159(para)
 msgid ""
 "Open the File Sharing Preferences using <menuchoice><guimenu>Preferences</"
 "guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the "
@@ -326,11 +326,11 @@ msgstr ""
 "<menuchoice><guimenu>Einstellungen</guimenu><guimenu>Persönliche "
 "Dateifreigabe</guimenu></menuchoice>."
 
-#: C/gnome-user-share.xml:95(title)
+#: C/mateuser-share.xml:95(title)
 msgid "Share Files over the Network"
 msgstr "Dateifreigabe über das Netzwerk"
 
-#: C/gnome-user-share.xml:106(para)
+#: C/mateuser-share.xml:106(para)
 msgid ""
 "Some firewall configurations on the local machine might cause problems with "
 "the advertisment, as well as the access to the shared files. Consult your "
@@ -340,7 +340,7 @@ msgstr ""
 "sowohl bei der Anzeige als auch beim Zugriff auf die freigegebenen Dateien "
 "verursachen. Fragen Sie Ihren Systemverwalter nach Einzelheiten hierzu."
 
-#: C/gnome-user-share.xml:109(para)
+#: C/mateuser-share.xml:109(para)
 msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write "
 "files in the shared folder."
@@ -348,7 +348,7 @@ msgstr ""
 "Wählen Sie <guilabel>Niemals</guilabel>, um jedem das Lesen oder Schreiben "
 "von Dateien im öffentlichen Ordner zu erlauben."
 
-#: C/gnome-user-share.xml:115(para)
+#: C/mateuser-share.xml:115(para)
 msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
@@ -356,7 +356,7 @@ msgstr ""
 "Wählen Sie <guilabel>Immer</guilabel>, um festzulegen, dass zum Lesen oder "
 "Schreiben von Dateien im öffentlichen Ordner das Passwort erforderlich ist."
 
-#: C/gnome-user-share.xml:121(para)
+#: C/mateuser-share.xml:121(para)
 msgid ""
 "Select <guilabel>When writing files</guilabel> to allow everybody to freely "
 "read files in the shared folder, but require the password when writing files."
@@ -365,7 +365,7 @@ msgstr ""
 "Lesen von Dateien im öffentlichen Ordner zu erlauben. Für das Schreiben von "
 "Dateien ist in diesem Fall das Passwort erforderlich."
 
-#: C/gnome-user-share.xml:128(para)
+#: C/mateuser-share.xml:128(para)
 msgid ""
 "When you set a password, you have to give the password to all users that you "
 "want to have access to the shared files. Therefore, you should use a password "
@@ -376,7 +376,7 @@ msgstr ""
 "ist ratsam, hierfür ein Passwort zu verwenden, dass sich von Ihren anderen "
 "Passwörtern unterscheidet."
 
-#: C/gnome-user-share.xml:104(para)
+#: C/mateuser-share.xml:104(para)
 msgid ""
 "To enable file sharing via WebDAV, use the <guilabel>Share public files on "
 "network</guilabel> checkbox. When file sharing it enabled, the controls for "
@@ -391,15 +391,15 @@ msgstr ""
 "Benutzers auf die freigegebenen Dateien erforderlich ist. <placeholder-1/"
 "><placeholder-2/><placeholder-3/>"
 
-#: C/gnome-user-share.xml:133(title)
+#: C/mateuser-share.xml:133(title)
 msgid "Enabling file sharing over Bluetooth"
 msgstr "Aktivieren der Dateifreigabe über Bluetooth"
 
-#: C/gnome-user-share.xml:139(title)
+#: C/mateuser-share.xml:139(title)
 msgid "Share Files over Bluetooth"
 msgstr "Dateifreigabe über Bluetooth"
 
-#: C/gnome-user-share.xml:152(para)
+#: C/mateuser-share.xml:152(para)
 msgid ""
 "When you allow unbonded remote devices to access your shared files, anybody "
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
@@ -410,7 +410,7 @@ msgstr ""
 "aktivierte Mobiltelefon, der sich im Bereich Ihres Rechners befindet, auf "
 "Ihre freigegebenen Dateien zugreifen und diese eventuell auch verändern."
 
-#: C/gnome-user-share.xml:148(para)
+#: C/mateuser-share.xml:148(para)
 msgid ""
 "To enable file sharing via Bluetooth, use the <guilabel>Share public files "
 "over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to "
@@ -430,22 +430,22 @@ msgstr ""
 "das Ankreuzfeld <guilabel>Das Verbinden entfernter Geräte mit diesem Computer "
 "voraussetzen</guilabel>. <placeholder-1/>"
 
-#: C/gnome-user-share.xml:158(title)
+#: C/mateuser-share.xml:158(title)
 msgid "Receiving Files over Bluetooth"
 msgstr "Empfangen von Dateien über Bluetooth"
 
-#: C/gnome-user-share.xml:164(title)
+#: C/mateuser-share.xml:164(title)
 msgid "Receive Files over Bluetooth"
 msgstr "Empfangen von Dateien über Bluetooth"
 
-#: C/gnome-user-share.xml:177(para)
+#: C/mateuser-share.xml:177(para)
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
 "Wählen Sie <guilabel>Immer</guilabel>, um jedem entfernten Gerät das Senden "
 "von Dateien zu erlauben."
 
-#: C/gnome-user-share.xml:184(para)
+#: C/mateuser-share.xml:184(para)
 msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to "
 "enter a PIN code to connect to or from."
@@ -454,7 +454,7 @@ msgstr ""
 "wobei die Eingabe einer PIN für die Verbindung vom und zum Gerät erforderlich "
 "ist."
 
-#: C/gnome-user-share.xml:182(para)
+#: C/mateuser-share.xml:182(para)
 msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only from "
 "bonded devices. <placeholder-1/>"
@@ -462,7 +462,7 @@ msgstr ""
 "Wählen Sie <guilabel>Nur für verbundene Geräte</guilabel>, um Dateien nur von "
 "verbundenen Geräten zu akzeptieren."
 
-#: C/gnome-user-share.xml:191(para)
+#: C/mateuser-share.xml:191(para)
 msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-properties</"
 "application>'s <guilabel>Known devices</guilabel> section."
@@ -471,7 +471,7 @@ msgstr ""
 "<application>Bluetooth-Einstellungen</application> als vertrauenswürdig "
 "markiert werden."
 
-#: C/gnome-user-share.xml:189(para)
+#: C/mateuser-share.xml:189(para)
 msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <placeholder-1/>"
@@ -480,7 +480,7 @@ msgstr ""
 "guilabel>, um Dateien nur von vertrauenswürdig verbundenen Geräten zu "
 "akzeptieren. <placeholder-1/>"
 
-#: C/gnome-user-share.xml:173(para)
+#: C/mateuser-share.xml:173(para)
 msgid ""
 "To let remote Bluetooth devices send files to your computer, use the "
 "<guilabel>Receive files in Downloads folder over Bluetooth</guilabel> "
@@ -497,7 +497,7 @@ msgstr ""
 "Auswahl von <guilabel>Dateien akzeptieren</guilabel>, welchen entfernten "
 "Geräten das Senden von Dateien erlaubt werden soll. <placeholder-1/>"
 
-#: C/gnome-user-share.xml:196(para)
+#: C/mateuser-share.xml:196(para)
 msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
@@ -507,6 +507,6 @@ msgstr ""
 "über Bluetooth benachrichtigt werden wollen."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/gnome-user-share.xml:0(None)
+#: C/mateuser-share.xml:0(None)
 msgid "translator-credits"
-msgstr "Mario Blättermann <mariobl@gnome.org>, 2009, 2010"
+msgstr "Mario Blättermann <mariobl@mateorg>, 2009, 2010"

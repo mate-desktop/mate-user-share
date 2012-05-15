@@ -1,12 +1,12 @@
-# Norwegian Nynorsk translation for gnome-user-share.
-# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-user-share package.
+# Norwegian Nynorsk translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-03-30 20:22+0000\n"
 "PO-Revision-Date: 2010-04-03 12:57+0200\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -25,7 +25,7 @@ msgstr ""
 "Om denne er sann så vil blåtanneiningar kunne senda filer til "
 "nedlastningsmappa til brukaren når han er logga på."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -33,7 +33,7 @@ msgstr ""
 "Om denne er sann så vil den offentlege mappa i heimemappa til brukaren verta "
 "delt over blåtann når brukaren er logga på."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -41,20 +41,20 @@ msgstr ""
 "Om denne er sann så vil den offentlege mappa i heimemappa til brukaren verta "
 "delt over nettverket når brukaren er logga på."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Del den offentlege mappa over blåtann"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Del den offentlege mappa over nettverket"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Når filer sendt over blåtann skal godtakast"
 
 # «bonded»?
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -62,7 +62,7 @@ msgstr ""
 "Når filer sendt over blåtann skal godtakast. Moglege verdiar er "
 "«always» (alltid), «bonded» (bunde) og «ask» (spør)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -70,19 +70,19 @@ msgstr ""
 "Når passord skal spørjast etter. Moglege verdiar er «never» (aldri), "
 "«on_write» (under tilskriving) og «always» (alltid)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Når passord skal spørjast etter"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Om blåtannklientar kan senda filer ved bruk av ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Om blåtannklientar må para med datamaskina for å senda filer"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -90,11 +90,11 @@ msgstr ""
 "Om blåtannklientar kan skriva filer, eller berre dela filene med berre-"
 "lesbar-løyve."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Om blåtannklientar kan skriva filer."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Om det skal sendast varsel om nyleg mottekne filer."
 
@@ -150,24 +150,24 @@ msgstr "_Krev passord:"
 msgid "_Share public files on network"
 msgstr "_Del offentlege filer på nettverket"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Personleg fildeling"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Innstillingar for deling av filer"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Køyr personleg fildeling om slått på"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Køyr innstillingar"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Køyr personleg fildelingsinnstillingar"
 

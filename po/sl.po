@@ -1,17 +1,17 @@
-# Slovenian translation of gnome-user-share.
+# Slovenian translation of mateuser-share.
 # Copyright (C) 2005-2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 #
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
+# Matej Urbančič <mateju@svn.mateorg>, 2007 - 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"Project-Id-Version: mateuser-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mateuser-share&component=general\n"
 "POT-Creation-Date: 2009-10-27 20:46+0000\n"
 "PO-Revision-Date: 2010-06-02 15:04+0100\n"
-"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Last-Translator: Matej Urbančič <mateju@svn.mateorg>\n"
+"Language-Team: Slovenian GNOME Translation Team <matesi@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,59 +20,59 @@ msgstr ""
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
 msgstr "Možnost omogoča, da Bluetooth naprave pošiljajo datoteke v uporabnikovo mapo prejetih datotek, ko je uporabnik prijavljen v sistem."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
 msgstr "Možnost omogoča, da je javna mapa v uporabnikovi domači mapi v souporabi preko Bluetooth, ko je uporabnik prijavljen v sistem."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
 msgstr "Možnost omogoča, da je javna mapa v uporabnikovi domači mapi v souporabi preko omrežja, ko je uporabnik prijavljen v sistem."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Souporaba javne mape preko Bluetooth povezave"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Souporaba javne mape na omrežju"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Kdaj sprejeti datoteke poslane preko Bluetooth."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
 msgstr "Kdaj naj bodo sprejete datoteke poslane preko bluetooth vmesnika? Mogoče vrednosti so \"always\" (vedno), \"bonded\" (ob povezavi) in \"ask\" (vprašaj)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
 msgstr "Kdaj zahtevati geslo. Mogoče vrednosti so \"never\" (nikoli), \"on_write\" (ob pisanju), in \"always\" (vedno)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Kdaj zahtevati geslo"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Možnost omogoča, da Bluetooth odjemalci pošiljajo datoteke preko ObexPush sistema."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Možnost omogoča, da se morajo Bluetooth odjemalci najprej povezati z računalnikom za pošiljanje datotek."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
 msgstr "Možnost omogoča, da Bluetooth odjemalci zapisujejo datoteke ali souporabljajo datoteke le za branje."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Možnost omogoča, da Bluetooth odjemalci zapisujejo datoteke."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Možnost omogoča, da sistem obvesti o novo prispelih datotekah."
 
@@ -128,25 +128,25 @@ msgstr "_Zahtevano geslo:"
 msgid "_Share public files on network"
 msgstr "_Souporaba javnih datotek na omrežju"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2
-#: ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2
+#: ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Osebna souporaba datotek"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Možnosti souporabe osebnih datotek"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Zaženi osebno souporabo datotek, kadar je ta omogočena"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Možnosti zagona"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Zagon možnosti osebne souporabe datotek"
 

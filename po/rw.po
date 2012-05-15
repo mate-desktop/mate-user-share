@@ -1,6 +1,6 @@
-# translation of gnome-user-share to Kinyarwanda.
+# translation of mateuser-share to Kinyarwanda.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -13,7 +13,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share HEAD\n"
+"Project-Id-Version: mateuser-share HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-04-01 15:20-0700\n"
 "PO-Revision-Date: 2005-03-31 20:55-0700\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "ULL NAME <EMAIL@ADDRESS>\n"
 
-#: desktop_gnome_file_sharing.schemas.in.h:1
+#: desktop_matefile_sharing.schemas.in.h:1
 #, fuzzy
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
@@ -33,19 +33,19 @@ msgstr ""
 "iyi ni NIBYO i bushyinguro in i Ku Ntangiriro bushyinguro Ryari: i Ukoresha: "
 "ni in"
 
-#: desktop_gnome_file_sharing.schemas.in.h:2
+#: desktop_matefile_sharing.schemas.in.h:2
 #, fuzzy
 msgid "Share Public directory"
 msgstr "bushyinguro"
 
-#: desktop_gnome_file_sharing.schemas.in.h:3
+#: desktop_matefile_sharing.schemas.in.h:3
 #, fuzzy
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr "Kuri kugirango Amagambo banga Uduciro Nta narimwe Na Buri gihe"
 
-#: desktop_gnome_file_sharing.schemas.in.h:4
+#: desktop_matefile_sharing.schemas.in.h:4
 #, fuzzy
 msgid "When to require passwords"
 msgstr "Kuri Amagambo banga"

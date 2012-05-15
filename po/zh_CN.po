@@ -1,6 +1,6 @@
-# gnome-user-share的简体中文翻译.
+# mateuser-share的简体中文翻译.
 # Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # Funda Wang <fundawang@gmail.com>, 2005, 2009.
 # 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009.
 # Hinker <hinkerliu@163.com>, 2009.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
+"Project-Id-Version: mateuser-share master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-11-14 17:31+0800\n"
 "PO-Revision-Date: 2009-11-14 17:34+0800\n"
@@ -18,37 +18,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
 msgstr "如果为真(true)，则用户登录时，蓝牙设备能发送文件到用户的“下载“目录。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
 msgstr "如果为真(true)，则用户登录时，用户主目录中的“公开”目录将在蓝牙中共享。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
 msgstr "如果为真(true)，则用户登录时，用户主目录中的“公开”目录将在网络中共享。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "在蓝牙中共享“公开“目录"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "在网络中共享“公开“目录"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "何时接收通过蓝牙发送的文件"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -56,35 +56,35 @@ msgstr ""
 "何时接受通过蓝牙发送的文件，可能的选项"
 "是“always”、“bonded”、“bonded_trusted”和“ask”。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr "何时询问密码，可供选择的选项是：“never”、“on_write”和“always”。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "何时请求密码"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "蓝牙客户是否能使用 ObexPus 发送文件。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "蓝牙客户要发送文件是否需要先和电脑配对。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
 msgstr "是否允许蓝牙客户写入文件，还是只允许读取共享文件。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "是否允许蓝牙客户写入文件。"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "是否通知关于新收到的文件。"
 
@@ -140,24 +140,24 @@ msgstr "要求密码(_R)"
 msgid "_Share public files on network"
 msgstr "在网络中共享公开文件(_S)"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "个人文件共享"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "文件共享选项"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "如果已启用则启动个人文件共享"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "启动首选项"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "个人文件共享选项"
 

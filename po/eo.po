@@ -1,13 +1,13 @@
-# Esperanto translation for gnome-user-share
+# Esperanto translation for mateuser-share
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # Aisano <>, 2010.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-06-27 03:44+0000\n"
 "PO-Revision-Date: 2010-06-27 11:47+0200\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Launchpad (build Unknown)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -28,7 +28,7 @@ msgstr ""
 "Se tio estas vera, Bluetooth-aparatoj povas sendi dosierojn al la "
 "elŝutdosierujo de la uzanto, kiam tiu estas ensalutinta."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -36,7 +36,7 @@ msgstr ""
 "Se tio estas vera, la \"Publika\" dosierujo en la hejma dosierujo de la "
 "uzanto estas komunigita tra Bluetooth, kiam la uzanto estas ensalutinta."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -44,19 +44,19 @@ msgstr ""
 "Se tio estas vera, la dosierujo \"Publika\" en la hejma dosierujo de la "
 "uzanto estas komunigita tra la reto, kiam la uzanto estas ensalutinta."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Komunigi la dosierujon \"Publika\" tra Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Komunigi la dosierujon \"Publika\" tra la reto"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Kiam akcepti dosierojn senditajn tra Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -64,7 +64,7 @@ msgstr ""
 "Kiam akcepti dosierojn senditajn tra Bluetooth. Eblaj valoroj estas \"always"
 "\" (ĉiam), \"bonded\" (ligitajn) kaj \"ask\" (demandi)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -72,19 +72,19 @@ msgstr ""
 "Kiam peti pasvortojn. Eblaj valoroj estas \"never\" (neniam), \"on_write"
 "\" (\"por_skribi\") kaj \"always\" (ĉiam)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Kiam postuli pasvortojn."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Ĉu Bluetooth-klientoj povas sendi dosierojn tra ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr ""
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -92,11 +92,11 @@ msgstr ""
 "Ĉu permesi al Bluetooth-kliento skribi dosierojn aŭ legi komunigitajn "
 "dosierojn."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Ĉu permesi al Bluetooth-kliento skribi dosierojn."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Ĉu atentigi pri alvenantaj dosieroj."
 
@@ -152,24 +152,24 @@ msgstr "_Bezonata pasvorto:"
 msgid "_Share public files on network"
 msgstr ""
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr ""
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr ""
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr ""
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr ""
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr ""
 

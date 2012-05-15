@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -25,7 +25,7 @@ msgstr ""
 "'true' gisa (egia) ezartzen bada, Bluetooth gailuek fitxategiak bidal "
 "ditzakete erabiltzailearen 'Deskargak' direktoriora saioa hastean."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -34,7 +34,7 @@ msgstr ""
 "publikoa partekatu egingo da Bluetooth bidez erabiltzaileak saioa hasten "
 "duenean."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -43,19 +43,19 @@ msgstr ""
 "publikoa partekatu egingo da sarean zehar erabiltzaileak saioa hasten "
 "duenean."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Partekatu direktorio publikoa Bluetooth bidez"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Partekatu direktorio publikoa sarean zehar"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Noiz onartu Bluetooth bidez bidalitako fitxategiak"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -63,7 +63,7 @@ msgstr ""
 "Noiz onartu Bluetooth bidez bidalitako fitxategiak. Balio erabilgarriak: "
 "\"always\" (beti), \"bonded\" (lotuta), eta \"ask\" (galdetu)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -71,21 +71,21 @@ msgstr ""
 "Noiz eskatu pasahitza. Balio erabilgarriak: \"never\" (inoiz ere ez), "
 "\"on_write\" (idaztean), eta \"always\" (beti)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Noiz eskatu pasahitza"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Bluetooth bezeroek fitxategiak bidal ditzaketen ObexPush erabiliz ala ez."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr ""
 "Bluetooth bezeroek ordenagailuarekin parekatu behar diren ala ez fitxategiak "
 "bidaltzeko."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -93,11 +93,11 @@ msgstr ""
 "Bluetooth bezeroei fitxategiak idaztea baimendu behar zaien, edo irakurtzeko "
 "soilik diren fitxategiak partekatzea."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Bluetooth bezeroei fitxategiak idaztea baimendu behar zaien ala ez."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Jaso berri diren fitxategiei buruz jakinarazi behar den ala ez."
 
@@ -153,24 +153,24 @@ msgstr "_Eskatu pasahitza:"
 msgid "_Share public files on network"
 msgstr "_Partekatu fitxategi publikoak sarean"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Fitxategi pertsonalak partekatzea"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Fitxategiak partekatzeko hobespenak"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Abiarazi fitxategi pertsonalak partekatzea gaituta badago"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Abiarazi hobespenak"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Fitxategi pertsonalak partekatzearen hobespenak abiarazi"
 

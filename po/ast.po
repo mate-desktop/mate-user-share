@@ -1,11 +1,11 @@
-# Asturian translation for gnome-user-share.
-# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-user-share package.
+# Asturian translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
 # Xandru Armesto <xandru@softastur.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-03-09 01:04+0000\n"
 "PO-Revision-Date: 2010-03-13 07:46+0200\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Virtaal 0.5.2\n"
 "X-Poedit-Language: asturian\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -27,55 +27,55 @@ msgstr ""
 "Si esto ye «true», los preseos Bluetooth pueden unviar ficheros al "
 "direutoriu Descargues del usuariu cuando anicie la sesión."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
 msgstr "Si esto ye cierto, el direutoriu «Públicu» nel direutoriu personal del usuariu compartiráse cuando l'usuariu anicie sesión."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
 msgstr "Si esto ye cierto, el direutoriu «Públicu» nel direutoriu personal de los usuarios compartiráse cuando l'usuariu anicie sesión."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Compartir el direutoriu «Públicu» por Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Compartir el direutoriu «Públicu» por rede"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Cuándo aceutar ficheros unviaos por Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
 msgstr "Cuándo aceutar ficheros unviaos por Bluetooth. Los valores dables son: «always» (siempres), «bonded» (vinculaos) y «ask» (entrugar)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
 msgstr "Cuándo pidir contraseñes. Les opciones dables son: \"never\" (enxamás), \"on_write\" (al escribir) y \"always\" (siempres)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Cuando requerir contraseñes"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Si los veceros Bluetooth pueden unviar ficheros usando ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Si los veceros Bluetooth necesiten emparexase col equipu pa unviar ficheros."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
 msgstr "Indica si se permite a los veceros por Bluetooth escribir ficheros o namái compartir los ficheros de namái llectura."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Indica si se permite escribir ficheros a los veceros por Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Si hai de notificar tocante a los nuevos ficheros recibíos."
 
@@ -131,25 +131,25 @@ msgstr "_Requerir contraseña:"
 msgid "_Share public files on network"
 msgstr "C_ompartir ficheros públicos na rede"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2
-#: ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2
+#: ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Compartición de ficheros personales"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Preferencies pa la compartición de ficheros"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Llanzar la compartición de ficheros personales si tán activaes"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Llanzar les preferencies"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Llanzar les preferencies de compartición de ficheros personales"
 

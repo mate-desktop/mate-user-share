@@ -1,5 +1,5 @@
-# translation of gnome-user-share.HEAD.ne.po to Nepali
-# translation of gnome-user-share.HEAD.po to Nepali
+# translation of mateuser-share.HEAD.ne.po to Nepali
+# translation of mateuser-share.HEAD.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Pawan Chitrakar <pawan@mpp.org.np>, 2005.
@@ -11,7 +11,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share.HEAD.ne\n"
+"Project-Id-Version: mateuser-share.HEAD.ne\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-02 03:12+0000\n"
 "PO-Revision-Date: 2006-09-05 11:14+0545\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2;plural=(n!=1)\n"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:1
+#: ../desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared when the user is logged in."
@@ -31,18 +31,18 @@ msgstr ""
 "यदि यो सहि हो भने, प्रयोगकर्ता लगइन हुँदा प्रयोगकर्ताहरूको गृह डाइरेक्टरीको सार्वजनिक "
 "डाइरेक्टरी साझेदारी हुँनेछ ।"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:2
+#: ../desktop_matefile_sharing.schemas.in.h:2
 msgid "Share Public directory"
 msgstr "सार्वजनिक डाइरेक्टरी साझेदारी गर्नुहोस्"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:3
+#: ../desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr ""
 "पासवर्ड कति बेला माग्ने, संभाव्य मानहरू \"never\", \"on_write\", र \"always\" छन् ।"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:4
+#: ../desktop_matefile_sharing.schemas.in.h:4
 msgid "When to require passwords"
 msgstr "पासवर्ड कति बेला आवश्यक पर्ला"
 
@@ -78,11 +78,11 @@ msgstr "पासवर्ड:"
 msgid "_Require password:"
 msgstr "पासवर्ड आवश्यक:"
 
-#: ../gnome-user-share-properties.desktop.in.h:1
+#: ../mateuser-share-properties.desktop.in.h:1
 msgid "Personal File Sharing"
 msgstr "व्यक्तिगत फाइल साझेदारी"
 
-#: ../gnome-user-share-properties.desktop.in.h:2
+#: ../mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of personal files"
 msgstr "व्यक्तिगत फाइलको साझेदारी प्राथमिकता"
 

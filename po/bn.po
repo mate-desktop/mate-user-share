@@ -1,4 +1,4 @@
-# Bengali translation for gnome-user-share
+# Bengali translation for mateuser-share
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-03-23 17:10+0000\n"
 "PO-Revision-Date: 2010-01-24 11:12+0600\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -31,7 +31,7 @@ msgstr ""
 "ফাইল প্রেরণ করতে পারে।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -40,7 +40,7 @@ msgstr ""
 "উপস্থিত পাবলিক ডিরেক্টরিটি ব্লু-টুথের মাধ্যমে শেয়ার করা যাবে।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -49,22 +49,22 @@ msgstr ""
 "উপস্থিত পাবলিক ডিরেক্টরিটি নেটওয়ার্কের মাধ্যমে শেয়ার করা যাবে।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "পাবলিক ডিরেক্টরি ব্লু-টুথের মাধ্যমে শেয়ার করা হবে"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "পাবলিক ডিরেক্টরি নেটওয়ার্কের মাধ্যমে শেয়ার করা হবে"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "ব্লু-টুথের মাধ্যমে প্রেরিত ফাইল কখন গ্রহণ করা হবে"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -73,7 +73,7 @@ msgstr ""
 "\"সংযুক্ত করা হবে\",  ও \"জিজ্ঞাসা করা হবে\"।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -82,22 +82,22 @@ msgstr ""
 "\", ও \"সর্বদা\"।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "কখন পাসওয়ার্ড প্রয়োজন হবে"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "ObexPush এর সাহায্যে ব্লু-টুথ ক্লায়েন্টরা ফাইল পাঠাতে পারবেন কি না।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "ফাইল পাঠানোর জন্য ব্লু-টুথ ক্লায়েন্টদের কম্পিউটারের সাথে যুক্ত হতে হবে কিনা।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -106,12 +106,12 @@ msgstr ""
 "দেয়া হবে।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "ব্লু-টুথ ক্লায়েন্টেদের ফাইলে লেখার অনুমতি দেয়া হবে কি না।"
 
 # Translated by sadia
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "নতুন গৃহীত ফাইল সম্পর্কে ঘোষনা প্রদান করা হবে কি না।"
 
@@ -180,28 +180,28 @@ msgid "_Share public files on network"
 msgstr "নেটওয়ার্কে পাবলিক ফাইল শেয়ার করা হবে (_S)"
 
 # Translated by sadia
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "ব্যক্তিগত ফাইল শেয়ারকরণ"
 
 # Translated by sadia
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "ফাইল শেয়ারকরণের পছন্দসমূহ"
 
 # Translated by sadia
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "সক্রিয় করা থাকলে, ব্যক্তিগতভাবে শেয়ারকৃত ফাইল চালু করা হবে"
 
 # Translated by sadia
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "পছন্দসমূহ চালু করা হবে"
 
 # Translated by sadia
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "ব্যক্তিগতভাবে শেয়ারকৃত ফাইলের পছন্দসমূহ চালু করা হবে"
 

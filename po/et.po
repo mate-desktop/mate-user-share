@@ -1,8 +1,8 @@
 # GNOME kasutaja failijagamise eesti keele tõlge.
-# Estonian translation of gnome-user-share.
+# Estonian translation of mateuser-share.
 #
 # Copyright (C) 2009 The GNOME Project.
-# This file is distributed under the same license as the gnome-user-share
+# This file is distributed under the same license as the mateuser-share
 # package.
 #
 # Ivar Smolin <okul linux ee>, 2009.
@@ -10,8 +10,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share MASTER\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share MASTER\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-11-30 17:29+0000\n"
 "PO-Revision-Date: 2010-02-24 14:39+0300\n"
@@ -209,7 +209,7 @@ msgstr "Kasutaja %s avalikud failid hostil %s"
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Sa võtsid faili \"%s\" Bluetoothi kaudu vastu"
 
-# Pealkiri: gnome-user-share
+# Pealkiri: mateuser-share
 # Sulle saadeti fail
 # Sa võtsid Bluetoothi kaudu vastu faili "Pilt001.jpg"
 # Nupud: Ava fail, Ava kataloog, Loobu, Olgu

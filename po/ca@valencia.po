@@ -1,13 +1,13 @@
-# Catalan translation of gnome-user-share.
-# Copyright (C) 2005, 2006 The gnome-user-share's copyright holder
+# Catalan translation of mateuser-share.
+# Copyright (C) 2005, 2006 The mateuser-share's copyright holder
 # This file is distributed under the same license as the
-#    gnome-user-share package.
+#    mateuser-share package.
 #
 # Gil Forcada <gilforcada@guifi.net>, 2005, 2006, 2008, 2009, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share\n"
+"Project-Id-Version: mateuser-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 01:28+0100\n"
 "PO-Revision-Date: 2010-03-13 18:00+0100\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -26,7 +26,7 @@ msgstr ""
 "Si és cert, els dispositius Bluetooth poden enviar fitxers a la carpeta de "
 "baixades de l'usuari quan este usuari haja entrat."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -34,7 +34,7 @@ msgstr ""
 "Si és cert, la carpeta Públic de la carpeta d'inici de l'usuari es "
 "compartirà a través del Bluetooth quan este haja entrat."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -42,19 +42,19 @@ msgstr ""
 "Si és cert, la carpeta Públic de la carpeta d'inici de cada usuari es "
 "compartirà a través de la xarxa quan l'usuari entri."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Comparteix la carpeta Públic a través del Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Comparteix la carpeta Públic a través de la xarxa"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Quan s'han d'acceptar fitxers enviats a través del Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -62,7 +62,7 @@ msgstr ""
 "Quan s'hagen d'acceptar fitxers a través del Bluetooth. Els possibles valors "
 "són «always» (sempre), «bonded» (vinculat) i «ask» (pregunta)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -70,21 +70,21 @@ msgstr ""
 "Quan s'ha de demanar contrasenya. Els possibles valors són «never» (mai), "
 "«on_write» (en escriure), i «always» (sempre)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Quan s'ha de demanar contrasenya"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Si els clients del Bluetooth poden enviar fitxers amb ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr ""
 "Si cal que els clients del Bluetooth s'aparellin amb l'ordinador per a poder "
 "enviar fitxers."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -92,11 +92,11 @@ msgstr ""
 "Si es permet escriure fitxers als clients del Bluetooth, o si només es "
 "compartiran en mode lectura."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Si es permet escriure fitxers als clients del Bluetooth."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Si s'ha de notificar sobre els fitxers rebuts nous."
 
@@ -153,24 +153,24 @@ msgstr "_Requereix contrasenya:"
 msgid "_Share public files on network"
 msgstr "_Comparteix els fitxers públics a la xarxa"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Compartició de fitxers personals"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Preferències per a compartir fitxers"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Executa la compartició de fitxers personals si està habilitat"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Inicia les preferències"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Inicia les preferències de la compartició de fitxers personals"
 

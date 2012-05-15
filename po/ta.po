@@ -1,5 +1,5 @@
-# translation of gnome-user-share.HEAD.po to Tamil
-# translation of gnome-user-share.HEAD.po to
+# translation of mateuser-share.HEAD.po to Tamil
+# translation of mateuser-share.HEAD.po to
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -7,7 +7,7 @@
 # Dr.T.Vasudevan <agnihot3@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share.HEAD\n"
+"Project-Id-Version: mateuser-share.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-23 21:45+0530\n"
 "PO-Revision-Date: 2009-10-23 21:51+0530\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -27,7 +27,7 @@ msgstr ""
 "இது உண்மை எனில் உள்நுழையும் போது ப்ளூடூத் சாதனங்கள்  பயனர்  தரவிறக்கங்கள் அடைவுக்கு "
 "கோப்புகளை அனுப்ப இயலும்"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -35,7 +35,7 @@ msgstr ""
 "இது உண்மை எனில் பயனர்  உள்நுழைந்துள்ள போது   பயனரின்  இல்ல அடைவில் உள்ள பொதுவான அடைவு "
 "ப்ளூடூத் சாதனங்கள்  மூலம் பகிரப்படும்"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -43,19 +43,19 @@ msgstr ""
 "இது உண்மை எனில் பயனர்  உள்நுழைந்துள்ள போது   பயனரின்  இல்ல அடைவில் உள்ள பொதுவான அடைவு "
 "வலைபின்னல்  மூலம் பகிரப்படும்"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "பொது அடைவை ப்ளூடூத் மூலம் பகிர்க"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "பொது அடைவை வலைப்பின்னல் மூலம் பகிர்க"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "எப்போது கோப்புக்களை ப்ளூடூத் மூலம் பகிர்வது"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -63,7 +63,7 @@ msgstr ""
 "எப்போது கோப்புக்களை ப்ளூடூத் மூலம் பகிர்வது. செல்லுபடியாகும் மதிப்புகள்  \"எப்போதும்\", "
 "\"பிணையப்பட்ட\", மற்றும் \"கேள்\"."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -71,29 +71,29 @@ msgstr ""
 "எப்போது கடவுச்சொல் கேட்க வேண்டும். செல்லுபடியாகும் மதிப்புகள்   \"எப்போதுமில்லை\", "
 "\"எழுதும்போது\", மற்றும் \"எப்போதும்\"."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "எப்போது கடவுச்சொல் தேவை"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "ப்ளூடூத் சார்ந்தோன்கள் கோப்புகளை ஒபெக்ஸ் புஷ் மூலம் அனுப்பலாமா"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "ப்ளூடூத் சார்ந்தோன்கள் கோப்புகளை அனுப்ப கணினியுடன் சேர வேண்டுமா"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
 msgstr "ப்ளூடூத் சார்ந்தோன்கள் கோப்புகளை எழுத அனுமதிக்கலாமா அல்லது கோப்புகள் படிக்க மட்டுமா"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "ப்ளூடூத் சார்ந்தோன்கள் கோப்புகளை எழுத அனுமதிக்கலாமா."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "புதிதாக பெற்ற கோப்புக்களை பற்றி அறிவிக்கவா"
 
@@ -149,24 +149,24 @@ msgstr "(_R) கடவுச்சொல் தேவை:"
 msgid "_Share public files on network"
 msgstr "(_S) கோப்புகளை வலைப்பின்னல் மூலம் பகிர்க"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:167
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:167
 msgid "Personal File Sharing"
 msgstr "அந்தரங்க கோப்பு பகிர்தல்"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "கோப்புகள் பகிர்வதில் விருப்பங்கள் "
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "செயல் படுத்தி இருந்தால் அந்தரங்க கோப்பு பகிர்தலை  ஆரம்பி "
 
-#: ../src/nautilus-share-bar.c:179
+#: ../src/caja-share-bar.c:179
 msgid "Launch Preferences"
 msgstr "விருப்பங்களை ஆரம்பி"
 
-#: ../src/nautilus-share-bar.c:193
+#: ../src/caja-share-bar.c:193
 msgid "Launch Personal File Sharing Preferences"
 msgstr "தனிப்பட்ட கோப்பு பகிர்தல் விருப்பங்களை ஆரம்பி"
 

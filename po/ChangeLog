@@ -16,11 +16,11 @@
 
 	* ar.po: Updated Arabic translation by Osama Khalid.
 
-2009-03-16  Ignacio Casal Quinteiro  <icq@gnome.org>
+2009-03-16  Ignacio Casal Quinteiro  <icq@mateorg>
 
 	 * gl.po: Updated Galician translation by Suso Baleato.
 
-2009-03-16  Amitakhya Phukan <amitakhya@svn.gnome.org>
+2009-03-16  Amitakhya Phukan <amitakhya@svn.mateorg>
 
 	* LINGUAS: Added as.
 	* as.po: Updated Assamese translations.
@@ -29,7 +29,7 @@
 
 	* cs.po: Updated Czech translation by Martin Picek.
 
-2009-03-15  Kostas Papadimas <pkst@gnome.org>
+2009-03-15  Kostas Papadimas <pkst@mateorg>
 
 	* el.po: Updated Greek Translation by Pierros Papadeas.
 
@@ -132,7 +132,7 @@
 
 	* ko.po: Updated Korean translation.
 
-2009-02-17  Gil Forcada  <gforcada@gnome.org>
+2009-02-17  Gil Forcada  <gforcada@mateorg>
 
 	* ca.po: Updated Catalan translation.
 
@@ -150,11 +150,11 @@
 
 	* da.po: Updated Danish translation by Ask H. Larsen
 
-2009-02-14  Gabor Kelemen  <kelemeng@gnome.hu>
+2009-02-14  Gabor Kelemen  <kelemeng@matehu>
 
 	* hu.po: Translation updated.
 
-2009-02-14  Wouter Bolsterlee  <wbolster@svn.gnome.org>
+2009-02-14  Wouter Bolsterlee  <wbolster@svn.mateorg>
 
 	* nl.po: Updated Dutch translation by Wouter Bolsterlee.
 
@@ -167,7 +167,7 @@
 	* bg.po: Updated Bulgarian translation by
 	Alexander Shopov <ash@contact.bg>
 
-2009-02-10  Kjartan Maraas  <kmaraas@gnome.org>
+2009-02-10  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
@@ -193,7 +193,7 @@
 
 	* sv.po: Updated Swedish translation.
 
-2009-01-31  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2009-01-31  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
@@ -207,11 +207,11 @@
 
 	* fr.po: Updated French translation.
 
-2009-01-29  Gil Forcada  <gforcada@gnome.org>
+2009-01-29  Gil Forcada  <gforcada@mateorg>
 
 	* ca.po: Updated Catalan translation.
 
-2009-01-29  Kjartan Maraas  <kmaraas@gnome.org>
+2009-01-29  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
@@ -219,7 +219,7 @@
 
 	* ko.po: Updated Korean translation.
 
-2009-01-28  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2009-01-28  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
@@ -227,16 +227,16 @@
 
 	* zh_CN.po: Updated zh_CN translation.
 
-2009-01-28  Simos Xenitellis  <simos@gnome.org>
+2009-01-28  Simos Xenitellis  <simos@mateorg>
 
-	* el.po: Fixed 569467 – wrong translations in gnome-user-share.
+	* el.po: Fixed 569467 – wrong translations in mateuser-share.
 
 2009-01-28  Runa Bhattacharjee  <runab@redhat.com>
 
 	* bn_IN.po: Added Bengali India Translations
 	* LINGUAS: Added Entry for Bengali India to the list of languages
 
-2009-01-27  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2009-01-27  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -244,7 +244,7 @@
 
 	* fi.po: Updated Finnish translation.
 
-2009-01-26  Jonh Wendell  <jwendell@gnome.org>
+2009-01-26  Jonh Wendell  <jwendell@mateorg>
 
 	* pt_BR.po: Brazilian Portuguese translation updated by Djavan Fagundes.
 
@@ -252,7 +252,7 @@
 
 	* de.po: Updated German translation.
 
-2009-01-23  Gil Forcada  <gforcada@gnome.org>
+2009-01-23  Gil Forcada  <gforcada@mateorg>
 
 	* ca.po: Updated Catalan translation.
 
@@ -268,7 +268,7 @@
 
 	* sv.po: Updated Swedish translation.
 
-2009-01-19  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2009-01-19  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -276,7 +276,7 @@
 
 	* POTFILES.in: Remove Glade file, and GtkBuilder file
 
-2009-01-19  Kjartan Maraas  <kmaraas@gnome.org>
+2009-01-19  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
@@ -292,7 +292,7 @@
 
 	* th.po, LINGUAS: Added Thai translation by Manatsawin.
 
-2009-01-14  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2009-01-14  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -304,11 +304,11 @@
 
 	* ja.po: Updated Japanese translation.
 
-2008-12-16  Gabor Kelemen  <kelemeng@gnome.hu>
+2008-12-16  Gabor Kelemen  <kelemeng@matehu>
 
 	* hu.po: Translation updated.
 
-2008-12-16  Kjartan Maraas  <kmaraas@gnome.org>
+2008-12-16  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
@@ -316,7 +316,7 @@
 
 	* he.po, LINGUAS: Added Hebrew translation.
 
-2008-12-06  Leonardo Ferreira Fontenelle  <leonardof@gnome.org>
+2008-12-06  Leonardo Ferreira Fontenelle  <leonardof@mateorg>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation. Contributed by
 	Fábio Nogueira.
@@ -329,7 +329,7 @@
 
 	* pl.po: Updated Polish translation
 
-2008-10-16  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2008-10-16  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
@@ -349,7 +349,7 @@
 
 	* pl.po: Updated Polish translation
 
-2008-09-07  Leonardo Ferreira Fontenelle  <leonardof@gnome.org>
+2008-09-07  Leonardo Ferreira Fontenelle  <leonardof@mateorg>
 
 	* pt_BR.po: Brazilian Portuguese translation updated by Djavan
 	Fagundes.
@@ -370,15 +370,15 @@
 
 	* sv.po: Updated Swedish translation.
 
-2008-07-20  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2008-07-20  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
-2008-07-13  Kjartan Maraas  <kmaraas@gnome.org>
+2008-07-13  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
-2008-07-09  Kjartan Maraas <kmaraas@gnome.org>
+2008-07-09  Kjartan Maraas <kmaraas@mateorg>
 
 	* POTFILES.in: Add missing file.
 	* nb.po: Updated Norwegian bokmål translation.
@@ -387,11 +387,11 @@
 
 	* oc.po: Updated Occitan translation.
 
-2008-06-20  Jonh Wendell  <jwendell@gnome.org>
+2008-06-20  Jonh Wendell  <jwendell@mateorg>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation by Fábio Nogueira.
 
-2008-04-27  Gabor Kelemen  <kelemeng@gnome.org>
+2008-04-27  Gabor Kelemen  <kelemeng@mateorg>
 
 	* hu.po: Translation updated.
 
@@ -403,15 +403,15 @@
 
 	* ja.po: Updated Japanese translation.
 
-2008-03-22  Kostas Papadimas <pkst@gnome.org>
+2008-03-22  Kostas Papadimas <pkst@mateorg>
 
 	* el.po: Updated  Greek translation by Giannis Katsampiris.
 
-2008-03-16  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2008-03-16  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
-2008-03-11  Gil Forcada  <gforcada@gnome.org>
+2008-03-11  Gil Forcada  <gforcada@mateorg>
 
 	* ca.po: Updated Catalan translation.
 
@@ -420,7 +420,7 @@
 	* LINGUAS: Added 'eu' (Basque) entry.
 	* eu.po: Add Basque translation.
 
-2008-03-09  Philip Withnall  <pwithnall@svn.gnome.org>
+2008-03-09  Philip Withnall  <pwithnall@svn.mateorg>
 
 	* en_GB.po: Updated British English translation.
 
@@ -430,9 +430,9 @@
 
 2008-03-08  Jaap Haitsma  <jaap@haitsma.org>
 
-	* POTFILES.skip: Add gnome-user-share-properties.ui
+	* POTFILES.skip: Add mateuser-share-properties.ui
 
-2008-03-01  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+2008-03-01  Leonardo Ferreira Fontenelle  <leonardof@svn.mateorg>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation.
 
@@ -461,11 +461,11 @@
 
 	* ne.po: Updated Nepali Translation.
 
-2008-02-07  Artur Flinta  <aflinta@svn.gnome.org>
+2008-02-07  Artur Flinta  <aflinta@svn.mateorg>
 
 	* pl.po: Updated Polish translation by GNOME PL Team.
 
-2008-01-27  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2008-01-27  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation
 
@@ -473,7 +473,7 @@
 
 	* POTFILES.in: update for new files
 
-2008-01-21  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+2008-01-21  Jorge Gonzalez  <jorgegonz@svn.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -499,7 +499,7 @@
 	* pt.po: Added Portuguese translation by André Neves
 	<drakferion@gmail.com>.
 
-2007-10-21  Matej Urbančič  <mateju@svn.gnome.org>
+2007-10-21  Matej Urbančič  <mateju@svn.mateorg>
 
 	* sl.po: Added Slovenian translation.
 
@@ -511,16 +511,16 @@
 
 	* fi.po: Updated Finnish translation.
 
-2007-06-29  Artur Flinta  <aflinta@svn.gnome.org>
+2007-06-29  Artur Flinta  <aflinta@svn.mateorg>
 
 	* pl.po: Updated Polish translation by GNOME PL Team.
 
-2007-06-02  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+2007-06-02  Leonardo Ferreira Fontenelle  <leonardof@svn.mateorg>
 
 	* pt_BR.po: Improvements in Brazilian Portuguese translation by Og
 	Maciel <ogmaciel@ubuntu.com>. Closes bug #442764.
 
-2007-04-25  Hendrik Richter  <hendrikr@gnome.org>
+2007-04-25  Hendrik Richter  <hendrikr@mateorg>
 
 	* de.po: Updated German translation, fix #431689.
 
@@ -532,9 +532,9 @@
 
 	* ja.po: Updated Japanese translation.
 
-=== gnome-user-share 0.11 ===
+=== mateuser-share 0.11 ===
 
-2007-01-24  Kjartan Maraas  <kmaraas@gnome.org>
+2007-01-24  Kjartan Maraas  <kmaraas@mateorg>
 
 	* nb.po: Updated Norwegian bokmål translation.
 
@@ -551,7 +551,7 @@
 	* ar.po: Added Arabic Translation.
 	* LINGUAS: Added ar.
 
-2006-11-14  Guilherme de S. Pastore  <gpastore@gnome.org>
+2006-11-14  Guilherme de S. Pastore  <gpastore@mateorg>
 
 	* pt_BR.po: updated Brazilian Portuguese translation.
 
@@ -563,7 +563,7 @@
 
 	* en_GB.po: British (English) translation updated.
 
-2006-09-06  Vincent van Adrighem  <adrighem@gnome.org>
+2006-09-06  Vincent van Adrighem  <adrighem@mateorg>
 
 	* nl.po: Translation updated by Tino Meinen.
 
@@ -572,7 +572,7 @@
 	* fr.po: Updated French translation from
 	Damien Durand <splinux@fedoraproject.org>.
 
-2006-08-16  Gabor Kelemen  <kelemeng@gnome.hu>
+2006-08-16  Gabor Kelemen  <kelemeng@matehu>
 
 	* hu.po: Translation updated.
 
@@ -613,7 +613,7 @@
 
 	* gl.po: Updated Galician Translation.
 
-=== gnome-user-share 0.10 ===
+=== mateuser-share 0.10 ===
 
 2006-04-16  Daniel Nylander  <po@danielnylander.se>
 
@@ -623,7 +623,7 @@
 
 	* fi.po: Updated Finnish translation.
 
-2006-01-12  Vincent van Adrighem  <adrighem@gnome.org>
+2006-01-12  Vincent van Adrighem  <adrighem@mateorg>
 
 	* nl.po: Translation updated by Tino Meinen.
 
@@ -635,11 +635,11 @@
 
 	* ca.po: Updated Catalan translation.
 
-2006-01-07  Gabor Kelemen  <kelemeng@gnome.hu>
+2006-01-07  Gabor Kelemen  <kelemeng@matehu>
 
 	* hu.po: Hungarian translation updated.
 
-2006-01-06  Kjartan Maraas <kmaraas@gnome.org>
+2006-01-06  Kjartan Maraas <kmaraas@mateorg>
 
 	* nb.po: Add these.
 	* no.po:
@@ -662,17 +662,17 @@
 
 	* cs.po: Updated Czech translation.
 
-=== gnome-user-share 0.9 ===
+=== mateuser-share 0.9 ===
 
-2005-11-19  Takeshi AIHANA <aihana@gnome.gr.jp>
+2005-11-19  Takeshi AIHANA <aihana@mategr.jp>
 
 	* ja.po: Updated Japanese translation.
 
-2005-11-17  Adam Weinberger  <adamw@gnome.org>
+2005-11-17  Adam Weinberger  <adamw@mateorg>
 
 	* en_CA.po: Updated Canadian English translation.
 
-2005-11-17  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+2005-11-17  Francisco Javier F. Serrador  <serrador@cvs.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -683,10 +683,10 @@
 2005-11-14  Alexander Larsson  <alexl@redhat.com>
 
 	* POTFILES.in:
-	Add gnome-user-share-properties.desktop.in
+	Add mateuser-share-properties.desktop.in
 
-=== gnome-user-share 0.7 ===
-=== gnome-user-share 0.6 ===
+=== mateuser-share 0.7 ===
+=== mateuser-share 0.6 ===
 
 2005-10-16  Funda Wang  <fundawang@linux.net.cn>
 
@@ -737,11 +737,11 @@
 
 	* rw.po: Added Kinyarwanda translation.
 
-2005-03-18  Gabor Kelemen  <kelemeng@gnome.hu>
+2005-03-18  Gabor Kelemen  <kelemeng@matehu>
 
 	* hu.po: Hungarian translation added.
 
-2005-03-16  Adam Weinberger  <adamw@gnome.org>
+2005-03-16  Adam Weinberger  <adamw@mateorg>
 
 	* en_CA.po: Updated Canadian English translation.
 
@@ -749,11 +749,11 @@
 
 	* ca.po: Added Catalan translation by Gil Forcada
 
-2005-02-17  Vincent van Adrighem  <adrighem@gnome.org>
+2005-02-17  Vincent van Adrighem  <adrighem@mateorg>
 
 	* nl.po: Translation updated by Tino Meinen.
 
-2005-02-15  Takeshi AIHANA <aihana@gnome.gr.jp>
+2005-02-15  Takeshi AIHANA <aihana@mategr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -761,7 +761,7 @@
 
 	* en_GB.po: Updated British translation.
 
-2005-02-10  Kostas Papadimas <pkst@gnome.org>
+2005-02-10  Kostas Papadimas <pkst@mateorg>
 
 	* el.po: Added the  Greek translation.
 
@@ -773,15 +773,15 @@
 
 	* cs.po: Updated Czech translation.
 
-2005-02-05  Frank Arnold  <farnold@cvs.gnome.org>
+2005-02-05  Frank Arnold  <farnold@cvs.mateorg>
 
 	* de.po: Updated German translation.
 
-2005-02-05  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+2005-02-05  Francisco Javier F. Serrador  <serrador@cvs.mateorg>
 
 	* es.po: Updated Spanish translation.
 
-2005-02-04  Adam Weinberger  <adamw@gnome.org>
+2005-02-04  Adam Weinberger  <adamw@mateorg>
 
 	* en_CA.po: Updated Canadian English translation.
 
@@ -789,9 +789,9 @@
 
 	* lt.po: Updated Lithuanian translation.
 
-=== gnome-user-share 0.5 ===
+=== mateuser-share 0.5 ===
 
-2005-02-02  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+2005-02-02  Francisco Javier F. Serrador  <serrador@cvs.mateorg>
 
 	* es.po: Updated Spanish translation.
 
@@ -812,7 +812,7 @@
 
 	* ko.po: Added Korean translation by Young-Ho Cha.
 
-2005-01-19  Vincent van Adrighem  <adrighem@gnome.org>
+2005-01-19  Vincent van Adrighem  <adrighem@mateorg>
 
 	* nl.po: Translation added by Tino Meinen.
 
@@ -821,15 +821,15 @@
 	* bg.po: Added Bulgarian translation by
 	Rostislav Raykov <zbrox@i-space.org>
 
-2005-01-16  Takeshi AIHANA <aihana@gnome.gr.jp>
+2005-01-16  Takeshi AIHANA <aihana@mategr.jp>
 
 	* ja.po: Added Japanese translation.
 
-2005-01-15  Frank Arnold  <farnold@cvs.gnome.org>
+2005-01-15  Frank Arnold  <farnold@cvs.mateorg>
 
 	* de.po: Added German translation.
 
-2005-01-15  Raphael Higino  <raphaelh@cvs.gnome.org>
+2005-01-15  Raphael Higino  <raphaelh@cvs.mateorg>
 
 	* pt_BR.po: Added Brazilian Portuguese translation.
 
@@ -841,7 +841,7 @@
 
 	* fi.po: Added Finnish translation.
 
-2005-01-12  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+2005-01-12  Francisco Javier F. Serrador  <serrador@cvs.mateorg>
 
 	* es.po: Added Spanish translation.
 
@@ -853,7 +853,7 @@
 
 	* lt.po: Added Lithuanian translation by Marius Karnauskas.
 
-2005-01-10  Adam Weinberger  <adamw@gnome.org>
+2005-01-10  Adam Weinberger  <adamw@mateorg>
 
 	* en_CA.po: Added Canadian English translation.
 

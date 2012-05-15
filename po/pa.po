@@ -1,4 +1,4 @@
-# translation of gnome-user-share.HEAD.po to Punjabi
+# translation of mateuser-share.HEAD.po to Punjabi
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -6,9 +6,9 @@
 # A S Alam <aalam@users.sf.net>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-user-share&component=general\n"
+"Project-Id-Version: mateuser-share.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug."
+"cgi?product=mateuser-share&component=general\n"
 "POT-Creation-Date: 2010-02-22 13:30+0000\n"
 "PO-Revision-Date: 2010-03-21 20:12+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -27,7 +27,7 @@ msgstr ""
 "ਜੇ ਸਹੀਂ ਹੈ ਤਾਂ ਬਲਿਊਟੁੱਥ ਜੰਤਰ ਯੂਜ਼ਰ ਦੇ ਲਾਗਇਨ ਹੋਣ ਨਾਲ ਉਸ ਦੇ ਡਾਊਨਲੋਡ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਫਾਇਲਾਂ ਭੇਜ "
 "ਸਕਦੇ ਹਨ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -35,7 +35,7 @@ msgstr ""
 "ਜੇ ਸਹੀਂ ਹੈ ਤਾਂ ਯੂਜ਼ਰ ਦੀ ਘਰ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਪਬਲਿਕ ਡਾਇਰੈਕਟਰੀ ਨੂੰ ਬਲਿਊਟੁੱਥ ਉੱਤੇ ਸਾਂਝੀ ਕੀਤਾ "
 "ਜਾਵੇਗਾ, ਜਦੋਂ ਵੀ ਯੂਜ਼ਰ ਲਾਗਇਨ ਹੋਵੇਗਾ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -43,19 +43,19 @@ msgstr ""
 "ਜੇ ਸਹੀਂ ਹੈ ਤਾਂ ਯੂਜ਼ਰ ਦੀ ਘਰ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਪਬਲਿਕ ਡਾਇਰੈਕਟਰੀ ਨੂੰ ਨੈੱਟਵਰਕ ਉੱਤੇ ਸਾਂਝੀ ਕੀਤਾ ਜਾਵੇਗਾ, "
 "ਜਦੋਂ ਵੀ ਯੂਜ਼ਰ ਲਾਗਇਨ ਹੋਵੇਗਾ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "ਬਲਿਊਟੁੱਥ ਉੱਤੇ ਸਾਂਝੀ ਪਬਲਿਕ ਡਾਇਰੈਕਟਰੀ"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "ਨੈੱਟਵਰਕ ਉੱਤੇ ਸਾਂਝੀ ਪਬਲਿਕ ਡਾਇਰੈਕਟਰੀ"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "ਜਦੋਂ ਬਲਿਊਟੁੱਥ ਉੱਤੇ ਭੇਜੀਆਂ ਫਾਇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਨੀਆਂ ਹੋਣ"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 #| msgid ""
 #| "When to accept files sent over Bluetooth. Possible values are \"always\", "
 #| "\"bonded\", \"bonded_trusted\" and \"ask\"."
@@ -66,35 +66,35 @@ msgstr ""
 "ਜਦੋਂ ਬਲਿਊਟੁੱਥ ਉੱਤੇ ਭੇਜੀਆਂ ਫਾਇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਨੀਆਂ ਹੋਣ ਤਾਂ ਸੰਭਵ ਮੁੱਲ ਹਨ \"always\", \"bonded\", "
 "\"ask\""
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr "ਜਦੋਂ ਪਾਸਵਰਡ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਸੰਭਵ ਮੁੱਲ ਹਨ \"never\", \"on_write\", ਅਤੇ \"always\"।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "ਜਦੋਂ ਪਾਸਵਰਪ ਲੋੜੀਦਾ ਹੋਵੇ"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "ਕੀ ਬਲਿਊਟੁੱਥ ਕਲਾਇਟਾਂ ਨੂੰ ObexPush ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਫਾਇਲਾਂ ਭੇਜ ਸਕਦੇ ਹੋ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "ਕੀ ਬਲਿਊਟੁੱਥ ਕਲਾਇਟਾਂ ਨੂੰ ਫਾਇਲਾਂ ਭੇਜਣ ਲਈ ਕੰਪਿਊਟਰ ਨਾਲ ਪੇਅਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
 msgstr "ਕੀ ਬਲਿਊਟੁੱਥ ਕਲਾਇਟਾਂ ਨੂੰ ਫਾਇਲਾਂ ਲਿਖਣ ਦੇਣਾ ਹੈ ਜਾਂ ਫਾਇਲਾਂ ਕੇਵਲ ਪੜ੍ਹਨ ਲਈ ਸਾਂਝੀਆਂ ਕਰਨ"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "ਕੀ ਬਲਿਊਟੁੱਥ ਕਲਾਇਟਾਂ ਨੂੰ ਫਾਇਲਾਂ ਲਿਖਣ ਦੇਣੀਆਂ ਹਨ।"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "ਕੀ ਨਵੀਆਂ ਮਿਲੀਆਂ ਫਾਇਲਾਂ ਲਈ ਸੂਚਨਾ ਦੇਣੀ ਹੈ।"
 
@@ -150,24 +150,24 @@ msgstr "ਲੋੜੀਦਾ ਪਾਸਵਰਡ(_R):"
 msgid "_Share public files on network"
 msgstr "ਨੈੱਟਵਰਕ ਉੱਤੇ ਸਾਂਝੀਆਂ ਪਬਲਿਕ ਫਾਇਲਾਂ(_S)"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "ਨਿੱਜੀ ਫਾਇਲ ਸਾਂਝ"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "ਫਾਇਲਾਂ ਸਾਂਝੀਆਂ ਕਰਨ ਲਈ ਪਸੰਦ"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "ਜੇ ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਨਿੱਜੀ ਫਾਇਲ ਸਾਂਝ ਚਲਾਓ"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "ਪਸੰਦ ਚਲਾਓ"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 #| msgid "Personal File Sharing Preferences"
 msgid "Launch Personal File Sharing Preferences"
 msgstr "ਨਿੱਜੀ ਫਾਇਲ ਸ਼ੇਅਰਿੰਗ ਪਸੰਦ ਚਲਾਓ"

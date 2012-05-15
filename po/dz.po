@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share.HEAD.pot\n"
+"Project-Id-Version: mateuser-share.HEAD.pot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-11-01 03:50+0100\n"
 "PO-Revision-Date: 2006-11-02 12:22+0530\n"
@@ -19,19 +19,19 @@ msgstr ""
 "X-Poedit-Country: BHUTAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:1
+#: ../desktop_matefile_sharing.schemas.in.h:1
 msgid "If this is true, the Public directory in the users home directory will be shared when the user is logged in."
 msgstr "འ་ནི་འདི་བདེན་པ་ཨིན་པ་ཅིན་ ལག་ལེན་པའི་ཁྱིམ་སྣོད་ཐོ་འདི་ནང་གི་ མི་མང་གི་སྣོད་ཐོ་འདི་ ལག་ལེན་པ་འདི་ནང་བསྐྱོད་འབད་ཡོད་པའི་སྐབས་ རུབ་སྤྱོད་འབད་འོང་།"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:2
+#: ../desktop_matefile_sharing.schemas.in.h:2
 msgid "Share Public directory"
 msgstr "མི་མང་གི་སྣོད་ཐོ་རུབ་སྤྱོད་འབད་"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:3
+#: ../desktop_matefile_sharing.schemas.in.h:3
 msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
 msgstr "ཆོག་ཡིག་ཚུ་གི་དོན་ལུ་ནམ་འདྲི་ནི་ཨིན་ན། འབད་ཚུགས་པའི་གནས་གོང་ \"never\"  \"on_write\"  དང་ \"always\" ཚུ་ཨིན།"
 
-#: ../desktop_gnome_file_sharing.schemas.in.h:4
+#: ../desktop_matefile_sharing.schemas.in.h:4
 msgid "When to require passwords"
 msgstr "ཆོག་ཡིག་ཚུ་ནམ་དགོཔ་ཨིན་ན་"
 
@@ -67,11 +67,11 @@ msgstr "ཆོག་ཡིག་:(_P)"
 msgid "_Require password:"
 msgstr "དགོས་མཁོ་ཡོད་པའི་ཆོག་ཡིག་: (_R)"
 
-#: ../gnome-user-share-properties.desktop.in.h:1
+#: ../mateuser-share-properties.desktop.in.h:1
 msgid "Personal File Sharing"
 msgstr "རང་དོན་གྱི་ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ནི་"
 
-#: ../gnome-user-share-properties.desktop.in.h:2
+#: ../mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of personal files"
 msgstr "རང་དོན་གྱི་ཡིག་སྣོད་ཚུ་གི་རུབ་སྤྱོད་འབད་ནིའི་དོན་ལུ་ དགའ་གདམ་ཚུ་"
 

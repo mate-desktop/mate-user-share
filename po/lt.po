@@ -1,13 +1,13 @@
-# Lithuanian translation of gnome-user-share.
+# Lithuanian translation of mateuser-share.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # Marius Karnauskas <marius@esga.lt>, 2005.
 # Vytautas Rėkus <v.rekus@gmail.com>, 2009.
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share 1.0\n"
+"Project-Id-Version: mateuser-share 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-03 12:11+0200\n"
 "PO-Revision-Date: 2010-03-03 12:11+0200\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -25,7 +25,7 @@ msgstr ""
 "Jei teisinga, Bluetooth įrenginiai gali siųsti failus į vartotojo "
 "parsisiuntimų katalogą, kai vartotojas bus prisijungęs."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -33,7 +33,7 @@ msgstr ""
 "Jei teisinga, vartotojo viešasis katalogas, esantis jo namų kataloge, bus "
 "bendrinamas Bluetooth ryšiu, kai vartotojas bus prisijungęs."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -41,19 +41,19 @@ msgstr ""
 "Jei teisinga, vartotojo viešasis katalogas, esantis jo namų kataloge, bus "
 "bendrinamas tinkle, kai vartotojas bus prisijungęs."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Bendrinti viešąjį aplanką Bluetooth ryšiu"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Bendrinti viešąjį aplanką tinkle"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Kada priimti failus, siųstus Bluetooth ryšiu"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -61,26 +61,26 @@ msgstr ""
 "Kada priimti failus, siunčiamus Bluetooth ryšiu. Galimos reikšmės yra: "
 "„visada“, „susietiems“ ir „klausti“."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
 msgstr ""
 "Kada prašoma slaptažodžių. Galimos reikšmės: „never“, „on_write“ ir „always“."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Kada reikia slaptažodžių"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Ar Bluetooth klientai gali siųsti failus, naudodami ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Ar Bluetooth klientus reikia suporinti su kompiuteriu failų siuntimui."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -88,11 +88,11 @@ msgstr ""
 "Ar Bluetooth klientams leisti įrašyti failus, ar bendrinti failus tik "
 "skaitymui."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Ar Bluetooth klientams leisti įrašyti failus."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Ar įspėti apie naujai gautus failus."
 
@@ -148,24 +148,24 @@ msgstr "_Reikia slaptažodžio:"
 msgid "_Share public files on network"
 msgstr "Bendrinti viešuo_sius failus tinkle"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Asmeninių failų bendrinimas"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Failų viešinimo nustatymai"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Paleisti asmeninių failų viešinimą, jei įjungtas"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Paleisti nustatymus"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Parodyti asmeninių failų viešinimo nustatymus"
 

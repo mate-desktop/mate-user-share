@@ -1,13 +1,13 @@
-# Latvian translation for gnome-user-share.
-# Copyright (C) 2010 gnome-user-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-user-share package.
+# Latvian translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
 #
 # Peteris Krisjanis <pecisk@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-user-share&component=general\n"
+"Project-Id-Version: mateuser-share master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug."
+"cgi?product=mateuser-share&component=general\n"
 "POT-Creation-Date: 2010-03-07 15:44+0000\n"
 "PO-Revision-Date: 2010-03-08 11:39+0200\n"
 "Last-Translator: Peteris Krisjanis <pecisk@gmail.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -26,7 +26,7 @@ msgstr ""
 "Ja patiess, Bluetooth ierīces var sūtīt failus uz lietotāja 'Lejupielādes' "
 "direktoriju, kad lietotājs būs pieteicies."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -35,7 +35,7 @@ msgstr ""
 "koplietota "
 "izmantojot Bluetooth, kad lietotājs būs pieteicies."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -43,19 +43,19 @@ msgstr ""
 "Ja patiess, 'Publiskie' direktorija lietotāja mājasdirektorijā tiks koplietota "
 "izmantojot tīklu, kad lietotājs būs pieteicies."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Koplietot 'Publiskie' direktoriju izmantojot Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Koplietot 'Publiskie' direktoriju izmantojot tīklu"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Kad akceptēt saņemtos failus izmantojot Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -63,7 +63,7 @@ msgstr ""
 "Kad akceptēt saņemtos failus izmantojot Bluetooth. Iespējamās vērtības ir "
 "\"always\", \"bonded\" un \"ask\"."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -71,19 +71,19 @@ msgstr ""
 "Kad prasīt paroli. Iespējamās vērtības ir \"never\", \"on_write\" un "
 "\"always\"."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Vai pieprasīt paroles"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Vai Bluetooth klienti var sūtīt failus izmantojot ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Vai Bluetooth klientiem jābūt sapārotiem ar datoru, lai nosūtītu failus."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -92,11 +92,11 @@ msgstr ""
 "lasīšanas "
 "režīmā."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Vai atļaut Bluetooth klientiem rakstīt failus."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Vai informēt par tikko saņemtiem failiem."
 
@@ -152,24 +152,24 @@ msgstr "Piep_rasīt paroli:"
 msgid "_Share public files on network"
 msgstr "_Koplietot publiskos failus tīklā"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Personiskā failu koplietošana"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Failu koplietošanas iestatījumi"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Palaist personiskās failu koplietošanu (ja tā ir ieslēgta)"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Atvērt iestatījumus"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Atvērt personiskās failu koplietošanas iestatījumus"
 

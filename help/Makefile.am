@@ -1,7 +1,7 @@
-include $(top_srcdir)/gnome-doc-utils.make
+include $(top_srcdir)/mate-doc-utils.make
 dist-hook: doc-dist-hook
 
-DOC_MODULE = gnome-user-share
+DOC_MODULE = mate-user-share
 DOC_ENTITIES =
 DOC_INCLUDES = legal.xml
 DOC_FIGURES = figures/file-sharing-preferences.png \

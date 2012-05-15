@@ -1,11 +1,11 @@
-# Swedish messages for gnome-user-share.
+# Swedish messages for mateuser-share.
 # Copyright (C) 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
 # Christian Rose <menthos@menthos.com>, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share\n"
+"Project-Id-Version: mateuser-share\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-19 19:35+0100\n"
 "PO-Revision-Date: 2010-03-19 19:35+0100\n"
@@ -15,59 +15,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
 msgstr "Om detta är sant kan blåtandsenheter skicka filer till användarens katalog Hämtat när användaren är inloggad."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
 msgstr "Om detta är sant kommer den publika katalogen i användarens hemkatalog att delas ut över Bluetooth när användaren är inloggad."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
 msgstr "Om detta är sant kommer den publika katalogen i användarens hemkatalog att delas ut på nätverket när användaren är inloggad."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Dela ut publik katalog över Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Dela ut publik katalog över nätverket"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "När filer skickade över Bluetooth ska accepteras"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
 msgstr "När filer som skickas över Bluetooth ska accepteras. Möjliga värden är \"always\" (alltid), \"bonded\" (ihopparad) och \"ask\" (fråga)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
 msgstr "När lösenord ska efterfrågas. Möjliga värden är \"never\" (aldrig), \"on_write\" (vid skrivning) och \"always\" (alltid)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "När lösenord ska krävas"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Huruvida blåtandsklienter kan skicka filer med ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Huruvida blåtandsklienter behöver paras ihop med datorn för att skicka filer."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
 msgstr "Huruvida blåtandsklienter ska tillåtas att skriva filer, eller dela ut filerna skrivskyddade."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Huruvida blåtandsklienter ska tillåtas att skriva filer."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Huruvida notifiering om nyligen mottagna filer ska göras."
 
@@ -123,25 +123,25 @@ msgstr "_Kräv lösenord:"
 msgid "_Share public files on network"
 msgstr "_Dela ut publika filer på nätverket"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2
-#: ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2
+#: ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Utdelning av personliga filer"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Inställningar för utdelning av filer"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Starta personlig filutdelning om aktiverat"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Starta inställningar"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Starta Inställningar för personlig filutdelning"
 
@@ -196,7 +196,7 @@ msgstr "Fråga"
 
 # Vi undviker på detta sätt problemen som "%ss publika filer" skulle
 # skapat, exempelvis "Alexs publika filer" eller "Markuss publika filer".
-# Se även http://bugzilla.gnome.org/show_bug.cgi?id=163652
+# Se även http://bugzilla.mateorg/show_bug.cgi?id=163652
 #
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -214,7 +214,7 @@ msgstr "%.0sPublika filer"
 
 # Vi undviker på detta sätt problemen som "%ss publika filer" skulle
 # skapat, exempelvis "Alexs publika filer" eller "Markuss publika filer".
-# Se även http://bugzilla.gnome.org/show_bug.cgi?id=163652
+# Se även http://bugzilla.mateorg/show_bug.cgi?id=163652
 #
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.

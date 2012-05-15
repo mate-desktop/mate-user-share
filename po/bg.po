@@ -1,13 +1,13 @@
-# Bulgarian translation of gnome-user-share po-file.
+# Bulgarian translation of mateuser-share po-file.
 # Copyright (C) 2005, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # Rostislav Raykov <zbrox@i-space.org>, 2005.
 # Alexander Shopov <ash@kambanaria.org>, 2009, 2010.
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share master\n"
+"Project-Id-Version: mateuser-share master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-25 23:32+0200\n"
 "PO-Revision-Date: 2010-01-25 23:32+0200\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -26,7 +26,7 @@ msgstr ""
 "Ако е истина, отдалечени устройства ще могат да пращат файлове по Bluetooth "
 "към папката на потребителя „Свалени“, когато той е влезнал в системата."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -34,7 +34,7 @@ msgstr ""
 "Ако е истина, публичната папка в домашната на потребителя ще бъде споделена "
 "по Bluetooth, когато той е влезнал в системата."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -42,19 +42,19 @@ msgstr ""
 "Ако е истина, публичната папка в домашната на потребителя ще бъде споделена "
 "по мрежата, когато той е влезнал в системата."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Споделяне на публичната папка по Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Споделяне на публичната папка по мрежата"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Дали да се приемат файлове по Bluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
@@ -63,7 +63,7 @@ msgstr ""
 "„always“ (винаги), „bonded“ (от изрично свързани устройства) и „ask“ (питане "
 "всеки път)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -71,21 +71,21 @@ msgstr ""
 "Кога да се пита за пароли. Възможните опции са: „never“ (никога), "
 "„on_write“ (при запис), „always“ (винаги)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Кога да се изискват пароли?"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Дали клиентите по Bluetooth могат да изпращат файлове чрез ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr ""
 "Дали клиентите по Bluetooth трябва изрично да се свържат към компютъра, за "
 "да пращат файлове."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -93,11 +93,11 @@ msgstr ""
 "Дали клиентите по Bluetooth да могат да записват файлове или да се дадат "
 "права само за четене."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Дали клиентите по Bluetooth могат да записват файлове."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Дали да се известява при получаване на файл."
 
@@ -154,24 +154,24 @@ msgstr "_Изискване на парола:"
 msgid "_Share public files on network"
 msgstr "_Споделяне на публичните файлове по мрежата"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Споделяне на файлове"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Настройки за споделянето на файлове"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Стартиране на споделянето на файлове, ако е позволено"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Настройки на споделянето"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Настройки на споделянето на личните файлове"
 

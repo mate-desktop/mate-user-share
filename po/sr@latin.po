@@ -1,7 +1,7 @@
-# Serbian translation of nautilus
+# Serbian translation of caja
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2009.
 #
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 #
 # Maintainer: Goran Rakić <grakic@devbase.net>
 # Previous translators:
@@ -9,8 +9,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Project-Id-Version: mateuser-share\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mate"
 "user-share&component=general\n"
 "POT-Creation-Date: 2010-02-22 13:30+0000\n"
 "PO-Revision-Date: 2010-03-07 17:36+0100\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
@@ -30,7 +30,7 @@ msgstr ""
 "Blutut uređaji mogu poslati daoteke u korisničku fasciklu „Preuzeto“ kada je "
 "korisnik prijavljen."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
@@ -38,7 +38,7 @@ msgstr ""
 "Fascikla „Javno“ u korisničkoj fascikli je deljena preko blutut veze kada je "
 "korisnik prijavljen."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
@@ -46,19 +46,19 @@ msgstr ""
 "Fascikla „Javno“ u korisničkoj fasckili je deljena preko mreže kada je "
 "korisnik prijavljen."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Deli fasciklu „Javno“ preko blutut veze"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Deli fasciklu „Javno“ preko mreže"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Dozvoljeno prihvatanje datoteka sa blutut veze"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 #| msgid ""
 #| "When to accept files sent over Bluetooth. Possible values are \"always\", "
 #| "\"bonded\", \"bonded_trusted\" and \"ask\"."
@@ -69,7 +69,7 @@ msgstr ""
 "Određuje kada je dozvoljeno prihvatanje datoteka sa blutut veze. Moguće "
 "vrednosti su „always“ (uvek), „bonded“ (upareni) i „ask“ (pitaj)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
@@ -77,19 +77,19 @@ msgstr ""
 "Određuje kada je zahtevan unos lozinke. Moguće vrednosti su "
 "„never“ (nikada), „on_write“ (pri upisu) i „always“ (uvek)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Zahtevan unos lozinke"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Blutut klijenti mogu poslati datoteke kroz „ObexPush“"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Blutut klijenti moraju biti upareni sa računarom za slanje datoteka."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
@@ -97,11 +97,11 @@ msgstr ""
 "Određuje da li blutut klijenti mogu da upisuju datoteke ili se datoteke dele "
 "samo kao neupisive."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Blutut klijenti mogu da upisuju datoteke."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Obavesti o novim primljenim datotekama."
 
@@ -157,24 +157,24 @@ msgstr "_Neophodna lozinka:"
 msgid "_Share public files on network"
 msgstr "Deli javne datoteke preko _mreže"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2 ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Deljenje ličnih datoteka"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Postavke za deljenje datoteka"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Pokreće deljenje ličnih datoteka ako je omogućeno"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Pokreni postavke"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 #| msgid "Personal File Sharing Preferences"
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Pokreće postavke za deljenje ličnih datoteka"

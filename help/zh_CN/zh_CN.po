@@ -1,11 +1,11 @@
-# Simplified Chinese translation of gnome-user-share help document.
+# Simplified Chinese translation of mateuser-share help document.
 # Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 # TeliuTe <TeliuTe@163.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share-help.HEAD\n"
+"Project-Id-Version: mateuser-share-help.HEAD\n"
 "POT-Creation-Date: 2010-06-13 17:48+0000\n"
 "PO-Revision-Date: 2010-06-16 14:20+0800\n"
 "Last-Translator: TeliuTe <teliute@163.com>\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:81(None)
+#: C/mateuser-share.xml:81(None)
 msgid ""
 "@@image: 'figures/file-sharing-preferences.png'; "
 "md5=7ae616b8043b36be1f4943ba06d8a5ed"
@@ -109,7 +109,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:99(None)
+#: C/mateuser-share.xml:99(None)
 msgid ""
 "@@image: 'figures/sharing-over-the-network.png'; "
 "md5=ee8b44eb1290e4d1ae9b1e8fe8501860"
@@ -119,7 +119,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:143(None)
+#: C/mateuser-share.xml:143(None)
 msgid ""
 "@@image: 'figures/sharing-over-bluetooth.png'; "
 "md5=0a950502b42b1e7fdb9a57d5017e919c"
@@ -129,7 +129,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-user-share.xml:168(None)
+#: C/mateuser-share.xml:168(None)
 msgid ""
 "@@image: 'figures/receiving-over-bluetooth.png'; "
 "md5=f292daef06767f39e346b222d3c448be"
@@ -137,128 +137,128 @@ msgstr ""
 "@@image: 'figures/receiving-over-bluetooth.png'; "
 "md5=f292daef06767f39e346b222d3c448be"
 
-#: C/gnome-user-share.xml:10(title)
+#: C/mateuser-share.xml:10(title)
 msgid "Personal File Sharing Manual"
 msgstr "个人文件共享手册"
 
-#: C/gnome-user-share.xml:12(year) C/gnome-user-share.xml:29(date)
+#: C/mateuser-share.xml:12(year) C/mateuser-share.xml:29(date)
 msgid "2009"
 msgstr "2009"
 
-#: C/gnome-user-share.xml:13(holder)
+#: C/mateuser-share.xml:13(holder)
 msgid "Red Hat, Inc."
 msgstr "Red Hat, Inc."
 
-#: C/gnome-user-share.xml:19(firstname)
+#: C/mateuser-share.xml:19(firstname)
 msgid "Matthias"
 msgstr "Matthias"
 
-#: C/gnome-user-share.xml:20(surname)
+#: C/mateuser-share.xml:20(surname)
 msgid "Clasen"
 msgstr "Clasen"
 
-#: C/gnome-user-share.xml:28(revnumber)
+#: C/mateuser-share.xml:28(revnumber)
 msgid "1.0"
 msgstr "1.0"
 
-#: C/gnome-user-share.xml:31(para)
+#: C/mateuser-share.xml:31(para)
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
 msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
-#: C/gnome-user-share.xml:35(releaseinfo)
-msgid "This manual describes version 2.26 of gnome-user-share."
+#: C/mateuser-share.xml:35(releaseinfo)
+msgid "This manual describes version 2.26 of mateuser-share."
 msgstr "本手册讲述的是用户共享手册 2.26 版。"
 
-#: C/gnome-user-share.xml:37(title)
+#: C/mateuser-share.xml:37(title)
 msgid "Feedback"
 msgstr "反馈"
 
-#: C/gnome-user-share.xml:38(para)
+#: C/mateuser-share.xml:38(para)
 msgid ""
-"To report a bug or make a suggestion regarding the gnome-user-share "
+"To report a bug or make a suggestion regarding the mateuser-share "
 "application or this manual, follow the directions in the <ulink url=\"ghelp:"
 "user-guide?feedback-bugs\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
 "要报告关于用户共享或使用手册中的缺陷，或者提出建议，请参照 <ulink url="
-"\"ghelp:gnome-feedback\" type=\"help\">GNOME 反馈页</ulink> 上的指导。"
+"\"ghelp:matefeedback\" type=\"help\">GNOME 反馈页</ulink> 上的指导。"
 
-#: C/gnome-user-share.xml:41(para)
+#: C/mateuser-share.xml:41(para)
 msgid ""
-"gnome-user-share is a session service that enables easy sharing of files "
+"mateuser-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr "用户共享是一个会话服务，可以很方便地在不同计算机之间共享文件。"
 
-#: C/gnome-user-share.xml:45(primary)
-msgid "gnome-user-share"
+#: C/mateuser-share.xml:45(primary)
+msgid "mateuser-share"
 msgstr "GNOME 用户共享"
 
-#: C/gnome-user-share.xml:46(primary)
+#: C/mateuser-share.xml:46(primary)
 msgid "file sharing"
 msgstr "文件共享"
 
-#: C/gnome-user-share.xml:47(primary)
+#: C/mateuser-share.xml:47(primary)
 msgid "sharing"
 msgstr "共享"
 
-#: C/gnome-user-share.xml:50(title)
+#: C/mateuser-share.xml:50(title)
 msgid "Introduction"
 msgstr "介绍"
 
-#: C/gnome-user-share.xml:51(para)
+#: C/mateuser-share.xml:51(para)
 msgid ""
-"gnome-user-share is a session service that exports the contents of the "
+"mateuser-share is a session service that exports the contents of the "
 "<filename>Public</filename> folder in your home directory, so that they can "
 "easily be accessed from other computers on the same local network. On the "
 "other computers, the shared folder will appear with a name like "
 "'<replaceable>user</replaceable>'s shared files' in the "
-"<application>nautilus</application> Network window, where <replaceable>user</"
+"<application>caja</application> Network window, where <replaceable>user</"
 "replaceable> will be replaced by your user name."
 msgstr ""
 "用户共享是一个会话服务，用于输出您的主目录中的 <filename>公共</filename> 文件"
 "夹的内容，其他人可以通过局域网很方便地访问。在其他计算机上，共享的文件夹会出"
-"现在 <application>nautilus 文件管理器</application> 的网络窗口中，是一个"
+"现在 <application>caja 文件管理器</application> 的网络窗口中，是一个"
 "叫“<replaceable>user</replaceable> 的共享文件夹 ”，这儿的 <replaceable>user</"
 "replaceable>，将会是您的用户名。"
 
-#: C/gnome-user-share.xml:54(para)
+#: C/mateuser-share.xml:54(para)
 msgid ""
-"gnome-user-share uses a WebDAV server to share the <filename>Public</"
+"mateuser-share uses a WebDAV server to share the <filename>Public</"
 "filename> folder, and advertises the share on the local network using mDNS."
 msgstr ""
 "GNOME 用户共享使用一个 WebDAV 服务来共享 <filename>公共</filename> 文件夹，并"
 "且使用 mDNS 在局域网中通知共享。"
 
-#: C/gnome-user-share.xml:57(para)
+#: C/mateuser-share.xml:57(para)
 msgid ""
-"Additionally, gnome-user-share can make the shared files available via "
+"Additionally, mateuser-share can make the shared files available via "
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via "
 "Bluetooth via ObexPush."
 msgstr ""
 "另外，GNOME 用户共享能使共享文件夹通过 ObexFTP 到蓝牙，并通过您计算机上的蓝"
 "牙 ObexPush 来接收文件。"
 
-#: C/gnome-user-share.xml:63(title)
+#: C/mateuser-share.xml:63(title)
 msgid "Getting started"
 msgstr "快速入门"
 
-#: C/gnome-user-share.xml:66(title)
-msgid "Starting gnome-user-share"
+#: C/mateuser-share.xml:66(title)
+msgid "Starting mateuser-share"
 msgstr "启动 GNOME 用户共享"
 
-#: C/gnome-user-share.xml:68(para)
+#: C/mateuser-share.xml:68(para)
 msgid ""
-"The gnome-user-share service is normally started by <application>gnome-"
+"The mateuser-share service is normally started by <application>mate"
 "session</application> when you log in. You can change this by opening "
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Startup Applications</"
 "guimenu></menuchoice> in the <guimenu>System</guimenu> menu, and modifying "
 "the 'User Sharing' entry in the list of startup programs."
 msgstr ""
-"GNOME 用户共享服务在您登录时，由 <application>gnome-session</application> 正"
+"GNOME 用户共享服务在您登录时，由 <application>matesession</application> 正"
 "常启动，可以通过 <guimenu>系统</guimenu> 菜单的 <menuchoice><guimenu>首选项</"
 "guimenu><guimenu>启动的应用程序</guimenu></menuchoice> 菜单来改变，点击“用户"
 "共享”条目来设置它。"
 
-#: C/gnome-user-share.xml:72(para)
+#: C/mateuser-share.xml:72(para)
 msgid ""
 "To configure various aspects of file sharing, use the File Sharing "
 "Preferences, which can be found in the <guimenu>System</guimenu> menu under "
@@ -269,16 +269,16 @@ msgstr ""
 "的  <menuchoice><guimenu>首选项</guimenu><guimenu>个人文件共享</guimenu></"
 "menuchoice>。"
 
-#: C/gnome-user-share.xml:77(title)
+#: C/mateuser-share.xml:77(title)
 msgid "File Sharing Preferences"
 msgstr "文件共享首选项"
 
-#: C/gnome-user-share.xml:89(title)
+#: C/mateuser-share.xml:89(title)
 msgid "Enabling file sharing over the network"
 msgstr "允许在网络上文件共享"
 
-#: C/gnome-user-share.xml:90(para) C/gnome-user-share.xml:134(para)
-#: C/gnome-user-share.xml:159(para)
+#: C/mateuser-share.xml:90(para) C/mateuser-share.xml:134(para)
+#: C/mateuser-share.xml:159(para)
 msgid ""
 "Open the File Sharing Preferences using <menuchoice><guimenu>Preferences</"
 "guimenu><guimenu>Personal File Sharing</guimenu></menuchoice> in the "
@@ -287,11 +287,11 @@ msgstr ""
 "打开文件共享首选项 <guimenu>系统</guimenu> 菜单的 <menuchoice><guimenu>首选项"
 "</guimenu><guimenu>个人文件共享</guimenu></menuchoice> 菜单。"
 
-#: C/gnome-user-share.xml:95(title)
+#: C/mateuser-share.xml:95(title)
 msgid "Share Files over the Network"
 msgstr "在网络上共享文件"
 
-#: C/gnome-user-share.xml:106(para)
+#: C/mateuser-share.xml:106(para)
 msgid ""
 "Some firewall configurations on the local machine might cause problems with "
 "the advertisment, as well as the access to the shared files. Consult your "
@@ -300,21 +300,21 @@ msgstr ""
 "在你访问共享文件夹的时候，本地机子上的防火墙的配置可能会导致错误提示。请联系"
 "您的系统管理员以获得更多信息。"
 
-#: C/gnome-user-share.xml:109(para)
+#: C/mateuser-share.xml:109(para)
 msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write "
 "files in the shared folder."
 msgstr ""
 "选中 <guilabel>从不</guilabel> 允许任何人随意读和写共享文件夹里的文件。"
 
-#: C/gnome-user-share.xml:115(para)
+#: C/mateuser-share.xml:115(para)
 msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
 "选择 <guilabel>总是</guilabel> 需要密码验证才能读和写共享文件夹里的文件。"
 
-#: C/gnome-user-share.xml:121(para)
+#: C/mateuser-share.xml:121(para)
 msgid ""
 "Select <guilabel>When writing files</guilabel> to allow everybody to freely "
 "read files in the shared folder, but require the password when writing files."
@@ -322,7 +322,7 @@ msgstr ""
 "选择 <guilabel>当写入文件时</guilabel> 允许任何人读取文件，但写文件时需要密码"
 "验证。"
 
-#: C/gnome-user-share.xml:128(para)
+#: C/mateuser-share.xml:128(para)
 msgid ""
 "When you set a password, you have to give the password to all users that you "
 "want to have access to the shared files. Therefore, you should use a "
@@ -331,7 +331,7 @@ msgstr ""
 "如果您设定了一个密码，你就得把密码发给每一个您允许访问共享文件的用户。因此，"
 "这个密码应该跟您的用户登录密码不同。"
 
-#: C/gnome-user-share.xml:104(para)
+#: C/mateuser-share.xml:104(para)
 msgid ""
 "To enable file sharing via WebDAV, use the <guilabel>Share public files on "
 "network</guilabel> checkbox. When file sharing it enabled, the controls for "
@@ -343,15 +343,15 @@ msgstr ""
 "当文件共享启用时，密码保护控件允许您设置一个密码，当其他计算机想要访问共享文"
 "件是指定。<placeholder-1/><placeholder-2/><placeholder-3/>"
 
-#: C/gnome-user-share.xml:133(title)
+#: C/mateuser-share.xml:133(title)
 msgid "Enabling file sharing over Bluetooth"
 msgstr "允许通过蓝牙共享文件"
 
-#: C/gnome-user-share.xml:139(title)
+#: C/mateuser-share.xml:139(title)
 msgid "Share Files over Bluetooth"
 msgstr "通过蓝牙共享文件"
 
-#: C/gnome-user-share.xml:152(para)
+#: C/mateuser-share.xml:152(para)
 msgid ""
 "When you allow unbonded remote devices to access your shared files, anybody "
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
@@ -360,7 +360,7 @@ msgstr ""
 "当您允许非配对的远程设备访问您的共享文件时，任何人可以通过蓝牙手机在您的计算"
 "机附件访问、甚至修改您的共享文件。"
 
-#: C/gnome-user-share.xml:148(para)
+#: C/mateuser-share.xml:148(para)
 msgid ""
 "To enable file sharing via Bluetooth, use the <guilabel>Share public files "
 "over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to "
@@ -376,27 +376,27 @@ msgstr ""
 "算机配对，选中 <guilabel>需要远程设备与此计算机配对</guilabel> 复选框。 "
 "<placeholder-1/>"
 
-#: C/gnome-user-share.xml:158(title)
+#: C/mateuser-share.xml:158(title)
 msgid "Receiving Files over Bluetooth"
 msgstr "通过蓝牙接收文件"
 
-#: C/gnome-user-share.xml:164(title)
+#: C/mateuser-share.xml:164(title)
 msgid "Receive Files over Bluetooth"
 msgstr "通过蓝牙接收文件"
 
-#: C/gnome-user-share.xml:177(para)
+#: C/mateuser-share.xml:177(para)
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr "选择 <guilabel>总是</guilabel> 允许其他远程设备发送文件。"
 
-#: C/gnome-user-share.xml:184(para)
+#: C/mateuser-share.xml:184(para)
 msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to "
 "enter a PIN code to connect to or from."
 msgstr ""
 "配对设备是一个正在连接到您计算机的设备，已经输入了一个 PIN 代码来连接的。"
 
-#: C/gnome-user-share.xml:182(para)
+#: C/mateuser-share.xml:182(para)
 msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <placeholder-1/>"
@@ -404,7 +404,7 @@ msgstr ""
 "选择 <guilabel>仅配对的设备</guilabel> 只接收配对设备传输的文件。"
 "<placeholder-1/>"
 
-#: C/gnome-user-share.xml:191(para)
+#: C/mateuser-share.xml:191(para)
 msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-properties</"
 "application>'s <guilabel>Known devices</guilabel> section."
@@ -412,7 +412,7 @@ msgstr ""
 "在 <application>蓝牙-属性</application> 的 <guilabel>已知设备</guilabel> 中，"
 "可以标记设备为信任。"
 
-#: C/gnome-user-share.xml:189(para)
+#: C/mateuser-share.xml:189(para)
 msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <placeholder-1/>"
@@ -420,7 +420,7 @@ msgstr ""
 "选择 <guilabel>仅配对的和信任的设备</guilabel> 只接收从配对的和信任的设备传输"
 "的文件。"
 
-#: C/gnome-user-share.xml:173(para)
+#: C/mateuser-share.xml:173(para)
 msgid ""
 "To let remote Bluetooth devices send files to your computer, use the "
 "<guilabel>Receive files in Downloads folder over Bluetooth</guilabel> "
@@ -434,7 +434,7 @@ msgstr ""
 "filename> 文件夹中。当启用接收文件，<guilabel>接收文件</guilabel> 面板允许您"
 "设定哪一个远程设备被允许发送文件。<placeholder-1/>"
 
-#: C/gnome-user-share.xml:196(para)
+#: C/mateuser-share.xml:196(para)
 msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
@@ -443,6 +443,6 @@ msgstr ""
 "否出现提示。"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/gnome-user-share.xml:0(None)
+#: C/mateuser-share.xml:0(None)
 msgid "translator-credits"
 msgstr "TeliuTe <teliute@163.com>, 2009, 2010"

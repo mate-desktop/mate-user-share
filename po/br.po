@@ -1,13 +1,13 @@
-# Breton translation for gnome-user-share
+# Breton translation for mateuser-share
 # Copyright (c) 2010 The Gnome Project
-# This file is distributed under the same license as the gnome-user-share package.
+# This file is distributed under the same license as the mateuser-share package.
 #
 # Alan Monfort <alan.monfort@free.fr>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-user-share\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-user-share&component=general\n"
+"Project-Id-Version: mateuser-share\n"
+"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mateuser-share&component=general\n"
 "POT-Creation-Date: 2010-06-27 09:51+0000\n"
 "PO-Revision-Date: 2010-07-13 19:42+0100\n"
 "Last-Translator: Denis <denisarnuad@yahoo.fr>\n"
@@ -16,59 +16,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:1
+#: ../data/desktop_matefile_sharing.schemas.in.h:1
 msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
 msgstr "Mar GWIR e vez kaset restroù gant an trobarzhelloù Bluetooth da gavlec'hiad Pellgargañ an arveriad pa vez kennasket."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:2
+#: ../data/desktop_matefile_sharing.schemas.in.h:2
 msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
 msgstr "Mar GWIR e vo rannet ar c'havlec'hiad foran e kavlec'hiad personel an arveriaded dre vBluetooth pa vez kennasket an arveriad."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:3
+#: ../data/desktop_matefile_sharing.schemas.in.h:3
 msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
 msgstr "Mar GWIR e vo rannet ar c'havlec'hiad foran e kavlec'hiad personel an arveriaded dre ar rouedad pa vez kennasket an arveriad."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:4
+#: ../data/desktop_matefile_sharing.schemas.in.h:4
 msgid "Share Public directory over Bluetooth"
 msgstr "Rannañ ar c'havlec'hiad foran dre vBluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:5
+#: ../data/desktop_matefile_sharing.schemas.in.h:5
 msgid "Share Public directory over the network"
 msgstr "Rannañ ar c'havlec'hiad foran dre ar rouedad"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:6
+#: ../data/desktop_matefile_sharing.schemas.in.h:6
 msgid "When to accept files sent over Bluetooth"
 msgstr "Pegoulz asantiñ restroù kaset dre vBluetooth"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:7
+#: ../data/desktop_matefile_sharing.schemas.in.h:7
 msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
 msgstr "Pegoulz asantiñ restroù kaset dre vBluetooth. Ar gwerzhioù zo \"always\" (bepred), \"bonded\" (mar ereet) hag \"ask\" (goulenn)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:8
+#: ../data/desktop_matefile_sharing.schemas.in.h:8
 msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
 msgstr "Pegoulz goulenn ur ger-tremen. Ar gwerzhioù zo \"never\", (morse) \"on_write\" (gant ar skritur) hag \"always\" (bepred)."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:9
+#: ../data/desktop_matefile_sharing.schemas.in.h:9
 msgid "When to require passwords"
 msgstr "Pegoulz azgoulenn ar gerioù-tremen"
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:10
+#: ../data/desktop_matefile_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
 msgstr "Menegiñ a ra hag-eñ e vo kaset restroù gant arvalion Bluetooth en ur ober gant ObexPush."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:11
+#: ../data/desktop_matefile_sharing.schemas.in.h:11
 msgid "Whether Bluetooth clients need to pair with the computer to send files."
 msgstr "Menegiñ a ra hag-eñ ez eo ret da arvalion Bluetooth bezañ liammet gant an urzhiataer a-benn kas restroù."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:12
+#: ../data/desktop_matefile_sharing.schemas.in.h:12
 msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
 msgstr "Menegiñ a ra hag-eñ ez eo aotreet arvalion Bluetooth da skrivañ restroù pe rannañ ar restroù e mod lenn nemetken."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:13
+#: ../data/desktop_matefile_sharing.schemas.in.h:13
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Menegiñ a ra hag-eñ ez eo aotreet arvalion Bluetooth da skrivañ restroù."
 
-#: ../data/desktop_gnome_file_sharing.schemas.in.h:14
+#: ../data/desktop_matefile_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "Menegiñ a ra hag-eñ e vo kemennet a-fet restroù nevez degemeret"
 
@@ -124,25 +124,25 @@ msgstr "_Azgoulenn ur ger-tremen :"
 msgid "_Share public files on network"
 msgstr "Rannañ restroù foran dre ar rouedad"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:1
-#: ../data/gnome-user-share.desktop.in.in.h:2
-#: ../src/nautilus-share-bar.c:162
+#: ../data/mateuser-share-properties.desktop.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:2
+#: ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Rannadur restroù foran"
 
-#: ../data/gnome-user-share-properties.desktop.in.h:2
+#: ../data/mateuser-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Gwellvezioù a-fet rannañ restroù"
 
-#: ../data/gnome-user-share.desktop.in.in.h:1
+#: ../data/mateuser-share.desktop.in.in.h:1
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Loc'hañ ar rannadur restroù personel mar bez gweredekaet"
 
-#: ../src/nautilus-share-bar.c:174
+#: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
 msgstr "Gwellvezioù al loc'hañ"
 
-#: ../src/nautilus-share-bar.c:187
+#: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
 
