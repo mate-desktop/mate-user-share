@@ -10,7 +10,7 @@ DISTCLEANFILES =		\
 	intltool-merge		\
 	intltool-update
 
-DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install --with-nautilusdir='$${libdir}/caja/extensions-2.0-distcheck'
+DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
 
 # Build ChangeLog from GIT history
 ChangeLog:

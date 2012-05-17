@@ -1,4 +1,4 @@
-AC_INIT(mate-user-share, 2.30.2)
+AC_INIT(mate-user-share, 1.3.0)
 
 AM_INIT_AUTOMAKE([1.9 dist-bzip2 no-dist-gzip check-news])
 AM_CONFIG_HEADER(config.h)
@@ -128,21 +128,21 @@ MODULES_PATH=$with_modules_path
 AC_SUBST(MODULES_PATH)
 
 dnl===========================================================================
-dnl Check for nautilus for the share bar
+dnl Check for caja for the share bar
 
-AC_ARG_WITH(nautilusdir,
-	    AS_HELP_STRING([--with-nautilusdir=DIR],[Installation path for Nautilus extension @<:@auto@:>@]),
-	    [ac_with_nautilusdir=$withval],
-	    [ac_with_nautilusdir=""])
+AC_ARG_WITH(cajadir,
+	    AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Nautilus extension @<:@auto@:>@]),
+	    [ac_with_cajadir=$withval],
+	    [ac_with_cajadir=""])
 
 PKG_CHECK_MODULES(EXTENSION,
-		   libnautilus-extension)
-if test "${ac_with_nautilusdir}" = ""; then
-	ac_with_nautilusdir=`pkg-config --variable=extensiondir libnautilus-extension`
+		   libcaja-extension)
+if test "${ac_with_cajadir}" = ""; then
+	ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
 fi
 AC_SUBST(NAUTILUSDIR)
-AC_MSG_NOTICE([installing nautilus plugin in ${ac_with_nautilusdir}])
-AC_SUBST([NAUTILUSDIR],[${ac_with_nautilusdir}])
+AC_MSG_NOTICE([installing caja plugin in ${ac_with_cajadir}])
+AC_SUBST([NAUTILUSDIR],[${ac_with_cajadir}])
 
 dnl ==========================================================================
 
