@@ -6,7 +6,7 @@ test -z "$srcdir" && srcdir=.
 
 PKG_NAME="mate-user-share"
 
-(test -f $srcdir/configure.ac) || {
+(test -f $srcdir/configure.in) || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
     echo " top level $PKG_NAME directory"
     exit 1
@@ -18,7 +18,7 @@ which mate-autogen || {
 }
 
 REQUIRED_AUTOMAKE_VERSION=1.9
-USE_MATE2_MACROS=1
+MATE_DATADIR="$mate_datadir"
 USE_COMMON_DOC_BUILD=yes
 
 . mate-autogen
