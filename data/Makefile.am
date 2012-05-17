@@ -1,7 +1,7 @@
 SUBDIRS = icons
 
 @INTLTOOL_SCHEMAS_RULE@
-schemadir = $(GCONF_SCHEMA_FILE_DIR)
+schemadir = $(MATECONF_SCHEMA_FILE_DIR)
 schema_in_files = desktop_mate_file_sharing.schemas.in
 schema_DATA = $(schema_in_files:.schemas.in=.schemas)
 	
@@ -18,15 +18,15 @@ appdir = $(datadir)/mate-user-share
 app_DATA=dav_user_2.0.conf dav_user_2.2.conf dav_groupfile file-share-properties.ui
 
 install-data-local:
-if GCONF_SCHEMAS_INSTALL
-	-GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) \
-	$(GCONFTOOL) --makefile-install-rule $(schema_DATA)
+if MATECONF_SCHEMAS_INSTALL
+	-MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) \
+	$(MATECONFTOOL) --makefile-install-rule $(schema_DATA)
 endif
 
-if GCONF_SCHEMAS_INSTALL
+if MATECONF_SCHEMAS_INSTALL
 uninstall-local:
-	-GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) \
-	$(GCONFTOOL) --makefile-uninstall-rule $(schema_DATA)
+	-MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) \
+	$(MATECONFTOOL) --makefile-uninstall-rule $(schema_DATA)
 endif
 
 EXTRA_DIST = $(schema_in_files) \

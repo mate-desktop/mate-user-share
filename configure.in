@@ -56,11 +56,11 @@ if $have_dbus_1_1 ; then
    AC_DEFINE(HAVE_DBUS_1_1, 1, [Set to true if we have D-BUS 1.1])
 fi
 
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 gdk-x11-2.0 gtk+-2.0 gconf-2.0 dbus-glib-1 libnotify libcanberra-gtk $DBUS_MODULES mate-bluetooth-1.0 >= 1.2.0)
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 gdk-x11-2.0 gtk+-2.0 mateconf-2.0 dbus-glib-1 libmatenotify libcanberra-gtk $DBUS_MODULES mate-bluetooth-1.0 >= 1.2.0)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
 
-PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= 2.15.2 gtk+-2.0 >= 2.12.0 gconf-2.0 unique-1.0)
+PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= 2.15.2 gtk+-2.0 >= 2.12.0 mateconf-2.0 unique-1.0)
 AC_SUBST(USER_SHARE_CONFIG_CFLAGS)
 AC_SUBST(USER_SHARE_CONFIG_LIBS)
 	
@@ -81,13 +81,13 @@ fi
 
 AC_PATH_PROG([GLIB_GENMARSHAL],[glib-genmarshal])
 
-AC_PATH_PROG(GCONFTOOL, gconftool-2, no)
+AC_PATH_PROG(MATECONFTOOL, mateconftool-2, no)
 
-if test x"$GCONFTOOL" = xno; then
-  AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])
+if test x"$MATECONFTOOL" = xno; then
+  AC_MSG_ERROR([mateconftool-2 executable not found in your path - should be installed with GConf])
 fi
 
-AM_GCONF_SOURCE_2
+AM_MATECONF_SOURCE_2
 
 dnl where to install the mate-user-share binary
 if test "x$prefix" = "xNONE"; then
@@ -199,7 +199,6 @@ data/icons/48x48/Makefile
 data/mate-user-share.desktop.in
 po/Makefile.in
 src/Makefile
-help/Makefile
 ])
 
 echo "
