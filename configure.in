@@ -131,7 +131,7 @@ dnl===========================================================================
 dnl Check for caja for the share bar
 
 AC_ARG_WITH(cajadir,
-	    AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Nautilus extension @<:@auto@:>@]),
+	    AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
 	    [ac_with_cajadir=$withval],
 	    [ac_with_cajadir=""])
 
@@ -140,9 +140,9 @@ PKG_CHECK_MODULES(EXTENSION,
 if test "${ac_with_cajadir}" = ""; then
 	ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
 fi
-AC_SUBST(NAUTILUSDIR)
+AC_SUBST(CAJADIR)
 AC_MSG_NOTICE([installing caja plugin in ${ac_with_cajadir}])
-AC_SUBST([NAUTILUSDIR],[${ac_with_cajadir}])
+AC_SUBST([CAJADIR],[${ac_with_cajadir}])
 
 dnl ==========================================================================
 

@@ -141,7 +141,8 @@ show_notification (const char *filename)
 	g_free (display);
 	notification = notify_notification_new (_("You received a file"),
 								 notification_text,
-								 "dialog-information");
+								 "dialog-information",
+                                 NULL);
 
 	notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
 
