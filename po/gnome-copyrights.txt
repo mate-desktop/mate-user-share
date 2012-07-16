@@ -1,0 +1,788 @@
+========== ar.po ==========
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2006, 2009.
+# Khaled Hosny <khaledhosny@eglug.org>, 2009, 2010.
+
+
+
+
+========== as.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+
+
+
+
+========== ast.po ==========
+# Asturian translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of mateuser-share po-file.
+# Copyright (C) 2005, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Rostislav Raykov <zbrox@i-space.org>, 2005.
+# Alexander Shopov <ash@kambanaria.org>, 2009, 2010.
+#
+#
+
+
+
+
+========== bn.po ==========
+# Bengali translation for mateuser-share
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+# Israt Jahan <israt@ankur.org.bd>, 2009.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of bn_IN.po to Bengali INDIA
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009, 2010.
+
+
+
+
+========== br.po ==========
+# Breton translation for mateuser-share
+# Copyright (c) 2010 The Gnome Project
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Alan Monfort <alan.monfort@free.fr>, 2010.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation of mateuser-share.
+# Copyright (C) 2005, 2006 The mateuser-share's copyright holder
+# This file is distributed under the same license as the
+#    mateuser-share package.
+#
+# Gil Forcada <gilforcada@guifi.net>, 2005, 2006, 2008, 2009, 2010.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation of mateuser-share.
+# Copyright (C) 2005, 2006 The mateuser-share's copyright holder
+# This file is distributed under the same license as the
+#    mateuser-share package.
+#
+# Gil Forcada <gilforcada@guifi.net>, 2005, 2006, 2008, 2009, 2010.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of mateuser-share.
+# Copyright (C) 2005, 2006, 2009 the author(s) of mateuser-share.
+# Copyright (C) 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# Copyright (C) 2009 Martin Picek <picek.martin@matecesko.cz>.
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Miloslav Trmac <mitr@volny.cz>, 2005, 2006.
+# Martin Picek <picek.martin@matecesko.cz>, 2009.
+# Petr Kovar <pknbe@volny.cz>, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation of Gnome User Share
+# Copyright (C) 2005, 2009,10 Red Hat, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2009-10.
+
+
+
+
+========== de.po ==========
+# German translation of mateuser-share.
+# Copyright (C) 2005 Alexander Larsson <alexl@redhat.com>
+# This file is distributed under the same license as the mateuser-share package.
+# Frank Arnold <frank@scirocco-5v-turbo.de>, 2005.
+# Hendrik Richter <hendrikr@mateorg>, 2007.
+# Mario Blättermann <mariobl@mateorg>, 2009, 2010.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2010.
+#
+
+
+
+
+========== dz.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== el.po ==========
+# translation of el.po to Greek
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Kostas Papadimas <pkst@mateorg>, 2005.
+# Giannis Katsampirhs <giannis1_86@hotmail.com>, 2008.
+#
+# Pierros Papadeas <ppapadeas@gmail.com>, 2009, 2010.
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for mateuser-share.
+# Copyright (C) 2009-2010 The Gnome Foundation.
+# Thomas Thurman <tthurman@mateorg>, 2010.
+# Transliterate Bluetooth as ·𐑚𐑤𐑵𐑑𐑵𐑔
+
+
+
+
+========== en_CA.po ==========
+# Canadian English translation for mateuser-share
+# Copyright (C) 2005 Adam Weinberger and the GNOME Foundation
+# This file is distributed under the same licence as the mateuser-share package.
+# Adam Weinberger <adamw@mateorg>, 2005.
+#
+#
+
+
+
+
+========== en_GB.po ==========
+# English (British) translation for mateuser-share
+# Copyright (C) 2005 The Gnome Foundation
+# This file is distributed under the same license as the mateuser-share package.
+# David Lodge <dave@cirt.net>, 2005, 2009.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
+
+
+
+
+========== eo.po ==========
+# Esperanto translation for mateuser-share
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the mateuser-share package.
+# Aisano <>, 2010.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+#
+
+
+
+
+========== es.po ==========
+# translation of mateuser-share.HEAD.po to Español
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Francisco Javier F. Serrador <serrador@cvs.mateorg>, 2005, 2006.
+# Jorge González <jorgegonz@svn.mateorg>, 200, 2009.
+
+
+
+
+========== et.po ==========
+# GNOME kasutaja failijagamise eesti keele tõlge.
+# Estonian translation of mateuser-share.
+#
+# Copyright (C) 2009 The GNOME Project.
+# This file is distributed under the same license as the mateuser-share
+# package.
+#
+# Ivar Smolin <okul linux ee>, 2009.
+# Mattias Põldaru <mahfiaz gmail com>, 2010.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2009, 2010.
+
+
+
+
+========== fi.po ==========
+# Finnish translations for mateuser-share package.
+# Copyright (C) 2005-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the package.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005-2010.
+# Ilkka Tuohela <hile@iki.fi>, 2006-2009.
+#
+
+
+
+
+========== fr.po ==========
+# French translation of mateuser-share.
+# Copyright (C) 2005-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Bieuzent Cyrille <bieuzent@gmail.com>, 2005
+# Damien Durand <splinux@fedoraproject.org>, 2006
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2006-2008
+# Claude Paroz <claude@2xlibre.net>, 2008-2010
+#
+
+
+
+
+========== ga.po ==========
+# Irish translations for mateuser-share package.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009.
+#
+
+
+
+
+========== gl.po ==========
+# translation of mateuser-share.master.gl.po to Galician
+# Galician translation of mateutils.
+# Copyright (C) 2000-2001 Jesús Bravo Álvarez.
+# Copyright (C) 1999 Ruben Lopez Gomez.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en http://www.trasno.net
+#
+# First Version: 2000-04-09 18:45+0200
+#
+# Jesús Bravo Álvarez <jba@pobox.com>, 2000-2001.
+# Ruben Lopez Gomez <ryu@mundivia.es>, 1999. (logview from mateadmin).
+# Ignacio Casal Quinteiro <adorador_del_heavy@hotmail.com>, 2004.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@cvs.mateorg>, 2007, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Suso Baleato <suso.baleato@xunta.es>, 2009.
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
+#
+
+
+
+
+========== gu.po ==========
+# translation of mateuser-share.master.gu.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2006.
+# Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
+
+
+
+
+========== he.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz, 2008.
+#
+
+
+
+
+========== hi.po ==========
+# translation of mateuser-share.master.po to Hindi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rajesh Ranjan <rranjan@redhat.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of mateuser-share
+# This file is distributed under the same license as the mateuser-share package.
+# Copyright (C) 2005, 2008, 2009, 2010, Free Software Foundation, Inc.
+#
+# Szabolcs Varga <shirokuma at shirokuma dot hu>, 2005.
+# Gabor Kelemen <kelemeng at matedot hu>, 2005, 2006, 2008, 2009, 2010.
+
+
+
+
+========== id.po ==========
+# Indonesian translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
+# Ekasari <iin@informatika.lipi.go.id>, 2010.
+#
+
+
+
+
+========== it.po ==========
+# Italian translation of mateuser-share
+# Copyright (C) 2005, 2006, 2007, 2008, 2009 Free Software Foundation
+# This file is distributed under the same license as the mateuser-share package.
+# Tuo Ida Gasparretti <vampiria74@tin.it>, 2005
+# Gianvito Cavasoli <janvitus@ubuntu-it.org>, 2008, 2009, 2010.
+#
+#
+
+
+
+
+========== ja.po ==========
+# mateuser-share ja.po.
+# Copyright (C) 2005,2007-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2005,2007-2009.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
+#
+
+
+
+
+========== kn.po ==========
+# translation of mateuser-share.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2009, 2010.
+
+
+
+
+========== ko.po ==========
+# mateuser-share korean translation
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Young-Ho Cha <ganadist at mizi.com>, 2005, 2007.
+# Namhyung Kim <namhyung@gmail.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 2009, 2010.
+#
+
+
+
+
+========== lt.po ==========
+# Lithuanian translation of mateuser-share.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Marius Karnauskas <marius@esga.lt>, 2005.
+# Vytautas Rėkus <v.rekus@gmail.com>, 2009.
+#
+#
+
+
+
+
+========== lv.po ==========
+# Latvian translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Peteris Krisjanis <pecisk@gmail.com>, 2010.
+
+
+
+
+========== mai.po ==========
+# translation of mateuser-share.master.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+
+
+
+
+========== mk.po ==========
+# translation of mk.po to Macedonian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+#
+
+
+
+
+========== ml.po ==========
+# translation of ml.po to
+# translation of mateuser-share.master.ml.po to
+# translation of mateuser-share.HEAD.ml.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ani Peter <apeter@redhat.com>, 2009
+#
+
+
+
+
+========== mr.po ==========
+# translation of mr.po to Marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
+
+
+
+
+========== nb.po ==========
+# Norwegian bokmål translation of mateuser-share.
+# Copyright (C) YEAR, THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Kjartan Maraas <kmaraas@mateorg>, 2007-2010.
+#
+
+
+
+
+========== ne.po ==========
+# translation of mateuser-share.HEAD.ne.po to Nepali
+# translation of mateuser-share.HEAD.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Ishwar Sharma <eesha_kaf@yahoo.com>, 2005.
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+#
+
+
+
+
+========== nl.po ==========
+# Dutch translation of mateuser-share.
+#
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Tino Meinen <a.t.meinen@chello.nl>, 2005–2006
+# Wouter Bolsterlee <wbolster@mateorg>, 2010.
+#
+
+
+
+
+========== nn.po ==========
+# Norwegian Nynorsk translation for mateuser-share.
+# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mateuser-share package.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation of mateuser-share.
+# Copyright (C) 2005-2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+
+
+
+
+========== or.po ==========
+# translation of mateuser-share.master.or.po to Oriya
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+
+
+
+
+========== pa.po ==========
+# translation of mateuser-share.HEAD.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2005, 2006, 2009.
+# A S Alam <aalam@users.sf.net>, 2009, 2010.
+
+
+
+
+========== pl.po ==========
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matel@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== pt.po ==========
+# mateuser-share's Portuguese translation.
+# Copyright © 2007, 2009, 2010 mateuser-share
+# This file is distributed under the same license as the mateuser-share package.
+# André Neves <drakferion@gmail.com>, 2007.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2009, 2010.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of evolution-mapi.
+# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the evolution-mapi package.
+# Taylon Silmer <taylonsilva@gmail.com>, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
+# Djavan Fagundes <dnoway@gmail.com>, 2009.
+# André Gondim <andregondim@ubuntu.com>, 2009.
+# Djavan Fagundes <dnoway@gmail.com>, 2009.
+#
+#
+
+
+
+
+========== ro.po ==========
+# This file is distributed under the same license as the mateuser-share package.
+# Adi Roiban https://launchpad.net/~adiroiban, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009.
+
+
+
+
+========== ru.po ==========
+# translation of ru.po to Russian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Leonid Kanter <leon@asplinux.ru>, 2006, 2010.
+
+
+
+
+========== rw.po ==========
+# translation of mateuser-share to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== sk.po ==========
+# Slovak translation for mateuser-share.
+# Copyright (C) 2005, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Marcel Telka <marcel@telka.sk>, 2005.
+# Roman Mátyus <romanmatyus@gmail.com>, 2010.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translation of mateuser-share.
+# Copyright (C) 2005-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Matej Urbančič <mateju@svn.mateorg>, 2007 - 2010.
+#
+
+
+
+
+========== sq.po ==========
+# Përkthimi i mesazheve të mateuser-share në shqip
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Elian Myftiu <elian@alblinux.net>, 2005.
+#
+
+
+
+
+========== sr.po ==========
+# Serbian translation of caja
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2009.
+#
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Maintainer: Горан Ракић <grakic@devbase.net>
+# Previous translators:
+#    Иван Булатовић <combuster@gmail.com>
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of caja
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2009.
+#
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Maintainer: Goran Rakić <grakic@devbase.net>
+# Previous translators:
+#    Ivan Bulatović <combuster@gmail.com>
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for mateuser-share.
+# Copyright (C) 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010.
+#
+
+
+
+
+========== ta.po ==========
+# translation of mateuser-share.HEAD.po to Tamil
+# translation of mateuser-share.HEAD.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2009.
+
+
+
+
+========== te.po ==========
+# translation of mateuser-share.master.te.po to Telugu
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+
+
+
+
+========== th.po ==========
+# Thai translation of mateuser-share.
+# Copyright (C) 2009-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Manatsawin <whs@whsgroup.ath.cx>, 2009.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2009-2010.
+
+
+
+
+========== tr.po ==========
+# translation of mateuser-share to Turkish
+# Copyright (C) 2007
+# This file is distributed under the same license as the mateuser-share package.
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2007.
+# Baris Cicek <baris@teamforce.name.tr>, 2009.
+
+
+
+
+========== ug.po ==========
+# Uighur translation for mateuser-share
+# Copyright (C) 2005,2007-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Gheyret Kenji <gheyret@gmail.com>, 2010.
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation of mateuser-share 
+# Copyright (C) 2005 Free Software Foundation 
+# This file is distributed under the same license as the matesharing package. 
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2005-2010
+#
+# wanderlust <wanderlust@ukr.net>, 2009.
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for GNOME User Share.
+# Copyright © 2009 GNOME i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+
+
+
+
+========== zh_CN.po ==========
+# mateuser-share的简体中文翻译.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mateuser-share package.
+# Funda Wang <fundawang@gmail.com>, 2005, 2009.
+# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009.
+# Hinker <hinkerliu@163.com>, 2009.
+# Aron Xu <happyaron.xu@gmail.com>, 2009.
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation of mateuser-share.HEAD
+# Copyright (C) 1999, 2002, 2003 Free Software Foundation, Inc.
+# Kevin Tse <kevinkit@netvigator.com>, 2005.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
+
+
+
+
+========== zh_TW.po ==========
+# Traditional Chinese translation of mateuser-share.HEAD
+# Copyright (C) 1999, 2002, 2003 Free Software Foundation, Inc.
+# Kevin Tse <kevinkit@netvigator.com>, 2005.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
+
+
+
+
