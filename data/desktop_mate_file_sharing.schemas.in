@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<gconfschemafile>
+<mateconfschemafile>
   <schemalist>
     <schema>
       <key>/schemas/desktop/mate/file_sharing/enabled</key>
@@ -90,5 +90,5 @@
       </locale>
     </schema>
   </schemalist>
-</gconfschemafile>
+</mateconfschemafile>
 
