@@ -63,7 +63,19 @@ static BluetoothClient *client = NULL;
 static gboolean bluetoothd_enabled = FALSE;
 
 #define OBEX_ENABLED (bluetoothd_enabled && has_console)
+
 #define GSETTINGS_SCHEMA "org.mate.FileSharing"
+#define GSETTINGS_KEY_FILE_SHARING_ENABLED "enabled"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED "bluetooth-enabled"
+#define GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD "require-password"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ALLOW_WRITE "bluetooth-allow-write"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING "bluetooth-require-pairing"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED "bluetooth-obexpush-enabled"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES "bluetooth-accept-files"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY "bluetooth-notify"
+
+
+static GSettings* settings;
 
 static void
 obex_services_start (void)
@@ -477,7 +489,38 @@ main (int argc, char **argv)
 	if (obexpush_init () == FALSE)
 		return 1;
 
-	g_object_unref (client);
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_ENABLED,
+			     G_CALLBACK (file_sharing_enabled_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD,
+			     G_CALLBACK (require_password_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED,
+			     G_CALLBACK (file_sharing_bluetooth_enabled_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ALLOW_WRITE,
+			     G_CALLBACK (file_sharing_bluetooth_allow_write_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING,
+			     G_CALLBACK (file_sharing_bluetooth_require_pairing_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_enabled_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_accept_files_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
+
 
 	bluez_init ();
 	consolekit_init ();

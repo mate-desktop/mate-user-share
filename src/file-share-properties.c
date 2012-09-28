@@ -46,6 +46,7 @@
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY "bluetooth-notify"
 
 static GtkBuilder* builder;
+static GSettings* settings;
 
 
 static void
@@ -623,8 +624,6 @@ main (int argc, char *argv[])
 			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
 
 
-
-    g_object_unref (settings);
 
     gtk_widget_show (GTK_WIDGET (gtk_builder_get_object (builder, "user_share_dialog")));
     
