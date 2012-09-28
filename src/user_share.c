@@ -292,7 +292,7 @@ require_password_changed (GSettings *settings, gchar *key, gpointer data)
 static gboolean
 disabled_timeout_callback (gpointer user_data)
 {
-	GSettings* settings = (GSettings*) user_data;
+	GSettings *settings = (GSettings *) user_data;
 	http_down ();
 
 	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
@@ -412,7 +412,7 @@ x_io_error_handler (Display *xdisplay)
 int
 main (int argc, char **argv)
 {
-	GSettings* gsettings;
+	GSettings *settings;
 	Display *xdisplay;
 	int x_fd;
 	Window selection_owner;
@@ -461,10 +461,10 @@ main (int argc, char **argv)
 
 	migrate_old_configuration ();
 
-	gsettings = g_settings_new (GSETTINGS_SCHEMA);
-	if (g_settings_get_boolean (gsettings, FILE_SHARING_ENABLED) == FALSE &&
-	    g_settings_get_boolean (gsettings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
-	    g_settings_get_boolean (gsettings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
+	settings = g_settings_new (GSETTINGS_SCHEMA);
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
 		return 1;
 
 	x_fd = ConnectionNumber (xdisplay);
@@ -483,11 +483,11 @@ main (int argc, char **argv)
 	consolekit_init ();
 
 	/* Initial setting */
-	file_sharing_enabled_changed (gsettings, NULL, NULL);
-	file_sharing_bluetooth_enabled_changed (gsettings, NULL, NULL);
-	file_sharing_bluetooth_obexpush_accept_files_changed (gsettings, NULL, NULL);
-	file_sharing_bluetooth_obexpush_notify_changed (gsettings, NULL, NULL);
-	file_sharing_bluetooth_obexpush_enabled_changed (gsettings, NULL, NULL);
+	file_sharing_enabled_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_enabled_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_accept_files_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_notify_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_enabled_changed (settings, NULL, NULL);
 
 	gtk_main ();
 
