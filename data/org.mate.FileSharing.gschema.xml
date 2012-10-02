@@ -1,0 +1,44 @@
+<schemalist>
+  <schema id="org.mate.FileSharing" path="/desktop/mate/file-sharing/">
+    <key name="enabled" type="b">
+      <default>false</default>
+      <summary>Share Public directory over the network</summary>
+      <description>If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in.</description>
+    </key>
+    <key name="require-password" type="s">
+      <default>'never'</default>
+      <summary>When to require passwords</summary>
+      <description>When to ask for passwords. Possible values are "never", "on_write", and "always".</description>
+    </key>
+    <key name="bluetooth-enabled" type="b">
+      <default>false</default>
+      <summary>Share Public directory over Bluetooth</summary>
+      <description>If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in.</description>
+    </key>
+    <key name="bluetooth-allow-write" type="b">
+      <default>false</default>
+      <summary>Whether to allow Bluetooth clients to write files.</summary>
+      <description>Whether to allow Bluetooth clients to write files, or share the files read-only.</description>
+    </key>
+    <key name="bluetooth-require-pairing" type="b">
+      <default>true</default>
+      <summary>Whether Bluetooth clients need to pair with the computer to send files.</summary>
+      <description>Whether Bluetooth clients need to pair with the computer to send files.</description>
+    </key>
+    <key name="bluetooth-obexpush-enabled" type="b">
+      <default>false</default>
+      <summary>Whether Bluetooth clients can send files using ObexPush.</summary>
+      <description>If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in.</description>
+    </key>
+    <key name="bluetooth-accept-files" type="s">
+      <default>'bonded'</default>
+      <summary>When to accept files sent over Bluetooth</summary>
+      <description>When to accept files sent over Bluetooth. Possible values are "always", "bonded" and "ask".</description>
+    </key>
+    <key name="bluetooth-notify" type="b">
+      <default>false</default>
+      <summary>Whether to notify about newly received files.</summary>
+      <description>Whether to notify about newly received files.</description>
+    </key>
+  </schema>
+</schemalist>

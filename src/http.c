@@ -31,7 +31,7 @@
 #include <dbus/dbus.h>
 #endif
 
-#include <mateconf/mateconf-client.h>
+#include <gio/gio.h>
 
 #include <stdarg.h>
 #include <string.h>
@@ -54,6 +54,8 @@
 
 /* From avahi-common/domain.h */
 #define AVAHI_LABEL_MAX 64
+
+#define GSETTINGS_SCHEMA "org.mate.FileSharing"
 
 #ifdef HAVE_DBUS_1_1
 static char *dbus_session_id;
@@ -326,7 +328,7 @@ spawn_httpd (int port, pid_t *pid_out)
 	char *pidfile;
 	GError *error;
 	gboolean got_pidfile;
-	MateConfClient *client;
+	GSettings *settings;
 	char *str;
 	char *public_dir;
 
@@ -345,9 +347,9 @@ spawn_httpd (int port, pid_t *pid_out)
 	argv[i++] = "-C";
 	free3 = argv[i++] = g_strdup_printf ("Listen %d", port);
 
-	client = mateconf_client_get_default ();
-	str = mateconf_client_get_string (client,
-				       FILE_SHARING_REQUIRE_PASSWORD, NULL);
+	settings = g_settings_new (GSETTINGS_SCHEMA);
+	str = g_settings_get_string (settings,
+				       FILE_SHARING_REQUIRE_PASSWORD);
 
 	if (str && strcmp (str, "never") == 0) {
 		/* Do nothing */
@@ -360,7 +362,7 @@ spawn_httpd (int port, pid_t *pid_out)
 		argv[i++] = "RequirePasswordAlways";
 	}
 	g_free (str);
-	g_object_unref (client);
+	g_object_unref (settings);
 
 	argv[i] = NULL;
 

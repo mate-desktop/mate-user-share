@@ -39,7 +39,7 @@
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib.h>
 
-#include <mateconf/mateconf-client.h>
+#include <gio/gio.h>
 
 #include <stdarg.h>
 #include <string.h>
@@ -64,21 +64,34 @@ static gboolean bluetoothd_enabled = FALSE;
 
 #define OBEX_ENABLED (bluetoothd_enabled && has_console)
 
+#define GSETTINGS_SCHEMA "org.mate.FileSharing"
+#define GSETTINGS_KEY_FILE_SHARING_ENABLED "enabled"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED "bluetooth-enabled"
+#define GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD "require-password"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ALLOW_WRITE "bluetooth-allow-write"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING "bluetooth-require-pairing"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED "bluetooth-obexpush-enabled"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES "bluetooth-accept-files"
+#define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY "bluetooth-notify"
+
+
+static GSettings* settings;
+
 static void
 obex_services_start (void)
 {
-	MateConfClient *client;
+	GSettings *settings;
 
 	if (bluetoothd_enabled == FALSE ||
 	    has_console == FALSE)
 	    	return;
 
-	client = mateconf_client_get_default ();
+	settings = g_settings_new(GSETTINGS_SCHEMA);
 	
-	if (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED, NULL) == TRUE) {
+	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == TRUE) {
 	    obexpush_up ();
 	}
-	if (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) == TRUE) {
+	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == TRUE) {
 	    obexftp_up ();
 	}
 
@@ -277,10 +290,7 @@ migrate_old_configuration (void)
 }
 
 static void
-require_password_changed (MateConfClient* client,
-			  guint cnxn_id,
-			  MateConfEntry *entry,
-			  gpointer data)
+require_password_changed (GSettings *settings, gchar *key, gpointer data)
 {
 	/* Need to restart to get new password setting */
 	if (http_get_pid () != 0) {
@@ -294,20 +304,17 @@ require_password_changed (MateConfClient* client,
 static gboolean
 disabled_timeout_callback (gpointer user_data)
 {
-	MateConfClient* client = (MateConfClient *) user_data;
+	GSettings *settings = (GSettings *) user_data;
 	http_down ();
 
-	if (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) == FALSE &&
-	    mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED, NULL) == FALSE)
+	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
 		_exit (0);
 	return FALSE;
 }
 
 static void
-file_sharing_enabled_changed (MateConfClient* client,
-			      guint cnxn_id,
-			      MateConfEntry *entry,
-			      gpointer data)
+file_sharing_enabled_changed (GSettings *settings, gchar *key, gpointer data)
 {
 	gboolean enabled;
 
@@ -316,8 +323,8 @@ file_sharing_enabled_changed (MateConfClient* client,
 		disabled_timeout_tag = 0;
 	}
 
-	enabled = mateconf_client_get_bool (client,
-					 FILE_SHARING_ENABLED, NULL);
+	enabled = g_settings_get_boolean (settings,
+					 FILE_SHARING_ENABLED);
 	if (enabled) {
 		if (http_get_pid () == 0) {
 			http_up ();
@@ -331,22 +338,16 @@ file_sharing_enabled_changed (MateConfClient* client,
 }
 
 static void
-file_sharing_bluetooth_allow_write_changed (MateConfClient* client,
-					    guint cnxn_id,
-					    MateConfEntry *entry,
-					    gpointer data)
+file_sharing_bluetooth_allow_write_changed (GSettings *settings, gchar *key, gpointer data)
 {
-	if (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) != FALSE)
+	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) != FALSE)
 		obexftp_restart ();
 }
 
 static void
-file_sharing_bluetooth_require_pairing_changed (MateConfClient* client,
-						guint cnxn_id,
-						MateConfEntry *entry,
-						gpointer data)
+file_sharing_bluetooth_require_pairing_changed (GSettings *settings, gchar *key, gpointer data)
 {
-	if (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) != FALSE) {
+	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) != FALSE) {
 		/* We need to fully reset the session,
 		 * otherwise the new setting isn't taken into account */
 		obexftp_down ();
@@ -355,16 +356,13 @@ file_sharing_bluetooth_require_pairing_changed (MateConfClient* client,
 }
 
 static void
-file_sharing_bluetooth_enabled_changed (MateConfClient* client,
-					guint cnxn_id,
-					MateConfEntry *entry,
-					gpointer data)
+file_sharing_bluetooth_enabled_changed (GSettings *settings, gchar *key, gpointer data)
 {
-	if (mateconf_client_get_bool (client,
-				   FILE_SHARING_BLUETOOTH_ENABLED, NULL) == FALSE) {
+	if (g_settings_get_boolean (settings,
+				   FILE_SHARING_BLUETOOTH_ENABLED) == FALSE) {
 		obexftp_down ();
-		if (mateconf_client_get_bool (client, FILE_SHARING_ENABLED, NULL) == FALSE &&
-		    mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED, NULL) == FALSE) {
+		if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
+		    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE) {
 			_exit (0);
 		}
 	} else if (OBEX_ENABLED) {
@@ -373,16 +371,13 @@ file_sharing_bluetooth_enabled_changed (MateConfClient* client,
 }
 
 static void
-file_sharing_bluetooth_obexpush_enabled_changed (MateConfClient* client,
-						 guint cnxn_id,
-						 MateConfEntry *entry,
-						 gpointer data)
+file_sharing_bluetooth_obexpush_enabled_changed (GSettings *settings, gchar *key, gpointer data)
 {
-	if (mateconf_client_get_bool (client,
-				   FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED, NULL) == FALSE) {
+	if (g_settings_get_boolean (settings,
+				   FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE) {
 		obexpush_down ();
-		if (mateconf_client_get_bool (client, FILE_SHARING_ENABLED, NULL) == FALSE &&
-		    mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) == FALSE) {
+		if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
+		    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE) {
 			_exit (0);
 		}
 	} else if (OBEX_ENABLED) {
@@ -391,15 +386,12 @@ file_sharing_bluetooth_obexpush_enabled_changed (MateConfClient* client,
 }
 
 static void
-file_sharing_bluetooth_obexpush_accept_files_changed (MateConfClient* client,
-						      guint cnxn_id,
-						      MateConfEntry *entry,
-						      gpointer data)
+file_sharing_bluetooth_obexpush_accept_files_changed (GSettings *settings, gchar *key, gpointer data)
 {
 	AcceptSetting setting;
 	char *str;
 
-	str = mateconf_client_get_string (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES, NULL);
+	str = g_settings_get_string (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES);
 	setting = accept_setting_from_string (str);
 	g_free (str);
 
@@ -407,12 +399,9 @@ file_sharing_bluetooth_obexpush_accept_files_changed (MateConfClient* client,
 }
 
 static void
-file_sharing_bluetooth_obexpush_notify_changed (MateConfClient* client,
-						guint cnxn_id,
-						MateConfEntry *entry,
-						gpointer data)
+file_sharing_bluetooth_obexpush_notify_changed (GSettings *settings, gchar *key, gpointer data)
 {
-	obexpush_set_notify (mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY, NULL));
+	obexpush_set_notify (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY));
 }
 
 static RETSIGTYPE
@@ -435,7 +424,7 @@ x_io_error_handler (Display *xdisplay)
 int
 main (int argc, char **argv)
 {
-	MateConfClient *client;
+	GSettings *settings;
 	Display *xdisplay;
 	int x_fd;
 	Window selection_owner;
@@ -484,10 +473,10 @@ main (int argc, char **argv)
 
 	migrate_old_configuration ();
 
-	client = mateconf_client_get_default ();
-	if (mateconf_client_get_bool (client, FILE_SHARING_ENABLED, NULL) == FALSE &&
-	    mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_ENABLED, NULL) == FALSE &&
-	    mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED, NULL) == FALSE)
+	settings = g_settings_new (GSETTINGS_SCHEMA);
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
 		return 1;
 
 	x_fd = ConnectionNumber (xdisplay);
@@ -500,71 +489,48 @@ main (int argc, char **argv)
 	if (obexpush_init () == FALSE)
 		return 1;
 
-	mateconf_client_add_dir (client,
-			      FILE_SHARING_DIR,
-			      MATECONF_CLIENT_PRELOAD_RECURSIVE,
-			      NULL);
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_ENABLED,
+			     G_CALLBACK (file_sharing_enabled_changed), NULL);
 
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_ENABLED,
-				 file_sharing_enabled_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_REQUIRE_PASSWORD,
-				 require_password_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_ENABLED,
-				 file_sharing_bluetooth_enabled_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_ALLOW_WRITE,
-				 file_sharing_bluetooth_allow_write_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING,
-				 file_sharing_bluetooth_require_pairing_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED,
-				 file_sharing_bluetooth_obexpush_enabled_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES,
-				 file_sharing_bluetooth_obexpush_accept_files_changed,
-				 NULL,
-				 NULL,
-				 NULL);
-	mateconf_client_notify_add (client,
-				 FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY,
-				 file_sharing_bluetooth_obexpush_notify_changed,
-				 NULL,
-				 NULL,
-				 NULL);
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD,
+			     G_CALLBACK (require_password_changed), NULL);
 
-	g_object_unref (client);
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED,
+			     G_CALLBACK (file_sharing_bluetooth_enabled_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ALLOW_WRITE,
+			     G_CALLBACK (file_sharing_bluetooth_allow_write_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING,
+			     G_CALLBACK (file_sharing_bluetooth_require_pairing_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_enabled_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_accept_files_changed), NULL);
+
+    g_signal_connect (settings,
+			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY,
+			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
+
 
 	bluez_init ();
 	consolekit_init ();
 
 	/* Initial setting */
-	file_sharing_enabled_changed (client, 0, NULL, NULL);
-	file_sharing_bluetooth_enabled_changed (client, 0, NULL, NULL);
-	file_sharing_bluetooth_obexpush_accept_files_changed (client, 0, NULL, NULL);
-	file_sharing_bluetooth_obexpush_notify_changed (client, 0, NULL, NULL);
-	file_sharing_bluetooth_obexpush_enabled_changed (client, 0, NULL, NULL);
+	file_sharing_enabled_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_enabled_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_accept_files_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_notify_changed (settings, NULL, NULL);
+	file_sharing_bluetooth_obexpush_enabled_changed (settings, NULL, NULL);
 
 	gtk_main ();
 
