@@ -30,7 +30,6 @@
 #include <gtk/gtk.h>
 #include <libmatenotify/notify.h>
 #include <dbus/dbus-glib.h>
-#include <mateconf/mateconf-client.h>
 #include <dbus/dbus-glib-lowlevel.h>
 #include <canberra-gtk.h>
 
@@ -42,6 +41,8 @@
 #include "user_share-private.h"
 
 #define DBUS_TYPE_G_STRING_VARIANT_HASHTABLE (dbus_g_type_get_map ("GHashTable", G_TYPE_STRING, G_TYPE_STRING))
+
+#define GSETTINGS_SCHEMA "org.mate.FileSharing"
 
 static DBusGConnection *connection = NULL;
 static DBusGProxy *manager_proxy = NULL;
@@ -348,7 +349,7 @@ static void
 transfer_completed_cb (DBusGProxy *session,
 		       gpointer user_data)
 {
-	MateConfClient *client;
+	GSettings *settings;
 	gboolean display_notify; 
 	const char *filename;
 
@@ -359,9 +360,9 @@ transfer_completed_cb (DBusGProxy *session,
 	if (filename == NULL)
 		return;
 	
-	client = mateconf_client_get_default ();	
-	display_notify = mateconf_client_get_bool (client, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY, NULL);
-	g_object_unref (client);
+	settings = g_settings_new (GSETTINGS_SCHEMA);	
+	display_notify = g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY);
+	g_object_unref (settings);
 	
 	if (display_notify) {
 		show_notification (filename);

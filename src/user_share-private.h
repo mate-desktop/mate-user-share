@@ -25,16 +25,16 @@
 #ifndef _USER_SHARE_PRIVATE_H_
 #define _USER_SHARE_PRIVATE_H_
 
-#define FILE_SHARING_DIR "/desktop/mate/file_sharing"
-#define FILE_SHARING_ENABLED FILE_SHARING_DIR "/enabled"
-#define FILE_SHARING_BLUETOOTH_ENABLED FILE_SHARING_DIR "/bluetooth_enabled"
-#define FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED FILE_SHARING_DIR "/bluetooth_obexpush_enabled"
+#define FILE_SHARING_DIR "/desktop/mate/file-sharing"
+#define FILE_SHARING_ENABLED "enabled"
+#define FILE_SHARING_BLUETOOTH_ENABLED "bluetooth-enabled"
+#define FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED "bluetooth-obexpush-enabled"
 
-#define FILE_SHARING_REQUIRE_PASSWORD FILE_SHARING_DIR "/require_password"
-#define FILE_SHARING_BLUETOOTH_ALLOW_WRITE FILE_SHARING_DIR "/bluetooth_allow_write"
-#define FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING FILE_SHARING_DIR "/bluetooth_require_pairing"
-#define FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES FILE_SHARING_DIR "/bluetooth_accept_files"
-#define FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY FILE_SHARING_DIR "/bluetooth_notify"
+#define FILE_SHARING_REQUIRE_PASSWORD "require-password"
+#define FILE_SHARING_BLUETOOTH_ALLOW_WRITE "bluetooth-allow-write"
+#define FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING "bluetooth-require-pairing"
+#define FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES "bluetooth-accept-files"
+#define FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY "bluetooth-notify"
 
 typedef enum {
     PASSWORD_NEVER,
