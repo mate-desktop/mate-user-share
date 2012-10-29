@@ -27,15 +27,11 @@
 
 #include "caja-share-bar.h"
 
-static void caja_share_bar_finalize   (GObject *object);
-
 #define CAJA_SHARE_BAR_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CAJA_TYPE_SHARE_BAR, CajaShareBarPrivate))
 
 struct CajaShareBarPrivate
 {
-        GtkWidget   *button;
-        GtkWidget   *label;
-        char        *str;
+	GtkWidget   *label;
 };
 
 enum {
@@ -43,26 +39,7 @@ enum {
 	PROP_LABEL
 };
 
-enum {
-       ACTIVATE,
-       LAST_SIGNAL
-};
-
-static guint           signals [LAST_SIGNAL] = { 0, };
-
-G_DEFINE_TYPE (CajaShareBar, caja_share_bar, GTK_TYPE_HBOX)
-
-GtkWidget *
-caja_share_bar_get_button (CajaShareBar *bar)
-{
-        GtkWidget *button;
-
-        g_return_val_if_fail (bar != NULL, NULL);
-
-        button = bar->priv->button;
-
-        return button;
-}
+G_DEFINE_TYPE (CajaShareBar, caja_share_bar, GTK_TYPE_INFO_BAR)
 
 static void
 caja_share_bar_set_property (GObject            *object,
@@ -76,33 +53,10 @@ caja_share_bar_set_property (GObject            *object,
 
         switch (prop_id) {
 	case PROP_LABEL: {
-		char *str;
-		g_free (self->priv->str);
-		str = g_strdup_printf ("<i>%s</i>", g_value_get_string (value));
-		gtk_label_set_markup (GTK_LABEL (self->priv->label), str);
-		self->priv->str = g_value_dup_string (value);
+		gtk_label_set_text (GTK_LABEL (self->priv->label),
+				    g_value_get_string (value));
 		break;
 	}
-        default:
-                G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
-                break;
-        }
-}
-
-static void
-caja_share_bar_get_property (GObject    *object,
-                                guint       prop_id,
-                                GValue     *value,
-                                GParamSpec *pspec)
-{
-        CajaShareBar *self;
-
-        self = CAJA_SHARE_BAR (object);
-
-        switch (prop_id) {
-	case PROP_LABEL:
-		g_value_set_string (value, self->priv->str);
-		break;
         default:
                 G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
                 break;
@@ -114,92 +68,59 @@ caja_share_bar_class_init (CajaShareBarClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize     = caja_share_bar_finalize;
-        object_class->get_property = caja_share_bar_get_property;
         object_class->set_property = caja_share_bar_set_property;
 
         g_type_class_add_private (klass, sizeof (CajaShareBarPrivate));
 
-        g_object_class_install_property (G_OBJECT_CLASS(klass),
-					 PROP_LABEL, g_param_spec_string ("label",
-									  "label", "The widget's main label", NULL, G_PARAM_READWRITE));
-
-
-        signals [ACTIVATE] = g_signal_new ("activate",
-                                           G_TYPE_FROM_CLASS (klass),
-                                           G_SIGNAL_RUN_LAST,
-                                           G_STRUCT_OFFSET (CajaShareBarClass, activate),
-                                           NULL, NULL,
-                                           g_cclosure_marshal_VOID__VOID,
-                                           G_TYPE_NONE, 0);
-
-}
-
-static void
-button_clicked_cb (GtkWidget       *button,
-                   CajaShareBar *bar)
-{
-        g_signal_emit (bar, signals [ACTIVATE], 0);
+        g_object_class_install_property (G_OBJECT_CLASS(klass), PROP_LABEL,
+					 g_param_spec_string ("label", "label",
+							      "The widget's main label",
+							      NULL,
+							      G_PARAM_WRITABLE));
 }
 
 static void
 caja_share_bar_init (CajaShareBar *bar)
 {
-	GtkWidget   *label;
-        GtkWidget   *hbox;
-        GtkWidget   *vbox;
-        GtkWidget   *image;
-        char        *hint;
+	GtkWidget *content_area;
+	GtkWidget *action_area;
+	GtkWidget *label;
+	GtkWidget *vbox;
+	GtkWidget *button;
+	PangoAttrList *attrs;
 
-        bar->priv = CAJA_SHARE_BAR_GET_PRIVATE (bar);
+	bar->priv = CAJA_SHARE_BAR_GET_PRIVATE (bar);
 
-        hbox = GTK_WIDGET (bar);
+	content_area = gtk_info_bar_get_content_area (GTK_INFO_BAR (bar));
+	action_area = gtk_info_bar_get_action_area (GTK_INFO_BAR (bar));
+	gtk_button_box_set_layout (GTK_BUTTON_BOX (action_area), GTK_BUTTONBOX_CENTER);
 
-        vbox = gtk_vbox_new (FALSE, 6);
-        gtk_widget_show (vbox);
-        gtk_box_pack_start (GTK_BOX (hbox), vbox, TRUE, TRUE, 0);
+	vbox = gtk_vbox_new (FALSE, 3);
+	gtk_container_add (GTK_CONTAINER (content_area), vbox);
 
-        label = gtk_label_new (_("Personal File Sharing"));
-        gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-        gtk_widget_show (label);
-        gtk_box_pack_start (GTK_BOX (vbox), label, TRUE, TRUE, 0);
+	attrs = pango_attr_list_new ();
+	pango_attr_list_insert (attrs, pango_attr_weight_new (PANGO_WEIGHT_BOLD));
+	label = gtk_label_new (_("Personal File Sharing"));
+	gtk_label_set_attributes (GTK_LABEL (label), attrs);
+	pango_attr_list_unref (attrs);
 
-        bar->priv->label = gtk_label_new ("");
-        hint = g_strdup_printf ("<i>%s</i>", "");
-        gtk_label_set_markup (GTK_LABEL (bar->priv->label), hint);
-        gtk_misc_set_alignment (GTK_MISC (bar->priv->label), 0.0, 0.5);
-        gtk_widget_show (bar->priv->label);
-        gtk_box_pack_start (GTK_BOX (vbox), bar->priv->label, TRUE, TRUE, 0);
+	gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+	gtk_widget_show (label);
+	gtk_container_add (GTK_CONTAINER (vbox), label);
 
-        bar->priv->button = gtk_button_new_with_label (_("Launch Preferences"));
-        gtk_widget_show (bar->priv->button);
-        gtk_box_pack_end (GTK_BOX (hbox), bar->priv->button, FALSE, FALSE, 0);
+	bar->priv->label = gtk_label_new (NULL);
+	gtk_misc_set_alignment (GTK_MISC (bar->priv->label), 0.0, 0.5);
+	gtk_widget_show (bar->priv->label);
+	gtk_container_add (GTK_CONTAINER (vbox), bar->priv->label);
 
-        image = gtk_image_new_from_icon_name ("folder-remote", GTK_ICON_SIZE_BUTTON);
-        gtk_widget_show (image);
-        gtk_button_set_image (GTK_BUTTON (bar->priv->button), image);
+	button = gtk_info_bar_add_button (GTK_INFO_BAR (bar),
+					  _("Preferences"),
+					  CAJA_SHARE_BAR_RESPONSE_PREFERENCES);
 
-        g_signal_connect (bar->priv->button, "clicked",
-                          G_CALLBACK (button_clicked_cb),
-                          bar);
+	gtk_widget_set_tooltip_text (button,
+				     _("Launch Personal File Sharing Preferences"));
 
-        gtk_widget_set_tooltip_text (bar->priv->button,
-                                     _("Launch Personal File Sharing Preferences"));
-}
-
-static void
-caja_share_bar_finalize (GObject *object)
-{
-        CajaShareBar *bar;
-
-        g_return_if_fail (object != NULL);
-        g_return_if_fail (CAJA_IS_SHARE_BAR (object));
-
-        bar = CAJA_SHARE_BAR (object);
-
-        g_return_if_fail (bar->priv != NULL);
-
-        G_OBJECT_CLASS (caja_share_bar_parent_class)->finalize (object);
+	gtk_widget_show_all (vbox);
 }
 
 GtkWidget *
@@ -208,6 +129,7 @@ caja_share_bar_new (const char *label)
         GObject *result;
 
         result = g_object_new (CAJA_TYPE_SHARE_BAR,
+                               "message-type", GTK_MESSAGE_QUESTION,
 			       "label", label,
                                NULL);
 

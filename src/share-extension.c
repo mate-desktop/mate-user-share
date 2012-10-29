@@ -104,10 +104,13 @@ launch_prefs_on_window (GtkWindow *window)
 }
 
 static void
-bar_activated_cb (CajaShareBar *bar,
-                  gpointer         data)
+bar_response_cb (CajaShareBar *bar,
+                 gint response,
+                 gpointer         data)
 {
-        launch_prefs_on_window (GTK_WINDOW (data));
+        if (response == CAJA_SHARE_BAR_RESPONSE_PREFERENCES) {
+                launch_prefs_on_window (GTK_WINDOW (data));
+        }
 }
 
 static void
@@ -170,17 +173,17 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	share = CAJA_USER_SHARE (iface);
 
 	if (is_dir[0] != FALSE && is_dir[1] != FALSE) {
-		bar = caja_share_bar_new (_("You can share files from this folder and receive files to it"));
+		bar = caja_share_bar_new (_("May be used to share or receive files"));
 	} else if (is_dir[0] != FALSE) {
-		bar = caja_share_bar_new (_("You can share files from this folder over the network and Bluetooth"));
+		bar = caja_share_bar_new (_("May be shared over the network or Bluetooth"));
 	} else {
-		bar = caja_share_bar_new (_("You can receive files over Bluetooth into this folder"));
+		bar = caja_share_bar_new (_("May be used to receive files over Bluetooth"));
 	}
 
 	add_widget (share, caja_share_bar_get_button (CAJA_SHARE_BAR (bar)));
 
-	g_signal_connect (bar, "activate",
-			  G_CALLBACK (bar_activated_cb),
+	g_signal_connect (bar, "response",
+			  G_CALLBACK (bar_response_cb),
 			  window);
 
 	gtk_widget_show (bar);
