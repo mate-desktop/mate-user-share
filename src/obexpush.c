@@ -81,15 +81,10 @@ notification_launch_action_on_file_cb (NotifyNotification *notification,
 
 	g_get_current_time (&val);
 
-#if GTK_CHECK_VERSION(2,14,0)
 	ctx = G_APP_LAUNCH_CONTEXT (gdk_app_launch_context_new ());
 	screen = gdk_screen_get_default ();
 	gdk_app_launch_context_set_screen (GDK_APP_LAUNCH_CONTEXT (ctx), screen);
 	gdk_app_launch_context_set_timestamp (GDK_APP_LAUNCH_CONTEXT (ctx), val.tv_sec);
-#else
-	ctx = NULL;
-	screen = NULL;
-#endif
 
 	/* We launch the file viewer for the file */
 	if (g_str_equal (action, "display") != FALSE) {
