@@ -54,7 +54,6 @@ typedef struct
 
 struct _CajaUserSharePrivate
 {
-        GSList       *widget_list;
 };
 
 static GType caja_user_share_get_type      (void);
@@ -113,24 +112,6 @@ bar_response_cb (CajaShareBar *bar,
         }
 }
 
-static void
-destroyed_callback (GtkWidget    *widget,
-                    CajaUserShare *share)
-{
-        share->priv->widget_list = g_slist_remove (share->priv->widget_list, widget);
-}
-
-static void
-add_widget (CajaUserShare *share,
-            GtkWidget         *widget)
-{
-        share->priv->widget_list = g_slist_prepend (share->priv->widget_list, widget);
-
-        g_signal_connect (widget, "destroy",
-                          G_CALLBACK (destroyed_callback),
-                          share);
-}
-
 static GtkWidget *
 caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
                                          const char                     *uri,
@@ -138,7 +119,6 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 {
 	GFile             *file;
 	GtkWidget         *bar;
-	CajaUserShare *share;
 	guint              i;
 	gboolean           enable = FALSE;
 	GFile             *home;
@@ -170,8 +150,6 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	if (enable == FALSE)
 		return NULL;
 
-	share = CAJA_USER_SHARE (iface);
-
 	if (is_dir[0] != FALSE && is_dir[1] != FALSE) {
 		bar = caja_share_bar_new (_("May be used to share or receive files"));
 	} else if (is_dir[0] != FALSE) {
@@ -179,8 +157,6 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	} else {
 		bar = caja_share_bar_new (_("May be used to receive files over Bluetooth"));
 	}
-
-	add_widget (share, caja_share_bar_get_button (CAJA_SHARE_BAR (bar)));
 
 	g_signal_connect (bar, "response",
 			  G_CALLBACK (bar_response_cb),
@@ -216,10 +192,6 @@ caja_user_share_finalize (GObject *object)
         share = CAJA_USER_SHARE (object);
 
         g_return_if_fail (share->priv != NULL);
-
-        if (share->priv->widget_list != NULL) {
-                g_slist_free (share->priv->widget_list);
-        }
 
         G_OBJECT_CLASS (parent_class)->finalize (object);
 }
