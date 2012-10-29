@@ -37,12 +37,9 @@
 #define CAJA_USER_SHARE(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_USER_SHARE, CajaUserShare))
 #define CAJA_IS_USER_SHARE(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_USER_SHARE))
 
-typedef struct _CajaUserSharePrivate CajaUserSharePrivate;
-
 typedef struct
 {
         GObject              parent_slot;
-        CajaUserSharePrivate *priv;
 } CajaUserShare;
 
 typedef struct
@@ -50,17 +47,8 @@ typedef struct
         GObjectClass parent_slot;
 } CajaUserShareClass;
 
-#define CAJA_USER_SHARE_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CAJA_TYPE_USER_SHARE, CajaUserSharePrivate))
-
-struct _CajaUserSharePrivate
-{
-};
-
 static GType caja_user_share_get_type      (void);
 static void  caja_user_share_register_type (GTypeModule *module);
-
-static GObjectClass *parent_class;
-
 
 static void
 launch_process (char **argv, GtkWindow *parent)
@@ -178,34 +166,13 @@ caja_user_share_location_widget_provider_iface_init (CajaLocationWidgetProviderI
 static void
 caja_user_share_instance_init (CajaUserShare *share)
 {
-        share->priv = CAJA_USER_SHARE_GET_PRIVATE (share);
-}
 
-static void
-caja_user_share_finalize (GObject *object)
-{
-        CajaUserShare *share;
-
-        g_return_if_fail (object != NULL);
-        g_return_if_fail (CAJA_IS_USER_SHARE (object));
-
-        share = CAJA_USER_SHARE (object);
-
-        g_return_if_fail (share->priv != NULL);
-
-        G_OBJECT_CLASS (parent_class)->finalize (object);
 }
 
 static void
 caja_user_share_class_init (CajaUserShareClass *klass)
 {
-        GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        parent_class = g_type_class_peek_parent (klass);
-
-        object_class->finalize = caja_user_share_finalize;
-
-        g_type_class_add_private (klass, sizeof (CajaUserSharePrivate));
 }
 
 static GType share_type = 0;
