@@ -214,7 +214,7 @@ device_is_authorised (const char *bdaddr)
 		char *device_path;
 		GHashTable *props;
 
-		g_message ("checking adapter %s", g_ptr_array_index (adapters, i));
+		g_debug ("checking adapter %s", (gchar *) g_ptr_array_index (adapters, i));
 
 		adapter = dbus_g_proxy_new_for_name (connection, "org.bluez",
 						    g_ptr_array_index (adapters, i), "org.bluez.Adapter");
