@@ -126,12 +126,8 @@ caja_share_bar_init (CajaShareBar *bar)
 GtkWidget *
 caja_share_bar_new (const char *label)
 {
-        GObject *result;
-
-        result = g_object_new (CAJA_TYPE_SHARE_BAR,
-                               "message-type", GTK_MESSAGE_QUESTION,
-			       "label", label,
-                               NULL);
-
-        return GTK_WIDGET (result);
+        return g_object_new (CAJA_TYPE_SHARE_BAR,
+                             "message-type", GTK_MESSAGE_QUESTION,
+			     "label", label,
+                             NULL);
 }
