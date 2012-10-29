@@ -427,7 +427,7 @@ main (int argc, char **argv)
 {
 	GSettings *settings;
 	Display *xdisplay;
-	int x_fd;
+	G_GNUC_UNUSED x_fd;
 	Window selection_owner;
 	Atom xatom;
 
