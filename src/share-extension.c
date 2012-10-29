@@ -27,6 +27,7 @@
 #include <string.h>
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
+#include <bluetooth-client.h>
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-location-widget-provider.h>
 
@@ -128,6 +129,27 @@ add_widget (CajaUserShare *share,
                           share);
 }
 
+static void
+downloads_bar_set_from_bluetooth_status (GtkWidget *bar)
+{
+	BluetoothClient *client;
+	gboolean bt_powered;
+
+	client = g_object_get_data (G_OBJECT (bar), "bluetooth-client");
+	g_object_get (G_OBJECT (client),
+		      "default-adapter-powered", &bt_powered,
+		      NULL);
+	gtk_widget_set_visible (bar, bt_powered);
+}
+
+static void
+default_adapter_powered_cb (GObject    *gobject,
+			    GParamSpec *pspec,
+			    GtkWidget  *bar)
+{
+	downloads_bar_set_from_bluetooth_status (bar);
+}
+
 static GtkWidget *
 caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
                                          const char                     *uri,
@@ -174,7 +196,15 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	} else if (is_dir[0] != FALSE) {
 		bar = caja_share_bar_new (_("You can share files from this folder over the network and Bluetooth"));
 	} else {
+		BluetoothClient *client;
+
 		bar = caja_share_bar_new (_("You can receive files over Bluetooth into this folder"));
+		gtk_widget_set_no_show_all (bar, TRUE);
+		client = bluetooth_client_new ();
+		g_object_set_data_full (G_OBJECT (bar), "bluetooth-client", client, g_object_unref);
+		g_signal_connect (G_OBJECT (client), "notify::default-adapter-powered",
+				  G_CALLBACK (default_adapter_powered_cb), bar);
+		downloads_bar_set_from_bluetooth_status (bar);
 	}
 
 	add_widget (share, caja_share_bar_get_button (CAJA_SHARE_BAR (bar)));
@@ -183,7 +213,7 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 			  G_CALLBACK (bar_activated_cb),
 			  window);
 
-	gtk_widget_show (bar);
+	gtk_widget_show_all (bar);
 
 	g_object_unref (file);
 

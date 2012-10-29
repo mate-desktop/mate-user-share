@@ -134,7 +134,7 @@ AC_ARG_WITH(cajadir,
 	    [ac_with_cajadir=""])
 
 PKG_CHECK_MODULES(EXTENSION,
-		   libcaja-extension)
+		   libcaja-extension mate-bluetooth-1.0)
 if test "${ac_with_cajadir}" = ""; then
 	ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
 fi
