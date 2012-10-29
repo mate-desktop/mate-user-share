@@ -26,6 +26,7 @@
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
+#include <glib/gstdio.h>
 #include <bluetooth-client.h>
 #include <X11/Xlib.h>
 
