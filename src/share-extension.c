@@ -27,6 +27,7 @@
 #include <string.h>
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
+#include <bluetooth-client.h>
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-location-widget-provider.h>
 
@@ -37,12 +38,9 @@
 #define CAJA_USER_SHARE(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_USER_SHARE, CajaUserShare))
 #define CAJA_IS_USER_SHARE(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_USER_SHARE))
 
-typedef struct _CajaUserSharePrivate CajaUserSharePrivate;
-
 typedef struct
 {
         GObject              parent_slot;
-        CajaUserSharePrivate *priv;
 } CajaUserShare;
 
 typedef struct
@@ -50,18 +48,8 @@ typedef struct
         GObjectClass parent_slot;
 } CajaUserShareClass;
 
-#define CAJA_USER_SHARE_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CAJA_TYPE_USER_SHARE, CajaUserSharePrivate))
-
-struct _CajaUserSharePrivate
-{
-        GSList       *widget_list;
-};
-
 static GType caja_user_share_get_type      (void);
 static void  caja_user_share_register_type (GTypeModule *module);
-
-static GObjectClass *parent_class;
-
 
 static void
 launch_process (char **argv, GtkWindow *parent)
@@ -104,28 +92,34 @@ launch_prefs_on_window (GtkWindow *window)
 }
 
 static void
-bar_activated_cb (CajaShareBar *bar,
-                  gpointer         data)
+bar_response_cb (CajaShareBar *bar,
+                 gint response,
+                 gpointer         data)
 {
-        launch_prefs_on_window (GTK_WINDOW (data));
+        if (response == CAJA_SHARE_BAR_RESPONSE_PREFERENCES) {
+                launch_prefs_on_window (GTK_WINDOW (data));
+        }
 }
 
 static void
-destroyed_callback (GtkWidget    *widget,
-                    CajaUserShare *share)
+downloads_bar_set_from_bluetooth_status (GtkWidget *bar)
 {
-        share->priv->widget_list = g_slist_remove (share->priv->widget_list, widget);
+	BluetoothClient *client;
+	gboolean bt_powered;
+
+	client = g_object_get_data (G_OBJECT (bar), "bluetooth-client");
+	g_object_get (G_OBJECT (client),
+		      "default-adapter-powered", &bt_powered,
+		      NULL);
+	gtk_widget_set_visible (bar, bt_powered);
 }
 
 static void
-add_widget (CajaUserShare *share,
-            GtkWidget         *widget)
+default_adapter_powered_cb (GObject    *gobject,
+			    GParamSpec *pspec,
+			    GtkWidget  *bar)
 {
-        share->priv->widget_list = g_slist_prepend (share->priv->widget_list, widget);
-
-        g_signal_connect (widget, "destroy",
-                          G_CALLBACK (destroyed_callback),
-                          share);
+	downloads_bar_set_from_bluetooth_status (bar);
 }
 
 static GtkWidget *
@@ -135,7 +129,6 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 {
 	GFile             *file;
 	GtkWidget         *bar;
-	CajaUserShare *share;
 	guint              i;
 	gboolean           enable = FALSE;
 	GFile             *home;
@@ -167,23 +160,28 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	if (enable == FALSE)
 		return NULL;
 
-	share = CAJA_USER_SHARE (iface);
-
 	if (is_dir[0] != FALSE && is_dir[1] != FALSE) {
-		bar = caja_share_bar_new (_("You can share files from this folder and receive files to it"));
+		bar = caja_share_bar_new (_("May be used to share or receive files"));
 	} else if (is_dir[0] != FALSE) {
-		bar = caja_share_bar_new (_("You can share files from this folder over the network and Bluetooth"));
+		bar = caja_share_bar_new (_("May be shared over the network or Bluetooth"));
 	} else {
-		bar = caja_share_bar_new (_("You can receive files over Bluetooth into this folder"));
+		BluetoothClient *client;
+
+		bar = caja_share_bar_new (_("May be used to receive files over Bluetooth"));
+
+		gtk_widget_set_no_show_all (bar, TRUE);
+		client = bluetooth_client_new ();
+		g_object_set_data_full (G_OBJECT (bar), "bluetooth-client", client, g_object_unref);
+		g_signal_connect (G_OBJECT (client), "notify::default-adapter-powered",
+				  G_CALLBACK (default_adapter_powered_cb), bar);
+		downloads_bar_set_from_bluetooth_status (bar);
 	}
 
-	add_widget (share, caja_share_bar_get_button (CAJA_SHARE_BAR (bar)));
-
-	g_signal_connect (bar, "activate",
-			  G_CALLBACK (bar_activated_cb),
+	g_signal_connect (bar, "response",
+			  G_CALLBACK (bar_response_cb),
 			  window);
 
-	gtk_widget_show (bar);
+	gtk_widget_show_all (bar);
 
 	g_object_unref (file);
 
@@ -199,38 +197,13 @@ caja_user_share_location_widget_provider_iface_init (CajaLocationWidgetProviderI
 static void
 caja_user_share_instance_init (CajaUserShare *share)
 {
-        share->priv = CAJA_USER_SHARE_GET_PRIVATE (share);
-}
 
-static void
-caja_user_share_finalize (GObject *object)
-{
-        CajaUserShare *share;
-
-        g_return_if_fail (object != NULL);
-        g_return_if_fail (CAJA_IS_USER_SHARE (object));
-
-        share = CAJA_USER_SHARE (object);
-
-        g_return_if_fail (share->priv != NULL);
-
-        if (share->priv->widget_list != NULL) {
-                g_slist_free (share->priv->widget_list);
-        }
-
-        G_OBJECT_CLASS (parent_class)->finalize (object);
 }
 
 static void
 caja_user_share_class_init (CajaUserShareClass *klass)
 {
-        GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        parent_class = g_type_class_peek_parent (klass);
-
-        object_class->finalize = caja_user_share_finalize;
-
-        g_type_class_add_private (klass, sizeof (CajaUserSharePrivate));
 }
 
 static GType share_type = 0;

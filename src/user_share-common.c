@@ -22,6 +22,8 @@
  *
  */
 
+#include <string.h>
+
 #include "user_share-common.h"
 
 static char *

@@ -26,6 +26,7 @@
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
+#include <glib/gstdio.h>
 #include <bluetooth-client.h>
 #include <X11/Xlib.h>
 
@@ -426,7 +427,7 @@ main (int argc, char **argv)
 {
 	GSettings *settings;
 	Display *xdisplay;
-	int x_fd;
+	G_GNUC_UNUSED x_fd;
 	Window selection_owner;
 	Atom xatom;
 
