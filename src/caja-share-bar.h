@@ -34,18 +34,20 @@ G_BEGIN_DECLS
 #define CAJA_IS_SHARE_BAR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), CAJA_TYPE_SHARE_BAR))
 #define CAJA_SHARE_BAR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), CAJA_TYPE_SHARE_BAR, CajaShareBarClass))
 
+#define CAJA_SHARE_BAR_RESPONSE_PREFERENCES 1
+
 typedef struct CajaShareBarPrivate CajaShareBarPrivate;
 
 typedef struct
 {
-        GtkHBox                 box;
+        GtkInfoBar parent;
 
         CajaShareBarPrivate *priv;
 } CajaShareBar;
 
 typedef struct
 {
-        GtkHBoxClass            parent_class;
+        GtkInfoBarClass  parent_class;
 
 	void (* activate) (CajaShareBar *bar);
 

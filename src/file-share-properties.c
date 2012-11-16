@@ -243,23 +243,8 @@ password_combo_changed (GtkComboBox *combo_box)
 static void
 launch_share (void)
 {
-	char *argv[2];
-	int i;
-
-	i = 0;
-	argv[i++] = USER_SHARE_PROGRAM;
-	argv[i++] = NULL;
-
-	if (!g_spawn_async (NULL,
-			    argv,
-			    NULL,
-			    0, /* G_SPAWN_STDOUT_TO_DEV_NULL | G_SPAWN_STDERR_TO_DEV_NULL */
-			    NULL,
-			    NULL,
-			    NULL,
-			    NULL)) {
+	if (!g_spawn_command_line_async (USER_SHARE_PROGRAM, NULL))
 		g_warning ("Unable to start mate-user-share program");
-	}
 }
 
 static void

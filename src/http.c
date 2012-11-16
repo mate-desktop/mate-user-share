@@ -79,6 +79,7 @@ get_port (void)
 	memset (&addr, 0, sizeof (addr));
 	addr.sin_port = 0;
 	addr.sin_addr.s_addr = INADDR_ANY;
+	addr.sin_family = AF_INET;
 
 	reuse = 1;
 	setsockopt (sock, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof (reuse));
