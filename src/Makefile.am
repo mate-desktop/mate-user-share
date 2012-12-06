@@ -31,6 +31,7 @@ INCLUDES=	\
 	-I$(top_builddir) 				\
 	$(EXTENSION_CFLAGS)				\
 	$(USER_SHARE_CFLAGS)				\
+	$(BLUETOOTH_CFLAGS)				\
 	$(USER_SHARE_CONFIG_CFLAGS)			\
 	$(X_CFLAGS)
 
@@ -41,10 +42,6 @@ mate_user_share_SOURCES =	\
 	user_share-private.c	\
 	http.c			\
 	http.h			\
-	obexftp.c		\
-	obexftp.h		\
-	obexpush.c		\
-	obexpush.h		\
 	$(MARSHALFILES)
 
 mate_user_share_LDADD =	\
@@ -52,6 +49,15 @@ mate_user_share_LDADD =	\
 	$(USER_SHARE_LIBS)	\
 	$(SELINUX_LIBS)	\
 	$(X_LIBS) $(X_PRE_LIBS) -lX11 $(X_EXTRA_LIBS)
+
+if USE_BLUETOOTH
+mate_user_share_SOURCES += \
+	obexftp.c		\
+	obexftp.h		\
+	obexpush.c		\
+	obexpush.h
+mate_user_share_LDADD += $(BLUETOOTH_LIBS)
+endif
 
 mate_file_share_properties_SOURCES =	\
 	file-share-properties.c		\

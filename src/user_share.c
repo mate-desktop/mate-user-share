@@ -27,18 +27,22 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <glib/gstdio.h>
-#include <bluetooth-client.h>
 #include <X11/Xlib.h>
 
 #include "user_share.h"
 #include "user_share-private.h"
 #include "user_share-common.h"
 #include "http.h"
+
+#ifdef HAVE_BLUETOOTH
+#include <bluetooth-client.h>
+
 #include "obexftp.h"
 #include "obexpush.h"
 
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib.h>
+#endif /* HAVE_BLUETOOTH */
 
 #include <gio/gio.h>
 
@@ -49,6 +53,14 @@
 #include <signal.h>
 #include <unistd.h>
 
+static guint disabled_timeout_tag = 0;
+static GSettings* settings;
+
+#define GSETTINGS_SCHEMA "org.mate.FileSharing"
+#define GSETTINGS_KEY_FILE_SHARING_ENABLED "enabled"
+#define GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD "require-password"
+
+#ifdef HAVE_BLUETOOTH
 /* ConsoleKit */
 #define CK_NAME			"org.freedesktop.ConsoleKit"
 #define CK_INTERFACE		"org.freedesktop.ConsoleKit"
@@ -57,7 +69,6 @@
 #define CK_SEAT_INTERFACE	"org.freedesktop.ConsoleKit.Seat"
 #define CK_SESSION_INTERFACE	"org.freedesktop.ConsoleKit.Session"
 
-static guint disabled_timeout_tag = 0;
 static gboolean has_console = TRUE;
 
 static BluetoothClient *client = NULL;
@@ -65,18 +76,13 @@ static gboolean bluetoothd_enabled = FALSE;
 
 #define OBEX_ENABLED (bluetoothd_enabled && has_console)
 
-#define GSETTINGS_SCHEMA "org.mate.FileSharing"
-#define GSETTINGS_KEY_FILE_SHARING_ENABLED "enabled"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED "bluetooth-enabled"
-#define GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD "require-password"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ALLOW_WRITE "bluetooth-allow-write"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING "bluetooth-require-pairing"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED "bluetooth-obexpush-enabled"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_ACCEPT_FILES "bluetooth-accept-files"
 #define GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY "bluetooth-notify"
 
-
-static GSettings* settings;
 
 static void
 obex_services_start (void)
@@ -276,6 +282,7 @@ bluez_init (void)
 	g_signal_connect (G_OBJECT (client), "notify::default-adapter-powered",
 			  G_CALLBACK (default_adapter_changed), NULL);
 }
+#endif /* HAVE_BLUETOOTH */
 
 static void
 migrate_old_configuration (void)
@@ -308,9 +315,14 @@ disabled_timeout_callback (gpointer user_data)
 	GSettings *settings = (GSettings *) user_data;
 	http_down ();
 
+#ifdef HAVE_BLUETOOTH
 	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
 	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
 		_exit (0);
+#else /* HAVE_BLUETOOTH */
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE)
+		_exit (0);
+#endif /* HAVE_BLUETOOTH */
 	return FALSE;
 }
 
@@ -338,6 +350,7 @@ file_sharing_enabled_changed (GSettings *settings, gchar *key, gpointer data)
 	}
 }
 
+#ifdef HAVE_BLUETOOTH
 static void
 file_sharing_bluetooth_allow_write_changed (GSettings *settings, gchar *key, gpointer data)
 {
@@ -404,13 +417,16 @@ file_sharing_bluetooth_obexpush_notify_changed (GSettings *settings, gchar *key,
 {
 	obexpush_set_notify (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY));
 }
+#endif /* HAVE_BLUETOOTH */
 
 static RETSIGTYPE
 cleanup_handler (int sig)
 {
 	http_down ();
+#ifdef HAVE_BLUETOOTH
 	obexftp_down ();
 	obexpush_down ();
+#endif /* HAVE_BLUETOOTH */
 	_exit (2);
 }
 
@@ -418,7 +434,9 @@ static int
 x_io_error_handler (Display *xdisplay)
 {
 	http_down ();
+#ifdef HAVE_BLUETOOTH
 	obexftp_down ();
+#endif /* HAVE_BLUETOOTH */
 	_exit (2);
 }
 
@@ -475,20 +493,27 @@ main (int argc, char **argv)
 	migrate_old_configuration ();
 
 	settings = g_settings_new (GSETTINGS_SCHEMA);
+#ifdef HAVE_BLUETOOTH
 	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
 	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
 	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
 		return 1;
+#else /* HAVE_BLUETOOTH */
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE)
+		return 1;
+#endif /* HAVE_BLUETOOTH */
 
 	x_fd = ConnectionNumber (xdisplay);
 	XSetIOErrorHandler (x_io_error_handler);
 
 	if (http_init () == FALSE)
 		return 1;
+#ifdef HAVE_BLUETOOTH
 	if (obexftp_init () == FALSE)
 		return 1;
 	if (obexpush_init () == FALSE)
 		return 1;
+#endif /* HAVE_BLUETOOTH */
 
     g_signal_connect (settings,
 			     "changed::" GSETTINGS_KEY_FILE_SHARING_ENABLED,
@@ -498,6 +523,7 @@ main (int argc, char **argv)
 			     "changed::" GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD,
 			     G_CALLBACK (require_password_changed), NULL);
 
+#ifdef HAVE_BLUETOOTH
     g_signal_connect (settings,
 			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_ENABLED,
 			     G_CALLBACK (file_sharing_bluetooth_enabled_changed), NULL);
@@ -522,16 +548,18 @@ main (int argc, char **argv)
 			     "changed::" GSETTINGS_KEY_FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY,
 			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
 
-
 	bluez_init ();
 	consolekit_init ();
+#endif /* HAVE_BLUETOOTH */
 
 	/* Initial setting */
 	file_sharing_enabled_changed (settings, NULL, NULL);
+#ifdef HAVE_BLUETOOTH
 	file_sharing_bluetooth_enabled_changed (settings, NULL, NULL);
 	file_sharing_bluetooth_obexpush_accept_files_changed (settings, NULL, NULL);
 	file_sharing_bluetooth_obexpush_notify_changed (settings, NULL, NULL);
 	file_sharing_bluetooth_obexpush_enabled_changed (settings, NULL, NULL);
+#endif /* HAVE_BLUETOOTH */
 
 	gtk_main ();
 
