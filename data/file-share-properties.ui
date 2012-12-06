@@ -19,7 +19,7 @@
             <property name="border_width">5</property>
             <property name="spacing">18</property>
             <child>
-              <object class="GtkVBox" id="vbox3">
+              <object class="GtkVBox" id="vbox_share_http">
                 <property name="visible">True</property>
                 <property name="spacing">6</property>
                 <child>
@@ -130,8 +130,8 @@
               </packing>
             </child>
             <child>
-              <object class="GtkVBox" id="vbox4">
-                <property name="visible">True</property>
+              <object class="GtkVBox" id="vbox_share_bluetooth">
+                <property name="visible">False</property>
                 <property name="spacing">6</property>
                 <child>
                   <object class="GtkLabel" id="label7">
@@ -213,8 +213,8 @@
               </packing>
             </child>
             <child>
-              <object class="GtkVBox" id="vbox5">
-                <property name="visible">True</property>
+              <object class="GtkVBox" id="vbox_receive_bluetooth">
+                <property name="visible">False</property>
                 <property name="spacing">6</property>
                 <child>
                   <object class="GtkLabel" id="label8">
