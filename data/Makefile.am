@@ -15,6 +15,9 @@ app_DATA=dav_user_2.0.conf dav_user_2.2.conf dav_groupfile file-share-properties
 gsettings_SCHEMAS = org.mate.FileSharing.gschema.xml
 @GSETTINGS_RULES@
 
+convertdir = $(datadir)/MateConf/gsettings
+convert_DATA = mate-user-share.convert
+
 EXTRA_DIST = $(gsettings_SCHEMAS) \
 	$(app_DATA)		\
 	$(desktop_in_files)	\
