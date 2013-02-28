@@ -28,7 +28,7 @@
 #include <gio/gio.h>
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
-#include <libmatenotify/notify.h>
+#include <libnotify/notify.h>
 #include <dbus/dbus-glib.h>
 #include <dbus/dbus-glib-lowlevel.h>
 #include <canberra-gtk.h>
@@ -137,8 +137,7 @@ show_notification (const char *filename)
 	g_free (display);
 	notification = notify_notification_new (_("You received a file"),
 								 notification_text,
-								 "dialog-information",
-                                 NULL);
+								 "dialog-information");
 
 	notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
 
