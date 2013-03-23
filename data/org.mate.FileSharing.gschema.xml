@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.mate.FileSharing" path="/desktop/mate/file-sharing/">
+  <schema id="org.mate.FileSharing" path="/org/mate/desktop/file-sharing/">
     <key name="enabled" type="b">
       <default>false</default>
       <summary>Share Public directory over the network</summary>

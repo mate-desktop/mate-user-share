@@ -25,7 +25,6 @@
 #ifndef _USER_SHARE_PRIVATE_H_
 #define _USER_SHARE_PRIVATE_H_
 
-#define FILE_SHARING_DIR "/desktop/mate/file-sharing"
 #define FILE_SHARING_ENABLED "enabled"
 #define FILE_SHARING_BLUETOOTH_ENABLED "bluetooth-enabled"
 #define FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED "bluetooth-obexpush-enabled"
