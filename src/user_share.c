@@ -346,7 +346,7 @@ file_sharing_enabled_changed (GSettings *settings, gchar *key, gpointer data)
 		http_down ();
 		disabled_timeout_tag = g_timeout_add_seconds (3,
 							      (GSourceFunc)disabled_timeout_callback,
-							      client);
+							      settings);
 	}
 }
 
