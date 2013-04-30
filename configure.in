@@ -208,6 +208,7 @@ data/icons/48x48/Makefile
 data/mate-user-share.desktop.in
 po/Makefile.in
 src/Makefile
+man/Makefile
 ])
 
 echo "
