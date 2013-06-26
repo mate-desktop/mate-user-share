@@ -17,7 +17,7 @@ libexec_PROGRAMS= \
 noinst_LTLIBRARIES = libuser-share-common.la
 libuser_share_common_la_SOURCES = user_share-common.c user_share-common.h
 
-INCLUDES=	\
+AM_CPPFLAGS=	\
 	-DPREFIX=\""$(prefix)"\" 			\
 	-DBINDIR=\""$(bindir)"\" 			\
 	-DLIBEXECDIR=\""$(libexecdir)"\"		\
