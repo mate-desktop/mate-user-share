@@ -10,7 +10,7 @@ autostart_DATA = $(autostart_in_files:.desktop.in=.desktop)
 autostart_in_files = mate-user-share.desktop.in
 
 appdir = $(datadir)/mate-user-share
-app_DATA=dav_user_2.0.conf dav_user_2.2.conf dav_groupfile file-share-properties.ui
+app_DATA=dav_user_2.0.conf dav_user_2.2.conf dav_user_2.4.conf dav_groupfile file-share-properties.ui
 
 gsettings_SCHEMAS = org.mate.FileSharing.gschema.xml
 @GSETTINGS_RULES@
