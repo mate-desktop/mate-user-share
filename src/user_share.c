@@ -27,6 +27,7 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <glib/gstdio.h>
+#include <gio/gio.h>
 #include <X11/Xlib.h>
 
 #include "user_share.h"
@@ -61,14 +62,12 @@ static GSettings* settings;
 #define GSETTINGS_KEY_FILE_SHARING_REQUIRE_PASSWORD "require-password"
 
 #ifdef HAVE_BLUETOOTH
-/* ConsoleKit */
-#define CK_NAME			"org.freedesktop.ConsoleKit"
-#define CK_INTERFACE		"org.freedesktop.ConsoleKit"
-#define CK_MANAGER_PATH		"/org/freedesktop/ConsoleKit/Manager"
-#define CK_MANAGER_INTERFACE	"org.freedesktop.ConsoleKit.Manager"
-#define CK_SEAT_INTERFACE	"org.freedesktop.ConsoleKit.Seat"
-#define CK_SESSION_INTERFACE	"org.freedesktop.ConsoleKit.Session"
+/* MATE Session */
+#define MATE_SESSION_DBUS_NAME      "org.mate.SessionManager"
+#define MATE_SESSION_DBUS_OBJECT    "/org/mate/SessionManager"
+#define MATE_SESSION_DBUS_INTERFACE "org.mate.SessionManager"
 
+static GDBusProxy *session_proxy = NULL;
 static gboolean has_console = TRUE;
 
 static BluetoothClient *client = NULL;
@@ -113,136 +112,65 @@ obex_services_shutdown (void)
 }
 
 static void
-sessionchanged_cb (void)
+session_properties_changed_cb (GDBusProxy      *session,
+			       GVariant        *changed,
+			       char           **invalidated,
+			       gpointer         user_data)
 {
-	DBusGConnection *dbus_connection;
-	DBusGProxy *proxy_ck_manager;
-	DBusGProxy *proxy_ck_session;
+	GVariant *v;
 
-	gchar *ck_session_path;
-	gboolean is_active = FALSE;
-	GError *error = NULL;
+	v = g_variant_lookup_value (changed, "SessionIsActive", G_VARIANT_TYPE_BOOLEAN);
+	if (v) {
+		has_console = g_variant_get_boolean (v);
+		g_debug ("Received session is active change: now %s", has_console ? "active" : "inactive");
 
-	g_message ("Active session changed");
+		if (has_console)
+			obex_services_start ();
+		else
+			obex_services_shutdown ();
 
-	dbus_connection = dbus_g_bus_get (DBUS_BUS_SYSTEM, &error);
-	if (!dbus_connection) {
-	    g_warning ("Unable to connect to dbus");
-	    dbus_g_connection_unref (dbus_connection);
-	    return;
-	}
-    
-	proxy_ck_manager = dbus_g_proxy_new_for_name (dbus_connection,
-			   			      CK_NAME,
-		    				      CK_MANAGER_PATH,
-					              CK_MANAGER_INTERFACE);
-	if (dbus_g_proxy_call (proxy_ck_manager, "GetCurrentSession",
-			       &error, G_TYPE_INVALID,
-			       DBUS_TYPE_G_OBJECT_PATH, &ck_session_path,
-			       G_TYPE_INVALID) == FALSE) {
-	    g_warning ("Couldn't request the name: %s", error->message);
-	    dbus_g_connection_unref (dbus_connection);
-	    g_object_unref (proxy_ck_manager);
-	    g_error_free (error);
-	    return;
-	}
-	
-	proxy_ck_session = dbus_g_proxy_new_for_name (dbus_connection,
-						      CK_NAME,
-						      ck_session_path,
-						      CK_SESSION_INTERFACE);
-
-	if (dbus_g_proxy_call (proxy_ck_session, "IsActive",
-			       &error, G_TYPE_INVALID,
-			       G_TYPE_BOOLEAN, &is_active, 
-			       G_TYPE_INVALID) == FALSE) {
-	    
-	    g_warning ("Couldn't request the name: %s", error->message);
-	    dbus_g_connection_unref (dbus_connection);
-	    g_object_unref (proxy_ck_manager);
-	    g_object_unref (proxy_ck_session);
-	    g_error_free (error);
-	    return;
-	}
-	
-	has_console = is_active;
-	if (is_active) {
-		obex_services_start ();
-	} else {
-		obex_services_shutdown (); 
-	}
-
-	dbus_g_connection_unref (dbus_connection);
-	g_free (ck_session_path);
-	g_object_unref (proxy_ck_manager);
-	g_object_unref (proxy_ck_session);
-	if (error != NULL) {
-	    g_error_free (error);
+		g_variant_unref (v); 
 	}
 }
 
-static void
-consolekit_init (void)
+static gboolean
+is_session_active (void)
 {
-	DBusGConnection *dbus_connection;
-	DBusGProxy *proxy_ck_manager;
-	DBusGProxy *proxy_ck_session;
-	DBusGProxy *proxy_ck_seat;
-	gchar *ck_session_path;
-	gchar *ck_seat_path;
+	GVariant *variant;
+	gboolean is_session_active = FALSE;
+
+	variant = g_dbus_proxy_get_cached_property (session_proxy,
+						    "SessionIsActive");
+	if (variant) {
+		is_session_active = g_variant_get_boolean (variant);
+		g_variant_unref (variant);
+ 	}
+
+	return is_session_active;
+}
+
+static void
+session_init (void)
+{
 	GError *error = NULL;
 
-	dbus_connection = dbus_g_bus_get (DBUS_BUS_SYSTEM, NULL);
-
-	if (!dbus_connection) {
-	    g_warning ("Unable to connect to dbus");
-	    dbus_g_connection_unref (dbus_connection);
-	    return;
+	session_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+						       G_DBUS_PROXY_FLAGS_NONE,
+						       NULL,
+						       MATE_SESSION_DBUS_NAME,
+						       MATE_SESSION_DBUS_OBJECT,
+						       MATE_SESSION_DBUS_INTERFACE,
+						       NULL,
+						       &error);
+	if (session_proxy == NULL) {
+		g_warning ("Failed to get session proxy: %s", error->message);
+		g_error_free (error);
+		return;
 	}
-    
-	proxy_ck_manager = dbus_g_proxy_new_for_name (dbus_connection,
-						      CK_NAME,
-						      CK_MANAGER_PATH,
-						      CK_MANAGER_INTERFACE);
-	if (dbus_g_proxy_call (proxy_ck_manager, "GetCurrentSession",
-			       &error, G_TYPE_INVALID,
-			       DBUS_TYPE_G_OBJECT_PATH, &ck_session_path,
-			       G_TYPE_INVALID) == FALSE) {
-	    
-	    g_warning ("Couldn't request the name: %s", error->message);
-	    g_object_unref (proxy_ck_manager);
-	    return;
-	}
-	
-	proxy_ck_session = dbus_g_proxy_new_for_name (dbus_connection,
-						      CK_NAME,
-						      ck_session_path,
-						      CK_SESSION_INTERFACE);
-	if (dbus_g_proxy_call (proxy_ck_session, "GetSeatId",
-			       &error, G_TYPE_INVALID,
-			       DBUS_TYPE_G_OBJECT_PATH, &ck_seat_path,
-			       G_TYPE_INVALID) == FALSE) {
-	    
-	    g_warning ("Couldn't request the name: %s", error->message);
-	    g_object_unref (proxy_ck_session); 
-	    return;
-	}
-	
-	proxy_ck_seat = dbus_g_proxy_new_for_name (dbus_connection,
-						   CK_NAME,
-						   ck_seat_path,
-						   CK_SEAT_INTERFACE);
-	dbus_g_proxy_add_signal (proxy_ck_seat, "ActiveSessionChanged",
-				 G_TYPE_STRING, G_TYPE_INVALID);
-	dbus_g_proxy_connect_signal (proxy_ck_seat, "ActiveSessionChanged",
-				     G_CALLBACK (sessionchanged_cb), NULL, NULL);
-	if (error != NULL) {
-	    g_error_free (error);
-	}
-	g_object_unref (proxy_ck_manager);
-	g_object_unref (proxy_ck_session);
-	g_free (ck_seat_path);
-	dbus_g_connection_unref (dbus_connection);
+	g_signal_connect (session_proxy, "g-properties-changed",
+			  G_CALLBACK (session_properties_changed_cb),
+			  NULL);
+	has_console = is_session_active ();
 }
 
 static void
@@ -549,7 +477,7 @@ main (int argc, char **argv)
 			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
 
 	bluez_init ();
-	consolekit_init ();
+	session_init ();
 #endif /* HAVE_BLUETOOTH */
 
 	/* Initial setting */
