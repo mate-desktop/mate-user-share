@@ -50,13 +50,7 @@ fi
 
 AC_SUBST(HTTPD)
 
-PKG_CHECK_EXISTS(dbus-1 >= 1.1.1, have_dbus_1_1=true, have_dbus_1_1=false)
-if $have_dbus_1_1 ; then
-   DBUS_MODULES=dbus-1
-   AC_DEFINE(HAVE_DBUS_1_1, 1, [Set to true if we have D-BUS 1.1])
-fi
-
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-2.0 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk $DBUS_MODULES)
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-2.0 dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk $DBUS_MODULES)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
 
