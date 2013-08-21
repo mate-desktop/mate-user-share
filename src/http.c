@@ -89,7 +89,7 @@ get_port (void)
 		return -1;
 	}
 
-#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__APPLE__)
+#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__APPLE__) || defined(__OpenBSD__)
 	/* XXX This exposes a potential race condition, but without this,
 	 * httpd will not start on the above listed platforms due to the fact
 	 * that SO_REUSEADDR is also needed when Apache binds to the listening
