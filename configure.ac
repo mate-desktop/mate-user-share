@@ -191,7 +191,7 @@ else
 	AC_MSG_RESULT(no)
 fi
 			       
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 data/Makefile
 data/icons/Makefile
@@ -206,6 +206,12 @@ po/Makefile.in
 src/Makefile
 man/Makefile
 ])
+
+AC_OUTPUT
+AC_MSG_NOTICE([mate-user-share was configured with the following options:])
+AC_MSG_NOTICE([** httpd location: $HTTP])
+AC_MSG_NOTICE([** httpd modules path: $MODULES_PATH])
+AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
 
 echo "
 Do note Apache 2.2 and mod_dnssd 0.6 are required to use mate-user-share.
