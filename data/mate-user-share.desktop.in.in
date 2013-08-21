@@ -1,9 +1,0 @@
-[Desktop Entry]
-_Name=Personal File Sharing
-_Comment=Launch Personal File Sharing if enabled
-Icon=folder-remote
-Exec=@installdir@/mate-user-share
-Terminal=false
-Type=Application
-Categories=
-OnlyShowIn=MATE;

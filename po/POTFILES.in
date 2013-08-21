@@ -3,7 +3,9 @@
 data/desktop_mate_file_sharing.schemas.in
 [type: gettext/glade]data/file-share-properties.ui
 data/mate-user-share-properties.desktop.in
-data/mate-user-share.desktop.in.in
+data/mate-user-share-obexftp.desktop.in.in
+data/mate-user-share-obexpush.desktop.in.in
+data/mate-user-share-webdav.desktop.in.in
 src/caja-share-bar.c
 src/share-extension.c
 src/file-share-properties.c
