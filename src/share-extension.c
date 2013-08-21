@@ -27,9 +27,12 @@
 #include <string.h>
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
-#include <bluetooth-client.h>
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-location-widget-provider.h>
+
+#ifdef HAVE_BLUETOOTH
+#include <bluetooth-client.h>
+#endif
 
 #include "caja-share-bar.h"
 #include "user_share-common.h"
@@ -101,6 +104,7 @@ bar_response_cb (CajaShareBar *bar,
         }
 }
 
++#ifdef HAVE_BLUETOOTH
 static void
 downloads_bar_set_from_bluetooth_status (GtkWidget *bar)
 {
@@ -121,6 +125,7 @@ default_adapter_powered_cb (GObject    *gobject,
 {
 	downloads_bar_set_from_bluetooth_status (bar);
 }
+#endif /* HAVE_BLUETOOTH */
 
 static GtkWidget *
 caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
@@ -163,8 +168,13 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	if (is_dir[0] != FALSE && is_dir[1] != FALSE) {
 		bar = caja_share_bar_new (_("May be used to share or receive files"));
 	} else if (is_dir[0] != FALSE) {
+#ifndef HAVE_BLUETOOTH
 		bar = caja_share_bar_new (_("May be shared over the network or Bluetooth"));
+#else
+		bar = caja_share_bar_new (_("May be shared over the network"));
+#endif /* !HAVE_BLUETOOTH */
 	} else {
+#ifdef HAVE_BLUETOOTH
 		BluetoothClient *client;
 
 		bar = caja_share_bar_new (_("May be used to receive files over Bluetooth"));
@@ -175,6 +185,7 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 		g_signal_connect (G_OBJECT (client), "notify::default-adapter-powered",
 				  G_CALLBACK (default_adapter_powered_cb), bar);
 		downloads_bar_set_from_bluetooth_status (bar);
+#endif /* HAVE_BLUETOOTH */
 	}
 
 	g_signal_connect (bar, "response",
