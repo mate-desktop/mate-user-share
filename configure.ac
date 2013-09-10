@@ -50,26 +50,20 @@ fi
 
 AC_SUBST(HTTPD)
 
-PKG_CHECK_EXISTS(dbus-1 >= 1.1.1, have_dbus_1_1=true, have_dbus_1_1=false)
-if $have_dbus_1_1 ; then
-   DBUS_MODULES=dbus-1
-   AC_DEFINE(HAVE_DBUS_1_1, 1, [Set to true if we have D-BUS 1.1])
+BLUETOOTH_PKG="mate-bluetooth-1.0 >= 1.2.0"
+AC_ARG_ENABLE(bluetooth, AS_HELP_STRING([--disable-bluetooth],[compile without bluetooth support]),,enable_bluetooth=yes)
+if test "x$enable_bluetooth" = "xyes"; then
+ PKG_CHECK_MODULES(BLUETOOTH, $BLUETOOTH_PKG)
+ AC_DEFINE(HAVE_BLUETOOTH, 1, [Set to true if mate-bluetooth support is available])
+else
+ BLUETOOTH_PKG=""
+ AC_MSG_WARN([Bluetooth support is disabled.])
 fi
+AM_CONDITIONAL(USE_BLUETOOTH, [test "$enable_bluetooth" = "yes"])
 
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.25.0 gdk-x11-2.0 gtk+-2.0 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk $DBUS_MODULES)
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-2.0 dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk $DBUS_MODULES $BLUETOOTH_PKG)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
-
-PKG_CHECK_MODULES(BLUETOOTH, mate-bluetooth-1.0 >= 1.2.0,
-                             have_bluetooth=true, have_bluetooth=false)
-AC_SUBST(BLUETOOTH_CFLAGS)
-AC_SUBST(BLUETOOTH_LIBS)
-if $have_bluetooth; then
-   AC_DEFINE(HAVE_BLUETOOTH, 1, [Set to true if mate-bluetooth support is available])
-else
-   AC_MSG_WARN([Bluetooth support is disabled.])
-fi
-AM_CONDITIONAL(USE_BLUETOOTH, [test "$have_bluetooth" = "true"])
 
 PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= 2.15.2 gio-2.0 >= 2.25.0 gtk+-2.0 >= 2.12.0 unique-1.0)
 AC_SUBST(USER_SHARE_CONFIG_CFLAGS)
@@ -145,7 +139,7 @@ AC_ARG_WITH(cajadir,
 	    [ac_with_cajadir=""])
 
 PKG_CHECK_MODULES(EXTENSION,
-		   libcaja-extension mate-bluetooth-1.0)
+		   libcaja-extension $BLUETOOTH_PKG)
 if test "${ac_with_cajadir}" = ""; then
 	ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
 fi
@@ -197,7 +191,7 @@ else
 	AC_MSG_RESULT(no)
 fi
 			       
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 data/Makefile
 data/icons/Makefile
@@ -205,11 +199,26 @@ data/icons/16x16/Makefile
 data/icons/22x22/Makefile
 data/icons/32x32/Makefile
 data/icons/48x48/Makefile
-data/mate-user-share.desktop.in
+data/mate-user-share-webdav.desktop.in
+data/mate-user-share-obexftp.desktop.in
+data/mate-user-share-obexpush.desktop.in
 po/Makefile.in
 src/Makefile
 man/Makefile
 ])
+
+AC_OUTPUT
+
+if test "x$enable_bluetooth" = "xyes"; then
+	AC_MSG_NOTICE([** Bluetooth support enabled (ObexPush and ObexFTP)])
+else
+	AC_MSG_NOTICE([   Bluetooth support disabled])
+fi
+
+AC_MSG_NOTICE([mate-user-share was configured with the following options:])
+AC_MSG_NOTICE([** httpd location: $HTTP])
+AC_MSG_NOTICE([** httpd modules path: $MODULES_PATH])
+AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
 
 echo "
 Do note Apache 2.2 and mod_dnssd 0.6 are required to use mate-user-share.

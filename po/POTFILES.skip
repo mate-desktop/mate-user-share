@@ -1,4 +1,6 @@
 # List of source files that should NOT be translated.
 # Please keep this file sorted alphabetically.
 data/file-share-properties.ui
-data/mate-user-share.desktop.in
+data/mate-user-share-obexftp.desktop.in.in
+data/mate-user-share-obexpush.desktop.in.in
+data/mate-user-share-webdav.desktop.in.in
