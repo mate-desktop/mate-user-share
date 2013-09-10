@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Personal File Sharing obexftp
+_Comment=Launch Personal File Sharing if enabled
+_Keywords=share;files;bluetooth;obex;http;network;copy;send;
+AutostartCondition=GSettings org.mate.FileSharing bluetooth-enabled
+Icon=folder-remote
+Exec=@installdir@/mate-user-share
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=MATE;
