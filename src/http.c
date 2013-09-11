@@ -26,10 +26,7 @@
 #include <glib.h>
 #include <glib/gi18n.h>
 #include <X11/Xlib.h>
-
-#ifdef HAVE_DBUS_1_1
 #include <dbus/dbus.h>
-#endif
 
 #include <gio/gio.h>
 
@@ -57,9 +54,7 @@
 
 #define GSETTINGS_SCHEMA "org.mate.FileSharing"
 
-#ifdef HAVE_DBUS_1_1
 static char *dbus_session_id;
-#endif
 
 static pid_t httpd_pid = 0;
 
@@ -94,7 +89,7 @@ get_port (void)
 		return -1;
 	}
 
-#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__APPLE__)
+#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__APPLE__) || defined(__OpenBSD__)
 	/* XXX This exposes a potential race condition, but without this,
 	 * httpd will not start on the above listed platforms due to the fact
 	 * that SO_REUSEADDR is also needed when Apache binds to the listening
@@ -155,7 +150,6 @@ get_share_name (void)
 	return name;
 }
 
-#ifdef HAVE_DBUS_1_1
 static void
 init_dbus() {
 	/* The only use we make of D-BUS is to fetch the session BUS ID so we can export
@@ -190,7 +184,6 @@ init_dbus() {
 	dbus_connection_close(connection);
 	dbus_connection_unref(connection);
 }
-#endif
 
 static void
 ensure_conf_dir (void)
@@ -470,9 +463,7 @@ http_down (void)
 gboolean
 http_init (void)
 {
-#ifdef HAVE_DBUS_1_1
 	init_dbus();
-#endif	
 
 	return TRUE;
 }
