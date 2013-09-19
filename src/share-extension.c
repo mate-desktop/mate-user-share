@@ -104,7 +104,7 @@ bar_response_cb (CajaShareBar *bar,
         }
 }
 
-+#ifdef HAVE_BLUETOOTH
+#ifdef HAVE_BLUETOOTH
 static void
 downloads_bar_set_from_bluetooth_status (GtkWidget *bar)
 {
