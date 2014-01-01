@@ -1,6 +1,6 @@
 AC_INIT(mate-user-share, 1.6.0)
 
-AM_INIT_AUTOMAKE([1.9 dist-bzip2 no-dist-gzip check-news])
+AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip check-news])
 AM_CONFIG_HEADER(config.h)
 
 # Enable silent build when available (Automake 1.11)
