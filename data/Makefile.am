@@ -21,6 +21,7 @@ convert_DATA = mate-user-share.convert
 EXTRA_DIST = $(gsettings_SCHEMAS) \
 	$(app_DATA)		\
 	$(desktop_in_files)	\
+	$(convert_DATA) \
 	mate-user-share-obexftp.desktop.in.in \
 	mate-user-share-obexpush.desktop.in.in \
 	mate-user-share-webdav.desktop.in.in \
