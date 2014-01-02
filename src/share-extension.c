@@ -137,9 +137,15 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	guint              i;
 	gboolean           enable = FALSE;
 	GFile             *home;
+#ifdef HAVE_BLUETOOTH
 	const GUserDirectory special_dirs[] = { G_USER_DIRECTORY_PUBLIC_SHARE, G_USER_DIRECTORY_DOWNLOAD };
-	gboolean is_dir[] = { FALSE, FALSE };
 
+	gboolean is_dir[] = { FALSE, FALSE };
+#else
+	const GUserDirectory special_dirs[] = { G_USER_DIRECTORY_PUBLIC_SHARE };
+
+	gboolean is_dir[] = { FALSE };
+#endif
 	file = g_file_new_for_uri (uri);
 	home = g_file_new_for_path (g_get_home_dir ());
 
