@@ -1,1 +1,3 @@
-mate-user-share 1.6.1
+1.7.0
+  * Add support for Apache 2.4
+  * Add manpage
