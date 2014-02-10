@@ -11,7 +11,7 @@ AM_MAINTAINER_MODE
 
 IT_PROG_INTLTOOL([0.35.0])
 
-GNOME_DOC_INIT
+YELP_HELP_INIT
 
 AC_C_CONST
 AC_ISC_POSIX
@@ -202,6 +202,7 @@ data/icons/48x48/Makefile
 data/mate-user-share-webdav.desktop.in
 data/mate-user-share-obexftp.desktop.in
 data/mate-user-share-obexpush.desktop.in
+help/Makefile
 po/Makefile.in
 src/Makefile
 man/Makefile
