@@ -1,3 +1,7 @@
+1.7.90
+  * Restore user-guide and port it to yelp.
+  * Disable bluetooth by default.
+
 1.7.0
   * Add support for Apache 2.4
   * Add manpage
