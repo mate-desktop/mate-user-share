@@ -51,7 +51,7 @@ fi
 AC_SUBST(HTTPD)
 
 BLUETOOTH_PKG="mate-bluetooth-1.0 >= 1.2.0"
-AC_ARG_ENABLE(bluetooth, AS_HELP_STRING([--disable-bluetooth],[compile without bluetooth support]),,enable_bluetooth=yes)
+AC_ARG_ENABLE(bluetooth, AS_HELP_STRING([--disable-bluetooth],[compile without bluetooth support]),,enable_bluetooth=no)
 if test "x$enable_bluetooth" = "xyes"; then
  PKG_CHECK_MODULES(BLUETOOTH, $BLUETOOTH_PKG)
  AC_DEFINE(HAVE_BLUETOOTH, 1, [Set to true if mate-bluetooth support is available])
