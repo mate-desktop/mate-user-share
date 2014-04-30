@@ -61,11 +61,38 @@ else
 fi
 AM_CONDITIONAL(USE_BLUETOOTH, [test "$enable_bluetooth" = "yes"])
 
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-2.0 dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk $DBUS_MODULES $BLUETOOTH_PKG)
+dnl ==========================================================================
+
+AC_MSG_CHECKING([which gtk+ version to compile against])
+AC_ARG_WITH([gtk],
+  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
+  [case "$with_gtk" in
+     2.0|3.0) ;;
+     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
+   esac],
+  [with_gtk=2.0])
+AC_MSG_RESULT([$with_gtk])
+
+case "$with_gtk" in
+  2.0) GTK_API_VERSION=2.0
+       GTK_REQUIRED_VERSION=2.24.0
+       CANBERRA_API_VERSION=
+       UNIQUE_API_VERSION=1.0
+       ;;
+  3.0) GTK_API_VERSION=3.0
+       GTK_REQUIRED_VERSION=3.0.0
+       CANBERRA_API_VERSION=3
+       UNIQUE_API_VERSION=3.0
+       ;;
+esac
+
+dnl ==========================================================================
+
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-$GTK_API_VERSION dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk$CANBERRA_API_VERSION $DBUS_MODULES $BLUETOOTH_PKG)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
 
-PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= 2.15.2 gio-2.0 >= 2.25.0 gtk+-2.0 >= 2.12.0 unique-1.0)
+PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= 2.15.2 gio-2.0 >= 2.25.0 gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION unique-$UNIQUE_API_VERSION)
 AC_SUBST(USER_SHARE_CONFIG_CFLAGS)
 AC_SUBST(USER_SHARE_CONFIG_LIBS)
 	
@@ -149,7 +176,7 @@ AC_SUBST([CAJADIR],[${ac_with_cajadir}])
 
 dnl ==========================================================================
 
-dnl Turn on the additional warnings last, so -Werror doesn't affect other tests.
+dnl Turn on the additional warnings last, so -Werror doesnt affect other tests.
 
 AC_ARG_ENABLE(more-warnings,
 [  --enable-more-warnings  Maximum compiler warnings],
@@ -220,6 +247,7 @@ AC_MSG_NOTICE([mate-user-share was configured with the following options:])
 AC_MSG_NOTICE([** httpd location: $HTTP])
 AC_MSG_NOTICE([** httpd modules path: $MODULES_PATH])
 AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
+AC_MSG_NOTICE([** GTK version: $GTK_API_VERSION])
 
 echo "
 Do note Apache 2.2 and mod_dnssd 0.6 are required to use mate-user-share.
