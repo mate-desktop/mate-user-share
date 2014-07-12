@@ -6,13 +6,13 @@
 # Ján Ďanovský <dagsoftware@yahoo.com>, 2014
 # Marcel Telka <marcel@telka.sk>, 2005
 # Roman Mátyus <romanmatyus@gmail.com>, 2010
-# tibbi <tibbbi2@gmail.com>, 2014
+# Tibor Kaputa <tibbbi2@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-02-20 23:49+0000\n"
+"PO-Revision-Date: 2014-05-14 18:16+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgstr "Či informovať o prijatí nových súborov."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Predvoľby zdieľania osobných súborov"
+msgstr "Nastavenia zdieľania osobných súborov"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
@@ -149,7 +149,7 @@ msgstr "Zdieľanie osobných súborov"
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "Predvoľby pre zdieľanie súborov"
+msgstr "Nastavenia zdieľania súborov"
 
 #: ../data/mate-user-share.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
@@ -157,15 +157,15 @@ msgstr "Ak je povolené, spustiť Zdieľanie osobných súborov"
 
 #: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
-msgstr "Spustiť Predvoľby"
+msgstr "Spustiť Nastavenia"
 
 #: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Spustiť predvoľby zdieľania osobných súborov"
+msgstr "Spustiť Nastavenia zdieľania osobných súborov"
 
 #: ../src/share-extension.c:82
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Nedajú sa spustiť predvoľby zdieľania osobných súborov"
+msgstr "Nedajú sa spustiť Nastavenia zdieľania osobných súborov"
 
 #: ../src/share-extension.c:173
 msgid "You can share files from this folder and receive files to it"

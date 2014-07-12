@@ -1,167 +1,182 @@
-# translation of mr.po to Marathi
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
-# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
+# 
+# Translators:
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009
+# sandeeps <sshedmak@redhat.com>, 2009, 2010
+# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mateuser-share&component=general\n"
-"POT-Creation-Date: 2010-03-31 14:06+0000\n"
-"PO-Revision-Date: 2010-04-13 15:09+0530\n"
-"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
-"Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-26 22:51+0200\n"
+"PO-Revision-Date: 2014-06-21 14:57+0000\n"
+"Last-Translator: Vaibhav S Dalvi <vaibhav.dlv@gmail.com>\n"
+"Language-Team: Marathi (http://www.transifex.com/projects/p/MATE/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr ""
-"खरे असल्यास, प्रवेश केल्यावर Bluetooth साधन वापरकर्त्याचे डाऊनलोड डिरेक्ट्री करीता फाइल "
-"पाठवू शकते."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr ""
-"खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री "
-"Bluetooth वर सहभागीय केले जाईल."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr ""
-"खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री जाळंवर "
-"सहभागीय केले जाईल."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Bluetooth वरील Public डिरेक्ट्री सहभागीय करा"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
+#: ../data/desktop_mate_file_sharing.schemas.in.h:1
 msgid "Share Public directory over the network"
 msgstr "जाळं वरील Public डिरेक्ट्री सहभागीय करा"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "Bluetooth वरील फाइलं कधी स्वीकारायचे"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
+#: ../data/desktop_mate_file_sharing.schemas.in.h:2
 msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\", \"bonded_trusted\" and \"ask\"."
-msgstr ""
-"Bluetooth वरील फाइलं कधी स्वीकारायचे. संभाव्य मूल्य खालिल नुरूप आहे \"always\", "
-"\"bonded\", \"bonded_trusted\" व \"ask\"."
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr "खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री जाळंवर सहभागीय केले जाईल."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr ""
-"परवलीचा शब्द करीता कधी विचारायचे. संभाव्य मूल्य खालिल नुरूप आहे \"never\", \"on_write"
-"\", व\"always\"."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
+#: ../data/desktop_mate_file_sharing.schemas.in.h:3
 msgid "When to require passwords"
 msgstr "परवलीचा शब्दाची आवश्यकता कधी पडते"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "ObexPush चा वापर करून Bluetooth क्लाऐंट फाइल पाठवू शकतो का."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "फाइल पाठवण्याकरीता Bluetooth क्लाऐंटला संगणकाशी जुळविण्याची आवश्यकता आहे का."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
+#: ../data/desktop_mate_file_sharing.schemas.in.h:4
 msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr ""
-"Bluetooth क्लाऐंटला फाइल लेखन, किंवा केवळ-वाचनीय या नुरूप सहभागीय करण्यास परवानगी "
-"द्यायची का."
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr "परवलीचा शब्द करीता कधी विचारायचे. संभाव्य मूल्य खालिल नुरूप आहे \"never\", \"on_write\", व\"always\"."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
+#: ../data/desktop_mate_file_sharing.schemas.in.h:5
+msgid "Share Public directory over Bluetooth"
+msgstr "Bluetooth वरील Public डिरेक्ट्री सहभागीय करा"
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:6
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr "खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री Bluetooth वर सहभागीय केले जाईल."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:7
 msgid "Whether to allow Bluetooth clients to write files."
 msgstr "Bluetooth क्लाऐंटला फाइल लेखन करीता परवानगी द्यायची का."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
+#: ../data/desktop_mate_file_sharing.schemas.in.h:8
+msgid ""
+"Whether to allow Bluetooth clients to write files, or share the files read-"
+"only."
+msgstr "Bluetooth क्लाऐंटला फाइल लेखन, किंवा केवळ-वाचनीय या नुरूप सहभागीय करण्यास परवानगी द्यायची का."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:9
+msgid ""
+"Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "फाइल पाठवण्याकरीता Bluetooth क्लाऐंटला संगणकाशी जुळविण्याची आवश्यकता आहे का."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "ObexPush चा वापर करून Bluetooth क्लाऐंट फाइल पाठवू शकतो का."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:11
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr "खरे असल्यास, प्रवेश केल्यावर Bluetooth साधन वापरकर्त्याचे डाऊनलोड डिरेक्ट्री करीता फाइल पाठवू शकते."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:12
+msgid "When to accept files sent over Bluetooth"
+msgstr "Bluetooth वरील फाइलं कधी स्वीकारायचे"
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:13
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr "Bluetooth वरील फाइलं कधी स्वीकारायचे. संभाव्य मुल्ये \"always\", \"bonded\" आणि \"ask\"."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
 msgstr "नवीन प्राप्य फाइल विषयी सूचीत करायचे का."
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Bluetooth वरील फाइल प्राप्त करा</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Bluetooth वरील फाइल सहभागीय करा</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>जाळं वरील फाइल सहभागीय करा</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "दूरस्थ साधनला फाइल नष्ट करण्यास परवानगी द्या (_w)"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "व्यक्तिगत फाइल शेअरींग पसंती"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Bluetooth वरील डाऊनलोड फोल्डर अंतर्गत फाइलं प्राप्त करा (_D)"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>जाळं वरील फाइल सहभागीय करा</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr "दूरस्थ साधनाने या संगणकाशी बांधणी करणे आवश्यक आहे (_m)"
-
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Bluetooth वरील public फाइलं सहभागीय करा (_B)"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "फाइलं स्वीकारा (_A): "
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "प्राप्य फाइलं विषयी सूचीत करा (_N)"
-
-#: ../data/file-share-properties.ui.h:11
-msgid "_Password:"
-msgstr "परवलीचा शब्द (_P):"
-
-#: ../data/file-share-properties.ui.h:12
-msgid "_Require password:"
-msgstr "परवलीचा शब्द आवश्यक आहे (_R):"
-
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
 msgstr "जाळं वरील public फाइल सहभागीय करा (_S)"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2
+#: ../data/file-share-properties.ui.h:4
+msgid "_Password:"
+msgstr "परवलीचा शब्द (_P):"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "_Require password:"
+msgstr "परवलीचा शब्द आवश्यक आहे (_R):"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Bluetooth वरील फाइल सहभागीय करा</b>"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Bluetooth वरील public फाइलं सहभागीय करा (_B)"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "दूरस्थ साधनला फाइल नष्ट करण्यास परवानगी द्या (_w)"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "दूरस्थ साधनाने या संगणकाशी बांधणी करणे आवश्यक आहे (_m)"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Bluetooth वरील फाइल प्राप्त करा</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Bluetooth वरील डाऊनलोड फोल्डर अंतर्गत फाइलं प्राप्त करा (_D)"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "फाइलं स्वीकारा (_A): "
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr "प्राप्य फाइलं विषयी सूचीत करा (_N)"
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "वैयक्तिक फाइल सहभागीय करा"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "फाइल शेअर करण्यासाठी पसंती"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "कार्यक्षम असल्यास व्यक्तिगत फाइल शेअरींग प्रक्षेपीत करा"
+
+#: ../src/caja-share-bar.c:174
+msgid "Launch Preferences"
+msgstr "प्राधान्यक्रम सुरु करा"
+
+#: ../src/caja-share-bar.c:187
+msgid "Launch Personal File Sharing Preferences"
+msgstr "व्यक्तिगत फाइल शेअरींग पसंती सुरु करा"
+
+#: ../src/share-extension.c:82
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr "व्यक्तिगत फाइल शेअरींग पसंती सुरु करू शकले नाही"
+
+#: ../src/share-extension.c:173
+msgid "You can share files from this folder and receive files to it"
+msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स देऊ आणि घेऊ शकता "
+
+#: ../src/share-extension.c:175
+msgid "You can share files from this folder over the network and Bluetooth"
+msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स संजाळ आणि ब्लुटूथवर देऊ आणि घेऊ शकता "
+
+#: ../src/share-extension.c:177
+msgid "You can receive files over Bluetooth into this folder"
+msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स ब्लुटूथवर घेऊ शकता "
 
 #: ../src/file-share-properties.c:436
 msgid "No reason"
@@ -188,14 +203,10 @@ msgid "Always"
 msgstr "नेहमी"
 
 #: ../src/file-share-properties.c:598
-msgid "Only for Bonded devices"
-msgstr "फक्त बांधणीकृत साधन करीता"
+msgid "Only for set up devices"
+msgstr "फक्त सेट केलेल्या साधनांसाठी"
 
-#: ../src/file-share-properties.c:601
-msgid "Only for Bonded and Trusted devices"
-msgstr "फक्त बांधणीकृत व विश्वासर्ह साधन करीता"
-
-#: ../src/file-share-properties.c:606
+#: ../src/file-share-properties.c:603
 msgid "Ask"
 msgstr "विचारा"
 
@@ -238,3 +249,6 @@ msgstr "फाइल उघडा"
 msgid "Reveal File"
 msgstr "फाइल निश्चित करा"
 
+#: ../src/obexpush.c:174
+msgid "File reception complete"
+msgstr ""
