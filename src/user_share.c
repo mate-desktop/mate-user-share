@@ -373,7 +373,7 @@ main (int argc, char **argv)
 {
 	GSettings *settings;
 	Display *xdisplay;
-	G_GNUC_UNUSED x_fd;
+	G_GNUC_UNUSED int x_fd;
 	Window selection_owner;
 	Atom xatom;
 
