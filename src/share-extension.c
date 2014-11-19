@@ -145,7 +145,7 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	const GUserDirectory special_dirs[] = { G_USER_DIRECTORY_PUBLIC_SHARE };
 
 	gboolean is_dir[] = { FALSE };
-#endif
+#endif /* HAVE_BLUETOOTH */
 	file = g_file_new_for_uri (uri);
 	home = g_file_new_for_path (g_get_home_dir ());
 
@@ -173,14 +173,16 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 	if (enable == FALSE)
 		return NULL;
 
-	if (is_dir[0] != FALSE && is_dir[1] != FALSE) {
-		bar = caja_share_bar_new (_("May be used to share or receive files"));
-	} else if (is_dir[0] != FALSE) {
-#ifndef HAVE_BLUETOOTH
-		bar = caja_share_bar_new (_("May be shared over the network or Bluetooth"));
+	if (is_dir[0] != FALSE) {
+#ifdef HAVE_BLUETOOTH
+		if (is_dir[1] != FALSE) {
+			bar = caja_share_bar_new (_("May be used to share or receive files"));
+		} else {
+			bar = caja_share_bar_new (_("May be shared over the network or Bluetooth"));
+		}
 #else
 		bar = caja_share_bar_new (_("May be shared over the network"));
-#endif /* !HAVE_BLUETOOTH */
+#endif /* HAVE_BLUETOOTH */
 	} else {
 #ifdef HAVE_BLUETOOTH
 		BluetoothClient *client;
