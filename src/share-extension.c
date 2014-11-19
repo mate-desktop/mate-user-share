@@ -168,6 +168,8 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 		g_object_unref (dir);
 	}
 
+	g_object_unref (file);
+
 	if (enable == FALSE)
 		return NULL;
 
@@ -200,9 +202,7 @@ caja_user_share_get_location_widget (CajaLocationWidgetProvider *iface,
 
 	gtk_widget_show_all (bar);
 
-	g_object_unref (file);
-
-        return bar;
+	return bar;
 }
 
 static void
