@@ -397,6 +397,7 @@ spawn_httpd (int port, pid_t *pid_out)
 		fprintf (stderr, "error spawning httpd: %s\n",
 			 error->message);
 		g_error_free (error);
+		g_free (pid_filename);
 		return FALSE;
 	}
 
