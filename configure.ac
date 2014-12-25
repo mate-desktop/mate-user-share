@@ -88,7 +88,7 @@ esac
 
 dnl ==========================================================================
 
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-2.0 gtk+-$GTK_API_VERSION dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk$CANBERRA_API_VERSION $DBUS_MODULES $BLUETOOTH_PKG)
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-$GTK_API_VERSION gtk+-$GTK_API_VERSION dbus-1 >= 1.1.1 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk$CANBERRA_API_VERSION $DBUS_MODULES $BLUETOOTH_PKG)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
 
