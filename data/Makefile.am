@@ -18,6 +18,11 @@ gsettings_SCHEMAS = org.mate.FileSharing.gschema.xml
 convertdir = $(datadir)/MateConf/gsettings
 convert_DATA = mate-user-share.convert
 
+extensiondir = $(datadir)/caja/extensions
+extension_in_files = libcaja-user-share.caja-extension.in
+extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
+%.caja-extension: %.caja-extension.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(AM_V_GEN) LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< $@
+
 EXTRA_DIST = $(gsettings_SCHEMAS) \
 	$(app_DATA)		\
 	$(desktop_in_files)	\
@@ -27,6 +32,6 @@ EXTRA_DIST = $(gsettings_SCHEMAS) \
 	mate-user-share-webdav.desktop.in.in \
 	file-share-properties.ui
 
-CLEANFILES = $(desktop_DATA) $(autostart_DATA)
+CLEANFILES = $(extension_DATA) $(desktop_DATA) $(autostart_DATA)
 
 -include $(top_srcdir)/git.mk

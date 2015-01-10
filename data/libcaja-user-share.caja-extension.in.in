@@ -1,0 +1,7 @@
+[Caja Extension]
+Icon=user-share
+_Name=User Share
+_Description=Integrates with user-share
+Copyright=Copyright (C) 2005 William Jon McCann <mccann@jhu.edu>
+Version=@VERSION@
+Website=http://www.mate-desktop.org/
