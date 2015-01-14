@@ -68,16 +68,16 @@ mate_file_share_properties_LDADD = \
 	$(USER_SHARE_CONFIG_LIBS)
 
 caja_extensiondir = $(CAJADIR)
-caja_extension_LTLIBRARIES = libcaja-share-extension.la
+caja_extension_LTLIBRARIES = libcaja-user-share.la
 
-libcaja_share_extension_la_SOURCES =	\
+libcaja_user_share_la_SOURCES =	\
 	caja-share-bar.c			\
 	caja-share-bar.h			\
 	share-extension.c			\
 	$(NULL)
 
-libcaja_share_extension_la_LIBADD = libuser-share-common.la $(EXTENSION_LIBS)
-libcaja_share_extension_la_LDFLAGS = -avoid-version -module -no-undefined
+libcaja_user_share_la_LIBADD = libuser-share-common.la $(EXTENSION_LIBS)
+libcaja_user_share_la_LDFLAGS = -avoid-version -module -no-undefined
 
 EXTRA_DIST = marshal.list
 
