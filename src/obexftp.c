@@ -48,7 +48,7 @@ obexftp_up (void)
 	gboolean allow_write, require_pairing;
 
 	settings = g_settings_new (GSETTINGS_SCHEMA);
-	require_pairing =g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING);
+	require_pairing = g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_REQUIRE_PAIRING);
 
 	server = NULL;
 	if (manager_proxy == NULL) {
@@ -69,7 +69,7 @@ obexftp_up (void)
 	}
 
 	public_dir = lookup_public_dir ();
-	allow_write =g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ALLOW_WRITE);
+	allow_write = g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ALLOW_WRITE);
 	g_object_unref (settings);
 
 	if (server_proxy == NULL) {
