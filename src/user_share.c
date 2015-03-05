@@ -212,6 +212,26 @@ bluez_init (void)
 }
 #endif /* HAVE_BLUETOOTH */
 
+static gboolean
+file_sharing_enabled (void)
+{
+	gboolean enabled = TRUE;
+	settings = g_settings_new (GSETTINGS_SCHEMA);
+
+#ifdef HAVE_BLUETOOTH
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
+	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
+#else /* HAVE_BLUETOOTH */
+	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE)
+#endif /* HAVE_BLUETOOTH */
+		enabled = FALSE;
+
+	g_object_unref (settings);
+
+	return enabled;
+}
+
 static void
 migrate_old_configuration (void)
 {
@@ -420,16 +440,10 @@ main (int argc, char **argv)
 
 	migrate_old_configuration ();
 
+	if (!file_sharing_enabled ())
+		return 1;
+
 	settings = g_settings_new (GSETTINGS_SCHEMA);
-#ifdef HAVE_BLUETOOTH
-	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE &&
-	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_ENABLED) == FALSE &&
-	    g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == FALSE)
-		return 1;
-#else /* HAVE_BLUETOOTH */
-	if (g_settings_get_boolean (settings, FILE_SHARING_ENABLED) == FALSE)
-		return 1;
-#endif /* HAVE_BLUETOOTH */
 
 	x_fd = ConnectionNumber (xdisplay);
 	XSetIOErrorHandler (x_io_error_handler);
