@@ -587,8 +587,6 @@ main (int argc, char *argv[])
     g_object_unref (store);
 #endif /* HAVE_BLUETOOTH */
 
-    update_ui ();
-
     g_signal_connect (check,
 		      "toggled", G_CALLBACK (enable_check_toggled), NULL);
     g_signal_connect (password_combo,
@@ -613,7 +611,6 @@ main (int argc, char *argv[])
     g_signal_connect (GTK_WIDGET (gtk_builder_get_object (builder, "help_button")),
 		      "clicked", G_CALLBACK (help_button_clicked),
 		      gtk_builder_get_object (builder, "user_share_dialog"));
-
 
     g_signal_connect (settings,
 			     "changed::" GSETTINGS_KEY_FILE_SHARING_ENABLED,
@@ -642,6 +639,7 @@ main (int argc, char *argv[])
 			     G_CALLBACK (file_sharing_bluetooth_obexpush_notify_changed), NULL);
 #endif /* HAVE_BLUETOOTH */
 
+    update_ui ();
 
     gtk_widget_show (GTK_WIDGET (gtk_builder_get_object (builder, "user_share_dialog")));
     
