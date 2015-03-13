@@ -1,3 +1,7 @@
+1.8.1
+  * Bugfixes
+  * Add support for glib >= 2.43
+
 1.8.0
   * Restore user-guide and port it to yelp.
   * Disable bluetooth by default.
