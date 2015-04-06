@@ -1,170 +1,156 @@
-# mateuser-share's Portuguese translation.
-# Copyright © 2007, 2009, 2010 mateuser-share
-# This file is distributed under the same license as the mateuser-share package.
-# André Neves <drakferion@gmail.com>, 2007.
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# André Neves <drakferion@gmail.com>, 2007
+# Carlos Moreira <crolidge@gmail.com>, 2014
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2009, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.30\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-09 01:15+0000\n"
-"PO-Revision-Date: 2010-03-09 01:20+0000\n"
-"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <matept@yahoogroups.com>\n"
+"POT-Creation-Date: 2012-07-26 22:51+0200\n"
+"PO-Revision-Date: 2014-12-08 00:00+0000\n"
+"Last-Translator: Carlos Moreira <crolidge@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr ""
-"Se definido como verdadeiro, dispositivos Bluetooth podem enviar ficheiros "
-"para o directório de Downloads do utilizador estiver numa sessão."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr ""
-"Se definido como verdadeiro, o directório \"Public\" na pasta pessoal do "
-"utilizador será partilhado por Bluetooth quando o utilizador estiver numa "
-"sessão."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr ""
-"Se definido como verdadeiro, o directório \"Public\" na pasta pessoal do "
-"utilizador será partilhado pela rede quando o utilizador estiver numa sessão."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Partilhar o directório \"Public\" por Bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
+#: ../data/desktop_mate_file_sharing.schemas.in.h:1
 msgid "Share Public directory over the network"
 msgstr "Partilhar o directório \"Public\" pela rede"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "Quando aceitar ficheiros enviados por Bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
+#: ../data/desktop_mate_file_sharing.schemas.in.h:2
 msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr ""
-"Quando aceitar ficheiros enviados por Bluetooth. Valores possíveis são "
-"\"always\", \"bonded\" e \"ask\"."
+"If this is true, the Public directory in the users home directory will be "
+"shared over the network when the user is logged in."
+msgstr "Se definido como verdadeiro, o directório \"Public\" na pasta pessoal do utilizador será partilhado pela rede quando o utilizador estiver numa sessão."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr ""
-"Quando perguntar por senhas. Valores possíveis são \"never\" (nunca), "
-"\"on_write\" (ao gravar), e \"always\" (sempre)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
+#: ../data/desktop_mate_file_sharing.schemas.in.h:3
 msgid "When to require passwords"
 msgstr "Quando exigir senhas"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr ""
-"Se os clientes Bluetooth podem ou não enviar ficheiros utilizando ObexPush."
+#: ../data/desktop_mate_file_sharing.schemas.in.h:4
+msgid ""
+"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
+"\"always\"."
+msgstr "Quando perguntar por senhas. Valores possíveis são \"never\" (nunca), \"on_write\" (ao gravar), e \"always\" (sempre)."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr ""
-"Se os clientes Bluetooth precisão ou não de emparelhar com o computador para "
-"enviar ficheiros."
+#: ../data/desktop_mate_file_sharing.schemas.in.h:5
+msgid "Share Public directory over Bluetooth"
+msgstr "Partilhar o directório \"Public\" por Bluetooth"
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
+#: ../data/desktop_mate_file_sharing.schemas.in.h:6
+msgid ""
+"If this is true, the Public directory in the users home directory will be "
+"shared over Bluetooth when the user is logged in."
+msgstr "Se definido como verdadeiro, o directório \"Public\" na pasta pessoal do utilizador será partilhado por Bluetooth quando o utilizador estiver numa sessão."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:7
+msgid "Whether to allow Bluetooth clients to write files."
+msgstr "Se permitir ou não que os clientes Bluetooth tenham permissões de escrita."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:8
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
-msgstr ""
-"Se permitir ou não que clientes Bluetooth tenham permissões de escrita ou "
-"partilhar os ficheiros em modo apenas de leitura."
+msgstr "Se permitir ou não que clientes Bluetooth tenham permissões de escrita ou partilhar os ficheiros em modo apenas de leitura."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr ""
-"Se permitir ou não que os clientes Bluetooth tenham permissões de escrita."
+#: ../data/desktop_mate_file_sharing.schemas.in.h:9
+msgid ""
+"Whether Bluetooth clients need to pair with the computer to send files."
+msgstr "Se os clientes Bluetooth precisão ou não de emparelhar com o computador para enviar ficheiros."
 
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
+#: ../data/desktop_mate_file_sharing.schemas.in.h:10
+msgid "Whether Bluetooth clients can send files using ObexPush."
+msgstr "Se os clientes Bluetooth podem ou não enviar ficheiros utilizando ObexPush."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:11
+msgid ""
+"If this is true, Bluetooth devices can send files to the user's Downloads "
+"directory when logged in."
+msgstr "Se definido como verdadeiro, dispositivos Bluetooth podem enviar ficheiros para o directório de Downloads do utilizador estiver numa sessão."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:12
+msgid "When to accept files sent over Bluetooth"
+msgstr "Quando aceitar ficheiros enviados por Bluetooth"
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:13
+msgid ""
+"When to accept files sent over Bluetooth. Possible values are \"always\", "
+"\"bonded\" and \"ask\"."
+msgstr "Quando aceitar ficheiros enviados por Bluetooth. Valores possíveis são \"always\", \"bonded\" e \"ask\"."
+
+#: ../data/desktop_mate_file_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
-msgstr "Se notificar ou não de ficheiros recebidos."
+msgstr "Se notificar ou não de novos ficheiros recebidos."
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Receber Ficheiros por Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Partilhar Ficheiros por Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Partilhar Ficheiros pela Rede</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "P_ermitir que dispositivos remotos apaguem ficheiros"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "Preferências de Partilha de Ficheiros Pessoais"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Receber ficheiros por Bluetooth na pasta _Downloads"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Partilhar Ficheiros pela Rede</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr ""
-"Requerer que os dispositivos re_motos se emparelhem com este computador"
+#: ../data/file-share-properties.ui.h:3
+msgid "_Share public files on network"
+msgstr "_Partilhar ficheiros públicos na rede"
 
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Partilhar ficheiros da pasta \"Public\" por _Bluetooth"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "_Aceitar ficheiros: "
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "_Notificar de ficheiros recebidos"
-
-# # É assim que se traduz Public? Senão, ver e corrigir acima.
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
 msgstr "_Senha:"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
 msgstr "_Exigir senha:"
 
-#: ../data/file-share-properties.ui.h:13
-msgid "_Share public files on network"
-msgstr "_Partilhar ficheiros da pasta \"Public\" pela rede"
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Partilhar Ficheiros por Bluetooth</b>"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Partilhar ficheiros da pasta \"Public\" por _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "P_ermitir que dispositivos remotos apaguem ficheiros"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Requerer que os dispositivos re_motos se emparelhem com este computador"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Receber Ficheiros por Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Receber ficheiros por Bluetooth na pasta _Downloads"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "_Aceitar ficheiros: "
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr "_Notificar de ficheiros recebidos"
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
 msgstr "Partilha de Ficheiros Pessoais"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Preferências para a partilha de ficheiros"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Inicia a Partilha de Ficheiros Pessoais, se activa"
 
@@ -265,13 +251,4 @@ msgstr "Revelar o Ficheiro"
 
 #: ../src/obexpush.c:174
 msgid "File reception complete"
-msgstr "Recepção do ficheiro concluída"
-
-#~ msgid "Only for Bonded and Trusted devices"
-#~ msgstr "Apenas para dispositivos Emparelhados e de Confiança"
-
-#~ msgid "Please log in as the user guest"
-#~ msgstr "Inicie uma sessão como utilizador guest"
-
-#~ msgid "User Sharing"
-#~ msgstr "Partilha Pessoal"
+msgstr "Receção do ficheiro concluída"

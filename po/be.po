@@ -3,210 +3,210 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2014
+# , 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-11-16 13:38+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/MATE/language/sr/)\n"
+"PO-Revision-Date: 2015-03-20 12:10+0000\n"
+"Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:1
 msgid "Share Public directory over the network"
-msgstr "Дели фасциклу „Јавно“ преко мреже"
+msgstr "Адкрыць супольны доступ да каталогу Public праз сетку"
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:2
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over the network when the user is logged in."
-msgstr "Ако је изабрано, фасцикла „Јавно“ у корисничкој личној фасцикли биће дељена преко мреже када је корисник пријављен."
+msgstr "Калі ісціна, пры ўваходзе карыстальнікаў у сістэму будзе адкрывацца доступ да каталогу Public у іх хатнім каталогу праз сетку."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:3
 msgid "When to require passwords"
-msgstr "Када да захтева лозинку"
+msgstr "Калі запытваць паролі"
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:4
 msgid ""
 "When to ask for passwords. Possible values are \"never\", \"on_write\", and "
 "\"always\"."
-msgstr "Када ће захтевати унос лозинке. Могуће вредности су „never“ (никада), „on_write“ (при упису) и „always“ (увек)."
+msgstr "Калі пытацца на паролі. Магчымыя значэнні: \"never\", \"on_write\" і \"always\"."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:5
 msgid "Share Public directory over Bluetooth"
-msgstr "Дели фасциклу „Јавно“ преко блутут везе"
+msgstr "Адкрыць супольны доступ да каталогу Public праз Bluetooth"
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:6
 msgid ""
 "If this is true, the Public directory in the users home directory will be "
 "shared over Bluetooth when the user is logged in."
-msgstr "Ако је изабрано, фасцикла „Јавно“ у корисничкој личној фасцикли биће дељена преко блутута када је корисник пријављен."
+msgstr "Калі ісціна, пры ўваходзе карыстальнікаў у сістэму будзе адкрывацца доступ да каталогу Public у іх хатнім каталогу праз Bluetooth."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:7
 msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Да ли блутут клијенти могу да уписују датотеке."
+msgstr "Ці дазволіць Bluetooth-кліентам запісваць файлы."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:8
 msgid ""
 "Whether to allow Bluetooth clients to write files, or share the files read-"
 "only."
-msgstr "Одређује да ли блутут клијенти могу да уписују датотеке или се датотеке деле само као неуписиве."
+msgstr "Дазволіць Bluetooth-кліентам запісваць файлы ці толькі чытаць."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:9
 msgid ""
 "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Да ли блутут клијенти морају бити упарени са рачунаром за слање датотека."
+msgstr "Ці патрабаваць ад Bluetooth-кліентаў рабіць звязванне з камп'ютарам, каб даслаць файлы."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:10
 msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Да ли блутут клијенти могу послати датотеке користећи Обекс гурање."
+msgstr "Ці дазволіць Bluetooth-кліентам дасылаць файлы з дапамогай ObexPush."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:11
 msgid ""
 "If this is true, Bluetooth devices can send files to the user's Downloads "
 "directory when logged in."
-msgstr "Ако је изабрано, блутут уређаји могу да шаљу датотеке у корисникову фасциклу за преузимања када је пријављен."
+msgstr "Калі ісціна, Bluetooth-прылады могуць дасылаць файлы ў каталог Downloads карыстальніка пасля яго ўваходу ў сістэму."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:12
 msgid "When to accept files sent over Bluetooth"
-msgstr "Када да прихвати датотека послате преко блутут везе"
+msgstr "Калі згаджацца на прыём файлаў праз Bluetooth"
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:13
 msgid ""
 "When to accept files sent over Bluetooth. Possible values are \"always\", "
 "\"bonded\" and \"ask\"."
-msgstr "Одређује када је дозвољено прихватање датотека са блутут везе. Могуће вредности су „always“ (увек), „bonded“ (упарени) и „ask“ (питај)."
+msgstr "Калі згаджацца на прыём файлаў праз Bluetooth. Магчымыя значэнні: \"always\", \"bonded\" і \"ask\"."
 
 #: ../data/desktop_mate_file_sharing.schemas.in.h:14
 msgid "Whether to notify about newly received files."
-msgstr "Да ли да обавести о ново примљеним датотекама."
+msgstr "Ці абвяшчаць пра атрыманыя файлы"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Поставке дељења личних датотека"
+msgstr "Настáўленні супольнага доступу да асабістых файлаў"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Дељење датотека преко мреже</b>"
+msgstr "<b>Супольны доступ да файлаў праз сетку</b>"
 
 #: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
-msgstr "Дели јавне датотеке преко _мреже"
+msgstr "_Адкрыць доступ да файлаў праз сетку"
 
 #: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
-msgstr "_Лозинка:"
+msgstr "_Пароль:"
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
-msgstr "_Захтевај лозинку:"
+msgstr "_Патрабаваць пароль:"
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Дељење датотека преко блутута</b>"
+msgstr "<b>Супольны доступ да файлаў праз Bluetooth</b>"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Дели јавне датотеке преко _блутута"
+msgstr "Адкрыць доступ да файлаў праз _Bluetooth"
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
-msgstr "Удаљени уређаји могу да _бришу датотеке"
+msgstr "Дазволіц_ь адлеглым прыладам выдаляць файлы"
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Захтевај упаривање удаљених уређаја са рачунаром"
+msgstr "Патрабаваць ад адлеглых прылад утвараць звязванне з гэтым камп'ютарам"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Пријем датотека преко блутута</b>"
+msgstr "<b>Атрымліваць файлы праз Bluetooth</b>"
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Прими датотеке преко блутута у _фасциклу „Примљено“"
+msgstr "Захоўваць прынятыя праз Bluetooth файлы ў каталогу _Downloads"
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
-msgstr "_Прихвати датотеке: "
+msgstr "_Прымаць файлы: "
 
 #: ../data/file-share-properties.ui.h:13
 msgid "_Notify about received files"
-msgstr "_Обавести о примљеним датотекама"
+msgstr "_Абвяшчаць пра атрыманыя файлы"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
 msgid "Personal File Sharing"
-msgstr "Дељење личних датотека"
+msgstr "Супольны доступ да асабістых файлаў"
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "Поставке за дељење датотека"
+msgstr "Настáўленні супольнага доступу"
 
 #: ../data/mate-user-share.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
-msgstr "Покреће дељење личних датотека ако је омогућено"
+msgstr "Адкрыць супольны доступ да асабістых файлаў, калі ўключана"
 
 #: ../src/caja-share-bar.c:174
 msgid "Launch Preferences"
-msgstr "Покрени поставке"
+msgstr "Настáўленні запуску"
 
 #: ../src/caja-share-bar.c:187
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Покреће поставке за дељење личних датотека"
+msgstr "Адкрыць настáўленні супольнага доступу да асабістых файлаў"
 
 #: ../src/share-extension.c:82
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Не могу да покренем поставке за дељење личних датотека"
+msgstr "Не выйшла адкрыць настáўленні супольнага доступу да асабістых файлаў"
 
 #: ../src/share-extension.c:173
 msgid "You can share files from this folder and receive files to it"
-msgstr "Можете делити датотеке из ове фасцикле и чувати примљене датотеке у њу"
+msgstr "Праз гэты каталог можна дзяліцца файламі і атрымліваць файлы ў яго"
 
 #: ../src/share-extension.c:175
 msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Можете делити датотеке из ове фасцикле преко мреже или блутута"
+msgstr "Праз гэты каталог можна дзяліцца файламі праз сетку і Bluetooth"
 
 #: ../src/share-extension.c:177
 msgid "You can receive files over Bluetooth into this folder"
-msgstr "Можете чувати примљене блутут датотеке у ову фасциклу"
+msgstr "У гэты каталог можна атрымліваць файлы праз Bluetooth"
 
 #: ../src/file-share-properties.c:436
 msgid "No reason"
-msgstr "Без разлога"
+msgstr "Без прычыны"
 
 #: ../src/file-share-properties.c:464
 msgid "Could not display the help contents."
-msgstr "Не могу да прикажем садржај помоћи."
+msgstr "Не выйшла паказаць даведку."
 
 #: ../src/file-share-properties.c:524
 msgid "Could not build interface."
-msgstr "Не могу да изградим сучеље."
+msgstr "Не выйшла стварыць інтэрфейс."
 
 #: ../src/file-share-properties.c:566
 msgid "Never"
-msgstr "Никад"
+msgstr "Ніколі"
 
 #: ../src/file-share-properties.c:569
 msgid "When writing files"
-msgstr "При упису датотека"
+msgstr "Пры запісванні файлаў"
 
 #: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
 msgid "Always"
-msgstr "Увек"
+msgstr "Заўсёды"
 
 #: ../src/file-share-properties.c:598
 msgid "Only for set up devices"
-msgstr "Само за упарене уређаје"
+msgstr "Толькі для падлучаных прылад"
 
 #: ../src/file-share-properties.c:603
 msgid "Ask"
-msgstr "Питај"
+msgstr "Пытацца"
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -220,33 +220,33 @@ msgstr "Питај"
 #: ../src/http.c:134
 #, c-format
 msgid "%s's public files"
-msgstr "Јавне датотеке корисника „%s“"
+msgstr "Публічныя файлы %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
 #: ../src/http.c:138
 #, c-format
 msgid "%s's public files on %s"
-msgstr "Јавне датотеке корисника „%s“ на рачунару „%s“"
+msgstr "Публічныя файлы %s на %s"
 
 #. Translators: %s is the name of the filename received
 #: ../src/obexpush.c:140
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "Примили сте „%s“ преко блутут везе"
+msgstr "Файл \"%s\" атрыманы праз Bluetooth"
 
 #: ../src/obexpush.c:142
 msgid "You received a file"
-msgstr "Примили сте датотеку"
+msgstr "Файл атрыманы"
 
 #: ../src/obexpush.c:153
 msgid "Open File"
-msgstr "Отвори датотеку"
+msgstr "Адкрыць"
 
 #: ../src/obexpush.c:157
 msgid "Reveal File"
-msgstr "Прикажи датотеку"
+msgstr "Паказаць"
 
 #: ../src/obexpush.c:174
 msgid "File reception complete"
-msgstr "Пријем датотеке је завршен"
+msgstr "Атрыманне файла завершана"
