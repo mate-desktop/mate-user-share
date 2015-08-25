@@ -41,8 +41,6 @@
 #include "obexftp.h"
 #include "obexpush.h"
 
-#include <dbus/dbus.h>
-#include <dbus/dbus-glib.h>
 #endif /* HAVE_BLUETOOTH */
 
 #include <gio/gio.h>
