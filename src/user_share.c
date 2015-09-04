@@ -63,9 +63,9 @@ static GSettings* settings;
 
 #ifdef HAVE_BLUETOOTH
 /* MATE Session */
-#define MATE_SESSION_DBUS_NAME      "org.mate.SessionManager"
-#define MATE_SESSION_DBUS_OBJECT    "/org/mate/SessionManager"
-#define MATE_SESSION_DBUS_INTERFACE "org.mate.SessionManager"
+#define MATE_SESSION_DBUS_NAME      "org.gnome.SessionManager"
+#define MATE_SESSION_DBUS_OBJECT    "/org/gnome/SessionManager"
+#define MATE_SESSION_DBUS_INTERFACE "org.gnome.SessionManager"
 
 static GDBusProxy *session_proxy = NULL;
 static gboolean has_console = TRUE;
