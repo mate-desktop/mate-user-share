@@ -250,5 +250,5 @@ AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
 AC_MSG_NOTICE([** GTK version: $GTK_API_VERSION])
 
 echo "
-Do note Apache 2.2 and mod_dnssd 0.6 are required to use mate-user-share.
+Do note Apache >= 2.2 and mod_dnssd 0.6 are required to use mate-user-share.
 "
