@@ -1,4 +1,8 @@
 1.11.0
+  * Switch to org.gnome.SessionManager (used for BT services start/stop)
+  * Drop useless dependency on dbus-1
+  * Drop Apache 2.0 support
+  * Some more cleanups
 
 1.10.0
   * Add GTK3 support
