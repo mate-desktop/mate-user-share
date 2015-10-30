@@ -1,4 +1,4 @@
-1.11.0
+1.12.0
   * Switch to org.gnome.SessionManager (used for BT services start/stop)
   * Drop useless dependency on dbus-1
   * Drop Apache 2.0 support
