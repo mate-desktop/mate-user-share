@@ -1,3 +1,7 @@
+1.10.1
+  * help: corrected feedback page link
+  * drop dbus-1 requirement
+
 1.10.0
   * Add GTK3 support
 
