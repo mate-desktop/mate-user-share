@@ -1,9 +1,0 @@
-[org.mate.FileSharing]
-enabled = /desktop/mate/file_sharing/enabled
-require-password = /desktop/mate/file_sharing/require_password
-bluetooth-enabled = /desktop/mate/file_sharing/bluetooth_enabled
-bluetooth-allow-write = /desktop/mate/file_sharing/bluetooth_allow_write
-bluetooth-require-pairing = /desktop/mate/file_sharing/bluetooth_require_pairing
-bluetooth-obexpush-enabled = /desktop/mate/file_sharing/bluetooth_obexpush_enabled
-bluetooth-accept-files = /desktop/mate/file_sharing/bluetooth_accept_files
-bluetooth-notify = /desktop/mate/file_sharing/bluetooth_notify

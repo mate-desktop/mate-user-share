@@ -15,9 +15,6 @@ app_DATA=dav_user_2.2.conf dav_user_2.4.conf dav_groupfile file-share-properties
 gsettings_SCHEMAS = org.mate.FileSharing.gschema.xml
 @GSETTINGS_RULES@
 
-convertdir = $(datadir)/MateConf/gsettings
-convert_DATA = mate-user-share.convert
-
 extensiondir = $(datadir)/caja/extensions
 extension_in_files = libcaja-user-share.caja-extension.in
 extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
@@ -26,7 +23,6 @@ extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
 EXTRA_DIST = $(gsettings_SCHEMAS) \
 	$(app_DATA)		\
 	$(desktop_in_files)	\
-	$(convert_DATA) \
 	mate-user-share-obexftp.desktop.in.in \
 	mate-user-share-obexpush.desktop.in.in \
 	mate-user-share-webdav.desktop.in.in \
