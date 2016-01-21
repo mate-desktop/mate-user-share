@@ -95,7 +95,11 @@ caja_share_bar_init (CajaShareBar *bar)
 	action_area = gtk_info_bar_get_action_area (GTK_INFO_BAR (bar));
 	gtk_button_box_set_layout (GTK_BUTTON_BOX (action_area), GTK_BUTTONBOX_CENTER);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+	vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 3);
+#else
 	vbox = gtk_vbox_new (FALSE, 3);
+#endif
 	gtk_container_add (GTK_CONTAINER (content_area), vbox);
 
 	attrs = pango_attr_list_new ();
@@ -104,12 +108,22 @@ caja_share_bar_init (CajaShareBar *bar)
 	gtk_label_set_attributes (GTK_LABEL (label), attrs);
 	pango_attr_list_unref (attrs);
 
+#if GTK_CHECK_VERSION (3, 16, 0)
+	gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+	gtk_label_set_yalign (GTK_LABEL (label), 0.5);
+#else
 	gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
 	gtk_widget_show (label);
 	gtk_container_add (GTK_CONTAINER (vbox), label);
 
 	bar->priv->label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 16, 0)
+	gtk_label_set_xalign (GTK_LABEL (bar->priv->label), 0.0);
+	gtk_label_set_yalign (GTK_LABEL (bar->priv->label), 0.5);
+#else
 	gtk_misc_set_alignment (GTK_MISC (bar->priv->label), 0.0, 0.5);
+#endif
 	gtk_widget_show (bar->priv->label);
 	gtk_container_add (GTK_CONTAINER (vbox), bar->priv->label);
 
