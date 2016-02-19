@@ -6,88 +6,20 @@
 # Bieuzent Cyrille <bieuzent@gmail.com>, 2005
 # Damien Durand <splinux@fedoraproject.org>, 2006
 # Scoubidou <david.vantyghem@free.fr>, 2014
+# yoplait <yoplait@tememe.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-07-24 06:45+0000\n"
-"Last-Translator: Scoubidou <david.vantyghem@free.fr>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/MATE/language/fr/)\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-01-28 21:20+0000\n"
+"Last-Translator: yoplait <yoplait@tememe.org>\n"
+"Language-Team: French (http://www.transifex.com/mate/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "Partage le dossier Public sur le réseau"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "Si VRAI, le dossier Public dans le dossier personnel des utilisateurs est partagé sur le réseau lorsque l'utilisateur se connecte."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "Quand exiger les mots de passe"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "Quand demander des mots de passe. Les valeurs possibles sont : « never » (jamais), « on_write » (à l'écriture) et « always » (toujours)."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "Partage le dossier Public par Bluetooth"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "Si VRAI, le dossier Public dans le dossier personnel des utilisateurs est partagé par Bluetooth lorsque l'utilisateur se connecte."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Indique s'il faut autoriser les clients Bluetooth à écrire des fichiers."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "Indique s'il faut autoriser les clients Bluetooth à écrire des fichiers ou s'il s'agit de partager les fichiers en lecture uniquement."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Indique si les clients Bluetooth doivent se lier à l'ordinateur pour envoyer des fichiers."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Indique si les clients Bluetooth peuvent envoyer des fichiers en utilisant ObexPush."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "Si VRAI, les périphériques Bluetooth peuvent envoyer des fichiers dans le dossier Téléchargements de l'utilisateur lorsque celui-ci est connecté."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "Quand accepter des fichiers par Bluetooth"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "Quand accepter les fichiers par Bluetooth. Les valeurs possibles sont : « always » (toujours), « bonded » (si lié) et « ask » (demander)."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Indique s'il faut signaler les fichiers nouvellement reçus."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -141,8 +73,16 @@ msgstr "_Accepter les fichiers :"
 msgid "_Notify about received files"
 msgstr "A_vertir quand des fichiers ont été reçus"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Partage utilisateur"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "Intègre avec le partage utilisateur"
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Partage de fichiers personnels"
 
@@ -150,63 +90,81 @@ msgstr "Partage de fichiers personnels"
 msgid "Preferences for sharing of files"
 msgstr "Préférences pour le partage de fichiers"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Le partage de fichiers personnels obexftp"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Lance le partage de fichiers personnels s'il est activé"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Ouvrir les préférences"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Le partage de fichiers personnels obexpush"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Partage de fichiers personnels webdav"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Préférences"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Ouvre les préférences du partage de fichiers personnels"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Imposible d'ouvrir les préférences du partage de fichiers personnels"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Vous pouvez partager des fichiers de ce dossier et y recevoir des fichiers"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Peut être utilisé pour partager ou recevoir des fichiers"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Vous pouvez partager des fichiers de ce dossier à travers le réseau et Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Peut être partagé par le réseau ou par Bluetooth"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Vous pouvez recevoir de fichiers par Bluetooth dans ce dossier"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Peut être partagé par le réseau"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Peut être utilisé pour recevoir des fichiers par Bluetooth"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Aucune raison"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Impossible d'afficher le sommaire de l'aide."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Impossible de construire l'interface."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Jamais"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "Au moment d'écrire les fichiers"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Toujours"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Seulement pour les périphériques configurés"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Demander"
 
@@ -219,36 +177,36 @@ msgstr "Demander"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Fichiers publics de %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Fichiers publics de %s sur %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Vous avez reçu « %s » par Bluetooth"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Vous avez reçu un fichier"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Ouvrir le fichier"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Montrer le fichier"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Réception de fichiers terminée"
