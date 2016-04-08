@@ -12,15 +12,14 @@ DISTCLEANFILES =		\
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
 
-# Build ChangeLog from GIT history
+# Build ChangeLog from GIT  history
 ChangeLog:
-	@if test -f $(top_srcdir)/.git/HEAD; then \
-		git log --stat --after="Thu Jun 11 22:19:01 2009" > $@; \
+	$(AM_V_GEN) if test -d $(top_srcdir)/.git; then \
+		GIT_DIR="$(top_srcdir)/.git" git log --stat > $@; \
 	fi
 
 dist: ChangeLog
 
 .PHONY: ChangeLog
-
 
 -include $(top_srcdir)/git.mk
