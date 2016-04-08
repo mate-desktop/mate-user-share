@@ -1,203 +1,172 @@
-# Swedish messages for mateuser-share.
-# Copyright (C) 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
-# Christian Rose <menthos@menthos.com>, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christian Rose <menthos@menthos.com>, 2005
+# Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010
+# Henrik Mattsson-Mårn <h@reglage.net>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: mateuser-share\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-19 19:35+0100\n"
-"PO-Revision-Date: 2010-03-19 19:35+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: Henrik Mattsson-Mårn <h@reglage.net>\n"
+"Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
-msgstr "Om detta är sant kan blåtandsenheter skicka filer till användarens katalog Hämtat när användaren är inloggad."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
-msgstr "Om detta är sant kommer den publika katalogen i användarens hemkatalog att delas ut över Bluetooth när användaren är inloggad."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
-msgstr "Om detta är sant kommer den publika katalogen i användarens hemkatalog att delas ut på nätverket när användaren är inloggad."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Dela ut publik katalog över Bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
-msgid "Share Public directory over the network"
-msgstr "Dela ut publik katalog över nätverket"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "När filer skickade över Bluetooth ska accepteras"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
-msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
-msgstr "När filer som skickas över Bluetooth ska accepteras. Möjliga värden är \"always\" (alltid), \"bonded\" (ihopparad) och \"ask\" (fråga)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
-msgstr "När lösenord ska efterfrågas. Möjliga värden är \"never\" (aldrig), \"on_write\" (vid skrivning) och \"always\" (alltid)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
-msgid "When to require passwords"
-msgstr "När lösenord ska krävas"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Huruvida blåtandsklienter kan skicka filer med ObexPush."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Huruvida blåtandsklienter behöver paras ihop med datorn för att skicka filer."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
-msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
-msgstr "Huruvida blåtandsklienter ska tillåtas att skriva filer, eller dela ut filerna skrivskyddade."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Huruvida blåtandsklienter ska tillåtas att skriva filer."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Huruvida notifiering om nyligen mottagna filer ska göras."
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Ta emot filer över Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Dela ut filer över Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Dela ut filer över nätverket</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "Till_åt fjärrenheter att ta bort filer"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "Inställningar för personlig filutdelning"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Ta emot filer i mappen _Hämtat över Bluetooth"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Dela ut filer över nätverket</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr "Kräv att fjärrenheter _paras ihop med denna dator"
-
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Dela ut publika filer över _Bluetooth"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "_Acceptera filer: "
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "_Notifiera om mottagna filer"
-
-#: ../data/file-share-properties.ui.h:11
-msgid "_Password:"
-msgstr "_Lösenord:"
-
-#: ../data/file-share-properties.ui.h:12
-msgid "_Require password:"
-msgstr "_Kräv lösenord:"
-
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
 msgstr "_Dela ut publika filer på nätverket"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2
-#: ../src/caja-share-bar.c:162
+#: ../data/file-share-properties.ui.h:4
+msgid "_Password:"
+msgstr "_Lösenord:"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "_Require password:"
+msgstr "_Kräv lösenord:"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Dela ut filer över Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Dela ut publika filer över _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "Till_åt fjärrenheter att ta bort filer"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Kräv att fjärrenheter _paras ihop med denna dator"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Ta emot filer över Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Ta emot filer i mappen _Hämtat över Bluetooth"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "_Acceptera filer: "
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr "_Notifiera om mottagna filer"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Utdelning av personliga filer"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Inställningar för utdelning av filer"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Starta personlig filutdelning om aktiverat"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Starta inställningar"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Starta Inställningar för personlig filutdelning"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Kunde inte starta Inställningar för personlig filutdelning"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Du kan dela ut filer från denna mapp och ta emot filer till den"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr ""
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Du kan dela ut filer från denna mapp över nätverket och Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr ""
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Du kan ta emot filer över Bluetooth till denna mapp"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Kan delas över nätverket"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Ingen anledning"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Kunde inte visa hjälpinnehållet."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Kunde inte bygga gränssnittet."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Aldrig"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "När filer skrivs"
 
-#: ../src/file-share-properties.c:572
-#: ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Alltid"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Endast för konfigurerade enheter"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Fråga"
 
-# Vi undviker på detta sätt problemen som "%ss publika filer" skulle
-# skapat, exempelvis "Alexs publika filer" eller "Markuss publika filer".
-# Se även http://bugzilla.mateorg/show_bug.cgi?id=163652
-#
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
 #. translate correctly so that it will work correctly in your
@@ -207,67 +176,36 @@ msgstr "Fråga"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%.0sPublika filer"
 
-# Vi undviker på detta sätt problemen som "%ss publika filer" skulle
-# skapat, exempelvis "Alexs publika filer" eller "Markuss publika filer".
-# Se även http://bugzilla.mateorg/show_bug.cgi?id=163652
-#
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%.0sPublika filer på %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Du tog emot \"%s\" via Bluetooth"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Du tog emot en fil"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Öppna fil"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Visa fil"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Filmottagningen är färdig"
-
-#~ msgid "Please log in as the user guest"
-#~ msgstr "Logga in som användaren guest"
-#~ msgid "Only for Bonded and Trusted devices"
-#~ msgstr "Endast för ihopparade och pålitliga enheter"
-#~ msgid "User Sharing"
-#~ msgstr "Användarutdelning"
-#~ msgid ""
-#~ "If this is true, the Public directory in the users home dir will be "
-#~ "shared when the user is logged in."
-#~ msgstr ""
-#~ "Om detta är sant kommer den publika katalogen i användarens hemkatalog "
-#~ "att delas när användaren är inloggad."
-#~ msgid "When to ask for passwords, possible options: never, on_write, always"
-#~ msgstr ""
-#~ "När lösenord ska efterfrågas. Möjliga alternativ: never, on_write, always"
-#~ msgid "Share files"
-#~ msgstr "Dela filer"
-#~ msgid "Password:"
-#~ msgstr "Lösenord:"
-#~ msgid "_Password"
-#~ msgstr "_Lösenord"
-#~ msgid "Password"
-#~ msgstr "Lösenord"
-#~ msgid "_Require password"
-#~ msgstr "_Kräv lösenord"
-

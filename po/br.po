@@ -1,197 +1,167 @@
-# Breton translation for mateuser-share
-# Copyright (c) 2010 The Gnome Project
-# This file is distributed under the same license as the mateuser-share package.
-#
-# Alan Monfort <alan.monfort@free.fr>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alan Monfort <alan.monfort@free.fr>, 2010,2015
 msgid ""
 msgstr ""
-"Project-Id-Version: mateuser-share\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug.cgi?product=mateuser-share&component=general\n"
-"POT-Creation-Date: 2010-06-27 09:51+0000\n"
-"PO-Revision-Date: 2010-07-13 19:42+0100\n"
-"Last-Translator: Denis <denisarnuad@yahoo.fr>\n"
-"Language-Team: Brenux <brenux@free.fr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
+"Language-Team: Breton (http://www.transifex.com/mate/MATE/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid "If this is true, Bluetooth devices can send files to the user's Downloads directory when logged in."
-msgstr "Mar GWIR e vez kaset restroù gant an trobarzhelloù Bluetooth da gavlec'hiad Pellgargañ an arveriad pa vez kennasket."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid "If this is true, the Public directory in the users home directory will be shared over Bluetooth when the user is logged in."
-msgstr "Mar GWIR e vo rannet ar c'havlec'hiad foran e kavlec'hiad personel an arveriaded dre vBluetooth pa vez kennasket an arveriad."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid "If this is true, the Public directory in the users home directory will be shared over the network when the user is logged in."
-msgstr "Mar GWIR e vo rannet ar c'havlec'hiad foran e kavlec'hiad personel an arveriaded dre ar rouedad pa vez kennasket an arveriad."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Rannañ ar c'havlec'hiad foran dre vBluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
-msgid "Share Public directory over the network"
-msgstr "Rannañ ar c'havlec'hiad foran dre ar rouedad"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "Pegoulz asantiñ restroù kaset dre vBluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
-msgid "When to accept files sent over Bluetooth. Possible values are \"always\", \"bonded\" and \"ask\"."
-msgstr "Pegoulz asantiñ restroù kaset dre vBluetooth. Ar gwerzhioù zo \"always\" (bepred), \"bonded\" (mar ereet) hag \"ask\" (goulenn)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
-msgstr "Pegoulz goulenn ur ger-tremen. Ar gwerzhioù zo \"never\", (morse) \"on_write\" (gant ar skritur) hag \"always\" (bepred)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
-msgid "When to require passwords"
-msgstr "Pegoulz azgoulenn ar gerioù-tremen"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Menegiñ a ra hag-eñ e vo kaset restroù gant arvalion Bluetooth en ur ober gant ObexPush."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Menegiñ a ra hag-eñ ez eo ret da arvalion Bluetooth bezañ liammet gant an urzhiataer a-benn kas restroù."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
-msgid "Whether to allow Bluetooth clients to write files, or share the files read-only."
-msgstr "Menegiñ a ra hag-eñ ez eo aotreet arvalion Bluetooth da skrivañ restroù pe rannañ ar restroù e mod lenn nemetken."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Menegiñ a ra hag-eñ ez eo aotreet arvalion Bluetooth da skrivañ restroù."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Menegiñ a ra hag-eñ e vo kemennet a-fet restroù nevez degemeret"
+"Language: br\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Degemer restroù dre vBluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Rannañ restroù dre vBluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Rannañ restroù dre ar rouedad</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "Aotren an trobarzhelloù a-benn da zilemel restroù"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "Gwellvezioù a-fet rannañ restroù personel"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Degemer restroù en teuliad Pellgargadurioù dre vBluetooth"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Rannañ restroù dre ar rouedad</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr "Azgoulenn ma vo liammet an trobarzhelloù a-bell gant an urzhiataer-mañ"
+#: ../data/file-share-properties.ui.h:3
+msgid "_Share public files on network"
+msgstr "_Rannañ restroù foran dre ar rouedad"
 
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Rannañ restroù foran dre v_Bluetooth"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "_Asantiñ ar restroù : "
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "_Kemenn a-fet restroù degemeret"
-
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
 msgstr "_Ger-tremen :"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
 msgstr "_Azgoulenn ur ger-tremen :"
 
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Rannañ restroù dre vBluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Rannañ restroù foran dre v_Bluetooth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "Aotren an trobarzhelloù da zilemel restroù"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Azgoulenn ma vo liammet an trobarzhelloù a-bell gant an urzhiataer-mañ"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Degemer restroù dre vBluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "_Degemer restroù en teuliad Pellgargadurioù dre vBluetooth"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "_Asantiñ ar restroù : "
+
 #: ../data/file-share-properties.ui.h:13
-msgid "_Share public files on network"
-msgstr "Rannañ restroù foran dre ar rouedad"
+msgid "_Notify about received files"
+msgstr "_Kemenn a-fet restroù degemeret"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2
-#: ../src/caja-share-bar.c:162
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Rannadur an arveriad"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "Enframmañ a ra gant rannadur an arveriad"
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
-msgstr "Rannadur restroù foran"
+msgstr "Rannadur restroù personel"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Gwellvezioù a-fet rannañ restroù"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Obexftp evit rannadur restroù personel"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Loc'hañ ar rannadur restroù personel mar bez gweredekaet"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Gwellvezioù al loc'hañ"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Obepush evit rannadur restroù personel"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Webdav evit rannadur restroù personel"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Gwellvezioù"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "N'eo ket goust da loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
+msgstr "N'eo ket gouest da loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Rannet e vez restroù diouzh an ha degemer restroù ennañ"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Arveret e vez evit rannañ pe zegemer restroù"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Rannet e vez restroù diouzh an teuliad-mañ dre ar rouedad ha Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Rannet e vez dre ar rouedad pe vBluetooth"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Degemerez e vez restroù dre vBluetooth en teuliad-mañ"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Rannet e vez dre ar rouedad"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Arveret e vez evit degemer restroù dre vBluetooth"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Abeg ebet"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "N'hall ket skrammañ endalc'hadoù ar skoazell"
+msgstr "N'hall ket skrammañ endalc'hadoù ar skoazell."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
-msgstr "N'hall ket sevel ar c'hetal"
+msgstr "N'hall ket sevel ar c'hetal."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Morse"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "Pa vez o skrivañ restroù"
 
-#: ../src/file-share-properties.c:572
-#: ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Bepred"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Evit an trobarzhelloù bet kefluniet hepken"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Goulenn"
 
@@ -204,54 +174,36 @@ msgstr "Goulenn"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Restroù foran %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Restroù foran %s war %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Degemeret hoc'h eus \"%s\" dre vBluetooth"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Degemeret hoc'h eus ur restr"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Digeriñ ur restr"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
-msgstr "Deskouez ar restr"
+msgstr "Diskouez ar restr"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Echu eo degemer ar restr"
-
-#~ msgid ""
-#~ "This feature cannot be enabled because the required packages are not "
-#~ "installed on your system"
-#~ msgstr ""
-#~ "Ar mollad-mañ n'hall ket bezañ gweredekaet rak n'eo ket bet staliet ar "
-#~ "pakadoù ret war ho reizhiad"
-#~ msgid "You have received the file “%s” over Bluetooth."
-#~ msgstr "Degemeret hoc'h eus ar restr \"%s\" dre vBluetooth."
-#~ msgid "File Received"
-#~ msgstr "Restr degemeret"
-#~ msgid "Open"
-#~ msgstr "Digeriñ"
-#~ msgid "Reveal"
-#~ msgstr "Diskouez"
-#~ msgid "OK"
-#~ msgstr "Mat eo"
-

@@ -1,232 +1,169 @@
-# translation of el.po to Greek
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Kostas Papadimas <pkst@mateorg>, 2005.
-# Giannis Katsampirhs <giannis1_86@hotmail.com>, 2008.
-#
-# Pierros Papadeas <ppapadeas@gmail.com>, 2009, 2010.
+# 
+# Translators:
+# Giannis Katsampirhs <giannis1_86@hotmail.com>, 2008
+# Kostas Papadimas <pkst@mateorg>, 2005
+# Pierros Papadeas <ppapadeas@gmail.com>, 2009, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: el\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-01 19:02+0100\n"
-"PO-Revision-Date: 2010-02-27 22:27+0100\n"
-"Last-Translator: Pierros Papadeas <ppapadeas@gmail.com>\n"
-"Language-Team: Greek <team@mategr>\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3.1\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr ""
-"Αν είναι αληθές, οι συσκευές bluetooth θα μπορούν να στέλνουν αρχεία στον "
-"κατάλογο Λήψεις του χρήστη, όποτε ο χρήστης είναι συνδεδεμένος."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr ""
-"Αν είναι αληθές, θα γίνεται κοινή χρήση του Δημόσιου καταλόγου του χρήστη "
-"μέσω bluetooth, όποτε ο χρήστης είναι συνδεδεμένος."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr ""
-"Αν είναι αληθές, θα γίνεται κοινή χρήση του Δημόσιου καταλόγου του χρήστη "
-"μέσω του δικτύου, όποτε ο χρήστης είναι συνδεδεμένος."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Κοινή χρήση δημόσιου καταλόγου μέσω bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
-msgid "Share Public directory over the network"
-msgstr "Κοινή χρήση δημόσιου καταλόγου μέσω του δικτύου"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "Πότε θα γίνεται αποδοχή των αρχείων που στέλνονται μέσω bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr ""
-"Πότε θα γίνεται αποδοχή των αρχείων που στέλνονται μέσω bluetooth. Οι "
-"πιθανές τιμές είναι \"always\" (πάντα), \"bonded\" (συζευγμένες συσκευές), "
-"\"bonded_trusted\" (συζευγμένες και έμπιστες) και \"ask\" (ερώτηση)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr ""
-"Ποτέ θα απαιτείται κωδικός. Οι πιθανές τιμές είναι \"never\" (ποτέ), "
-"\"on_write\" (για εγγραφή), και \"always\" (πάντα)."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
-msgid "When to require passwords"
-msgstr "Πότε θα απαιτούνται κωδικοί"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr ""
-"Αν οι πελάτες bluetooth θα μπορούν να στέλνουν αρχεία χρησιμοποιώντας το "
-"obexPush."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr ""
-"Αν οι πελάτες bluetooth θα πρέπει να είναι συζευγμένοι με τον υπολογιστή για "
-"να μπορούν να στέλνουν αρχεία."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr ""
-"Αν θα επιτρέπεται στους πελάτες bluetooth να εγγράφουν αρχεία, ή θα τους "
-"επιτρέπεται μόνο η ανάγνωση αρχείων."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Αν θα επιτρέπεται στους πελάτες bluetooth να εγγράφουν αρχεία."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Αν θα εμφανίζεται ειδοποίηση όποτε λαμβάνονται αρχεία."
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Λήψη αρχείων μέσω bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Κοινή χρήση αρχείων μέσω bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Κοινή χρήση αρχείων μέσω δικτύου</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "Να _επιτρέπεται σε απομακρυσμένες συσκευές να διαγράφουν αρχεία"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "Προτιμήσεις κοινής χρήσης προσωπικών αρχείων"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Λήψη αρχείων μέσω bluetooth στο φάκελο _Λήψεις"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Κοινή χρήση αρχείων μέσω δικτύου</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr "Υποχρεωτική σύζευξη των _απομακρυσμένων συσκευών με τον υπολογιστή"
-
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Κοινή χρήση δημόσιων αρχείων μέσω _Βluetooth"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "Αποδο_χή αρχείων: "
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "Εμφάνιση _ειδοποιήσεων λήψης αρχείων"
-
-#: ../data/file-share-properties.ui.h:11
-msgid "_Password:"
-msgstr "_Κωδικός:"
-
-#: ../data/file-share-properties.ui.h:12
-msgid "_Require password:"
-msgstr "Α_παιτείται κωδικός:"
-
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
 msgstr "_Κοινή χρήση δημόσιων αρχείων μέσω δικτύου"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
+#: ../data/file-share-properties.ui.h:4
+msgid "_Password:"
+msgstr "_Κωδικός:"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "_Require password:"
+msgstr "Α_παιτείται κωδικός:"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Κοινή χρήση αρχείων μέσω bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Κοινή χρήση δημόσιων αρχείων μέσω _Βluetooth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "Να _επιτρέπεται σε απομακρυσμένες συσκευές να διαγράφουν αρχεία"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Υποχρεωτική σύζευξη των _απομακρυσμένων συσκευών με τον υπολογιστή"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Λήψη αρχείων μέσω bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Λήψη αρχείων μέσω bluetooth στο φάκελο _Λήψεις"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "Αποδο_χή αρχείων: "
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr "Εμφάνιση _ειδοποιήσεων λήψης αρχείων"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Κοινή χρήση προσωπικών αρχείων"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Προτιμήσεις κοινής χρήσης αρχείων"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Εκκίνηση κοινής χρήσης προσωπικών αρχείων, αν είναι ενεργοποιημένη"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Εκκίνηση προτιμήσεων"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr ""
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Εκκίνηση προτιμήσεων κοινής χρήσης προσωπικών αρχείων"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Αδυναμία εκκίνησης προτιμήσεων κοινής χρήσης προσωπικών αρχείων"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
 msgstr ""
-"Μπορείτε να μοιράζεστε τα αρχεία αυτού του φακέλου ή να λαμβάνετε αρχεία σε "
-"αυτόν."
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
 msgstr ""
-"Μπορείτε να μοιράζεστε τα αρχεία αυτού του φακέλου μέσω δικτύου ή bluetooth"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Μπορείτε να λαμβάνετε αρχεία μέσω bluetooth σε αυτόν τον φάκελο"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr ""
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Χωρίς αιτιολογία"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Αδυναμία εμφάνισης περιεχομένου βοήθειας."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Αδυναμία δημιουργίας περιβάλλοντος."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Ποτέ"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "Κατά την εγγραφή αρχείων"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Πάντα"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Μόνο για συζευγμένες συσκευές"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Ερώτηση"
 
@@ -239,45 +176,36 @@ msgstr "Ερώτηση"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Δημόσια αρχεία%.0s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Δημόσια αρχεία του/της %.0s στο %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Λάβατε το \"%s\" μέσω bluetooth"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Λάβατε ένα αρχείο"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Άνοιγμα Αρχείου"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Εμφάνιση Αρχείου"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Ολοκληρώθηκε η λήψη του αρχείου"
-
-#~ msgid "User Sharing"
-#~ msgstr "Διανομή από το χρήστη"
-
-#~ msgid "Please log in as the user guest"
-#~ msgstr "Παρακαλώ συνδεθείτε ως χρήστης guest"
-
-#~ msgid "Only for Bonded and Trusted devices"
-#~ msgstr "Μόνο για συσκευές που συνθέθηκαν και συσκευές εμπιστοσύνης"

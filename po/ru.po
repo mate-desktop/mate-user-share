@@ -3,89 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# AlexL <loginov.alex.valer@gmail.com>, 2015
+# Михаил Ильинский <mail@milinsky.com>, 2015
 # Leonid Kanter <leon@asplinux.ru>, 2006, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2013-03-11 19:48+0000\n"
-"Last-Translator: Alexei Sorokin <sor.alexei@meowr.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/MATE/language/ru/)\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "Сделать файлы в каталоге Public общими через для доступа по сети"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "Если этот параметр установлен, файлы в каталоге Public пользователя станут доступны по сети, когда он войдёт в систему."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "Когда запрашивать пароли"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "Когда запрашивать пароль. Возможные значения «never», «on_write», и «always»."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "Сделать файлы в каталоге Public общими через для доступа через Bluetooth"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "Если этот параметр установлен, файлы в каталоге Public пользователя станут доступны через Bluetooth, когда пользователь войдёт в систему."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Разрешить клиентам Bluetooth записывать файлы."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "Будут ли клиенты Bluetooth записывать файлы или файлы будут доступны только для чтения."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Требовать от клиентов Bluetooth соединения с компьютером для передачи файлов."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Разрешить клиентам Bluetooth посылать файлы с помощью ObexPush."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "Если этот параметр установлен, устройства Bluetooth могут отправлять файлы в каталог Downloads пользователя после его входа в систему."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "Действие при приёме файлов, отправленных через Bluetooth"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "Действие при получении файлов по протоколу Bluetooth. Возможные значения: «always», «bonded», «bonded_trusted» и «ask»."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Сообщать о получаемых файлах"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -139,8 +72,16 @@ msgstr "_Принимать файлы:"
 msgid "_Notify about received files"
 msgstr "И_звещать пользователя о получаемых файлах"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Общий доступ к личным файлам"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "Интегрируется с общим доступом к личным файлам"
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Общий доступ к личным файлам"
 
@@ -148,63 +89,81 @@ msgstr "Общий доступ к личным файлам"
 msgid "Preferences for sharing of files"
 msgstr "Параметры общего доступа к файлам"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Общий доступ к личным файлам obexftp"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Открыть общий доступ к личным файлам, если включено"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Параметры запуска"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Общий доступ к личным файлам obexpush"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Общий доступ к личным файлам webdav"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Открыть параметры общего доступа к личным файлам"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Не удаётся открыть параметры общего доступа к личным файлам"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Вы не можете открыть доступ к файлам из этой папки и принимать в неё файлы"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Может использоваться для обмена файлами"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Вы можете сделать файлы из этой папки доступными по сети и протоколу Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Может быть передана по сети или блютуз"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Вы можете получать файлы по протоколу Bluetooth в эту папку"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Может быть передана по сети"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Может использоваться для получения файлов по Bluetooth"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Нет причины"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Не удалось отобразить справочную информацию."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Не удалось создать интерфейс пользователя."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Никогда"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "При записи файлов"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Всегда"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Только для подключённых устройств"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Спрашивать пользователя"
 
@@ -217,36 +176,36 @@ msgstr "Спрашивать пользователя"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Общие файлы пользователя %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Общие файлы пользователя %s на %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Через Bluetooth получен файл «%s»"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Получен файл"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Открыть файл"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Показать файл"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Получение файла завершено"

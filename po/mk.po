@@ -1,76 +1,169 @@
-# translation of mk.po to Macedonian
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Арангел Ангов <ufo@linux.net.mk>, 2005.
-#
+# 
+# Translators:
+# Арангел Ангов <ufo@linux.net.mk>, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: mk\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-14 19:38+0000\n"
-"PO-Revision-Date: 2005-08-14 23:28+0200\n"
-"Last-Translator: Арангел Ангов <ufo@linux.net.mk>\n"
-"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Macedonian (http://www.transifex.com/mate/MATE/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-#: ../desktop_matefile_sharing.schemas.in.h:1
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared when the user is logged in."
+#: ../data/file-share-properties.ui.h:1
+msgid "Personal File Sharing Preferences"
 msgstr ""
-"Ако е точно, јавниот директориум во домашниот директориум на корисниците "
-"ќе биде споделен по најавата на корисникот."
 
-#: ../desktop_matefile_sharing.schemas.in.h:2
-msgid "Share Public directory"
-msgstr "Сподели јавен директориум"
-
-#: ../desktop_matefile_sharing.schemas.in.h:3
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
 msgstr ""
-"Кога да бара лозинки. Можни вредности се \"никогаш\", \"при запишување\" и "
-"\"секогаш\"."
 
-#: ../desktop_matefile_sharing.schemas.in.h:4
-msgid "When to require passwords"
-msgstr "Кога да бара лозинки"
+#: ../data/file-share-properties.ui.h:3
+msgid "_Share public files on network"
+msgstr ""
 
-#: ../file-share-properties.c:290
-msgid "Never"
-msgstr "Никогаш"
-
-#: ../file-share-properties.c:293
-msgid "When writing files"
-msgstr "Кога се запишуваат датотеки"
-
-#: ../file-share-properties.c:296
-msgid "Always"
-msgstr "Секогаш"
-
-#: ../file-share-properties.glade.h:1
-msgid "<b>Share Files</b>"
-msgstr "<b>Споделени датотеки</b>"
-
-#: ../file-share-properties.glade.h:2
-msgid "File Sharing Preferences"
-msgstr "Преференци за споделување на датотеки"
-
-#: ../file-share-properties.glade.h:3
-msgid "Share Public files on network"
-msgstr "Сподели датотеки јавно на мрежата"
-
-#: ../file-share-properties.glade.h:4
+#: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
 msgstr "_Лозинка:"
 
-#: ../file-share-properties.glade.h:5
+#: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
 msgstr "_Потребна е лозинка:"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
+msgid "Personal File Sharing"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+msgid "Launch Personal File Sharing if enabled"
+msgstr ""
+
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
+
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr ""
+
+#: ../src/caja-share-bar.c:121
+msgid "Launch Personal File Sharing Preferences"
+msgstr ""
+
+#: ../src/share-extension.c:73
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr ""
+
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr ""
+
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr ""
+
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr ""
+
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
+msgid "No reason"
+msgstr ""
+
+#: ../src/file-share-properties.c:445
+msgid "Could not display the help contents."
+msgstr ""
+
+#: ../src/file-share-properties.c:507
+msgid "Could not build interface."
+msgstr ""
+
+#: ../src/file-share-properties.c:547
+msgid "Never"
+msgstr "Никогаш"
+
+#: ../src/file-share-properties.c:550
+msgid "When writing files"
+msgstr "Кога се запишуваат датотеки"
+
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+msgid "Always"
+msgstr "Секогаш"
+
+#: ../src/file-share-properties.c:580
+msgid "Only for set up devices"
+msgstr ""
+
+#: ../src/file-share-properties.c:585
+msgid "Ask"
+msgstr ""
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -81,8 +174,36 @@ msgstr "_Потребна е лозинка:"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../user_share.c:157
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Јавни датотеки на %s"
 
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:133
+#, c-format
+msgid "%s's public files on %s"
+msgstr ""
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:136
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr ""
+
+#: ../src/obexpush.c:138
+msgid "You received a file"
+msgstr ""
+
+#: ../src/obexpush.c:148
+msgid "Open File"
+msgstr ""
+
+#: ../src/obexpush.c:152
+msgid "Reveal File"
+msgstr ""
+
+#: ../src/obexpush.c:169
+msgid "File reception complete"
+msgstr ""

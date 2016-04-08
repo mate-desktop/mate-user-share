@@ -3,89 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Armen <remontall@mail.ru>, 2012
 # Ivica  Kolić <ikoli@yahoo.com>, 2013
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
+# Mattias A, 2015
+# Mattias OKFSE, 2015
+# Piotr Szotkowski <chastell@chastell.net>, 2011
+# semden <mail@semden.info>, 2012
+# Владимир Александрович <dva-777@yandex.ru>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-05-18 18:40+0000\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
 "Last-Translator: Mislav E. Lukšić <meluksic@yahoo.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/mate/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "Dijeli javni direktorij preko mreže"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "Ako je ovo istina, Javni direktorij u korisničkoj osobnoj mapi će biti djeljen preko mreže kada je korisnik prijavljen."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "Kada zahtijevati zaporke"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "Kada tražiti zaporke. Moguće zadanosti su \"nikada\", \"u_pisanju\" i \"uvijek\"."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "Dijeli javni direktorij preko bluetootha"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "Ako je ovo istinito, javni direktorij u osobnom direktoriju korisnika bit će dijeljen preko bluetootha kada je korisnik prijavljen."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Treba li klijentima bluetootha dopustiti zapisivanje datoteka."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "Treba li klijentima bluetootha dopustiti zapisivanje datoteka ili dijeljenje datoteka samo za čitanje."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Trebaju li se klijenti bluetootha upariti s računalom za slanje datoteka."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Mogu li klijenti bluetootha slati datoteke koristeći ObexPush."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "Ako je ovo istinito, uređaji s bluetoothom mogu slati datoteke u korisnikov direktorij preuzimanja kada je prijavljen."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "Kada prihvatiti datoteke poslane preko bluetootha"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "Kada prihvatiti datoteke poslane preko bluetootha. Moguće zadanosti su \"uvijek\", \"spojeno\" i \"upitaj\"."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Treba li obavijestiti o novoprimljenim datotekama."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -105,15 +43,15 @@ msgstr "_Zaporka:"
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
-msgstr "_Potrebna je zaporka:"
+msgstr "_Zahtijevaj zaporku:"
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Dijeli datoteke preko bluetootha</b>"
+msgstr "<b>Dijeli datoteke putem bluetootha</b>"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Dijeli javne datoteke preko _bluetootha"
+msgstr "Dijeli javne datoteke putem _bluetootha"
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
@@ -125,11 +63,11 @@ msgstr "Zatraži od ud_aljenih uređaja spajanje s ovim računalom"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Primi datoteke preko bluetootha</b>"
+msgstr "<b>Primi datoteke putem bluetootha</b>"
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Primi datoteke u_mapu preuzimanja preko bluetootha"
+msgstr "Primi datoteke u_mapu preuzimanja putem bluetootha"
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
@@ -139,8 +77,16 @@ msgstr "_Prihvati datoteke:"
 msgid "_Notify about received files"
 msgstr "_Obavijesti o primljenim datotekama"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Korisničko dijeljenje"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "Spaja se s user-share"
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Osobno dijeljenje datoteka"
 
@@ -148,63 +94,81 @@ msgstr "Osobno dijeljenje datoteka"
 msgid "Preferences for sharing of files"
 msgstr "Prilagodbe za dijeljenje datoteka"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Osobno dijeljenje datoteka obexftp"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Pokreni osobno dijeljenje datoteka ako je omogućeno"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Pokreni prilagodbe"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Osobno dijeljenje datoteka obexpush"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Osobno dijeljenje datoteka webdav"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Prilagodbe"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Pokreni prilagodbe osobnog dijeljenja datoteka"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Nije moguće pokrenuti prilagodbe osobnog dijeljenja datoteka"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Možeš dijeliti datoteke iz ove mape i primati ih u nju"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Može se koristiti za dijeljenje ili primanje datoteka"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Možeš dijeliti datoteke iz ove mape preko mreže i bluetootha"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Može se dijeliti putem mreže ili bluetootha"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Možeš primati datoteke preko bluetootha u ovu mapu"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Može se dijeliti putem mreže"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Može se koristiti za primanje datoteka putem bluetootha"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Nema osnove"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "Nije bilo moguće prikazati sadržaj pomoći."
+msgstr "Nije moguće prikazati sadržaj pomoći."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
-msgstr "Nije bilo moguće stvoriti sučelje."
+msgstr "Nije moguće stvoriti sučelje."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Nikada"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
-msgstr "Kada zapisivati datoteke"
+msgstr "Kada se zapisuju datoteke"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Uvijek"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Samo za postavljanje uređaja"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Pitaj"
 
@@ -217,36 +181,36 @@ msgstr "Pitaj"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Javne datoteke od %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Javne datoteke od %s na %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Dovršen prijam \"%s\" putem bluetootha"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Datoteka je primljena"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Otvori datoteku"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Otkrij datoteku"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Primanje datoteke dovršeno"

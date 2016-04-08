@@ -10,84 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-06-21 14:57+0000\n"
-"Last-Translator: Vaibhav S Dalvi <vaibhav.dlv@gmail.com>\n"
-"Language-Team: Marathi (http://www.transifex.com/projects/p/MATE/language/mr/)\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Marathi (http://www.transifex.com/mate/MATE/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "जाळं वरील Public डिरेक्ट्री सहभागीय करा"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री जाळंवर सहभागीय केले जाईल."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "परवलीचा शब्दाची आवश्यकता कधी पडते"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "परवलीचा शब्द करीता कधी विचारायचे. संभाव्य मूल्य खालिल नुरूप आहे \"never\", \"on_write\", व\"always\"."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "Bluetooth वरील Public डिरेक्ट्री सहभागीय करा"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "खरे असल्यास, प्रवेश केल्यावर वापरकर्त्याची मुख्य डिरेक्ट्री अंतर्गत Public डिरेक्ट्री Bluetooth वर सहभागीय केले जाईल."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Bluetooth क्लाऐंटला फाइल लेखन करीता परवानगी द्यायची का."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "Bluetooth क्लाऐंटला फाइल लेखन, किंवा केवळ-वाचनीय या नुरूप सहभागीय करण्यास परवानगी द्यायची का."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "फाइल पाठवण्याकरीता Bluetooth क्लाऐंटला संगणकाशी जुळविण्याची आवश्यकता आहे का."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "ObexPush चा वापर करून Bluetooth क्लाऐंट फाइल पाठवू शकतो का."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "खरे असल्यास, प्रवेश केल्यावर Bluetooth साधन वापरकर्त्याचे डाऊनलोड डिरेक्ट्री करीता फाइल पाठवू शकते."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "Bluetooth वरील फाइलं कधी स्वीकारायचे"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "Bluetooth वरील फाइलं कधी स्वीकारायचे. संभाव्य मुल्ये \"always\", \"bonded\" आणि \"ask\"."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "नवीन प्राप्य फाइल विषयी सूचीत करायचे का."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -141,8 +72,16 @@ msgstr "फाइलं स्वीकारा (_A): "
 msgid "_Notify about received files"
 msgstr "प्राप्य फाइलं विषयी सूचीत करा (_N)"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "वैयक्तिक फाइल सहभागीय करा"
 
@@ -150,63 +89,81 @@ msgstr "वैयक्तिक फाइल सहभागीय करा"
 msgid "Preferences for sharing of files"
 msgstr "फाइल शेअर करण्यासाठी पसंती"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "कार्यक्षम असल्यास व्यक्तिगत फाइल शेअरींग प्रक्षेपीत करा"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "प्राधान्यक्रम सुरु करा"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr ""
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "व्यक्तिगत फाइल शेअरींग पसंती सुरु करा"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "व्यक्तिगत फाइल शेअरींग पसंती सुरु करू शकले नाही"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स देऊ आणि घेऊ शकता "
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr ""
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स संजाळ आणि ब्लुटूथवर देऊ आणि घेऊ शकता "
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr ""
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "तुम्ही या फोल्डरमधून फ़ाइल्स ब्लुटूथवर घेऊ शकता "
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr ""
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "कारण नाही"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "मदत अंतर्भूत माहिती प्रदर्शित करण्यास अशक्य."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "संवाद बांधणी शक्य नाही."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "कधिच नाही"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "फाइल लिहीतेवेळी"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "नेहमी"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "फक्त सेट केलेल्या साधनांसाठी"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "विचारा"
 
@@ -219,36 +176,36 @@ msgstr "विचारा"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%s चे public फाइल"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%2$s वरील %1$s चे public फाइल"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "तुमच्याकडे Bluetooth द्वारे \"%s\" प्राप्त झाले"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "तुम्हाला फाइल प्राप्त झाले"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "फाइल उघडा"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "फाइल निश्चित करा"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr ""

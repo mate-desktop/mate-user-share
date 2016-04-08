@@ -5,90 +5,21 @@
 # Translators:
 # Changwoo Ryu <cwryu@debian.org>, 2009, 2010
 # Namhyung Kim <namhyung@gmail.com>, 2007
-# Darkcircle <darkcircle.0426@gmail.com>, 2014
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2014-2015
 # Young-Ho Cha <ganadist at mizi.com>, 2005, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-01-13 10:15+0000\n"
-"Last-Translator: Darkcircle <darkcircle.0426@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/mate/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "공개 디렉터리를 네트워크를 통해 공유"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "참이면, 사용자가 로그인했을 때 홈 디렉토리의 공개 디렉터리를 공유합니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "암호가 필요한 경우"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "언제 암호를 물어볼 지 지정합니다. 가능한 값은 \"never\", \"on_write\", \"always\"입니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "공개 디렉터리를 블루투스를 통해 공유"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "참이면, 사용자가 로그인하면 홈 디렉토리의 공개 디렉터리를 블루투스를 통해 공유합니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "블루투스 클라이언트의 파일 쓰기를 허용할 지 여부입니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "블루투스 클라이언트의 파일 쓰기를 허용할 지, 아니면 읽기 전용으로만 공유할 지 여부입니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "블루투스 클라이언트가 파일을 보낼 때 컴퓨터에 연결해야 하는 지 여부입니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "블루투스 클라이언트가 ObexPush를 사용해 파일을 보낼 수 있는 지 여부입니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "참이면, 사용자가 로그인하면 블루투스를 통해 \"다운로드\" 디렉터리로 파일을 보낼 수 있습니다."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "블루투스를 통해 보낸 파일 허용하는 방법"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "언제 블루투스를 통해 보낸 파일을 받아들일지 지정. 가능한 값은 \"always\", \"bonded\", \"ask\"."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "새로 받은 파일을 알릴 지 여부."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -142,8 +73,16 @@ msgstr "파일 허용(_A): "
 msgid "_Notify about received files"
 msgstr "받은 파일 알리기(_N)"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "사용자 공유"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "user-share과 통합했습니다"
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "개인 파일 공유"
 
@@ -151,63 +90,81 @@ msgstr "개인 파일 공유"
 msgid "Preferences for sharing of files"
 msgstr "파일 공유에 대한 기본 설정"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "obexftp로 공유하는 개인 파일"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "사용자 공유를 (사용할 경우) 시작합니다"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "기본 설정 실행"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "obexpush로 공유하는 개인 파일"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "webdav로 공유하는 개인 파일"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "기본 설정"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "개인 파일 공유 기본 설정을 실행합니다"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "개인 파일 공유 기본 설정을 실행할 수 없습니다"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "폴더의 파일을 공유하고 파일을 여기에 받을 수 있습니다"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "파일을 공유하거나 받을때 사용합니다"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "폴더의 파일을 네트워크와 블루투스를 통해 공유할 수 있습니다"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "파일을 네트워크 또는 블루투스로 공유합니다"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "블루투스를 통해 받은 파일을 이 폴더에 받을 수 있습니다"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "네트워크로 공유합니다 "
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "블루투스로 파일을 받을 떄 사용합니다"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "이유 없음"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "도움말 차례를 표시할 수 없습니다."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "인터페이스를 만들 수 없습니다."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "없음"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "파일을 쓸 때"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "항상"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "설정한 장치만"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "물어보기"
 
@@ -220,36 +177,36 @@ msgstr "물어보기"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%s의 공용 파일"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%2$s에 있는 %1$s의 공용 파일"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "블루투스를 통해 \"%s\" 파일을 받았습니다"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "파일을 받았습니다"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "파일 열기"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "파일 보기"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "파일 받기를 마쳤습니다"

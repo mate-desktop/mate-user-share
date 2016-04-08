@@ -4,92 +4,26 @@
 # 
 # Translators:
 # Christian <Christian.Kirbach@googlemail.com>, 2009, 2010
+# Franco Della-Monica <franco.della.monica@gmail.com>, 2015
+# Franco Della-Monica <franco.della.monica@gmail.com>, 2015
 # Frank Arnold <frank@scirocco-5v-turbo.de>, 2005
 # Hendrik Richter <hendrikr@mateorg>, 2007
 # Mario Blättermann <mariobl@mateorg>, 2009, 2010
-# Tobias Bannert <tobannert@gmail.com>, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014-2015
+# Xpistian <xpistianbecker2@web.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 22:51+0200\n"
-"PO-Revision-Date: 2014-10-12 16:56+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: Franco Della-Monica <franco.della.monica@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:1
-msgid "Share Public directory over the network"
-msgstr "Öffentlichen Ordner im Netzwerk freigeben"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr "Wenn eingestellt, wird der öffentliche Ordner, im persönlichen Ordner, im Netzwerk freigegeben, sobald der Benutzer angemeldet ist."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:3
-msgid "When to require passwords"
-msgstr "Wann Passwörter erforderlich sind"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:4
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr "Wann nach Passwörtern gefragt wird. Mögliche Werte sind »never« (nie), »on_write« (beim Schreiben) und »always« (immer)."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:5
-msgid "Share Public directory over Bluetooth"
-msgstr "Öffentlichen Ordner über Bluetooth freigeben"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:6
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr "Wenn eingestellt, wird der öffentliche Ordner, im persönlichen Ordner, über Bluetooth freigegeben, sobald der Benutzer angemeldet ist."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:7
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Legt fest, ob Bluetooth-Programme Dateien schreiben dürfen."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:8
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr "Legt fest, ob Bluetooth-Programme Dateien schreiben oder nur lesen dürfen."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:9
-msgid ""
-"Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Legt fest, ob sich Bluetooth-Programme an den Rechner koppeln müssen, um Dateien zu senden."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Legt fest, ob Bluetooth-Programme Dateien mit ObexPush senden dürfen"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:11
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr "Wenn eingestellt, dürfen Bluetooth-Geräte Dateien in den Download-Ordner des Benutzers senden."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:12
-msgid "When to accept files sent over Bluetooth"
-msgstr "Wann über Bluetooth gesendete Dateien angenommen werden"
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:13
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr "Gibt an, wann über Bluetooth gesendete Dateien angenommen werden. Mögliche Werte sind »always« (immer), »bonded« (verbunden) und »ask« (nachfragen)."
-
-#: ../data/desktop_mate_file_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Legt fest, ob über neu empfangene Dateien informiert werden soll."
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -143,8 +77,16 @@ msgstr "Dateien _annehmen:"
 msgid "_Notify about received files"
 msgstr "Über _empfangene Dateien benachrichtigen"
 
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Nutzerfreigabe"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "verbindet sich mit Nutzerfreigabe"
+
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../data/mate-user-share.desktop.in.in.h:1 ../src/caja-share-bar.c:162
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Persönliche Dateifreigabe"
 
@@ -152,63 +94,81 @@ msgstr "Persönliche Dateifreigabe"
 msgid "Preferences for sharing of files"
 msgstr "Einstellungen zur Freigabe von Dateien"
 
-#: ../data/mate-user-share.desktop.in.in.h:2
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Persönliche Dateifreigabe obexftp"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Persönliche Dateifreigabe starten, wenn aktiv"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Einstellungen aufrufen"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Persönliche Dateifreigabe obexpush"
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Persönliche Dateifreigabe webdav"
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Einstellungen zur persönlichen Dateifreigabe aufrufen"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Einstellungen zur persönlichen Dateifreigabe konnten nicht aufgerufen werden"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Sie können Dateien in diesem Ordner freigeben und Dateien in diesem Ordner empfangen"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Erlaubt das Freigeben oder Empfangen von Dateien"
 
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
-msgstr "Sie können Dateien in diesem Ordner über das Netzwerk und über Bluetooth freigeben"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Dateien in diesem Ordner können über das Netzwerk oder über Bluetooth freigegeben werden"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Sie können Dateien über Bluetooth in diesem Ordner empfangen"
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Dateien in diesem Ordner können über das Netzwerk freigegeben werden"
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Erlaubt das Empfangen von Dateien über Bluetooth"
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Kein Grund"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Das Hilfedokument konnte nicht angezeigt werden."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Die Oberfläche konnte nicht erstellt werden."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Niemals"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "Beim Schreiben von Dateien"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Immer"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Nur für eingerichtete Geräte"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Nachfragen"
 
@@ -221,36 +181,36 @@ msgstr "Nachfragen"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Öffentliche Dateien von %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Öffentliche Dateien von %s auf %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Sie haben »%s« über Bluetooth erhalten"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Sie haben eine Datei erhalten"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Datei öffnen"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Datei zeigen"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Dateiempfang ist abgeschlossen"

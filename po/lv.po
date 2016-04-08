@@ -1,224 +1,167 @@
-# Latvian translation for mateuser-share.
-# Copyright (C) 2010 mateuser-share's COPYRIGHT HOLDER
-# This file is distributed under the same license as the mateuser-share package.
-#
-# Peteris Krisjanis <pecisk@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Pēteris Krišjānis <pecisk@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: mateuser-share master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mateorg/enter_bug."
-"cgi?product=mateuser-share&component=general\n"
-"POT-Creation-Date: 2010-03-07 15:44+0000\n"
-"PO-Revision-Date: 2010-03-08 11:39+0200\n"
-"Last-Translator: Peteris Krisjanis <pecisk@gmail.com>\n"
-"Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Latvian (http://www.transifex.com/mate/MATE/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:1
-msgid ""
-"If this is true, Bluetooth devices can send files to the user's Downloads "
-"directory when logged in."
-msgstr ""
-"Ja patiess, Bluetooth ierīces var sūtīt failus uz lietotāja 'Lejupielādes' "
-"direktoriju, kad lietotājs būs pieteicies."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:2
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over Bluetooth when the user is logged in."
-msgstr ""
-"Ja patiess, 'Publiskie' direktorija lietotāja mājas direktorijā tiks "
-"koplietota "
-"izmantojot Bluetooth, kad lietotājs būs pieteicies."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:3
-msgid ""
-"If this is true, the Public directory in the users home directory will be "
-"shared over the network when the user is logged in."
-msgstr ""
-"Ja patiess, 'Publiskie' direktorija lietotāja mājasdirektorijā tiks koplietota "
-"izmantojot tīklu, kad lietotājs būs pieteicies."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:4
-msgid "Share Public directory over Bluetooth"
-msgstr "Koplietot 'Publiskie' direktoriju izmantojot Bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:5
-msgid "Share Public directory over the network"
-msgstr "Koplietot 'Publiskie' direktoriju izmantojot tīklu"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:6
-msgid "When to accept files sent over Bluetooth"
-msgstr "Kad akceptēt saņemtos failus izmantojot Bluetooth"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:7
-msgid ""
-"When to accept files sent over Bluetooth. Possible values are \"always\", "
-"\"bonded\" and \"ask\"."
-msgstr ""
-"Kad akceptēt saņemtos failus izmantojot Bluetooth. Iespējamās vērtības ir "
-"\"always\", \"bonded\" un \"ask\"."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:8
-msgid ""
-"When to ask for passwords. Possible values are \"never\", \"on_write\", and "
-"\"always\"."
-msgstr ""
-"Kad prasīt paroli. Iespējamās vērtības ir \"never\", \"on_write\" un "
-"\"always\"."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:9
-msgid "When to require passwords"
-msgstr "Vai pieprasīt paroles"
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:10
-msgid "Whether Bluetooth clients can send files using ObexPush."
-msgstr "Vai Bluetooth klienti var sūtīt failus izmantojot ObexPush."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:11
-msgid "Whether Bluetooth clients need to pair with the computer to send files."
-msgstr "Vai Bluetooth klientiem jābūt sapārotiem ar datoru, lai nosūtītu failus."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:12
-msgid ""
-"Whether to allow Bluetooth clients to write files, or share the files read-"
-"only."
-msgstr ""
-"Vai atļaut Bluetooth klientiem rakstīt failus, vai koplietot failus tikai "
-"lasīšanas "
-"režīmā."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:13
-msgid "Whether to allow Bluetooth clients to write files."
-msgstr "Vai atļaut Bluetooth klientiem rakstīt failus."
-
-#: ../data/desktop_matefile_sharing.schemas.in.h:14
-msgid "Whether to notify about newly received files."
-msgstr "Vai informēt par tikko saņemtiem failiem."
 
 #: ../data/file-share-properties.ui.h:1
-msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Saņemt failus izmantojot Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Koplietot failus izmantojot Bluetooth</b>"
-
-#: ../data/file-share-properties.ui.h:3
-msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Koplietot failus izmantojot tīklu</b>"
-
-#: ../data/file-share-properties.ui.h:4
-msgid "Allo_w remote devices to delete files"
-msgstr "Atļau_t attālinātajām ierīcēm dzēst failus"
-
-#: ../data/file-share-properties.ui.h:5
 msgid "Personal File Sharing Preferences"
 msgstr "Personiskās failu koplietošanas iestatījumi"
 
-#: ../data/file-share-properties.ui.h:6
-msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Izmantojot Bluetooth, saņemt failus '_Lejupielādes' mapē"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Koplietot failus izmantojot tīklu</b>"
 
-#: ../data/file-share-properties.ui.h:7
-msgid "Require re_mote devices to bond with this computer"
-msgstr "Pieprasīt, lai attālinātās ierīces būtu sapārotas ar šo datoru"
-
-#: ../data/file-share-properties.ui.h:8
-msgid "Share public files over _Bluetooth"
-msgstr "Koplietot publiskos failus izmantojot _Bluetooth"
-
-#: ../data/file-share-properties.ui.h:9
-msgid "_Accept files: "
-msgstr "_Apstiprināt failus:"
-
-#: ../data/file-share-properties.ui.h:10
-msgid "_Notify about received files"
-msgstr "_Informēt par saņemtajiem failiem"
-
-#: ../data/file-share-properties.ui.h:11
-msgid "_Password:"
-msgstr "_Parole:"
-
-#: ../data/file-share-properties.ui.h:12
-msgid "_Require password:"
-msgstr "Piep_rasīt paroli:"
-
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
 msgstr "_Koplietot publiskos failus tīklā"
 
-#: ../data/mateuser-share-properties.desktop.in.h:1
-#: ../data/mateuser-share.desktop.in.in.h:2 ../src/caja-share-bar.c:162
+#: ../data/file-share-properties.ui.h:4
+msgid "_Password:"
+msgstr "_Parole:"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "_Require password:"
+msgstr "Piep_rasīt paroli:"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Koplietot failus izmantojot Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr "Koplietot publiskos failus izmantojot _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr "Atļau_t attālinātajām ierīcēm dzēst failus"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Pieprasīt, lai attālinātās ierīces būtu sapārotas ar šo datoru"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Saņemt failus izmantojot Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Izmantojot Bluetooth, saņemt failus '_Lejupielādes' mapē"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr "_Apstiprināt failus:"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr "_Informēt par saņemtajiem failiem"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "Personiskā failu koplietošana"
 
-#: ../data/mateuser-share-properties.desktop.in.h:2
+#: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
 msgstr "Failu koplietošanas iestatījumi"
 
-#: ../data/mateuser-share.desktop.in.in.h:1
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Palaist personiskās failu koplietošanu (ja tā ir ieslēgta)"
 
-#: ../src/caja-share-bar.c:174
-msgid "Launch Preferences"
-msgstr "Atvērt iestatījumus"
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
 
-#: ../src/caja-share-bar.c:187
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr ""
+
+#: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Atvērt personiskās failu koplietošanas iestatījumus"
 
-#: ../src/share-extension.c:82
+#: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Neizdevās atvērt personiskās failu koplietošanas iestatījumus"
 
-#: ../src/share-extension.c:173
-msgid "You can share files from this folder and receive files to it"
-msgstr "Jūs varat koplietot failus no šīs mapes un saņemt failus tajā."
-
-#: ../src/share-extension.c:175
-msgid "You can share files from this folder over the network and Bluetooth"
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
 msgstr ""
-"Jūs varat koplietot failus no šīs mapes izmantojot lokālo tīklu un Bluetooth"
 
-#: ../src/share-extension.c:177
-msgid "You can receive files over Bluetooth into this folder"
-msgstr "Jūs varat saņemt failus šajā mapē izmantojot Bluetooth"
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr ""
 
-#: ../src/file-share-properties.c:436
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr ""
+
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Bez iemesla"
 
-#: ../src/file-share-properties.c:464
+#: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Neizdevās attēlot palīdzības saturu."
 
-#: ../src/file-share-properties.c:524
+#: ../src/file-share-properties.c:507
 msgid "Could not build interface."
 msgstr "Neizdevās izveidot saskarni."
 
-#: ../src/file-share-properties.c:566
+#: ../src/file-share-properties.c:547
 msgid "Never"
 msgstr "Nekad"
 
-#: ../src/file-share-properties.c:569
+#: ../src/file-share-properties.c:550
 msgid "When writing files"
 msgstr "Rakstot failus"
 
-#: ../src/file-share-properties.c:572 ../src/file-share-properties.c:595
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
 msgstr "Vienmēr"
 
-#: ../src/file-share-properties.c:598
+#: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
 msgstr "Tikai no iestatītajām ierīcēm"
 
-#: ../src/file-share-properties.c:603
+#: ../src/file-share-properties.c:585
 msgid "Ask"
 msgstr "Vaicā"
 
@@ -231,37 +174,36 @@ msgstr "Vaicā"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:134
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%s publiskie faili"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:138
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s publiskie faili %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:140
+#: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Jūs saņēmāt \"%s\" izmantojot Bluetooth"
 
-#: ../src/obexpush.c:142
+#: ../src/obexpush.c:138
 msgid "You received a file"
 msgstr "Jūs saņēmāt failu"
 
-#: ../src/obexpush.c:153
+#: ../src/obexpush.c:148
 msgid "Open File"
 msgstr "Atvērt failu"
 
-#: ../src/obexpush.c:157
+#: ../src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Atsegt failu"
 
-#: ../src/obexpush.c:174
+#: ../src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Faila uztveršana pabeigta"
-

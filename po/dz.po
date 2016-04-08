@@ -1,79 +1,168 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateuser-share.HEAD.pot\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-11-01 03:50+0100\n"
-"PO-Revision-Date: 2006-11-02 12:22+0530\n"
-"Last-Translator: norbu <nor_den@hotmail.com>\n"
-"Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
+"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Dzongkha (http://www.transifex.com/mate/MATE/language/dz/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Dzongkha\n"
-"X-Poedit-Country: BHUTAN\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: dz\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../desktop_matefile_sharing.schemas.in.h:1
-msgid "If this is true, the Public directory in the users home directory will be shared when the user is logged in."
-msgstr "འ་ནི་འདི་བདེན་པ་ཨིན་པ་ཅིན་ ལག་ལེན་པའི་ཁྱིམ་སྣོད་ཐོ་འདི་ནང་གི་ མི་མང་གི་སྣོད་ཐོ་འདི་ ལག་ལེན་པ་འདི་ནང་བསྐྱོད་འབད་ཡོད་པའི་སྐབས་ རུབ་སྤྱོད་འབད་འོང་།"
+#: ../data/file-share-properties.ui.h:1
+msgid "Personal File Sharing Preferences"
+msgstr ""
 
-#: ../desktop_matefile_sharing.schemas.in.h:2
-msgid "Share Public directory"
-msgstr "མི་མང་གི་སྣོད་ཐོ་རུབ་སྤྱོད་འབད་"
+#: ../data/file-share-properties.ui.h:2
+msgid "<b>Share Files over the Network</b>"
+msgstr ""
 
-#: ../desktop_matefile_sharing.schemas.in.h:3
-msgid "When to ask for passwords. Possible values are \"never\", \"on_write\", and \"always\"."
-msgstr "ཆོག་ཡིག་ཚུ་གི་དོན་ལུ་ནམ་འདྲི་ནི་ཨིན་ན། འབད་ཚུགས་པའི་གནས་གོང་ \"never\"  \"on_write\"  དང་ \"always\" ཚུ་ཨིན།"
+#: ../data/file-share-properties.ui.h:3
+msgid "_Share public files on network"
+msgstr ""
 
-#: ../desktop_matefile_sharing.schemas.in.h:4
-msgid "When to require passwords"
-msgstr "ཆོག་ཡིག་ཚུ་ནམ་དགོཔ་ཨིན་ན་"
-
-#: ../file-share-properties.c:290
-msgid "Never"
-msgstr "ནམ་ཡང་"
-
-#: ../file-share-properties.c:293
-msgid "When writing files"
-msgstr "ཡིག་སྣོད་ཚུ་རྩོམ་སྒྲིག་འབད་བའི་སྐབས་"
-
-#: ../file-share-properties.c:296
-msgid "Always"
-msgstr "ཨ་རྟག་རང་"
-
-#: ../file-share-properties.glade.h:1
-msgid "<b>Share Files</b>"
-msgstr "<b>ཡིག་སྣོད་ཚུ་རུབ་སྤྱོད་འབད་</b>"
-
-#: ../file-share-properties.glade.h:2
-msgid "File Sharing Preferences"
-msgstr "ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ནིའི་དགའ་གདམ་ཚུ་"
-
-#: ../file-share-properties.glade.h:3
-msgid "Share Public files on network"
-msgstr "ཡོངགས་འབྲེལ་གུ་ལུ་ མི་མང་གི་ཡིག་སྣོད་ཚུ་རུབ་སྤྱོད་འབད་"
-
-#: ../file-share-properties.glade.h:4
+#: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
 msgstr "ཆོག་ཡིག་:(_P)"
 
-#: ../file-share-properties.glade.h:5
+#: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
 msgstr "དགོས་མཁོ་ཡོད་པའི་ཆོག་ཡིག་: (_R)"
 
-#: ../mateuser-share-properties.desktop.in.h:1
+#: ../data/file-share-properties.ui.h:6
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:7
+msgid "Share public files over _Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:8
+msgid "Allo_w remote devices to delete files"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Require re_mote devices to bond with this computer"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:10
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:12
+msgid "_Accept files: "
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:13
+msgid "_Notify about received files"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr ""
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr ""
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
 msgstr "རང་དོན་གྱི་ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ནི་"
 
-#: ../mateuser-share-properties.desktop.in.h:2
-msgid "Preferences for sharing of personal files"
-msgstr "རང་དོན་གྱི་ཡིག་སྣོད་ཚུ་གི་རུབ་སྤྱོད་འབད་ནིའི་དོན་ལུ་ དགའ་གདམ་ཚུ་"
+#: ../data/mate-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr ""
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+msgid "Launch Personal File Sharing if enabled"
+msgstr ""
+
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr ""
+
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr ""
+
+#: ../src/caja-share-bar.c:117
+msgid "Preferences"
+msgstr ""
+
+#: ../src/caja-share-bar.c:121
+msgid "Launch Personal File Sharing Preferences"
+msgstr ""
+
+#: ../src/share-extension.c:73
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr ""
+
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr ""
+
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr ""
+
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr ""
+
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr ""
+
+#: ../src/file-share-properties.c:417
+msgid "No reason"
+msgstr ""
+
+#: ../src/file-share-properties.c:445
+msgid "Could not display the help contents."
+msgstr ""
+
+#: ../src/file-share-properties.c:507
+msgid "Could not build interface."
+msgstr ""
+
+#: ../src/file-share-properties.c:547
+msgid "Never"
+msgstr "ནམ་ཡང་"
+
+#: ../src/file-share-properties.c:550
+msgid "When writing files"
+msgstr "ཡིག་སྣོད་ཚུ་རྩོམ་སྒྲིག་འབད་བའི་སྐབས་"
+
+#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+msgid "Always"
+msgstr "ཨ་རྟག་རང་"
+
+#: ../src/file-share-properties.c:580
+msgid "Only for set up devices"
+msgstr ""
+
+#: ../src/file-share-properties.c:585
+msgid "Ask"
+msgstr ""
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -84,15 +173,36 @@ msgstr "རང་དོན་གྱི་ཡིག་སྣོད་ཚུ་ག
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../user_share.c:130
+#: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%s གི་མི་མང་ཡིག་སྣོད་ཚུ་"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../user_share.c:134
+#: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s གི་མི་མང་ཡིག་སྣོད་ཚུ་ %s གུ་"
 
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:136
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr ""
+
+#: ../src/obexpush.c:138
+msgid "You received a file"
+msgstr ""
+
+#: ../src/obexpush.c:148
+msgid "Open File"
+msgstr ""
+
+#: ../src/obexpush.c:152
+msgid "Reveal File"
+msgstr ""
+
+#: ../src/obexpush.c:169
+msgid "File reception complete"
+msgstr ""
