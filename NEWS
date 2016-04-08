@@ -3,6 +3,7 @@
   * Don't translate Keywords field in .desktop files
   * GTK+3: fix some deprecations
   * Translations update
+  * Fix Changelog generation
 
 1.12.0
   * Switch to org.gnome.SessionManager (used for BT services start/stop)
