@@ -3,170 +3,166 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ABE Tsunehiko, 2016
-# Hideki Yamane <henrich@debian.or.jp>, 2009
-# Kenzo Matsumoto <dicegeist@gmail.com>, 2016
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-05-07 05:19+0000\n"
-"Last-Translator: Kenzo Matsumoto <dicegeist@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Spanish (Uruguay) (http://www.transifex.com/mate/MATE/language/es_UY/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: es_UY\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "個人的なファイルの共有の設定"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>ネットワーク越しのファイル共有</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
-msgstr "ネットワーク越しにファイルを共有する(_S)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
-msgstr "パスワード(_P):"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
-msgstr "パスワード要求の時期(_R):"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Bluetooth 越しのファイル共有</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Bluetooth 越しにファイルを共有する(_B)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
-msgstr "リモートのデバイスからファイルを削除できるようにする(_W)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "リモートのデバイスとこのコンピュータをペアにする(_M)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Bluetooth を使ったファイルの受信</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Bluetooth 越しに受信したファイルをダウンロードフォルダに格納する(_D)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
-msgstr "許可するファイル(_A): "
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:13
 msgid "_Notify about received files"
-msgstr "ファイルを受信したら通知する(_N)"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr "共有"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr "共有機能の統合"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
-msgstr "個人的なファイルの共有"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "個人的なファイルの共有機能を設定します"
+msgstr ""
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr "obexftp によるファイルの共有"
+msgstr ""
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
 #: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
-msgstr "個人的なファイルの共有機能を起動します (可能な場合)"
+msgstr ""
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr "obexpush によるファイルの共有"
+msgstr ""
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr "webdav によるファイルの共有"
+msgstr ""
 
 #: ../src/caja-share-bar.c:117
 msgid "Preferences"
-msgstr "設定"
+msgstr ""
 
 #: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
-msgstr "個人的なファイルの共有の設定を開く"
+msgstr ""
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "個人的なファイルの共有の設定を起動できません"
+msgstr ""
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr "ファイルを共有したり受信したりするのに使用可能"
+msgstr ""
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr "ネットワーク・Bluetooth経由で共有可能"
+msgstr ""
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr "ネットワーク経由で共有可能"
+msgstr ""
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr "Bluetooth経由でのファイル受信に使用可能"
+msgstr ""
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"
-msgstr "原因不明"
+msgstr ""
 
 #: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "ヘルプを表示できませんでした"
+msgstr ""
 
 #: ../src/file-share-properties.c:507
 msgid "Could not build interface."
-msgstr "インタフェースを構築できませんでした"
+msgstr ""
 
 #: ../src/file-share-properties.c:547
 msgid "Never"
-msgstr "確認しない"
+msgstr ""
 
 #: ../src/file-share-properties.c:550
 msgid "When writing files"
-msgstr "ファイル書き込み時"
+msgstr ""
 
 #: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
-msgstr "常に"
+msgstr ""
 
 #: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
-msgstr "設定したデバイスのみ"
+msgstr ""
 
 #: ../src/file-share-properties.c:585
 msgid "Ask"
-msgstr "問い合わせる"
+msgstr ""
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -180,33 +176,33 @@ msgstr "問い合わせる"
 #: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
-msgstr "%s の公開ファイル"
+msgstr ""
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
 #: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
-msgstr "%s (%s 上) の公開ファイル"
+msgstr ""
 
 #. Translators: %s is the name of the filename received
 #: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "Bluetooh 経由で \"%s\" を受信しました"
+msgstr ""
 
 #: ../src/obexpush.c:138
 msgid "You received a file"
-msgstr "ファイルを受信しました"
+msgstr ""
 
 #: ../src/obexpush.c:148
 msgid "Open File"
-msgstr "ファイルを開く"
+msgstr ""
 
 #: ../src/obexpush.c:152
 msgid "Reveal File"
-msgstr "ファイルを表示する"
+msgstr ""
 
 #: ../src/obexpush.c:169
 msgid "File reception complete"
-msgstr "ファイルの受信が完了しました"
+msgstr ""
