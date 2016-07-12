@@ -5,15 +5,14 @@
 # Translators:
 # ABE Tsunehiko, 2016
 # Hideki Yamane <henrich@debian.or.jp>, 2009
-# Kenzo Matsumoto <dicegeist@gmail.com>, 2016
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-05-07 05:19+0000\n"
-"Last-Translator: Kenzo Matsumoto <dicegeist@gmail.com>\n"
+"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"Last-Translator: ABE Tsunehiko\n"
 "Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,11 +74,11 @@ msgstr "ファイルを受信したら通知する(_N)"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr "共有"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr "共有機能の統合"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
@@ -122,19 +121,19 @@ msgstr "個人的なファイルの共有の設定を起動できません"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr "ファイルを共有したり受信したりするのに使用可能"
+msgstr ""
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr "ネットワーク・Bluetooth経由で共有可能"
+msgstr ""
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr "ネットワーク経由で共有可能"
+msgstr ""
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr "Bluetooth経由でのファイル受信に使用可能"
+msgstr ""
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"
