@@ -1,5 +1,7 @@
 AC_INIT(mate-user-share, 1.15.0)
 
+AC_CONFIG_MACRO_DIR([m4])
+
 AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip check-news])
 AM_CONFIG_HEADER(config.h)
 
