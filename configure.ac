@@ -86,6 +86,8 @@ case "$with_gtk" in
        ;;
 esac
 
+AC_SUBST(GTK_API_VERSION)
+
 dnl ==========================================================================
 
 PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= 2.15.2 gio-2.0 >= 2.26 gdk-x11-$GTK_API_VERSION gtk+-$GTK_API_VERSION dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk$CANBERRA_API_VERSION $BLUETOOTH_PKG)

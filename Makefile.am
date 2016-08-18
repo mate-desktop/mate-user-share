@@ -12,7 +12,9 @@ DISTCLEANFILES =		\
 	intltool-merge		\
 	intltool-update
 
-DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
+DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
+	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
+	--with-gtk=$(GTK_API_VERSION)
 
 # Build ChangeLog from GIT  history
 ChangeLog:
