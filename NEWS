@@ -1,3 +1,9 @@
+1.15.1
+  * gtk3: Port from libunique to GtkApplication
+  * build: use 'm4' dir for m4 macros, like in other projects
+  * distcheck: explicitly use currently selected GTK+ version
+  * Translations update
+
 1.15.0
   * Translations update
 
