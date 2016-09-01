@@ -3,74 +3,72 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sadgamaya <g.raghavan.g@gmail.com>, 2014
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009
+# Randy Ichinose <randyichinose@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
-"Language-Team: Hindi (http://www.transifex.com/mate/MATE/language/hi/)\n"
+"PO-Revision-Date: 2016-05-04 20:55+0000\n"
+"Last-Translator: Randy Ichinose <randyichinose@gmail.com>\n"
+"Language-Team: Piemontese (http://www.transifex.com/mate/MATE/language/pms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
+"Language: pms\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "निजी फ़ाइल साझा वरीयता"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>संजाल पर फाइल साझा करें</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
-msgstr "संजाल पर सार्वजनिक फाइल साझा करें (_S)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
-msgstr "कूटशब्द (_P):"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
-msgstr "कूटशब्द जरूरी (_R):"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>ब्लूटूथ पर फाइल साझा करें</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "ब्लूटूथ पर सार्वजनिक फाइल साझा करें (_B)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
-msgstr "फाइल मिटाने के लिए दूरस्थ युक्ति स्वीकारें (_w)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "इस कंप्यूटर से बाँड होने के लिए दूरस्थ युक्ति जरूरी"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>ब्लूटूथ पर फाइल प्राप्त करें</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "ब्लूटूथ पर डाउनलोड फोल्डर में फाइल पाएँ (_D)"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
-msgstr "फाइल स्वीकारें (_A): "
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:13
 msgid "_Notify about received files"
-msgstr "प्राप्त फाइल के बारे में अधिसूचित करें (_N)"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
@@ -83,11 +81,11 @@ msgstr ""
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
-msgstr "निजी फ़ाइल साझा"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "फाइलों के साझा के लिए वरीयता"
+msgstr ""
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
@@ -97,7 +95,7 @@ msgstr ""
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
 #: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
-msgstr "निजी फ़ाइल साझा लॉन्च करें यदि सक्रिय किया गया है"
+msgstr ""
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
@@ -113,11 +111,11 @@ msgstr ""
 
 #: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
-msgstr "निजी फ़ाइल साझा वरीयताएं चलओ"
+msgstr ""
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "निजी फ़ाइल साझा वरीयताएं नहीं चलासकें"
+msgstr ""
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -137,35 +135,35 @@ msgstr ""
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"
-msgstr "कोई कारण नहीं"
+msgstr ""
 
 #: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "मदद सामग्री नहीं दिखा सका."
+msgstr ""
 
 #: ../src/file-share-properties.c:507
 msgid "Could not build interface."
-msgstr "अंतरफलक नहीं बना सका."
+msgstr ""
 
 #: ../src/file-share-properties.c:547
 msgid "Never"
-msgstr "कभी नहीं"
+msgstr ""
 
 #: ../src/file-share-properties.c:550
 msgid "When writing files"
-msgstr "फाइल लिखने के दौरान"
+msgstr ""
 
 #: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
-msgstr "हमेशा"
+msgstr ""
 
 #: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
-msgstr "केवल व्यवस्तीत उपकरणों के लिए"
+msgstr ""
 
 #: ../src/file-share-properties.c:585
 msgid "Ask"
-msgstr "पूछें"
+msgstr ""
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -179,33 +177,33 @@ msgstr "पूछें"
 #: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
-msgstr "%s की सार्वजनिक फाइल"
+msgstr ""
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
 #: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
-msgstr "%s की सार्वजनिक फाइल %s पर है"
+msgstr ""
 
 #. Translators: %s is the name of the filename received
 #: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "आपने \"%s\" ब्लूटूथ से पाया"
+msgstr ""
 
 #: ../src/obexpush.c:138
 msgid "You received a file"
-msgstr "आपने कोई फाइल प्राप्त किया"
+msgstr ""
 
 #: ../src/obexpush.c:148
 msgid "Open File"
-msgstr "फ़ाइल खोलें"
+msgstr "Duverta File"
 
 #: ../src/obexpush.c:152
 msgid "Reveal File"
-msgstr "फाइल खोलें"
+msgstr ""
 
 #: ../src/obexpush.c:169
 msgid "File reception complete"
-msgstr "फाइल प्रतिग्रहण सम्पूर्ण"
+msgstr ""

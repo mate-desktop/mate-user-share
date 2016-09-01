@@ -5,13 +5,14 @@
 # Translators:
 # Alexander Shopov <ash@kambanaria.org>, 2009, 2010
 # Rostislav Raykov <zbrox@i-space.org>, 2005
+# Замфир Йончев <zamfir.yonchev@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-04-18 10:12+0000\n"
+"Last-Translator: Замфир Йончев <zamfir.yonchev@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/mate/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,11 +74,11 @@ msgstr "_Уведомяване при получаване на файлове"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr ""
+msgstr "Потребителско споделяне"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "Съвместимо с user-share"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
@@ -90,7 +91,7 @@ msgstr "Настройки за споделянето на файлове"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Лично споделяне на файлове obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -100,11 +101,11 @@ msgstr "Стартиране на споделянето на файлове, а
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Лично споделяне на файлове obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Лично споделяне на файлове webdav"
 
 #: ../src/caja-share-bar.c:117
 msgid "Preferences"
@@ -120,19 +121,19 @@ msgstr "Настройките на споделянето на личните �
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Може да бъде използвано за споделяне или получаване на файлове"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Може да бъде споделяно в мрежата или по Bluetooth"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Може да бъде споделяно в мрежата"
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Може да бъде използвано за получаване на файлове по Bluetooth"
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"

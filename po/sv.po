@@ -6,13 +6,14 @@
 # Christian Rose <menthos@menthos.com>, 2005
 # Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: Henrik Mattsson-Mårn <h@reglage.net>\n"
+"PO-Revision-Date: 2016-04-16 22:37+0000\n"
+"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +79,7 @@ msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "Integrerar med användar-delning"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
