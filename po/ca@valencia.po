@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Gil Forcada <gilforcada@guifi.net>, 2005, 2006, 2008, 2009, 2010
+# Gil Forcada <gilforcada@guifi.net>, 2005-2006,2008-2010
+# Pilar Embid Giner <embid_mar@gva.es>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-09-16 07:32+0000\n"
+"Last-Translator: Jose Alfredo Murcia Andrés <joamuran@gmail.com>\n"
 "Language-Team: Catalan (Valencian) (http://www.transifex.com/mate/MATE/language/ca@valencia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "Permet que els dispositius remots suprimisquen _fitxers"
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Requereix que els dispositius _remots es vinculin amb este ordinador"
+msgstr "Requereix que els dispositius _remots es vinculen amb aquest ordinador"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -60,7 +61,7 @@ msgstr "<b>Recepció de fitxers a través del Bluetooth</b>"
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Alça els fitxers rebuts a través del Bluetooth a la carpeta de _baixades"
+msgstr "Guarda els fitxers rebuts a través del Bluetooth a la carpeta de _baixades"
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
@@ -72,11 +73,11 @@ msgstr "_Notifica en rebre fitxers"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr ""
+msgstr "Comparticions de l'usuari"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "S'integra amb user-share"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
@@ -89,7 +90,7 @@ msgstr "Preferències per a compartir fitxers"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Compartició de fitxers personals obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -99,15 +100,15 @@ msgstr "Executa la compartició de fitxers personals si està habilitat"
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Compartició de fitxers personals obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Compartició de fitxers personals webdav"
 
 #: ../src/caja-share-bar.c:117
 msgid "Preferences"
-msgstr ""
+msgstr "Preferències"
 
 #: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
@@ -119,19 +120,19 @@ msgstr "No s'ha pogut iniciar les preferències de la compartició de fitxers pe
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Es pot utilitzar per a compartir o rebre fitxers"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Es pot compartir a través de la xarxa o per Bluetooth"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Es pot compartir a través de la xarxa"
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Es pot utilitzar per a rebre fitxers a través del Bluetooth"
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"
