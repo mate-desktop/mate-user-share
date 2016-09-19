@@ -1,4 +1,4 @@
-AC_INIT(mate-user-share, 1.15.1)
+AC_INIT(mate-user-share, 1.16.0)
 
 AC_CONFIG_MACRO_DIR([m4])
 
