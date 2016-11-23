@@ -95,11 +95,7 @@ caja_share_bar_init (CajaShareBar *bar)
 	action_area = gtk_info_bar_get_action_area (GTK_INFO_BAR (bar));
 	gtk_button_box_set_layout (GTK_BUTTON_BOX (action_area), GTK_BUTTONBOX_CENTER);
 
-#if GTK_CHECK_VERSION (3, 0, 0)
 	vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 3);
-#else
-	vbox = gtk_vbox_new (FALSE, 3);
-#endif
 	gtk_container_add (GTK_CONTAINER (content_area), vbox);
 
 	attrs = pango_attr_list_new ();

@@ -29,9 +29,6 @@
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
 #include <gio/gio.h>
-#if !GTK_CHECK_VERSION (3, 0, 0)
-#include <unique/uniqueapp.h>
-#endif
 
 #include "user_share-private.h"
 
@@ -453,25 +450,8 @@ help_button_clicked (GtkButton *button, GtkWidget *window)
 	}
 }
 
-#if GTK_CHECK_VERSION (3, 0, 0)
 static GtkWidget *
 create_window (void)
-#else
-static UniqueResponse
-message_received_cb (UniqueApp         *app,
-		     int                command,
-		     UniqueMessageData *message_data,
-		     guint              time_,
-		     gpointer           user_data)
-{
-  gtk_window_present (GTK_WINDOW (user_data));
-
-  return UNIQUE_RESPONSE_OK;
-}
-
-int
-main (int argc, char *argv[])
-#endif
 {
     GError *error = NULL;
     GSettings *settings;
@@ -490,22 +470,6 @@ main (int argc, char *argv[])
     GtkListStore *store;
     GtkCellRenderer *cell;
     GtkTreeIter iter;
-#if !GTK_CHECK_VERSION (3, 0, 0)
-    UniqueApp *app;
-    
-    bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-    bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-    textdomain (GETTEXT_PACKAGE);
-    
-    gtk_init (&argc, &argv);
-
-    app = unique_app_new ("org.mate.user-share.properties", NULL);
-    if (unique_app_is_running (app)) {
-      gdk_notify_startup_complete ();
-      unique_app_send_message (app, UNIQUE_ACTIVATE, NULL);
-      return 0;
-    }
-#endif
 
     builder = gtk_builder_new ();
     gtk_builder_add_from_file (builder, DATADIR"file-share-properties.ui", &error);
@@ -518,20 +482,10 @@ main (int argc, char *argv[])
       gtk_widget_destroy (dialog);
 
       g_error_free (error);
-#if GTK_CHECK_VERSION (3, 0, 0)
       return NULL;
-#else
-      return 1;
-#endif
     }
 
     window = GTK_WIDGET (gtk_builder_get_object (builder, "user_share_dialog"));
-#if !GTK_CHECK_VERSION (3, 0, 0)
-    g_signal_connect (G_OBJECT (window), "delete_event",
-		      G_CALLBACK (gtk_main_quit), NULL);
-    g_signal_connect (app, "message-received",
-		      G_CALLBACK (message_received_cb), window);
-#endif
 
     settings = g_settings_new (GSETTINGS_SCHEMA);
 
@@ -621,13 +575,8 @@ main (int argc, char *argv[])
     		      "toggled", G_CALLBACK (notify_received_obexpush_check_toggled), NULL);
 #endif /* HAVE_BLUETOOTH */
 
-#if GTK_CHECK_VERSION (3, 0, 0)
     g_signal_connect_swapped (GTK_WIDGET (gtk_builder_get_object (builder, "close_button")),
                               "clicked", G_CALLBACK (gtk_widget_destroy), window);
-#else
-    g_signal_connect (GTK_WIDGET (gtk_builder_get_object (builder, "close_button")),
-		      "clicked", G_CALLBACK (gtk_main_quit), NULL);
-#endif
     g_signal_connect (GTK_WIDGET (gtk_builder_get_object (builder, "help_button")),
 		      "clicked", G_CALLBACK (help_button_clicked),
 		      gtk_builder_get_object (builder, "user_share_dialog"));
@@ -661,7 +610,6 @@ main (int argc, char *argv[])
 
     update_ui ();
 
-#if GTK_CHECK_VERSION (3, 0, 0)
     return window;
 }
 
@@ -701,11 +649,4 @@ main (int argc, char *argv[])
     g_object_unref (app);
 
     return status;
-#else
-    gtk_widget_show (GTK_WIDGET (gtk_builder_get_object (builder, "user_share_dialog")));
-    
-    gtk_main ();
-
-    return 0;
-#endif
 }
