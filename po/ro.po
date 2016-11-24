@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Adi Roiban https://launchpad.net/~adiroiban, 2009
-# Daniel <danny34ever@yahoo.com>, 2015
+# Daniel <danny3@tutanota.com>, 2015
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009
 # Polihron Alexandru (APoliTech) <ppolihron@gmail.com>, 2016
 msgid ""

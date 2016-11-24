@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"PO-Revision-Date: 2016-11-19 11:17+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -40,11 +40,11 @@ msgstr "K_rev passord:"
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Del filer over Bluetooth</b>"
+msgstr "<b>Del filer over Blåtann</b>"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Del offentlige filer over Bluetooth"
+msgstr "Del offentlige filer over Blåtann"
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
@@ -56,11 +56,11 @@ msgstr "Krev at ekster_ne enheter kobler seg til denne datamaskinen"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Motta filer over Bluetooth</b>"
+msgstr "<b>Motta filer over Blåtann</b>"
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Motta filer over Bluetooth i mappen Ne_dlasting"
+msgstr "Motta filer over Blåtann i mappen Ne_dlasting"
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
@@ -159,7 +159,7 @@ msgstr "Alltid"
 
 #: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
-msgstr "Kun for konfigurerte enheter"
+msgstr "Kun for oppsatte enheter"
 
 #: ../src/file-share-properties.c:585
 msgid "Ask"
@@ -190,7 +190,7 @@ msgstr "%s's offentlige filer på %s"
 #: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "Du mottok «%s» via Bluetooth"
+msgstr "Du mottok «%s» via Blåtann"
 
 #: ../src/obexpush.c:138
 msgid "You received a file"

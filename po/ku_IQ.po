@@ -3,92 +3,89 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# André Neves <drakferion@gmail.com>, 2007
-# crolidge, 2014
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2009, 2010
-# Manuela Silva <manuela.silva@sky.com>, 2016
+# Rasti K5 <rasti.khdhr@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-11-23 13:39+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
+"PO-Revision-Date: 2016-09-15 15:20+0000\n"
+"Last-Translator: Rasti K5 <rasti.khdhr@gmail.com>\n"
+"Language-Team: Kurdish (Iraq) (http://www.transifex.com/mate/MATE/language/ku_IQ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
+"Language: ku_IQ\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Preferências de Partilha de Ficheiros Pessoais"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Partilhar Ficheiros pela Rede</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
-msgstr "_Partilhar ficheiros públicos na rede"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
-msgstr "_Senha:"
+msgstr "_تێپەڕەوشە:"
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
-msgstr "_Exigir senha:"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:6
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Partilhar Ficheiros por Bluetooth</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Partilhar ficheiros da pasta \"Public\" por _Bluetooth"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
-msgstr "P_ermitir que dispositivos remotos apaguem ficheiros"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Requerer que os dispositivos re_motos se emparelhem com este computador"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Receber Ficheiros por Bluetooth</b>"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:11
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Receber ficheiros por Bluetooth na pasta _Downloads"
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
-msgstr "_Aceitar ficheiros: "
+msgstr ""
 
 #: ../data/file-share-properties.ui.h:13
 msgid "_Notify about received files"
-msgstr "_Notificar de ficheiros recebidos"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr "Partilha de Utilizador"
+msgstr ""
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr "Integra com a partilha de utilizador"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
-msgstr "Partilha de Ficheiros Pessoais"
+msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "Preferências para a partilha de ficheiros"
+msgstr ""
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
@@ -98,7 +95,7 @@ msgstr ""
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
 #: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
-msgstr "Inicia a Partilha de Ficheiros Pessoais, se activa"
+msgstr ""
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
@@ -110,63 +107,63 @@ msgstr ""
 
 #: ../src/caja-share-bar.c:117
 msgid "Preferences"
-msgstr "Preferências"
+msgstr ""
 
 #: ../src/caja-share-bar.c:121
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Preferências de Iniciação da Partilha de Ficheiros Pessoais"
+msgstr ""
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Incapaz de iniciar as preferências de Partilha de Ficheiros Pessoais"
+msgstr ""
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr "Poderá ser utilizado para partilhar ou receber ficheiros"
+msgstr ""
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr "Poderá ser partilhado através da rede ou Bluetooth"
+msgstr ""
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr "Poderá ser partilhado através da rede"
+msgstr ""
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr "Poderá ser partilhado para receber ficheiros através de Bluetooth"
+msgstr ""
 
 #: ../src/file-share-properties.c:417
 msgid "No reason"
-msgstr "Nenhum motivo"
+msgstr ""
 
 #: ../src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "Incapaz de apresentar o conteúdo da ajuda."
+msgstr ""
 
 #: ../src/file-share-properties.c:507
 msgid "Could not build interface."
-msgstr "Incapaz de construir o interface."
+msgstr ""
 
 #: ../src/file-share-properties.c:547
 msgid "Never"
-msgstr "Nunca"
+msgstr ""
 
 #: ../src/file-share-properties.c:550
 msgid "When writing files"
-msgstr "Ao gravar ficheiros"
+msgstr ""
 
 #: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
 msgid "Always"
-msgstr "Sempre"
+msgstr ""
 
 #: ../src/file-share-properties.c:580
 msgid "Only for set up devices"
-msgstr "Apenas para dispositivos emparelhados"
+msgstr ""
 
 #: ../src/file-share-properties.c:585
 msgid "Ask"
-msgstr "Perguntar"
+msgstr ""
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -180,33 +177,33 @@ msgstr "Perguntar"
 #: ../src/http.c:129
 #, c-format
 msgid "%s's public files"
-msgstr "Ficheiros públicos de %s"
+msgstr ""
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
 #: ../src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
-msgstr "Ficheiros públicos de %s em %s"
+msgstr ""
 
 #. Translators: %s is the name of the filename received
 #: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "Recebeu \"%s\" por Bluetooth"
+msgstr "تۆ \"%s\" بۆ هاتووە لە ڕێگایی بلوتوس"
 
 #: ../src/obexpush.c:138
 msgid "You received a file"
-msgstr "Recebeu um ficheiro"
+msgstr ""
 
 #: ../src/obexpush.c:148
 msgid "Open File"
-msgstr "Abrir o Ficheiro"
+msgstr ""
 
 #: ../src/obexpush.c:152
 msgid "Reveal File"
-msgstr "Revelar o Ficheiro"
+msgstr ""
 
 #: ../src/obexpush.c:169
 msgid "File reception complete"
-msgstr "Receção do ficheiro concluída"
+msgstr ""
