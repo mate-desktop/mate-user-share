@@ -1,33 +1,40 @@
-1.17.0
+### mate-user-share 1.17.0
+
   * Translations update
   * move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
 
-1.16.0
+### mate-user-share 1.16.0
+
   * Build: use 'm4' dir for m4 macros, like in other projects
   * GTK+3: port from libunique to GtkApplication
   * Make distcheck use currently selected GTK+ version
   * Translations update
 
-1.14.0
+### mate-user-share 1.14.0
+
   * Drop MateConf migration script
   * Don't translate Keywords field in .desktop files
   * GTK+3: fix some deprecations
   * Translations update
   * Fix Changelog generation
 
-1.12.0
+### mate-user-share 1.12.0
+
   * Switch to org.gnome.SessionManager (used for BT services start/stop)
   * Drop useless dependency on dbus-1
   * Drop Apache 2.0 support
   * Some more cleanups
 
-1.10.0
+### mate-user-share 1.10.0
+
   * Add GTK3 support
 
-1.8.0
+### mate-user-share 1.8.0
+
   * Restore user-guide and port it to yelp.
   * Disable bluetooth by default.
 
-1.7.0
+### mate-user-share 1.7.0
+
   * Add support for Apache 2.4
   * Add manpage
