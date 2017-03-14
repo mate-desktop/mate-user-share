@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
 "PO-Revision-Date: 2016-04-08 10:15+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/mate/MATE/language/en_GB/)\n"
@@ -108,11 +108,11 @@ msgstr "Personal File Sharing obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Personal File Sharing webdav"
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
 msgstr "Preferences"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Launch Personal File Sharing Preferences"
 
@@ -136,35 +136,35 @@ msgstr "May be shared over the network"
 msgid "May be used to receive files over Bluetooth"
 msgstr "May be used to receive files over Bluetooth"
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "No reason"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Could not display the help contents."
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Could not build interface."
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Never"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "When writing files"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Always"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Only for set up devices"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Ask"
 

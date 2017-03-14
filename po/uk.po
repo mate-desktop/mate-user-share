@@ -4,15 +4,15 @@
 # 
 # Translators:
 # wanderlust <wanderlust@ukr.net>, 2009
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013,2015
+# Микола Ткач <znadibnyk@gmail.com>, 2013,2015
 # Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
 "PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
+"Last-Translator: Микола Ткач <znadibnyk@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,11 +107,11 @@ msgstr "Персональний загальний доступ до файлі
 msgid "Personal File Sharing webdav"
 msgstr "Персональний загальний доступ до файлів webdav"
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
 msgstr "Налаштування"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Параметри спільного доступу до особистих файлів"
 
@@ -135,35 +135,35 @@ msgstr "Може надавати спільний доступ через ме�
 msgid "May be used to receive files over Bluetooth"
 msgstr "Може використовуватися для отримання файлів через Bluetooth"
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Немає причини"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Не вдається показати довідку."
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Не вдається створити інтерфейс користувача"
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Ніколи"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "При записі файлів"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Завжди"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Лише для налаштованих пристроїв"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Запитувати"
 

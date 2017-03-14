@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
 "PO-Revision-Date: 2016-04-08 10:15+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mate/MATE/language/zh_TW/)\n"
@@ -108,11 +108,11 @@ msgstr "個人檔案分享 obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "個人檔案分享 webdav"
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "執行個人檔案分享偏好設定"
 
@@ -136,35 +136,35 @@ msgstr "可以透過網路分享"
 msgid "May be used to receive files over Bluetooth"
 msgstr "可用以從藍牙接收檔案"
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "沒有原因"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "無法顯示求助文件的內容。"
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "無法建立介面。"
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "永不"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "當寫入至檔案"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "經常"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "只有設定的裝置"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "詢問"
 

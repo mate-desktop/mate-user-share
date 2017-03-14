@@ -6,13 +6,14 @@
 # Giannis Katsampirhs <giannis1_86@hotmail.com>, 2008
 # Kostas Papadimas <pkst@mateorg>, 2005
 # Pierros Papadeas <ppapadeas@gmail.com>, 2009, 2010
+# Γιώργος Μηντζιλώνης, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
+"PO-Revision-Date: 2017-02-07 20:15+0000\n"
+"Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,11 +75,11 @@ msgstr "Εμφάνιση _ειδοποιήσεων λήψης αρχείων"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr ""
+msgstr "Κοινή χρήση χρηστών "
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "Ενσωματώνεται με κοινή χρήση των χρηστών"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
@@ -91,7 +92,7 @@ msgstr "Προτιμήσεις κοινής χρήσης αρχείων"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Προσωπική κοινή χρήση αρχείων obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -101,17 +102,17 @@ msgstr "Εκκίνηση κοινής χρήσης προσωπικών αρχε
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Προσωπική κοινή χρήση αρχείων obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Προσωπική κοινή χρήση αρχείων webdav"
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
-msgstr ""
+msgstr "Προτιμήσεις"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Εκκίνηση προτιμήσεων κοινής χρήσης προσωπικών αρχείων"
 
@@ -121,49 +122,49 @@ msgstr "Αδυναμία εκκίνησης προτιμήσεων κοινής 
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Μπορεί να χρησιμοποιηθεί για τη κοινή χρήση η λήψη αρχείων"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Μπορεί να διαμοιραστεί μέσο του δίκτυο η Bluetooth"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Μπορεί να διαμοιραστεί μέσο του δικτύου  "
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Μπορεί να χρησιμοποιηθεί για τη λήψη αρχείων μέσο Bluetooth"
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Χωρίς αιτιολογία"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Αδυναμία εμφάνισης περιεχομένου βοήθειας."
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Αδυναμία δημιουργίας περιβάλλοντος."
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Ποτέ"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Κατά την εγγραφή αρχείων"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Πάντα"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Μόνο για συζευγμένες συσκευές"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Ερώτηση"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
 "PO-Revision-Date: 2016-04-08 10:15+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/mate/MATE/language/ko/)\n"
@@ -108,11 +108,11 @@ msgstr "obexpush로 공유하는 개인 파일"
 msgid "Personal File Sharing webdav"
 msgstr "webdav로 공유하는 개인 파일"
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
 msgstr "기본 설정"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "개인 파일 공유 기본 설정을 실행합니다"
 
@@ -136,35 +136,35 @@ msgstr "네트워크로 공유합니다 "
 msgid "May be used to receive files over Bluetooth"
 msgstr "블루투스로 파일을 받을 떄 사용합니다"
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "이유 없음"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "도움말 차례를 표시할 수 없습니다."
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "인터페이스를 만들 수 없습니다."
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "없음"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "파일을 쓸 때"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "항상"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "설정한 장치만"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "물어보기"
 

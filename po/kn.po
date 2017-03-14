@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-06 15:07+0300\n"
+"POT-Creation-Date: 2016-12-06 01:16+0300\n"
 "PO-Revision-Date: 2016-04-08 10:15+0000\n"
 "Last-Translator: monsta <monsta@inbox.ru>\n"
 "Language-Team: Kannada (http://www.transifex.com/mate/MATE/language/kn/)\n"
@@ -105,11 +105,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:117
+#: ../src/caja-share-bar.c:127
 msgid "Preferences"
 msgstr "ಆದ್ಯತೆಗಳು"
 
-#: ../src/caja-share-bar.c:121
+#: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
 msgstr "ವೈಯಕ್ತಿಕ ಕಡತ ಹಂಚಿಕೆಯ ಆದ್ಯತೆಗಳನ್ನು ಆರಂಭಿಸಿ"
 
@@ -133,35 +133,35 @@ msgstr ""
 msgid "May be used to receive files over Bluetooth"
 msgstr ""
 
-#: ../src/file-share-properties.c:417
+#: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "ಯಾವುದೆ ಕಾರಣ ಇಲ್ಲ"
 
-#: ../src/file-share-properties.c:445
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "ನೆರವಿನ ವಿಷಯಗಳನ್ನು ತೋರಿಸಲಾಗಲಿಲ್ಲ."
 
-#: ../src/file-share-properties.c:507
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ಸಂಪರ್ಕಸಾಧನವನ್ನು ನಿರ್ಮಿಸಲಾಗಲಿಲ್ಲ."
 
-#: ../src/file-share-properties.c:547
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "ಎಂದೂ ಬೇಡ"
 
-#: ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "ಕಡತಗಳನ್ನು ಬರೆಯುವಾಗ"
 
-#: ../src/file-share-properties.c:553 ../src/file-share-properties.c:577
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "ಯಾವಾಗಲೂ"
 
-#: ../src/file-share-properties.c:580
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "ಕೇವಲ ಸಿದ್ಧಗೊಳಿಸಲಾದ ಸಾಧನಗಳಿಂದ ಮಾತ್ರ"
 
-#: ../src/file-share-properties.c:585
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "ಅನುಮತಿಯನ್ನು ಕೇಳು"
 
