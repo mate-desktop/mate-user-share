@@ -540,12 +540,13 @@
 
 
 ========== pl.po ==========
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# matel@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Polish translation for gnome-user-share.
+# Copyright © 2007-2010 the gnome-user-share authors.
+# This file is distributed under the same license as the gnome-user-share package.
+# Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2010.
+#
 
 
 
