@@ -438,7 +438,11 @@ help_button_clicked (GtkButton *button, GtkWidget *window)
 {
 	GError *error = NULL;
 
+#if GTK_CHECK_VERSION (3, 22, 0)
+	if (gtk_show_uri_on_window (GTK_WINDOW (window), "help:mate-user-share", gtk_get_current_event_time (), &error) == FALSE) {
+#else
 	if (gtk_show_uri (gtk_widget_get_screen (window), "help:mate-user-share", gtk_get_current_event_time (), &error) == FALSE) {
+#endif
 		GtkWidget *dialog;
 
 		dialog = error_dialog (_("Could not display the help contents."), error->message, GTK_WINDOW (window));
