@@ -24,7 +24,7 @@ AC_PROG_MAKE_SET
 AM_DISABLE_STATIC
 AM_PROG_LIBTOOL
 AC_PATH_XTRA
-AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
+PKG_PROG_PKG_CONFIG
 
 AC_TYPE_PID_T
 AC_TYPE_SIGNAL
@@ -53,13 +53,13 @@ AC_SUBST(HTTPD)
 
 BLUETOOTH_PKG="mate-bluetooth-1.0 >= 1.2.0"
 AC_ARG_ENABLE(bluetooth, AS_HELP_STRING([--disable-bluetooth],[compile without bluetooth support]),,enable_bluetooth=no)
-if test "x$enable_bluetooth" = "xyes"; then
+AS_IF([test "x$enable_bluetooth" = "xyes"],[
  PKG_CHECK_MODULES(BLUETOOTH, $BLUETOOTH_PKG)
  AC_DEFINE(HAVE_BLUETOOTH, 1, [Set to true if mate-bluetooth support is available])
-else
+],[
  BLUETOOTH_PKG=""
  AC_MSG_WARN([Bluetooth support is disabled.])
-fi
+])
 AM_CONDITIONAL(USE_BLUETOOTH, [test "$enable_bluetooth" = "yes"])
 
 GLIB_REQUIRED_VERSION=2.36.0
@@ -144,7 +144,7 @@ AC_ARG_WITH(cajadir,
 PKG_CHECK_MODULES(EXTENSION,
 		   libcaja-extension >= 1.17.1 $BLUETOOTH_PKG)
 if test "${ac_with_cajadir}" = ""; then
-	ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
+	ac_with_cajadir=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
 fi
 AC_SUBST(CAJADIR)
 AC_MSG_NOTICE([installing caja plugin in ${ac_with_cajadir}])
