@@ -1,5 +1,9 @@
 ### mate-user-share 1.19.0
 
+  * build: use correct macros to fix cross-build
+  * don't use deprecated gtk_show_uri
+  * Translations update
+
 ### mate-user-share 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting to make
