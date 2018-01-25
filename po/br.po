@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
 "Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
 "Language-Team: Breton (http://www.transifex.com/mate/MATE/language/br/)\n"
 "MIME-Version: 1.0\n"
@@ -137,31 +137,31 @@ msgstr "Arveret e vez evit degemer restroù dre vBluetooth"
 msgid "No reason"
 msgstr "Abeg ebet"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "N'hall ket skrammañ endalc'hadoù ar skoazell."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "N'hall ket sevel ar c'hetal."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Morse"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Pa vez o skrivañ restroù"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Bepred"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Evit an trobarzhelloù bet kefluniet hepken"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Goulenn"
 

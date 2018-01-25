@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-05-29 10:47+0000\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
 "Last-Translator: Polihron Alexandru (APoliTech) <ppolihron@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -140,31 +140,31 @@ msgstr "Poate fi folosit pentru a primi fișiere prin Bluetooth"
 msgid "No reason"
 msgstr "Fără motiv"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Nu s-a putut afișa conținutul ajutorului."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "Nu s-a putut construi interfața."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Niciodată"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "La scrierea fișierelor"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Întotdeauna"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Doar pentru dispozitivele configurate"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Întreabă"
 

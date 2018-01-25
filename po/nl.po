@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Pjotr <pjotrvertaalt@gmail.com>, 2017
 # René Devers <rene.devers@gmail.com>, 2015
 # Volluta <volluta@tutanota.com>, 2015
 # Wouter Bolsterlee <wbolster@mateorg>, 2010
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: Volluta <volluta@tutanota.com>\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-23 18:32+0000\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/mate/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Voorkeuren persoonlijke bestanden delen"
+msgstr "Voorkeuren inzake Persoonlijke bestanden delen"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
@@ -50,11 +51,11 @@ msgstr "Publieke bestanden delen via _Bluetooth"
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
-msgstr "Andere apparaten toestaan bestanden te ver_wijderen"
+msgstr "Apparaten-op-afstand toestaan om bestanden te ver_wijderen"
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Vereisen dat andere apparaten _aankoppelen met deze computer"
+msgstr "Vereisen dat apparaten-op-afstand _aankoppelen met deze computer"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -66,15 +67,15 @@ msgstr "Bestanden in _Download-map ontvangen via Bluetooth"
 
 #: ../data/file-share-properties.ui.h:12
 msgid "_Accept files: "
-msgstr "Bestanden _accepteren: "
+msgstr "Bestanden _aanvaarden: "
 
 #: ../data/file-share-properties.ui.h:13
 msgid "_Notify about received files"
-msgstr "_Waarschuwen bij ontvangen bestanden"
+msgstr "_Melden bij ontvangen bestanden"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr "User Share"
+msgstr "Gedeelde gebruikersmap"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
@@ -83,15 +84,15 @@ msgstr "Integreert met user-share"
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
 msgid "Personal File Sharing"
-msgstr "Uw bestanden delen"
+msgstr "Persoonlijke bestanden delen"
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "Voorkeuren voor het delen van uw bestanden"
+msgstr "Voorkeuren voor het delen van bestanden"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr "Persoonlijke Bestanden Delen obexftp"
+msgstr "Persoonlijke bestanden delen obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -101,11 +102,11 @@ msgstr "‘Persoonlijke bestanden delen’ opstarten indien ingeschakeld"
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr "Persoonlijke Bestanden Delen obexpush"
+msgstr "Persoonlijke bestanden delen obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr "Persoonlijke Bestanden Delen webdav"
+msgstr "Persoonlijke bestanden delen webdav"
 
 #: ../src/caja-share-bar.c:127
 msgid "Preferences"
@@ -113,11 +114,11 @@ msgstr "Voorkeuren"
 
 #: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Voorkeuren voor persoonlijke bestanden delen openen"
+msgstr "Voorkeuren openen voor Persoonlijke bestanden delen"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Kon de voorkeuren voor persoonlijke bestanden delen niet openen"
+msgstr "Kon de voorkeuren niet openen voor Persoonlijke bestanden delen"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -139,31 +140,31 @@ msgstr "Kan gebruikt worden om bestanden te ontvangen via Bluetooth"
 msgid "No reason"
 msgstr "Geen reden"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
-msgstr "Kon hulp niet weergeven."
+msgstr "Kon de hulptekst niet weergeven."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
-msgstr "Kon interface niet bouwen."
+msgstr "Kon gebruikersschil niet bouwen."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Nooit"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Bij het schrijven van bestanden"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Altijd"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Alleen voor ingestelde apparaten"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Vragen"
 
@@ -192,7 +193,7 @@ msgstr "%s's publieke bestanden op %s"
 #: ../src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "U heeft ‘%s’ via Bluetooth ontvangen"
+msgstr "U heeft ‘%s’ ontvangen via Bluetooth"
 
 #: ../src/obexpush.c:138
 msgid "You received a file"
@@ -208,4 +209,4 @@ msgstr "Bestand tonen"
 
 #: ../src/obexpush.c:169
 msgid "File reception complete"
-msgstr "Bestandsoverdracht compleet"
+msgstr "Bestandsontvangst voltooid"

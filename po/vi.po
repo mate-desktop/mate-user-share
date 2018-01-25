@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Horazone Detex <thmmt2017d@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
+"Last-Translator: Horazone Detex <thmmt2017d@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/mate/MATE/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr ""
+msgstr "Tùy chỉnh Chia sẻ Tập tin Cá nhân"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
@@ -71,11 +72,11 @@ msgstr "Báo về tập tin mới _nhận"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr ""
+msgstr "Chia sẻ người dùng"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "Tích hợp vào chia sẻ người dùng"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
 #: ../src/caja-share-bar.c:103
@@ -84,83 +85,83 @@ msgstr "Chia sẻ Tập tin Cá nhân"
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr ""
+msgstr "Tùy chỉnh việc chia sẻ các tập tin"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Chia sẻ Tập tin Cá nhân obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
 #: ../data/mate-user-share-webdav.desktop.in.in.h:2
 msgid "Launch Personal File Sharing if enabled"
-msgstr ""
+msgstr "Chạy Chia sẻ Tập tin Cá nhân nếu được kích hoạt"
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Chia sẻ Tập tin Cá nhân obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Chia sẻ Tập tin Cá nhân webdav"
 
 #: ../src/caja-share-bar.c:127
 msgid "Preferences"
-msgstr ""
+msgstr "Tùy chỉnh"
 
 #: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
-msgstr ""
+msgstr "Chạy Tùy chỉnh Chia sẻ Tập tin Cá nhân"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr ""
+msgstr "Không thể chạy tùy chỉnh Chia sẻ Tập tin Cá nhân"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Có thể sử dụng để chia sẻ hoặc nhận tập tin"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Có thể sử dụng để chia sẻ qua mạng hoặc Bluetooth"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Có thể sử dụng để chia sẻ qua mạng"
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Có thể sử dụng để nhận tập itn qua Bluetooth"
 
 #: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Không có lý do"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Không thể hiển thị nội dung trợ giúp."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "Không thể xây dựng giao diện."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Không bao giờ"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Khi ghi tập tin"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Lúc nào cũng làm"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
-msgstr ""
+msgstr "Chỉ để thiết lập các thiết bị"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Hỏi"
 
@@ -205,4 +206,4 @@ msgstr "Hiện tập tin"
 
 #: ../src/obexpush.c:169
 msgid "File reception complete"
-msgstr ""
+msgstr "Nhận tập tin thành công"

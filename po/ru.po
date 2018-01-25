@@ -4,14 +4,14 @@
 # 
 # Translators:
 # AlexL <loginov.alex.valer@gmail.com>, 2015
-# Михаил Ильинский <mail@milinsky.com>, 2015
+# Михаил Ильинский (milinsky) <mail@milinsky.com>, 2015
 # Leonid Kanter <leon@asplinux.ru>, 2006, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-23 18:32+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -139,31 +139,31 @@ msgstr "Может использоваться для получения фай
 msgid "No reason"
 msgstr "Нет причины"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Не удалось отобразить справочную информацию."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "Не удалось создать интерфейс пользователя."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Никогда"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "При записи файлов"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Всегда"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Только для подключённых устройств"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Спрашивать пользователя"
 

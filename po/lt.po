@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2017
 # Marius Karnauskas <marius@esga.lt>, 2005
 # Moo, 2015-2016
 # Vytautas Rėkus <v.rekus@gmail.com>, 2009
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: Moo\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
+"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Asmeninių failų viešinimo nuostatos"
+msgstr "Asmeninių failų viešinimo nustatymai"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
@@ -87,7 +88,7 @@ msgstr "Asmeninių failų bendrinimas"
 
 #: ../data/mate-user-share-properties.desktop.in.h:2
 msgid "Preferences for sharing of files"
-msgstr "Failų viešinimo nuostatos"
+msgstr "Failų viešinimo nustatymai"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
@@ -109,15 +110,15 @@ msgstr "Asmeninių failų bendrinimas webdav"
 
 #: ../src/caja-share-bar.c:127
 msgid "Preferences"
-msgstr "Nuostatos"
+msgstr "Nustatymai"
 
 #: ../src/caja-share-bar.c:131
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Parodyti asmeninių failų viešinimo nuostatas"
+msgstr "Parodyti asmeninių failų viešinimo nustatymus"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Nepavyko parodyti asmeninių failų viešinimo nuostatų"
+msgstr "Nepavyko parodyti asmeninių failų viešinimo nustatymų"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -139,31 +140,31 @@ msgstr "Gali būti naudojama failų gavimui per Bluetooth"
 msgid "No reason"
 msgstr "Nepateikta priežastis"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Nepavyko parodyti pagalbos turinio."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "Nepavyko sukurti sąsajos."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Niekada"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Kai rašomi failai"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Visada"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Tik nustatytiems įrenginiams"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Klausti"
 

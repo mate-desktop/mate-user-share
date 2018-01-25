@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Christian Rose <menthos@menthos.com>, 2005
+# Daniel Gullbransen <daniel@llama.nu>, 2017
 # Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009, 2010
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2016
@@ -11,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-16 22:37+0000\n"
-"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
+"Last-Translator: Daniel Gullbransen <daniel@llama.nu>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,7 +76,7 @@ msgstr "_Notifiera om mottagna filer"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:1
 msgid "User Share"
-msgstr ""
+msgstr "Användar delning"
 
 #: ../data/libcaja-user-share.caja-extension.in.in.h:2
 msgid "Integrates with user-share"
@@ -92,7 +93,7 @@ msgstr "Inställningar för utdelning av filer"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Personlig fil delning obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -102,11 +103,11 @@ msgstr "Starta personlig filutdelning om aktiverat"
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Personlig fil delning obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Personlig fil delning webdav"
 
 #: ../src/caja-share-bar.c:127
 msgid "Preferences"
@@ -122,11 +123,11 @@ msgstr "Kunde inte starta Inställningar för personlig filutdelning"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Kan användas för att dela eller ta emot filer"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Kan delas över nätet eller via Bluetooth"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
@@ -134,37 +135,37 @@ msgstr "Kan delas över nätverket"
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Kan användas för att ta emot filer över Bluetooth"
 
 #: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Ingen anledning"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Kunde inte visa hjälpinnehållet."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "Kunde inte bygga gränssnittet."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Aldrig"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "När filer skrivs"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Alltid"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Endast för konfigurerade enheter"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Fråga"
 

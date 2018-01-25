@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Gabor Kelemen <kelemeng at matedot hu>, 2005-2006,2008-2010
-# kami911 <kami911@gmail.com>, 2015
+# KAMI KAMI <kami911@gmail.com>, 2015
 # Rezső Páder <rezso@rezso.net>, 2015
 # Szabolcs Varga <shirokuma at shirokuma dot hu>, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-04-08 10:15+0000\n"
-"Last-Translator: kami911 <kami911@gmail.com>\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-19 13:46+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,31 +140,31 @@ msgstr "Fájlok fogadására használható Bluetooth-on"
 msgid "No reason"
 msgstr "Nincs ok"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Nem lehet megjeleníteni a súgótartalmat."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
 msgstr "A felület nem építhető fel."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Soha"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Fájlok írásakor"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Mindig"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Csak párosított eszközöknek"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Kérdezzen"
 

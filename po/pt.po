@@ -4,16 +4,17 @@
 # 
 # Translators:
 # André Neves <drakferion@gmail.com>, 2007
-# crolidge, 2014
+# Carlos Moreira, 2014,2017
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2009, 2010
+# José Vieira <jvieira33@sapo.pt>, 2017
 # Manuela Silva <manuela.silva@sky.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 01:16+0300\n"
-"PO-Revision-Date: 2016-11-23 13:39+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
+"POT-Creation-Date: 2017-11-29 11:02+0100\n"
+"PO-Revision-Date: 2017-09-23 18:32+0000\n"
+"Last-Translator: José Vieira <jvieira33@sapo.pt>\n"
 "Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgstr "<b>Partilhar Ficheiros por Bluetooth</b>"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "Share public files over _Bluetooth"
-msgstr "Partilhar ficheiros da pasta \"Public\" por _Bluetooth"
+msgstr "Partilhar ficheiros públicos por _Bluetooth"
 
 #: ../data/file-share-properties.ui.h:8
 msgid "Allo_w remote devices to delete files"
@@ -92,7 +93,7 @@ msgstr "Preferências para a partilha de ficheiros"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:1
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Partilha de Ficheiros Pessoais obexftp"
 
 #: ../data/mate-user-share-obexftp.desktop.in.in.h:2
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:2
@@ -102,11 +103,11 @@ msgstr "Inicia a Partilha de Ficheiros Pessoais, se activa"
 
 #: ../data/mate-user-share-obexpush.desktop.in.in.h:1
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Partilha de Ficheiros Pessoais obexpush"
 
 #: ../data/mate-user-share-webdav.desktop.in.in.h:1
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Partilha de Ficheiros Pessoais webdav"
 
 #: ../src/caja-share-bar.c:127
 msgid "Preferences"
@@ -140,31 +141,31 @@ msgstr "Poderá ser partilhado para receber ficheiros através de Bluetooth"
 msgid "No reason"
 msgstr "Nenhum motivo"
 
-#: ../src/file-share-properties.c:444
+#: ../src/file-share-properties.c:448
 msgid "Could not display the help contents."
 msgstr "Incapaz de apresentar o conteúdo da ajuda."
 
-#: ../src/file-share-properties.c:480
+#: ../src/file-share-properties.c:484
 msgid "Could not build interface."
-msgstr "Incapaz de construir o interface."
+msgstr "Incapaz de construir a interface."
 
-#: ../src/file-share-properties.c:516
+#: ../src/file-share-properties.c:520
 msgid "Never"
 msgstr "Nunca"
 
-#: ../src/file-share-properties.c:519
+#: ../src/file-share-properties.c:523
 msgid "When writing files"
 msgstr "Ao gravar ficheiros"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
 msgid "Always"
 msgstr "Sempre"
 
-#: ../src/file-share-properties.c:549
+#: ../src/file-share-properties.c:553
 msgid "Only for set up devices"
 msgstr "Apenas para dispositivos emparelhados"
 
-#: ../src/file-share-properties.c:554
+#: ../src/file-share-properties.c:558
 msgid "Ask"
 msgstr "Perguntar"
 

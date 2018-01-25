@@ -1,12 +1,11 @@
-# please keep this list sorted alphabetically
 am
 ar
 as
 ast
 be
 bg
-bn
 bn_IN
+bn
 br
 bs
 ca
@@ -22,8 +21,8 @@ en_AU
 en_CA
 en_GB
 eo
-es
 es_CO
+es
 et
 eu
 fa
@@ -63,8 +62,8 @@ or
 pa
 pl
 pms
+pt_BR
 pt
-pt_BR 
 ro
 ru
 rw
@@ -72,8 +71,8 @@ si
 sk
 sl
 sq
-sr
 sr@latin
+sr
 sv
 ta
 te
