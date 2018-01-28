@@ -62,8 +62,8 @@ AS_IF([test "x$enable_bluetooth" = "xyes"],[
 ])
 AM_CONDITIONAL(USE_BLUETOOTH, [test "$enable_bluetooth" = "yes"])
 
-GLIB_REQUIRED_VERSION=2.36.0
-GTK_REQUIRED_VERSION=3.14.0
+GLIB_REQUIRED_VERSION=2.50.0
+GTK_REQUIRED_VERSION=3.22.0
 
 dnl ==========================================================================
 
