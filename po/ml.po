@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Ani Peter <peter.ani@gmail.com>, 2009
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Malayalam (http://www.transifex.com/mate/MATE/language/ml/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Malayalam (https://www.transifex.com/mate/teams/13566/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,7 +52,8 @@ msgstr "ഫയലുകള്‍ നീക്കം ചെയ്യുന്ന�
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "ഈ കമ്പ്യൂട്ടറുമായി ചേര്‍ന്നുപോകുന്നതിനായി _റിമോട്ട് ഡിവൈസുകള്‍ ആവശ്യമുണ്ടു്"
+msgstr ""
+"ഈ കമ്പ്യൂട്ടറുമായി ചേര്‍ന്നുപോകുന്നതിനായി _റിമോട്ട് ഡിവൈസുകള്‍ ആവശ്യമുണ്ടു്"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -105,17 +106,18 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
-msgstr ""
+msgstr "മുന്‍ഗണനകള്‍"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുക"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമല്ല"
+msgstr ""
+"സ്വകാര്യ ഫയല്‍ പങ്കിടുന്നതിനുള്ള മുന്‍ഗണനകള്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമല്ല"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -137,31 +139,31 @@ msgstr ""
 msgid "No reason"
 msgstr "കാരണമില്ല"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "സഹായത്തിനുള്ള വിശദാംശങ്ങള്‍ ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ഇന്റര്‍ഫെയിസ് നിര്‍മ്മിക്കുവാന്‍ സാധിച്ചില്ല."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "ഒരിക്കലും വേണ്ട"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "ഫയലുകളിലേക്കു് ഡേറ്റാ സൂക്ഷിക്കുമ്പോള്‍"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "എപ്പോഴും"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "സജ്ജമാക്കിയ ഡിവൈസുകള്‍ക്കു് മാത്രം"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "ചോദിക്കുക"
 

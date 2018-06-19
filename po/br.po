@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Alan Monfort <alan.monfort@free.fr>, 2010,2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
-"Language-Team: Breton (http://www.transifex.com/mate/MATE/language/br/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alan Monfort <alan.monfort@free.fr>, 2018\n"
+"Language-Team: Breton (https://www.transifex.com/mate/teams/13566/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: br\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -52,7 +52,8 @@ msgstr "Aotren an trobarzhelloù da zilemel restroù"
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Azgoulenn ma vo liammet an trobarzhelloù a-bell gant an urzhiataer-mañ"
+msgstr ""
+"Azgoulenn ma vo liammet an trobarzhelloù a-bell gant an urzhiataer-mañ"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -105,17 +106,18 @@ msgstr "Obepush evit rannadur restroù personel"
 msgid "Personal File Sharing webdav"
 msgstr "Webdav evit rannadur restroù personel"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Gwellvezioù"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "N'eo ket gouest da loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
+msgstr ""
+"N'eo ket gouest da loc'hañ ar gwellvezioù a-fet rannadur restroù personel"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -137,31 +139,31 @@ msgstr "Arveret e vez evit degemer restroù dre vBluetooth"
 msgid "No reason"
 msgstr "Abeg ebet"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "N'hall ket skrammañ endalc'hadoù ar skoazell."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "N'hall ket sevel ar c'hetal."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Morse"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Pa vez o skrivañ restroù"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Bepred"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Evit an trobarzhelloù bet kefluniet hepken"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Goulenn"
 

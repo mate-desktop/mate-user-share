@@ -1,25 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2017
-# Marius Karnauskas <marius@esga.lt>, 2005
-# Moo, 2015-2016
-# Vytautas Rėkus <v.rekus@gmail.com>, 2009
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Moo, 2018\n"
+"Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
@@ -108,11 +105,11 @@ msgstr "Asmeninių failų bendrinimas obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Asmeninių failų bendrinimas webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Nustatymai"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Parodyti asmeninių failų viešinimo nustatymus"
 
@@ -140,31 +137,31 @@ msgstr "Gali būti naudojama failų gavimui per Bluetooth"
 msgid "No reason"
 msgstr "Nepateikta priežastis"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Nepavyko parodyti pagalbos turinio."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Nepavyko sukurti sąsajos."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Niekada"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Kai rašomi failai"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Visada"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Tik nustatytiems įrenginiams"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Klausti"
 

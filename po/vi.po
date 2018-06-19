@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Horazone Detex <thmmt2017d@gmail.com>, 2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Horazone Detex <thmmt2017d@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/mate/MATE/language/vi/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Horazone Detex <thmmt2017d@gmail.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/mate/teams/13566/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +32,7 @@ msgstr "Chia _sẻ tập tin công trên mạng"
 
 #: ../data/file-share-properties.ui.h:4
 msgid "_Password:"
-msgstr "_Mật khẩu :"
+msgstr "_Mật khẩu:"
 
 #: ../data/file-share-properties.ui.h:5
 msgid "_Require password:"
@@ -105,11 +105,11 @@ msgstr "Chia sẻ Tập tin Cá nhân obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Chia sẻ Tập tin Cá nhân webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Tùy chỉnh"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Chạy Tùy chỉnh Chia sẻ Tập tin Cá nhân"
 
@@ -137,31 +137,31 @@ msgstr "Có thể sử dụng để nhận tập itn qua Bluetooth"
 msgid "No reason"
 msgstr "Không có lý do"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Không thể hiển thị nội dung trợ giúp."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Không thể xây dựng giao diện."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Không bao giờ"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Khi ghi tập tin"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Lúc nào cũng làm"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Chỉ để thiết lập các thiết bị"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Hỏi"
 

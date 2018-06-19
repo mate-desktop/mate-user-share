@@ -1,20 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Pjotr <pjotrvertaalt@gmail.com>, 2017
-# René Devers <rene.devers@gmail.com>, 2015
-# Volluta <volluta@tutanota.com>, 2015
-# Wouter Bolsterlee <wbolster@mateorg>, 2010
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-23 18:32+0000\n"
-"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/mate/MATE/language/nl/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Volluta <volluta@tutanota.com>, 2018\n"
+"Language-Team: Dutch (https://www.transifex.com/mate/teams/13566/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +20,11 @@ msgstr ""
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
-msgstr "Voorkeuren inzake Persoonlijke bestanden delen"
+msgstr "Persoonlijke voorkeuren inzake het delen van bestanden"
 
 #: ../data/file-share-properties.ui.h:2
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Bestanden delen op het netwerk</b>"
+msgstr "<b>Bestanden delen via het netwerk</b>"
 
 #: ../data/file-share-properties.ui.h:3
 msgid "_Share public files on network"
@@ -108,11 +105,11 @@ msgstr "Persoonlijke bestanden delen obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Persoonlijke bestanden delen webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Voorkeuren openen voor Persoonlijke bestanden delen"
 
@@ -140,31 +137,31 @@ msgstr "Kan gebruikt worden om bestanden te ontvangen via Bluetooth"
 msgid "No reason"
 msgstr "Geen reden"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Kon de hulptekst niet weergeven."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Kon gebruikersschil niet bouwen."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Nooit"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Bij het schrijven van bestanden"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Altijd"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Alleen voor ingestelde apparaten"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Vragen"
 

@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Julian Borrero <julborre@gmail.com>, 2016
-# Sergio Alejandro Bayona Becerra <sergioalejo@gmail.com>, 2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-22 17:16+0000\n"
-"Last-Translator: Sergio Alejandro Bayona Becerra <sergioalejo@gmail.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/mate/MATE/language/es_CO/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Julian Borrero <julborre@gmail.com>, 2018\n"
+"Language-Team: Spanish (Colombia) (https://www.transifex.com/mate/teams/13566/es_CO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,7 +52,8 @@ msgstr "_Permitir a dispositivos remotos borrar archivos"
 
 #: ../data/file-share-properties.ui.h:9
 msgid "Require re_mote devices to bond with this computer"
-msgstr "Requerir que los dispositivos re_motos se vinculen con este computador"
+msgstr ""
+"Requerir que los dispositivos re_motos se vinculen con este computador"
 
 #: ../data/file-share-properties.ui.h:10
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -106,17 +106,18 @@ msgstr "Compartición personal de archivos obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Compartición personal de archivos webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Ejecutar preferencias personales de compartición de archivos"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Imposible ejecutar las preferencias personales de compartición de archivos"
+msgstr ""
+"Imposible ejecutar las preferencias personales de compartición de archivos"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -138,31 +139,31 @@ msgstr "Se puede utilizar para recibir archivos por Bluetooth"
 msgid "No reason"
 msgstr "Sin motivo"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "No se pueden mostrar los contenidos de ayuda."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "No se pudo crear la interfaz."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Nunca"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Cuando se escriben archivos"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Siempre"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Solo para dispositivos configurados"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Preguntar"
 

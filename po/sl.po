@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Damir Jerovšek <jierro@windowslive.com>, 2013
-# jetomit <timotej.lazar@araneo.si>, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-23 18:32+0000\n"
-"Last-Translator: jetomit <timotej.lazar@araneo.si>\n"
-"Language-Team: Slovenian (http://www.transifex.com/mate/MATE/language/sl/)\n"
+"POT-Creation-Date: 2018-03-17 20:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Helena S <ele@tutamail.com>, 2018\n"
+"Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -106,11 +105,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Možnosti"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Zagon možnosti souporabe osebnih datotek"
 
@@ -120,49 +119,49 @@ msgstr "Ni mogoče zagnati možnosti osebne souporabe datotek"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Lahko se uporablja za izmenjavo ali prejemanje datotek"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Lahko se delijo preko omrežja ali Bluetootha"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Lahko se delijo preko omrežja"
 
 #: ../src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Lahko se uporablja za prejemanje datotek preko Bluetootha"
 
 #: ../src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Brez razloga"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Ni mogoče prikazati vsebine pomoči."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Ni mogoče izgraditi vmesnika."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Nikoli"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Med pisanjem datotek"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Vedno"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Le za nastavljene naprave"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Vprašaj"
 
