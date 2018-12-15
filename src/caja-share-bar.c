@@ -27,8 +27,6 @@
 
 #include "caja-share-bar.h"
 
-#define CAJA_SHARE_BAR_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CAJA_TYPE_SHARE_BAR, CajaShareBarPrivate))
-
 struct CajaShareBarPrivate
 {
 	GtkWidget   *label;
@@ -39,7 +37,7 @@ enum {
 	PROP_LABEL
 };
 
-G_DEFINE_TYPE (CajaShareBar, caja_share_bar, GTK_TYPE_INFO_BAR)
+G_DEFINE_TYPE_WITH_PRIVATE (CajaShareBar, caja_share_bar, GTK_TYPE_INFO_BAR)
 
 static void
 caja_share_bar_set_property (GObject            *object,
@@ -70,8 +68,6 @@ caja_share_bar_class_init (CajaShareBarClass *klass)
 
         object_class->set_property = caja_share_bar_set_property;
 
-        g_type_class_add_private (klass, sizeof (CajaShareBarPrivate));
-
         g_object_class_install_property (G_OBJECT_CLASS(klass), PROP_LABEL,
 					 g_param_spec_string ("label", "label",
 							      "The widget's main label",
@@ -89,7 +85,7 @@ caja_share_bar_init (CajaShareBar *bar)
 	GtkWidget *button;
 	PangoAttrList *attrs;
 
-	bar->priv = CAJA_SHARE_BAR_GET_PRIVATE (bar);
+	bar->priv = caja_share_bar_get_instance_private (bar);
 
 	content_area = gtk_info_bar_get_content_area (GTK_INFO_BAR (bar));
 	action_area = gtk_info_bar_get_action_area (GTK_INFO_BAR (bar));
