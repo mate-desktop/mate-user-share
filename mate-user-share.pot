@@ -6,15 +6,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 20:49+0100\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../data/file-share-properties.ui.h:1
@@ -22,50 +22,58 @@ msgid "Personal File Sharing Preferences"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over the Network</b>"
+msgid "_Close"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:3
-msgid "_Share public files on network"
+msgid "_Help"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:4
-msgid "_Password:"
+msgid "<b>Share Files over the Network</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:5
-msgid "_Require password:"
+msgid "_Share public files on network"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:6
-msgid "<b>Share Files over Bluetooth</b>"
+msgid "_Password:"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:7
-msgid "Share public files over _Bluetooth"
+msgid "_Require password:"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:8
-msgid "Allo_w remote devices to delete files"
+msgid "<b>Share Files over Bluetooth</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:9
-msgid "Require re_mote devices to bond with this computer"
+msgid "Share public files over _Bluetooth"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:10
-msgid "<b>Receive Files over Bluetooth</b>"
+msgid "Allo_w remote devices to delete files"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:11
-msgid "Receive files in _Downloads folder over Bluetooth"
+msgid "Require re_mote devices to bond with this computer"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:12
-msgid "_Accept files: "
+msgid "<b>Receive Files over Bluetooth</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:13
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:14
+msgid "_Accept files: "
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr ""
 
