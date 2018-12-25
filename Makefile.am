@@ -12,7 +12,7 @@ DISTCLEANFILES =		\
 	intltool-merge		\
 	intltool-update
 
-DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
+DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-compile \
 	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
 	CFLAGS='-Wno-deprecated-declarations'
 
