@@ -1,24 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Christian <Christian.Kirbach@googlemail.com>, 2009, 2010
-# Franco Della-Monica <franco.della.monica@gmail.com>, 2015
-# Franco Della-Monica <franco.della.monica@gmail.com>, 2015
-# Frank Arnold <frank@scirocco-5v-turbo.de>, 2005
-# Hendrik Richter <hendrikr@mateorg>, 2007
-# Mario Blättermann <mariobl@mateorg>, 2009, 2010
-# Tobias Bannert <tobannert@gmail.com>, 2014-2015
-# Xpistian <xpistianbecker2@web.de>, 2015
+# Xpistian <xpistianbecker2@web.de>, 2018
+# Franco Della-Monica <franco.della.monica@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Tobias Bannert <tobannert@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Franco Della-Monica <franco.della.monica@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>, 2018\n"
+"Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,50 +29,58 @@ msgid "Personal File Sharing Preferences"
 msgstr "Einstellungen zur persönlichen Dateifreigabe"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "S_chließen"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Dateien über das Netzwerk freigeben</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "Öffentlichen Ordner im Netzwerk _freigeben"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "_Passwort:"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "_Benötigt Passwort:"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Dateien über Bluetooth freigeben</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "Öffentliche Dateien über _Bluetooth freigeben"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "Entfernten Geräten das Löschen von Dateien _erlauben"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Das Verbinden en_tfernter Geräte mit diesem Rechner voraussetzen"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Dateien über Bluetooth empfangen</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Dateien im _Download-Ordner über Bluetooth empfangen"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "Dateien _annehmen:"
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "Über _empfangene Dateien benachrichtigen"
 
@@ -112,17 +119,18 @@ msgstr "Persönliche Dateifreigabe obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Persönliche Dateifreigabe webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Einstellungen zur persönlichen Dateifreigabe aufrufen"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Einstellungen zur persönlichen Dateifreigabe konnten nicht aufgerufen werden"
+msgstr ""
+"Einstellungen zur persönlichen Dateifreigabe konnten nicht aufgerufen werden"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -130,7 +138,9 @@ msgstr "Erlaubt das Freigeben oder Empfangen von Dateien"
 
 #: ../src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
-msgstr "Dateien in diesem Ordner können über das Netzwerk oder über Bluetooth freigegeben werden"
+msgstr ""
+"Dateien in diesem Ordner können über das Netzwerk oder über Bluetooth "
+"freigegeben werden"
 
 #: ../src/share-extension.c:184
 msgid "May be shared over the network"
@@ -144,31 +154,31 @@ msgstr "Erlaubt das Empfangen von Dateien über Bluetooth"
 msgid "No reason"
 msgstr "Kein Grund"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Das Hilfedokument konnte nicht angezeigt werden."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Die Oberfläche konnte nicht erstellt werden."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Niemals"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Beim Schreiben von Dateien"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Immer"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Nur für eingerichtete Geräte"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Nachfragen"
 

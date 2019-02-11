@@ -1,76 +1,86 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marek Černocký <marek@manet.cz>, 2009, 2010
-# LiberteCzech <liberte.czech@gmail.com>, 2015
-# Martin Picek <picek.martin@matecesko.cz>, 2009
-# Miloslav Trmač <mitr@volny.cz>, 2005, 2006
-# Petr Kovar <pmkovar@gmail.com>, 2009
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# LiberteCzech <liberte.czech@gmail.com>, 2018
+# ToMáš Marný, 2018
+# Michal <sinope@seznam.cz>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: LiberteCzech <liberte.czech@gmail.com>\n"
-"Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Michal <sinope@seznam.cz>, 2018\n"
+"Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
 msgstr "Nastavení sdílení osobních souborů"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Sdílení souborů přes síť</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "Sdílet veřejné soubory přes _síť"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "_Heslo:"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "_Vyžadovat heslo:"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Sdílení souborů přes Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "Sdílet veřejné soubory přes _Bluetooth"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "Povolit vzdáleným počítačům _mazat soubory"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Vyžadovat od vzdálených zařízení, aby se svázaly s tí_mto počítačem"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Příjem souborů přes Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Soubory poslané přes Bluetooth přijímat do _adresáře pro stahování"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "_Přijímat soubory: "
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "_Oznamovat přijaté soubory"
 
@@ -109,11 +119,11 @@ msgstr "Sdílení osobních souborů obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Sdílení osobních souborů WebDAV"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Předvolby"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Předvolby spouštění Sdílení osobních souborů"
 
@@ -141,31 +151,31 @@ msgstr "Může být použit k přijímání souborů přes Bluetooth"
 msgid "No reason"
 msgstr "Žádný důvod"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Nepodařilo se zobrazit témata nápovědy."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Rozhraní se nepodařilo sestavit."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Nikdy"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Při zapisování do souborů"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Vždy"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Pouze pro nastavená zařízení"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Zeptat se"
 

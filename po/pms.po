@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Randy Ichinose <randyichinose@gmail.com>, 2016
+# Randy Ichinose <randyichinose@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-22 23:07+0000\n"
-"Last-Translator: Randy Ichinose <randyichinose@gmail.com>\n"
-"Language-Team: Piemontese (http://www.transifex.com/mate/MATE/language/pms/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Randy Ichinose <randyichinose@gmail.com>, 2018\n"
+"Language-Team: Piemontese (https://www.transifex.com/mate/teams/13566/pms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,50 +26,58 @@ msgid "Personal File Sharing Preferences"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:2
-msgid "<b>Share Files over the Network</b>"
+msgid "_Close"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:3
-msgid "_Share public files on network"
-msgstr ""
+msgid "_Help"
+msgstr "_Agiut"
 
 #: ../data/file-share-properties.ui.h:4
-msgid "_Password:"
+msgid "<b>Share Files over the Network</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:5
-msgid "_Require password:"
+msgid "_Share public files on network"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:6
-msgid "<b>Share Files over Bluetooth</b>"
+msgid "_Password:"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:7
-msgid "Share public files over _Bluetooth"
+msgid "_Require password:"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:8
-msgid "Allo_w remote devices to delete files"
+msgid "<b>Share Files over Bluetooth</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:9
-msgid "Require re_mote devices to bond with this computer"
+msgid "Share public files over _Bluetooth"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:10
-msgid "<b>Receive Files over Bluetooth</b>"
+msgid "Allo_w remote devices to delete files"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:11
-msgid "Receive files in _Downloads folder over Bluetooth"
+msgid "Require re_mote devices to bond with this computer"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:12
-msgid "_Accept files: "
+msgid "<b>Receive Files over Bluetooth</b>"
 msgstr ""
 
 #: ../data/file-share-properties.ui.h:13
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:14
+msgid "_Accept files: "
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr ""
 
@@ -105,11 +116,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
-msgstr ""
+msgstr "Preferense"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr ""
 
@@ -137,31 +148,31 @@ msgstr ""
 msgid "No reason"
 msgstr ""
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr ""
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr ""
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr ""
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr ""
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr ""
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr ""
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr ""
 

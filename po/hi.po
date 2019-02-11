@@ -1,19 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sadgamaya <g.raghavan.g@gmail.com>, 2014
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Sadgamaya <g.raghavan.g@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Hindi (http://www.transifex.com/mate/MATE/language/hi/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Sadgamaya <g.raghavan.g@gmail.com>, 2018\n"
+"Language-Team: Hindi (https://www.transifex.com/mate/teams/13566/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,50 +27,58 @@ msgid "Personal File Sharing Preferences"
 msgstr "निजी फ़ाइल साझा वरीयता"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "बंद करें (_C)"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>संजाल पर फाइल साझा करें</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "संजाल पर सार्वजनिक फाइल साझा करें (_S)"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "कूटशब्द (_P):"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "कूटशब्द जरूरी (_R):"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>ब्लूटूथ पर फाइल साझा करें</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "ब्लूटूथ पर सार्वजनिक फाइल साझा करें (_B)"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "फाइल मिटाने के लिए दूरस्थ युक्ति स्वीकारें (_w)"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "इस कंप्यूटर से बाँड होने के लिए दूरस्थ युक्ति जरूरी"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>ब्लूटूथ पर फाइल प्राप्त करें</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "ब्लूटूथ पर डाउनलोड फोल्डर में फाइल पाएँ (_D)"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "फाइल स्वीकारें (_A): "
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "प्राप्त फाइल के बारे में अधिसूचित करें (_N)"
 
@@ -107,11 +117,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
-msgstr ""
+msgstr "वरीयताएँ"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "निजी फ़ाइल साझा वरीयताएं चलओ"
 
@@ -139,31 +149,31 @@ msgstr ""
 msgid "No reason"
 msgstr "कोई कारण नहीं"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "मदद सामग्री नहीं दिखा सका."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "अंतरफलक नहीं बना सका."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "कभी नहीं"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "फाइल लिखने के दौरान"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "हमेशा"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "केवल व्यवस्तीत उपकरणों के लिए"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "पूछें"
 

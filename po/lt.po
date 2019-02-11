@@ -1,75 +1,86 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2017
-# Marius Karnauskas <marius@esga.lt>, 2005
-# Moo, 2015-2016
-# Vytautas Rėkus <v.rekus@gmail.com>, 2009
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2018
+# brennus <jonas.ska@gmail.com>, 2018
+# Moo, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Moo, 2018\n"
+"Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/file-share-properties.ui.h:1
 msgid "Personal File Sharing Preferences"
 msgstr "Asmeninių failų viešinimo nustatymai"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Bendrinti failus tinkle</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "Bendrinti viešuo_sius failus tinkle"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "Sla_ptažodis:"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "_Reikia slaptažodžio:"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Bendrinti failus Bluetooth ryšiu</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "Bendrinti viešuosius failus _Bluetooth ryšiu"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "Leisti _nuotoliniams įrenginiams trinti failus"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Reikalauti nuotolinius įrenginius susieti su šiuo kompiuteriu"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Gauti failus Bluetooth ryšiu</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Gauti failus Bluetooth ryšiu į atsiuntimų aplanką"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "P_riimti failus: "
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "Į_spėti apie gautus failus"
 
@@ -108,11 +119,11 @@ msgstr "Asmeninių failų bendrinimas obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Asmeninių failų bendrinimas webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Nustatymai"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Parodyti asmeninių failų viešinimo nustatymus"
 
@@ -140,31 +151,31 @@ msgstr "Gali būti naudojama failų gavimui per Bluetooth"
 msgid "No reason"
 msgstr "Nepateikta priežastis"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Nepavyko parodyti pagalbos turinio."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Nepavyko sukurti sąsajos."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Niekada"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Kai rašomi failai"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Visada"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Tik nustatytiems įrenginiams"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Klausti"
 

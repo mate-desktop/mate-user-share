@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2013,2015,2017
+# samson <sambelet@yahoo.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 15:12+0000\n"
-"Last-Translator: samson <sambelet@yahoo.com>\n"
-"Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>, 2018\n"
+"Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,50 +26,58 @@ msgid "Personal File Sharing Preferences"
 msgstr "የ ግል ፋይል ማካፈያ ምርጫዎች "
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "_መዝጊያ"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "_እርዳታ"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>በ ኔትዎርክ ውስጥ ፋይሎች ማካፈያ</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "በ ኔትዎርክ ውስጥ የ ሕዝብ ፋይሎች ማካፈያ"
 
-#: ../data/file-share-properties.ui.h:4
-msgid "_Password:"
-msgstr "_የመግቢያ ቃል:"
-
-#: ../data/file-share-properties.ui.h:5
-msgid "_Require password:"
-msgstr "_የመግቢያ ቃል ያስፈልጋል:"
-
 #: ../data/file-share-properties.ui.h:6
+msgid "_Password:"
+msgstr "የ _መግቢያ ቃል:"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "_Require password:"
+msgstr "የ _መግቢያ ቃል ያስፈልጋል:"
+
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>በ ብሉቱዝ ውስጥ ፋይሎች ማካፈያ</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "በ _ብሉቱዝ ውስጥ የ ሕዝብ ፋይሎች ማካፈያ"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "የ ሩቅ አካል ፋይሎች እንዲያጠፋ መፍቀ_ጃ"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "የ ሩ_ቅ አካል ማጣመር ያስፈልጋል ከዚህ ኮምፒዩተር ጋር"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>ፋይሎች በ ብሉቱዝ መቀበያ</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "በ ብሉቱዝ ፋይሎች መቀበያ በ _ወረዱ ፎልደር ውስጥ "
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "ፋይሎች _መቀበያ:"
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "_አስታውቀኝ ስለ ተቀበልኩት ፋይሎች"
 
@@ -105,11 +116,11 @@ msgstr "የ ግል ፋይል ማካፈያ obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "የ ግል ፋይል ማካፈያ webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "ምርጫዎች"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "የ ግል ፋይል ማካፈያ ምርጫዎችን ማስጀመሪያ"
 
@@ -137,31 +148,31 @@ msgstr "ለ ማካፈል ፋይሎች በ ብሉቱዝ በኩል መጠቀም �
 msgid "No reason"
 msgstr "ምክንያት የለም "
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "የእርዳታ ይዞታዎችን ማሳየት አልተቻለም "
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ገጽታ መገንባት አልተቻለም"
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "በፍጹም "
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "ፋይሎች በሚጻፉ ጊዜ "
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "ሁልጊዜ "
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "አካሎችን ለ ማዘጋጃ ብቻ"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "ጠይቀኝ "
 

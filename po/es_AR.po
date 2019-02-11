@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Reshi Starkey <rhapsody.girl@gmail.com>, 2018
+# mbarbero <bastayadefumar@gmail.com>, 2018
+# Germán Herrou <german.herrou@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Renzo Sparta <exequiel0210@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Renzo Sparta <exequiel0210@gmail.com>, 2019\n"
+"Language-Team: Spanish (Argentina) (https://www.transifex.com/mate/teams/13566/es_AR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/file-share-properties.ui.h:1
+msgid "Personal File Sharing Preferences"
+msgstr "Preferencias de intercambio de archivos personales"
+
+#: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr ""
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../data/file-share-properties.ui.h:4
+msgid "<b>Share Files over the Network</b>"
+msgstr "<b>Compartir archivos a través de la red</b>"
+
+#: ../data/file-share-properties.ui.h:5
+msgid "_Share public files on network"
+msgstr "_Compartir archivos públicos en la red"
+
+#: ../data/file-share-properties.ui.h:6
+msgid "_Password:"
+msgstr "_Contraseña:"
+
+#: ../data/file-share-properties.ui.h:7
+msgid "_Require password:"
+msgstr "_Requerir contraseña:"
+
+#: ../data/file-share-properties.ui.h:8
+msgid "<b>Share Files over Bluetooth</b>"
+msgstr "<b>Compartir archivos a través de Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:9
+msgid "Share public files over _Bluetooth"
+msgstr "Compartir archivos públicos a través de _Bluetooth"
+
+#: ../data/file-share-properties.ui.h:10
+msgid "Allo_w remote devices to delete files"
+msgstr "Permi_tir dispositivos remotos para borrar archivos."
+
+#: ../data/file-share-properties.ui.h:11
+msgid "Require re_mote devices to bond with this computer"
+msgstr "Requerir dispositivos re_motos para enlazar con esta computadora"
+
+#: ../data/file-share-properties.ui.h:12
+msgid "<b>Receive Files over Bluetooth</b>"
+msgstr "<b>Recibir archivos a través de Bluetooth</b>"
+
+#: ../data/file-share-properties.ui.h:13
+msgid "Receive files in _Downloads folder over Bluetooth"
+msgstr "Recibe archivos en la carpeta _Descargas a través de Bluetooth"
+
+#: ../data/file-share-properties.ui.h:14
+msgid "_Accept files: "
+msgstr "_Aceptar archivos:"
+
+#: ../data/file-share-properties.ui.h:15
+msgid "_Notify about received files"
+msgstr "_Notificar sobre los archivos recibidos."
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+msgid "User Share"
+msgstr "Compartir Usuario"
+
+#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+msgid "Integrates with user-share"
+msgstr "Se integra con el usuario compartido"
+
+#: ../data/mate-user-share-properties.desktop.in.h:1
+#: ../src/caja-share-bar.c:103
+msgid "Personal File Sharing"
+msgstr "Compartir archivos personales"
+
+#: ../data/mate-user-share-properties.desktop.in.h:2
+msgid "Preferences for sharing of files"
+msgstr "Preferencias para compartir archivos"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+msgid "Personal File Sharing obexftp"
+msgstr "Intercambio de archivos personales obexftp"
+
+#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
+#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Inicia el uso compartido de archivos personales si está habilitado"
+
+#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+msgid "Personal File Sharing obexpush"
+msgstr "Intercambio de archivos personales obexpush"
+
+#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+msgid "Personal File Sharing webdav"
+msgstr "Compartir archivos personales webdav"
+
+#: ../src/caja-share-bar.c:119
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: ../src/caja-share-bar.c:123
+msgid "Launch Personal File Sharing Preferences"
+msgstr "Iniciar preferencias personales para compartir archivos"
+
+#: ../src/share-extension.c:73
+msgid "Unable to launch the Personal File Sharing preferences"
+msgstr ""
+"No se pueden iniciar las preferencias de uso compartido de archivos "
+"personales"
+
+#: ../src/share-extension.c:179
+msgid "May be used to share or receive files"
+msgstr "Puede ser usado para compartir o recibir archivos."
+
+#: ../src/share-extension.c:181
+msgid "May be shared over the network or Bluetooth"
+msgstr "Puede ser compartido a través de la red o Bluetooth"
+
+#: ../src/share-extension.c:184
+msgid "May be shared over the network"
+msgstr "Puede ser compartido a través de la red o Bluetooth"
+
+#: ../src/share-extension.c:190
+msgid "May be used to receive files over Bluetooth"
+msgstr "Puede ser utilizado para recibir archivos a través de Bluetooth"
+
+#: ../src/file-share-properties.c:416
+msgid "No reason"
+msgstr "Sin razón"
+
+#: ../src/file-share-properties.c:444
+msgid "Could not display the help contents."
+msgstr "No se pudo mostrar el contenido de la ayuda."
+
+#: ../src/file-share-properties.c:480
+msgid "Could not build interface."
+msgstr "No se pudo construir la interfaz."
+
+#: ../src/file-share-properties.c:516
+msgid "Never"
+msgstr "Nunca"
+
+#: ../src/file-share-properties.c:519
+msgid "When writing files"
+msgstr "Al escribir archivos"
+
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+msgid "Always"
+msgstr "Siempre"
+
+#: ../src/file-share-properties.c:549
+msgid "Only for set up devices"
+msgstr "Solo para dispositivos configurados"
+
+#: ../src/file-share-properties.c:554
+msgid "Ask"
+msgstr ""
+
+#. Translators: The %s will get filled in with the user name
+#. of the user, to form a genitive. If this is difficult to
+#. translate correctly so that it will work correctly in your
+#. language, you may use something equivalent to
+#. "Public files of %s", or leave out the %s altogether.
+#. In the latter case, please put "%.0s" somewhere in the string,
+#. which will match the user name string passed by the C code,
+#. but not put the user name in the final string. This is to
+#. avoid the warning that msgfmt might otherwise generate.
+#: ../src/http.c:129
+#, c-format
+msgid "%s's public files"
+msgstr "Archivos públicos de %s"
+
+#. Translators: This is similar to the string before, only it
+#. has the hostname in it too.
+#: ../src/http.c:133
+#, c-format
+msgid "%s's public files on %s"
+msgstr "Archivos públicos de %s en %s"
+
+#. Translators: %s is the name of the filename received
+#: ../src/obexpush.c:136
+#, c-format
+msgid "You received \"%s\" via Bluetooth"
+msgstr "Recibiste \"%s\" via Bluetooth"
+
+#: ../src/obexpush.c:138
+msgid "You received a file"
+msgstr "Recibiste un archivo"
+
+#: ../src/obexpush.c:148
+msgid "Open File"
+msgstr "Abrir Archivo"
+
+#: ../src/obexpush.c:152
+msgid "Reveal File"
+msgstr "Revelar archivo"
+
+#: ../src/obexpush.c:169
+msgid "File reception complete"
+msgstr "Recepción del archivo completa"

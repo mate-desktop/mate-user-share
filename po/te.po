@@ -1,17 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Krishnababu Krothapalli <kkrothap@redhat.com>, 2009
+# ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Telugu (http://www.transifex.com/mate/MATE/language/te/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Telugu (https://www.transifex.com/mate/teams/13566/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,50 +27,58 @@ msgid "Personal File Sharing Preferences"
 msgstr "వ్యక్తిగత ఫైలు భాగస్వామ్యపు అభీష్టాలు"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "మూసివేయి (_C)"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "సహాయం (_H)"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>నెట్వర్కు ద్వారా దస్త్రములను పంచుకొనుము</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "నెట్వర్కునందు పబ్లిక్ దస్త్రములను పంచుకొనుము (_S)"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "సంకేతపదం(_P):"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "సంకేతపదము అవసరము (_R):"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>బ్లూటూత్ ద్వారా దస్త్రములను పంచుకొనుము</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "బ్లూటూత్ నందు పబ్లిక్ దస్త్రములను పంచుకొనుము (_B)"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "దస్త్రములను తొలగించుటకు దూరస్థ పరికరములను అనుమతించుము (_w)"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "ఈ కంప్యూటర్‌తో బందనం యేర్పరుచుటకు దూరస్థ(రిమోట్) పరికరాలు అవసరము (_m)"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>బ్లూటూత్ ద్వారా దస్త్రములను స్వీకరించుము</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "బ్లూటూత్ నందు డౌన్‌లోడ్సు ఫోల్డర్‌లో దస్త్రములను స్వీకరించుము (_D)"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "దస్త్రములను ఆమోదించుము (_A):"
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "స్వీకరించిన దస్త్రముల గురించి తెలియజెప్పుము (_N)"
 
@@ -105,11 +117,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
-msgstr ""
+msgstr "అభిరుచులు"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr ""
 
@@ -137,31 +149,31 @@ msgstr ""
 msgid "No reason"
 msgstr "ఏ కారణంలేదు"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "సహాయ సారములను ప్రదర్శించలేక పోయింది."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ఇంటర్ఫేస్‌ను నిర్మించలేక పోయింది."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "ఎప్పటికివద్దు"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "దస్త్రములను వ్రాయుచున్నప్పుడు"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "ఎల్లప్పుడు"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr ""
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "అడుగు"
 

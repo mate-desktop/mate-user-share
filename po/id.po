@@ -1,19 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ekasari <iin@informatika.lipi.go.id>, 2010
-# hpiece 8 <hpiece8@gmail.com>, 2016
-# Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2016
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Ibnu Daru Aji, 2018
+# Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2018
+# La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2018
+# hpiece 8 <hpiece8@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Willy Sudiarto Raharjo <willysr@slackware-id.org>\n"
-"Language-Team: Indonesian (http://www.transifex.com/mate/MATE/language/id/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: hpiece 8 <hpiece8@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,50 +30,58 @@ msgid "Personal File Sharing Preferences"
 msgstr "Preferensi Berbagi Berkas Personal"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "_Tutup"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Berbagi Berkas melalui Jaringan</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "_Berbagi berkas publik pada jaringan "
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
-msgstr "_Kata sandi:"
+msgstr "_Password:"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "_Memerlukan kata sandi:"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Berbagi Berkas melalui Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "Berbagi berkas publik melalui _Bluetooth"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "M_engijinkan perangkat remote untuk menghapus berkas"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Perlu perangkat re_mote untuk ikatan dengan komputer ini"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Menerima Berkas melalui Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Menerima berkas dalam folder _Downloads melalui Bluetooth"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "Terim_a berkas:"
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "Memberitahuka_n tentang berkas yang diterima"
 
@@ -107,11 +120,11 @@ msgstr "Share Berkas Pribadi obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Share Berkas Pribadi webdav"
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
 msgstr "Preferensi"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Luncurkan Preferensi Berbagi Berkas Pribadi"
 
@@ -139,31 +152,31 @@ msgstr "Boleh digunakan untuk menerima berkas melalui Bluetooth"
 msgid "No reason"
 msgstr "Tidak ada alasan"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Tidak dapat menampilkan isi bantuan."
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Tidak dapat membangun antarmuka."
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "Tak pernah"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Saat penulisan berkas"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "Selalu"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Hanya untuk perangkat yang telah ditata"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Bertanya"
 

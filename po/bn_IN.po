@@ -1,17 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# runab <runab@redhat.com>, 2009, 2010
+# umesh agarwal <umesh.agarwal1@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 11:02+0100\n"
-"PO-Revision-Date: 2017-09-19 13:46+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Bengali (India) (http://www.transifex.com/mate/MATE/language/bn_IN/)\n"
+"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"PO-Revision-Date: 2018-03-12 09:11+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Bengali (India) (https://www.transifex.com/mate/teams/13566/bn_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,50 +27,60 @@ msgid "Personal File Sharing Preferences"
 msgstr "ব্যক্তিগত ফাইলের যৌথ ব্যবহার সংক্রান্ত পছন্দসই মান"
 
 #: ../data/file-share-properties.ui.h:2
+msgid "_Close"
+msgstr "বন্ধ করুন (_C)"
+
+#: ../data/file-share-properties.ui.h:3
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#: ../data/file-share-properties.ui.h:4
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>নেটওয়ার্কের মাধ্যমে যৌথরূপে ফাইল ব্যবহার করা হবে</b>"
 
-#: ../data/file-share-properties.ui.h:3
+#: ../data/file-share-properties.ui.h:5
 msgid "_Share public files on network"
 msgstr "যৌথ ব্যবহারের জন্য নেটওয়ার্কের মাধ্যমে সার্বজনীন ফাইল উপলব্ধ করা হবে"
 
-#: ../data/file-share-properties.ui.h:4
+#: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
 msgstr "পাসওয়ার্ড: (_P)"
 
-#: ../data/file-share-properties.ui.h:5
+#: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
 msgstr "পাসওয়ার্ড আবশ্যক: (_R)"
 
-#: ../data/file-share-properties.ui.h:6
+#: ../data/file-share-properties.ui.h:8
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>ব্লু-টুথের মাধ্যমে যৌথরূপে ফাইল ব্যবহার করা হবে</b>"
 
-#: ../data/file-share-properties.ui.h:7
+#: ../data/file-share-properties.ui.h:9
 msgid "Share public files over _Bluetooth"
 msgstr "যৌথ ব্যবহারের জন্য ব্লু-টুথের মাধ্যমে সার্বজনীন উপলব্ধ করা হবে (_B)"
 
-#: ../data/file-share-properties.ui.h:8
+#: ../data/file-share-properties.ui.h:10
 msgid "Allo_w remote devices to delete files"
 msgstr "দূরবর্তী ডিভাইস দ্বারা ফাইল মুছে ফেলার অনুমতি প্রদান করা হবে (_w)"
 
-#: ../data/file-share-properties.ui.h:9
+#: ../data/file-share-properties.ui.h:11
 msgid "Require re_mote devices to bond with this computer"
-msgstr "দূরবর্তী ডিভাইসের ক্ষেত্রে এই কম্পিউটারের সাথে সংযোগ স্থাপন করা আবশ্যক (_m)"
+msgstr ""
+"দূরবর্তী ডিভাইসের ক্ষেত্রে এই কম্পিউটারের সাথে সংযোগ স্থাপন করা আবশ্যক (_m)"
 
-#: ../data/file-share-properties.ui.h:10
+#: ../data/file-share-properties.ui.h:12
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>ব্লু-টুথের মাধ্যমে ফাইল গ্রহণ করা হবে</b>"
 
-#: ../data/file-share-properties.ui.h:11
+#: ../data/file-share-properties.ui.h:13
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "ব্লু-টুথের মাধ্যমে উপলব্ধ ফাইল Downloads ফোল্ডারে সংরক্ষণ করা হবে (_D)"
+msgstr ""
+"ব্লু-টুথের মাধ্যমে উপলব্ধ ফাইল Downloads ফোল্ডারে সংরক্ষণ করা হবে (_D)"
 
-#: ../data/file-share-properties.ui.h:12
+#: ../data/file-share-properties.ui.h:14
 msgid "_Accept files: "
 msgstr "ফাইল গ্রহণ করা হবে: (_A)"
 
-#: ../data/file-share-properties.ui.h:13
+#: ../data/file-share-properties.ui.h:15
 msgid "_Notify about received files"
 msgstr "নতুন প্রাপ্ত ফাইল সম্পর্কে সূচনা প্রদান করা হবে (_N)"
 
@@ -105,17 +119,19 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:127
+#: ../src/caja-share-bar.c:119
 msgid "Preferences"
-msgstr ""
+msgstr "प्राथमिकताएं"
 
-#: ../src/caja-share-bar.c:131
+#: ../src/caja-share-bar.c:123
 msgid "Launch Personal File Sharing Preferences"
-msgstr "ব্যক্তিগত ফাইলের যৌথ ব্যবহার সংক্রান্ত পছন্দের বৈশিষ্ট্য আরম্ভ করা হবে"
+msgstr ""
+"ব্যক্তিগত ফাইলের যৌথ ব্যবহার সংক্রান্ত পছন্দের বৈশিষ্ট্য আরম্ভ করা হবে"
 
 #: ../src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "ব্যক্তিগত ফাইলের যৌথ ব্যবহার সংক্রান্ত পছন্দের বৈশিষ্ট্য আরম্ভ করতে ব্যর্থ"
+msgstr ""
+"ব্যক্তিগত ফাইলের যৌথ ব্যবহার সংক্রান্ত পছন্দের বৈশিষ্ট্য আরম্ভ করতে ব্যর্থ"
 
 #: ../src/share-extension.c:179
 msgid "May be used to share or receive files"
@@ -137,31 +153,31 @@ msgstr ""
 msgid "No reason"
 msgstr "বিনা কারণে"
 
-#: ../src/file-share-properties.c:448
+#: ../src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "সাহায্যের সূচী প্রদর্শন করা সম্ভব হয়নি।"
 
-#: ../src/file-share-properties.c:484
+#: ../src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ইন্টারফেস নির্মাণ করতে ব্যর্থ।"
 
-#: ../src/file-share-properties.c:520
+#: ../src/file-share-properties.c:516
 msgid "Never"
 msgstr "কখনো না"
 
-#: ../src/file-share-properties.c:523
+#: ../src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "ফাইল লেখার সময়"
 
-#: ../src/file-share-properties.c:526 ../src/file-share-properties.c:550
+#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
 msgid "Always"
 msgstr "সর্বদা"
 
-#: ../src/file-share-properties.c:553
+#: ../src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "শুধুমাত্র প্রস্তুত করা ডিভাইসের ক্ষেত্রে"
 
-#: ../src/file-share-properties.c:558
+#: ../src/file-share-properties.c:554
 msgid "Ask"
 msgstr "জিজ্ঞাসা করা হবে"
 
