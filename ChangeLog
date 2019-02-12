@@ -1,2 +1,2859 @@
-The ChangeLog is auto-generated when releasing. If you are seeing this, use
-'git log' for a detailed list of changes.
+commit 47839ed3c6248f36aa0fc45ca5ef85b8198e3918
+Author: raveit65 <mate@raveit.de>
+Date:   Mon Feb 11 16:46:11 2019 +0100
+
+    tx: sync with transifex
+
+ help/af/af.po                   | 431 +++++++++++++++++++++++++
+ help/am/am.po                   | 428 +++++++++++++++++++++++++
+ help/ar/ar.po                   | 432 +++++++++++++++++++++++++
+ help/as/as.po                   | 428 +++++++++++++++++++++++++
+ help/ast/ast.po                 | 429 +++++++++++++++++++++++++
+ help/az/az.po                   | 432 +++++++++++++++++++++++++
+ help/be/be.po                   | 431 +++++++++++++++++++++++++
+ help/bg/bg.po                   | 438 +++++++++++++++++++++++++
+ help/bn/bn.po                   | 433 +++++++++++++++++++++++++
+ help/bn_IN/bn_IN.po             | 431 +++++++++++++++++++++++++
+ help/br/br.po                   | 429 +++++++++++++++++++++++++
+ help/bs/bs.po                   | 429 +++++++++++++++++++++++++
+ help/ca/ca.po                   | 669 ++++++++++++++++++--------------------
+ help/ca@valencia/ca@valencia.po | 444 ++++++++++++++++++++++++++
+ help/cmn/cmn.po                 | 431 +++++++++++++++++++++++++
+ help/crh/crh.po                 | 430 +++++++++++++++++++++++++
+ help/cs/cs.po                   | 646 +++++++++++++++++--------------------
+ help/cy/cy.po                   | 431 +++++++++++++++++++++++++
+ help/da/da.po                   | 559 ++++++++++++++++++++++++++++++++
+ help/de/de.po                   | 687 ++++++++++++++++++---------------------
+ help/dz/dz.po                   | 431 +++++++++++++++++++++++++
+ help/el/el.po                   | 650 +++++++++++++++++--------------------
+ help/en_AU/en_AU.po             | 428 +++++++++++++++++++++++++
+ help/en_CA/en_CA.po             | 428 +++++++++++++++++++++++++
+ help/en_GB/en_GB.po             | 628 +++++++++++++++++-------------------
+ help/eo/eo.po                   | 444 ++++++++++++++++++++++++++
+ help/es/es.po                   | 663 ++++++++++++++++++--------------------
+ help/es_CO/es_CO.po             | 429 +++++++++++++++++++++++++
+ help/et/et.po                   | 434 +++++++++++++++++++++++++
+ help/eu/eu.po                   | 432 +++++++++++++++++++++++++
+ help/fa/fa.po                   | 429 +++++++++++++++++++++++++
+ help/fi/fi.po                   | 435 +++++++++++++++++++++++++
+ help/fr/fr.po                   | 689 +++++++++++++++++++---------------------
+ help/fur/fur.po                 | 428 +++++++++++++++++++++++++
+ help/fy/fy.po                   | 431 +++++++++++++++++++++++++
+ help/ga/ga.po                   | 431 +++++++++++++++++++++++++
+ help/gl/gl.po                   | 484 ++++++++++++++++++++++++++++
+ help/gu/gu.po                   | 429 +++++++++++++++++++++++++
+ help/ha/ha.po                   | 428 +++++++++++++++++++++++++
+ help/he/he.po                   | 429 +++++++++++++++++++++++++
+ help/hi/hi.po                   | 433 +++++++++++++++++++++++++
+ help/hr/hr.po                   | 452 ++++++++++++++++++++++++++
+ help/hu/hu.po                   | 449 ++++++++++++++++++++++++++
+ help/hy/hy.po                   | 429 +++++++++++++++++++++++++
+ help/ia/ia.po                   | 428 +++++++++++++++++++++++++
+ help/id/id.po                   | 436 +++++++++++++++++++++++++
+ help/ig/ig.po                   | 428 +++++++++++++++++++++++++
+ help/is/is.po                   | 432 +++++++++++++++++++++++++
+ help/it/it.po                   | 639 +++++++++++++++++--------------------
+ help/ja/ja.po                   | 442 ++++++++++++++++++++++++++
+ help/ka/ka.po                   | 428 +++++++++++++++++++++++++
+ help/kk/kk.po                   | 429 +++++++++++++++++++++++++
+ help/kn/kn.po                   | 430 +++++++++++++++++++++++++
+ help/ko/ko.po                   | 436 +++++++++++++++++++++++++
+ help/ku/ku.po                   | 428 +++++++++++++++++++++++++
+ help/ky/ky.po                   | 428 +++++++++++++++++++++++++
+ help/lt/lt.po                   | 444 ++++++++++++++++++++++++++
+ help/lv/lv.po                   | 430 +++++++++++++++++++++++++
+ help/mai/mai.po                 | 428 +++++++++++++++++++++++++
+ help/mg/mg.po                   | 428 +++++++++++++++++++++++++
+ help/mk/mk.po                   | 429 +++++++++++++++++++++++++
+ help/ml/ml.po                   | 430 +++++++++++++++++++++++++
+ help/mn/mn.po                   | 430 +++++++++++++++++++++++++
+ help/mr/mr.po                   | 429 +++++++++++++++++++++++++
+ help/ms/ms.po                   | 437 +++++++++++++++++++++++++
+ help/nb/nb.po                   | 440 +++++++++++++++++++++++++
+ help/nds/nds.po                 | 431 +++++++++++++++++++++++++
+ help/ne/ne.po                   | 431 +++++++++++++++++++++++++
+ help/nl/nl.po                   | 441 +++++++++++++++++++++++++
+ help/nn/nn.po                   | 431 +++++++++++++++++++++++++
+ help/nso/nso.po                 | 430 +++++++++++++++++++++++++
+ help/oc/oc.po                   | 432 +++++++++++++++++++++++++
+ help/or/or.po                   | 428 +++++++++++++++++++++++++
+ help/pa/pa.po                   | 433 +++++++++++++++++++++++++
+ help/pl/pl.po                   | 461 +++++++++++++++++++++++++++
+ help/ps/ps.po                   | 430 +++++++++++++++++++++++++
+ help/pt/pt.po                   | 447 ++++++++++++++++++++++++++
+ help/pt_BR/pt_BR.po             | 674 ++++++++++++++++++---------------------
+ help/ro/ro.po                   | 647 +++++++++++++++++--------------------
+ help/ru/ru.po                   | 474 +++++++++++++++++++++++++++
+ help/si/si.po                   | 428 +++++++++++++++++++++++++
+ help/sk/sk.po                   | 442 ++++++++++++++++++++++++++
+ help/sl/sl.po                   | 477 +++++++++++++++++++---------
+ help/sq/sq.po                   | 433 +++++++++++++++++++++++++
+ help/sr/sr.po                   | 429 +++++++++++++++++++++++++
+ help/sr@latin/sr@latin.po       | 432 +++++++++++++++++++++++++
+ help/sv/sv.po                   | 555 +++++++++++++++++++++-----------
+ help/ta/ta.po                   | 431 +++++++++++++++++++++++++
+ help/te/te.po                   | 429 +++++++++++++++++++++++++
+ help/th/th.po                   | 430 +++++++++++++++++++++++++
+ help/tr/tr.po                   | 449 ++++++++++++++++++++++++++
+ help/ug/ug.po                   | 437 +++++++++++++++++++++++++
+ help/uk/uk.po                   | 441 +++++++++++++++++++++++++
+ help/ur/ur.po                   | 434 +++++++++++++++++++++++++
+ help/uz/uz.po                   | 429 +++++++++++++++++++++++++
+ help/vi/vi.po                   | 429 +++++++++++++++++++++++++
+ help/wa/wa.po                   | 428 +++++++++++++++++++++++++
+ help/xh/xh.po                   | 428 +++++++++++++++++++++++++
+ help/yo/yo.po                   | 428 +++++++++++++++++++++++++
+ help/zh_CN/zh_CN.po             | 605 ++++++++++++++++++-----------------
+ help/zh_HK/zh_HK.po             | 431 +++++++++++++++++++++++++
+ help/zh_TW/zh_TW.po             | 437 +++++++++++++++++++++++++
+ help/zu/zu.po                   | 430 +++++++++++++++++++++++++
+ po/LINGUAS                      |  60 +++-
+ po/af.po                        | 220 +++++++++++++
+ po/am.po                        |  65 ++--
+ po/an.po                        | 220 +++++++++++++
+ po/ar.po                        |  69 ++--
+ po/as.po                        |  69 ++--
+ po/ast.po                       |  97 +++---
+ po/az.po                        | 220 +++++++++++++
+ po/be.po                        |  61 ++--
+ po/bg.po                        |  71 +++--
+ po/bn.po                        |  68 ++--
+ po/bn_IN.po                     |  76 +++--
+ po/br.po                        |  70 ++--
+ po/bs.po                        |  61 ++--
+ po/ca.po                        |  84 +++--
+ po/ca@valencia.po               |  75 +++--
+ po/cmn.po                       |  65 ++--
+ po/crh.po                       | 220 +++++++++++++
+ po/cs.po                        |  70 ++--
+ po/cy.po                        |  63 ++--
+ po/da.po                        |  64 ++--
+ po/de.po                        |  78 +++--
+ po/dz.po                        |  62 ++--
+ po/el.po                        |  67 ++--
+ po/en_AU.po                     |  63 ++--
+ po/en_CA.po                     |  63 ++--
+ po/en_GB.po                     |  66 ++--
+ po/eo.po                        |  65 ++--
+ po/es.po                        |  72 +++--
+ po/es_AR.po                     | 226 +++++++++++++
+ po/es_CL.po                     | 221 +++++++++++++
+ po/es_CO.po                     |  70 ++--
+ po/es_CR.po                     | 220 +++++++++++++
+ po/es_DO.po                     | 220 +++++++++++++
+ po/es_EC.po                     | 220 +++++++++++++
+ po/es_ES.po                     | 221 +++++++++++++
+ po/es_MX.po                     | 221 +++++++++++++
+ po/es_NI.po                     | 220 +++++++++++++
+ po/es_PA.po                     | 220 +++++++++++++
+ po/es_PE.po                     | 220 +++++++++++++
+ po/es_PR.po                     | 220 +++++++++++++
+ po/es_SV.po                     | 220 +++++++++++++
+ po/es_UY.po                     | 220 +++++++++++++
+ po/es_VE.po                     | 220 +++++++++++++
+ po/et.po                        |  67 ++--
+ po/eu.po                        |  72 +++--
+ po/fa.po                        |  64 ++--
+ po/fi.po                        |  65 ++--
+ po/fil.po                       | 220 +++++++++++++
+ po/fr.po                        |  68 ++--
+ po/fr_CA.po                     | 220 +++++++++++++
+ po/frp.po                       |  63 ++--
+ po/fur.po                       | 220 +++++++++++++
+ po/fy.po                        | 220 +++++++++++++
+ po/ga.po                        |  63 ++--
+ po/gl.po                        |  92 +++---
+ po/gu.po                        |  64 ++--
+ po/ha.po                        | 220 +++++++++++++
+ po/he.po                        |  66 ++--
+ po/hi.po                        |  66 ++--
+ po/hr.po                        |  70 ++--
+ po/hu.po                        |  66 ++--
+ po/hy.po                        |  61 ++--
+ po/ia.po                        | 220 +++++++++++++
+ po/id.po                        |  69 ++--
+ po/ig.po                        | 220 +++++++++++++
+ po/is.po                        |  66 ++--
+ po/it.po                        |  67 ++--
+ po/ja.po                        |  66 ++--
+ po/jv.po                        | 220 +++++++++++++
+ po/ka.po                        | 221 +++++++++++++
+ po/kab.po                       | 220 +++++++++++++
+ po/kk.po                        |  64 ++--
+ po/km.po                        | 220 +++++++++++++
+ po/kn.po                        |  65 ++--
+ po/ko.po                        |  68 ++--
+ po/ks.po                        | 220 +++++++++++++
+ po/ku.po                        | 220 +++++++++++++
+ po/ku_IQ.po                     |  67 ++--
+ po/ky.po                        |  65 ++--
+ po/la.po                        | 220 +++++++++++++
+ po/li.po                        | 220 +++++++++++++
+ po/lt.po                        |  69 ++--
+ po/lv.po                        |  65 ++--
+ po/mai.po                       |  63 ++--
+ po/mg.po                        | 220 +++++++++++++
+ po/mi.po                        | 220 +++++++++++++
+ po/mk.po                        |  64 ++--
+ po/ml.po                        |  69 ++--
+ po/mn.po                        | 221 +++++++++++++
+ po/mr.po                        |  66 ++--
+ po/ms.po                        |  65 ++--
+ po/my.po                        | 220 +++++++++++++
+ po/nah.po                       | 220 +++++++++++++
+ po/nb.po                        |  63 ++--
+ po/nds.po                       | 220 +++++++++++++
+ po/ne.po                        |  71 +++--
+ po/nl.po                        |  68 ++--
+ po/nn.po                        |  64 ++--
+ po/nqo.po                       | 220 +++++++++++++
+ po/nso.po                       | 220 +++++++++++++
+ po/oc.po                        |  64 ++--
+ po/or.po                        |  63 ++--
+ po/pa.po                        |  64 ++--
+ po/pl.po                        |  66 ++--
+ po/pms.po                       |  63 ++--
+ po/ps.po                        | 220 +++++++++++++
+ po/pt.po                        |  76 +++--
+ po/pt_BR.po                     |  73 +++--
+ po/ro.po                        |  74 +++--
+ po/ru.po                        |  65 ++--
+ po/rw.po                        |  69 ++--
+ po/si.po                        |  66 ++--
+ po/sk.po                        |  71 +++--
+ po/sl.po                        |  74 +++--
+ po/sq.po                        |  66 ++--
+ po/sr.po                        |  62 ++--
+ po/sr@latin.po                  |  62 ++--
+ po/sv.po                        |  69 ++--
+ po/ta.po                        |  66 ++--
+ po/te.po                        |  64 ++--
+ po/th.po                        |  63 ++--
+ po/tk.po                        | 220 +++++++++++++
+ po/tr.po                        |  66 ++--
+ po/ts.po                        | 220 +++++++++++++
+ po/tt.po                        | 220 +++++++++++++
+ po/ug.po                        |  66 ++--
+ po/uk.po                        |  69 ++--
+ po/ur.po                        |  65 ++--
+ po/ur_PK.po                     | 220 +++++++++++++
+ po/uz.po                        |  62 ++--
+ po/vi.po                        |  64 ++--
+ po/wa.po                        | 220 +++++++++++++
+ po/xh.po                        | 220 +++++++++++++
+ po/yi.po                        | 220 +++++++++++++
+ po/yo.po                        | 220 +++++++++++++
+ po/zh_CN.po                     |  79 +++--
+ po/zh_HK.po                     |  65 ++--
+ po/zh_TW.po                     |  67 ++--
+ po/zu.po                        | 220 +++++++++++++
+ 243 files changed, 57951 insertions(+), 6690 deletions(-)
+
+commit 6eb836f1fc35ae139b401c82defd49cde4baaf20
+Author: raveit65 <mate@raveit.de>
+Date:   Mon Feb 11 16:38:58 2019 +0100
+
+    tx: update resource for transifex
+
+ mate-user-share.pot | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 064c2ba27c61c7351cd27cc7a022a2e598e8b81f
+Author: Pablo Barciela <scow@riseup.net>
+Date:   Sat Dec 15 16:56:51 2018 +0100
+
+    caja-share-bar: avoid deprecated 'g_type_class_add_private'
+
+ src/caja-share-bar.c | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+commit 4602ece9e4bc15581fe87cb632652257cf503c65
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Dec 25 11:37:45 2018 +0100
+
+    drop obsolete configure option from distcheck
+
+ Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9ecc6730f6123b1875b1e586fadef2716e76adce
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Dec 25 11:32:12 2018 +0100
+
+    Use make functions for HELP_LINGUAS
+
+ help/Makefile.am | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit 480135d587a0df09a9bf0d70f3a09beb44cd1e33
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Dec 25 11:07:26 2018 +0100
+
+    tx: update resource file for transifex
+
+ help/mate-user-share.pot | 303 +++++++++++++++++++++++++++++++++++++++++++++++
+ mate-user-share.pot      |  36 +++---
+ 2 files changed, 325 insertions(+), 14 deletions(-)
+
+commit 592f10d8e8328c70b69b29ddfec0bf073ed11136
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Dec 25 11:19:11 2018 +0100
+
+    tx: adding help to transifex config
+
+ .tx/config | 9 ++++++++-
+ makepot    | 5 +++++
+ 2 files changed, 13 insertions(+), 1 deletion(-)
+
+commit 55454761f641dcad4bd9f59fab09eb9837343070
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Dec 25 11:00:57 2018 +0100
+
+    disable deprecation warnings for distcheck
+
+ Makefile.am | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 8fd39d4ac09e39262a182ff69b16278af71a1703
+Author: Pablo Barciela <scow@riseup.net>
+Date:   Sat Dec 15 10:42:36 2018 +0100
+
+    file-share-properties.ui: avoid deprecated:
+    
+    avoid deprecated:
+    
+    GtkVBox
+    GtkTable
+    GtkButton:use-stock
+
+ data/file-share-properties.ui | 218 +++++++++++++++++++++++++-----------------
+ 1 file changed, 129 insertions(+), 89 deletions(-)
+
+commit 4e4027f9ea4d8a3f25b9e8eddab0bd810359b591
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Jun 19 12:24:54 2018 +0200
+
+    pre-bump version
+
+ NEWS         | 2 ++
+ configure.ac | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit b386cdc7e69fff601f0e90f6ab4a597d48231c87
+Author: raveit65 <mate@raveit.de>
+Date:   Fri Mar 23 14:16:16 2018 +0100
+
+    tx: update config with branch specific resoures
+
+ .tx/config | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 369a0987d7963f5bebf65238acca7bd4a5e20c3d
+Author: raveit65 <mate@raveit.de>
+Date:   Sat Mar 17 20:51:18 2018 +0100
+
+    tx: add makepot and .pot files
+
+ makepot             |   5 ++
+ mate-user-share.pot | 208 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 213 insertions(+)
+
+commit 6506a3ba7246cfc1dba1afdf50e717b60ee974d9
+Author: raveit65 <mate@raveit.de>
+Date:   Mon Mar 12 10:09:35 2018 +0100
+
+    transifex: set minimum_perc and type in config file
+
+ .tx/config | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit ba15c39e1c87ea56b13fd10bce2a28e643c19e5d
+Author: raveit65 <mate@raveit.de>
+Date:   Mon Jan 29 14:32:11 2018 +0100
+
+    release 1.20
+
+ NEWS         | 5 +++++
+ configure.ac | 2 +-
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+commit 0f9c62240d1009c67b85a6e353312c7276e1aaef
+Author: raveit65 <mate@raveit.de>
+Date:   Mon Jan 29 14:26:30 2018 +0100
+
+    sync with transifex
+
+ po/frp.po   | 18 +++++++++---------
+ po/ku_IQ.po | 18 +++++++++---------
+ po/pms.po   | 18 +++++++++---------
+ po/rw.po    | 20 ++++++++++----------
+ 4 files changed, 37 insertions(+), 37 deletions(-)
+
+commit 31da7a4eb64da546b3eb9d3226f6a5710bf0de2d
+Author: monsta <monsta@inbox.ru>
+Date:   Sun Jan 28 11:43:24 2018 +0300
+
+    require GTK+ 3.22 and GLib 2.50
+
+ configure.ac                | 4 ++--
+ src/caja-share-bar.c        | 8 --------
+ src/file-share-properties.c | 4 ----
+ 3 files changed, 2 insertions(+), 14 deletions(-)
+
+commit c0f503b1b003bb664545a3685b863f2ce6fdb1c4
+Author: Martin Wimpress <martin@mate-desktop.org>
+Date:   Thu Jan 25 21:32:13 2018 +0000
+
+    Bump version to 1.19.0
+
+ NEWS | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 568124b25fb0fd4deb1e416dbfa9e830d30d561c
+Author: Martin Wimpress <martin@mate-desktop.org>
+Date:   Thu Jan 25 21:28:08 2018 +0000
+
+    Sync translations.
+
+ po/LINGUAS        |  9 ++++-----
+ po/am.po          | 18 +++++++++---------
+ po/ar.po          | 20 ++++++++++----------
+ po/as.po          | 20 ++++++++++----------
+ po/ast.po         | 20 ++++++++++----------
+ po/be.po          | 18 +++++++++---------
+ po/bg.po          | 18 +++++++++---------
+ po/bn.po          | 20 ++++++++++----------
+ po/bn_IN.po       | 20 ++++++++++----------
+ po/br.po          | 18 +++++++++---------
+ po/bs.po          | 18 +++++++++---------
+ po/ca.po          | 18 +++++++++---------
+ po/ca@valencia.po | 25 +++++++++++++------------
+ po/cmn.po         | 20 ++++++++++----------
+ po/cs.po          | 22 +++++++++++-----------
+ po/cy.po          | 18 +++++++++---------
+ po/da.po          | 18 +++++++++---------
+ po/de.po          | 18 +++++++++---------
+ po/dz.po          | 20 ++++++++++----------
+ po/el.po          | 18 +++++++++---------
+ po/en_AU.po       | 18 +++++++++---------
+ po/en_CA.po       | 20 ++++++++++----------
+ po/en_GB.po       | 18 +++++++++---------
+ po/eo.po          | 20 ++++++++++----------
+ po/es.po          | 18 +++++++++---------
+ po/es_CO.po       | 47 ++++++++++++++++++++++++-----------------------
+ po/et.po          | 18 +++++++++---------
+ po/eu.po          | 20 ++++++++++----------
+ po/fa.po          | 18 +++++++++---------
+ po/fi.po          | 23 ++++++++++++-----------
+ po/fr.po          | 18 +++++++++---------
+ po/ga.po          | 20 ++++++++++----------
+ po/gl.po          | 20 ++++++++++----------
+ po/gu.po          | 20 ++++++++++----------
+ po/he.po          | 20 ++++++++++----------
+ po/hi.po          | 20 ++++++++++----------
+ po/hr.po          | 18 +++++++++---------
+ po/hu.po          | 22 +++++++++++-----------
+ po/hy.po          | 18 +++++++++---------
+ po/id.po          | 18 +++++++++---------
+ po/is.po          | 20 ++++++++++----------
+ po/it.po          | 18 +++++++++---------
+ po/ja.po          | 18 +++++++++---------
+ po/kk.po          | 28 ++++++++++++++--------------
+ po/kn.po          | 20 ++++++++++----------
+ po/ko.po          | 20 ++++++++++----------
+ po/ky.po          | 20 ++++++++++----------
+ po/lt.po          | 31 ++++++++++++++++---------------
+ po/lv.po          | 20 ++++++++++----------
+ po/mai.po         | 20 ++++++++++----------
+ po/mk.po          | 20 ++++++++++----------
+ po/ml.po          | 20 ++++++++++----------
+ po/mr.po          | 20 ++++++++++----------
+ po/ms.po          | 18 +++++++++---------
+ po/nb.po          | 18 +++++++++---------
+ po/ne.po          | 18 +++++++++---------
+ po/nl.po          | 55 ++++++++++++++++++++++++++++---------------------------
+ po/nn.po          | 20 ++++++++++----------
+ po/oc.po          | 22 +++++++++++-----------
+ po/or.po          | 20 ++++++++++----------
+ po/pa.po          | 20 ++++++++++----------
+ po/pl.po          | 33 +++++++++++++++++----------------
+ po/pt.po          | 33 +++++++++++++++++----------------
+ po/pt_BR.po       | 18 +++++++++---------
+ po/ro.po          | 18 +++++++++---------
+ po/ru.po          | 20 ++++++++++----------
+ po/si.po          | 18 +++++++++---------
+ po/sk.po          | 18 +++++++++---------
+ po/sl.po          | 18 +++++++++---------
+ po/sq.po          | 20 ++++++++++----------
+ po/sr.po          | 18 +++++++++---------
+ po/sr@latin.po    | 22 +++++++++++-----------
+ po/sv.po          | 35 ++++++++++++++++++-----------------
+ po/ta.po          | 20 ++++++++++----------
+ po/te.po          | 20 ++++++++++----------
+ po/th.po          | 20 ++++++++++----------
+ po/tr.po          | 18 +++++++++---------
+ po/ug.po          | 20 ++++++++++----------
+ po/uk.po          | 18 +++++++++---------
+ po/ur.po          | 20 ++++++++++----------
+ po/uz.po          | 20 ++++++++++----------
+ po/vi.po          | 55 ++++++++++++++++++++++++++++---------------------------
+ po/zh_CN.po       | 18 +++++++++---------
+ po/zh_HK.po       | 20 ++++++++++----------
+ po/zh_TW.po       | 18 +++++++++---------
+ 85 files changed, 901 insertions(+), 893 deletions(-)
+
+commit 4a48e270808eb51d40a071ba43d1e37433109142
+Author: monsta <monsta@inbox.ru>
+Date:   Sat Jan 13 22:23:36 2018 +0300
+
+    build: use correct macros to fix cross-build
+    
+    patch by Helmut Grohne
+    https://bugs.debian.org/886578
+
+ configure.ac | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit a31fa77632156eaad561035607119a637c1e0b8b
+Author: raveit65 <mate@raveit.de>
+Date:   Thu Jul 27 19:45:12 2017 +0200
+
+    don't use deprecated gtk_show_uri
+
+ src/file-share-properties.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 57c3761972d558b75155e102cafcd062ab6f0c5d
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Jul 18 15:41:12 2017 +0200
+
+    update issue_template
+
+ .github/issue_template.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 931ed6d35075c3282702cef3df4ab7690b743d94
+Author: raveit65 <mate@raveit.de>
+Date:   Thu Jun 8 19:19:52 2017 +0200
+
+    create issue_template.md
+
+ .github/issue_template.md | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit 85385a17b710983a25c0c1801bfcfef27fa7fad8
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   Sat May 20 17:39:47 2017 +0200
+
+    Restore Polish translation credits from GNOME
+
+ po/gnome-copyrights.txt | 1565 ++++++++++++++++++++++++-----------------------
+ 1 file changed, 783 insertions(+), 782 deletions(-)
+
+commit f45a1bc0d5822ec260bd0a748228582b03439184
+Author: raveit65 <mate@raveit.de>
+Date:   Thu Mar 30 18:33:18 2017 +0200
+
+    pre-bump version
+
+ NEWS         | 2 ++
+ configure.ac | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 968b96c2c18ed5187b28fc2459daf7fad67379d3
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Mar 14 12:04:50 2017 +0100
+
+    release 1.18.0
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8a49067144fd41fbd94f99030fc56a734c6287a8
+Author: raveit65 <mate@raveit.de>
+Date:   Tue Mar 14 11:42:59 2017 +0100
+
+    sync with transifex
+
+ po/am.po          | 78 +++++++++++++++++++++++++++----------------------------
+ po/ar.po          | 22 ++++++++--------
+ po/as.po          | 22 ++++++++--------
+ po/ast.po         | 22 ++++++++--------
+ po/be.po          | 22 ++++++++--------
+ po/bg.po          | 22 ++++++++--------
+ po/bn.po          | 22 ++++++++--------
+ po/bn_IN.po       | 22 ++++++++--------
+ po/br.po          | 22 ++++++++--------
+ po/bs.po          | 22 ++++++++--------
+ po/ca.po          | 22 ++++++++--------
+ po/ca@valencia.po | 22 ++++++++--------
+ po/cmn.po         | 22 ++++++++--------
+ po/cs.po          | 22 ++++++++--------
+ po/cy.po          | 22 ++++++++--------
+ po/da.po          | 22 ++++++++--------
+ po/de.po          | 22 ++++++++--------
+ po/dz.po          | 22 ++++++++--------
+ po/el.po          | 47 +++++++++++++++++----------------
+ po/en_AU.po       | 22 ++++++++--------
+ po/en_CA.po       | 22 ++++++++--------
+ po/en_GB.po       | 22 ++++++++--------
+ po/eo.po          | 22 ++++++++--------
+ po/es.po          | 22 ++++++++--------
+ po/es_CO.po       | 22 ++++++++--------
+ po/et.po          | 22 ++++++++--------
+ po/eu.po          | 22 ++++++++--------
+ po/fa.po          | 22 ++++++++--------
+ po/fi.po          | 22 ++++++++--------
+ po/fr.po          | 22 ++++++++--------
+ po/frp.po         | 22 ++++++++--------
+ po/ga.po          | 22 ++++++++--------
+ po/gl.po          | 22 ++++++++--------
+ po/gu.po          | 22 ++++++++--------
+ po/he.po          | 22 ++++++++--------
+ po/hi.po          | 22 ++++++++--------
+ po/hr.po          | 22 ++++++++--------
+ po/hu.po          | 22 ++++++++--------
+ po/hy.po          | 22 ++++++++--------
+ po/id.po          | 22 ++++++++--------
+ po/is.po          | 22 ++++++++--------
+ po/it.po          | 24 ++++++++---------
+ po/ja.po          | 22 ++++++++--------
+ po/kk.po          | 22 ++++++++--------
+ po/kn.po          | 22 ++++++++--------
+ po/ko.po          | 22 ++++++++--------
+ po/ku_IQ.po       | 22 ++++++++--------
+ po/ky.po          | 22 ++++++++--------
+ po/lt.po          | 22 ++++++++--------
+ po/lv.po          | 22 ++++++++--------
+ po/mai.po         | 22 ++++++++--------
+ po/mk.po          | 22 ++++++++--------
+ po/ml.po          | 22 ++++++++--------
+ po/mr.po          | 22 ++++++++--------
+ po/ms.po          | 22 ++++++++--------
+ po/nb.po          | 22 ++++++++--------
+ po/ne.po          | 22 ++++++++--------
+ po/nl.po          | 22 ++++++++--------
+ po/nn.po          | 22 ++++++++--------
+ po/oc.po          | 22 ++++++++--------
+ po/or.po          | 22 ++++++++--------
+ po/pa.po          | 22 ++++++++--------
+ po/pl.po          | 24 ++++++++---------
+ po/pms.po         | 22 ++++++++--------
+ po/pt.po          | 22 ++++++++--------
+ po/pt_BR.po       | 22 ++++++++--------
+ po/ro.po          | 22 ++++++++--------
+ po/ru.po          | 22 ++++++++--------
+ po/rw.po          | 22 ++++++++--------
+ po/si.po          | 22 ++++++++--------
+ po/sk.po          | 22 ++++++++--------
+ po/sl.po          | 22 ++++++++--------
+ po/sq.po          | 22 ++++++++--------
+ po/sr.po          | 22 ++++++++--------
+ po/sr@latin.po    | 22 ++++++++--------
+ po/sv.po          | 22 ++++++++--------
+ po/ta.po          | 22 ++++++++--------
+ po/te.po          | 22 ++++++++--------
+ po/th.po          | 22 ++++++++--------
+ po/tr.po          | 22 ++++++++--------
+ po/ug.po          | 22 ++++++++--------
+ po/uk.po          | 26 +++++++++----------
+ po/ur.po          | 22 ++++++++--------
+ po/uz.po          | 22 ++++++++--------
+ po/vi.po          | 22 ++++++++--------
+ po/zh_CN.po       | 22 ++++++++--------
+ po/zh_HK.po       | 22 ++++++++--------
+ po/zh_TW.po       | 22 ++++++++--------
+ 88 files changed, 1013 insertions(+), 1012 deletions(-)
+
+commit 8be99804e52f94424f0ae32f4c9464bf21b4b750
+Author: monsta <monsta@inbox.ru>
+Date:   Mon Mar 13 17:46:52 2017 +0300
+
+    update NEWS for 1.18
+
+ NEWS | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+commit 1d16db8f865c84cfad3a03c24f5c42b956d9580e
+Author: Martin Wimpress <martin@mate-desktop.org>
+Date:   Fri Jan 13 16:13:04 2017 +0000
+
+    Update mate-user-share NEWS to use consistent, project wide, markdown-like formatting. This will make generating release announcements easier.
+
+ NEWS | 23 +++++++++++++++--------
+ 1 file changed, 15 insertions(+), 8 deletions(-)
+
+commit b39c65cc4a1323de63912e9914263c9c8804f89e
+Author: monsta <monsta@inbox.ru>
+Date:   Mon Nov 28 12:39:06 2016 +0300
+
+    po: actually add new languages from Transifex
+
+ po/LINGUAS | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 109c938069be4b735f90b56553b97c9e267d4836
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Thu Nov 24 22:14:59 2016 +0100
+
+    release 1.17.0
+
+ NEWS | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit fec707946cce72dc64731dd3c2e2ff4906182cb0
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Thu Nov 24 22:13:19 2016 +0100
+
+    sync with transifex
+
+ po/bs.po    | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ku_IQ.po | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/nb.po    |  14 ++--
+ po/oc.po    |  18 +++---
+ po/pt.po    |  19 +++---
+ po/ro.po    |   2 +-
+ 6 files changed, 446 insertions(+), 25 deletions(-)
+
+commit 44fed6ba67c2a0488d0a1e0b1a5194005706347b
+Author: monsta <monsta@inbox.ru>
+Date:   Wed Nov 23 16:49:28 2016 +0300
+
+    move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
+    
+    and require caja >= 1.17.1
+
+ Makefile.am                 |  3 +--
+ NEWS                        |  2 ++
+ configure.ac                | 44 +++++----------------------------
+ src/caja-share-bar.c        |  4 ---
+ src/file-share-properties.c | 59 ---------------------------------------------
+ 5 files changed, 9 insertions(+), 103 deletions(-)
+
+commit 95984871537b4703b98419998ae2b8beb932b386
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Mon Sep 19 14:20:49 2016 +0200
+
+    release 1.16.0
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 123623422fecec93b00b242464c445449d057c7b
+Author: monsta <monsta@inbox.ru>
+Date:   Mon Sep 19 14:50:12 2016 +0300
+
+    update NEWS for 1.16
+
+ NEWS | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+
+commit eb514d6891c009844fdf77b7659b160cd7c2674f
+Author: monsta <monsta@inbox.ru>
+Date:   Mon Sep 19 14:45:19 2016 +0300
+
+    sync with Transifex
+
+ po/ca@valencia.po | 31 ++++++++++++++++---------------
+ po/sl.po          |  7 ++++---
+ 2 files changed, 20 insertions(+), 18 deletions(-)
+
+commit 716bb4c221fa2eb65e78def3c8258fe099d0e4fd
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Sep 2 14:23:34 2016 +0300
+
+    po: actually add new translation files
+
+ po/LINGUAS | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 1540deee889d3f329495023f41aede0c877bb5b4
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Thu Sep 1 20:07:26 2016 +0200
+
+    release 1.15.1
+
+ NEWS         | 6 ++++++
+ configure.ac | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 45f4952babf2ad2bc71e26488731ba582a3716e7
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Thu Sep 1 19:55:29 2016 +0200
+
+    sync with transiflex
+
+ po/bg.po    |  23 +++----
+ po/ca.po    |   4 +-
+ po/es_CO.po | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fa.po    | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/hi.po    |   2 +-
+ po/hr.po    |   2 +-
+ po/pms.po   | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sv.po    |   7 +-
+ 8 files changed, 647 insertions(+), 18 deletions(-)
+
+commit b010b0fa92e55ec9c997613f2fce3168d0e98d4e
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Aug 18 13:06:39 2016 +0300
+
+    distcheck: explicitly use currently selected GTK+ version
+
+ Makefile.am  | 4 +++-
+ configure.ac | 2 ++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+commit f16603aafe8389f4d4d82954db5ac7f1ed37b283
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Aug 18 13:05:07 2016 +0300
+
+    build: use 'm4' dir for m4 macros, like in other projects
+
+ Makefile.am  | 2 ++
+ configure.ac | 2 ++
+ 2 files changed, 4 insertions(+)
+
+commit 6728de45e0f2f02497fa8278e24dcee5ae0a63fb
+Author: ZenWalker <scow@riseup.net>
+Date:   Fri Jul 22 01:15:08 2016 +0200
+
+    gtk3: Port from libunique to GtkApplication
+    
+    based on gnome-user-share commit:
+    https://git.gnome.org/browse/gnome-user-share/commit/?id=70577007a8ecce66bf6b547bda863235bc1d6f48
+    
+    Fixes #38
+
+ configure.ac                |  8 ++++--
+ src/file-share-properties.c | 62 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 68 insertions(+), 2 deletions(-)
+
+commit a8568427b36439ca1a16e26088788cf39e611840
+Author: monsta <monsta@inbox.ru>
+Date:   Tue Jul 12 18:14:36 2016 +0300
+
+    po: re-add two non-empty translations
+
+ po/ja.po | 17 +++++++++--------
+ po/ro.po |  7 ++++---
+ 2 files changed, 13 insertions(+), 11 deletions(-)
+
+commit a0f8a56dc0f544e219d8816417c1d7ec7fe42bdb
+Author: monsta <monsta@inbox.ru>
+Date:   Tue Jul 12 18:12:39 2016 +0300
+
+    revert addition of empty translations
+    
+    they're all empty - except for two which I'll re-add later - so they
+    simply don't do anything. no translated strings, no use.
+    
+    This reverts commit ee78d4b121f23618f630e26f183073b51d4ef4d0.
+
+ po/af.po      | 208 ---------------------------------------------------------
+ po/an.po      | 208 ---------------------------------------------------------
+ po/az.po      | 208 ---------------------------------------------------------
+ po/bs.po      | 208 ---------------------------------------------------------
+ po/crh.po     | 208 ---------------------------------------------------------
+ po/csb.po     | 208 ---------------------------------------------------------
+ po/cv.po      | 208 ---------------------------------------------------------
+ po/de_CH.po   | 208 ---------------------------------------------------------
+ po/es_419.po  | 208 ---------------------------------------------------------
+ po/es_AR.po   | 208 ---------------------------------------------------------
+ po/es_CL.po   | 208 ---------------------------------------------------------
+ po/es_CO.po   | 208 ---------------------------------------------------------
+ po/es_CR.po   | 208 ---------------------------------------------------------
+ po/es_DO.po   | 208 ---------------------------------------------------------
+ po/es_EC.po   | 208 ---------------------------------------------------------
+ po/es_ES.po   | 208 ---------------------------------------------------------
+ po/es_MX.po   | 208 ---------------------------------------------------------
+ po/es_NI.po   | 208 ---------------------------------------------------------
+ po/es_PA.po   | 208 ---------------------------------------------------------
+ po/es_PE.po   | 208 ---------------------------------------------------------
+ po/es_PR.po   | 208 ---------------------------------------------------------
+ po/es_SV.po   | 208 ---------------------------------------------------------
+ po/es_US.po   | 208 ---------------------------------------------------------
+ po/es_UY.po   | 208 ---------------------------------------------------------
+ po/es_VE.po   | 208 ---------------------------------------------------------
+ po/fa.po      | 208 ---------------------------------------------------------
+ po/fil.po     | 208 ---------------------------------------------------------
+ po/fo.po      | 208 ---------------------------------------------------------
+ po/fr_CA.po   | 208 ---------------------------------------------------------
+ po/fur.po     | 208 ---------------------------------------------------------
+ po/fy.po      | 208 ---------------------------------------------------------
+ po/gd.po      | 208 ---------------------------------------------------------
+ po/ha.po      | 208 ---------------------------------------------------------
+ po/ia.po      | 208 ---------------------------------------------------------
+ po/ig.po      | 208 ---------------------------------------------------------
+ po/ja.po      |  17 +++--
+ po/jv.po      | 208 ---------------------------------------------------------
+ po/ka.po      | 208 ---------------------------------------------------------
+ po/km.po      | 208 ---------------------------------------------------------
+ po/ks.po      | 208 ---------------------------------------------------------
+ po/ku.po      | 208 ---------------------------------------------------------
+ po/ku_IQ.po   | 208 ---------------------------------------------------------
+ po/la.po      | 208 ---------------------------------------------------------
+ po/lb.po      | 208 ---------------------------------------------------------
+ po/li.po      | 208 ---------------------------------------------------------
+ po/lo.po      | 208 ---------------------------------------------------------
+ po/mg.po      | 208 ---------------------------------------------------------
+ po/mi.po      | 208 ---------------------------------------------------------
+ po/mn.po      | 208 ---------------------------------------------------------
+ po/my.po      | 208 ---------------------------------------------------------
+ po/nah.po     | 208 ---------------------------------------------------------
+ po/nds.po     | 208 ---------------------------------------------------------
+ po/nqo.po     | 208 ---------------------------------------------------------
+ po/nso.po     | 208 ---------------------------------------------------------
+ po/om.po      | 208 ---------------------------------------------------------
+ po/pms.po     | 209 ----------------------------------------------------------
+ po/ps.po      | 208 ---------------------------------------------------------
+ po/ro.po      |   7 +-
+ po/sc.po      | 208 ---------------------------------------------------------
+ po/sco.po     | 208 ---------------------------------------------------------
+ po/so.po      | 208 ---------------------------------------------------------
+ po/sw.po      | 208 ---------------------------------------------------------
+ po/tg.po      | 208 ---------------------------------------------------------
+ po/tk.po      | 208 ---------------------------------------------------------
+ po/tl.po      | 208 ---------------------------------------------------------
+ po/ts.po      | 208 ---------------------------------------------------------
+ po/tt.po      | 208 ---------------------------------------------------------
+ po/ur_PK.po   | 208 ---------------------------------------------------------
+ po/wa.po      | 208 ---------------------------------------------------------
+ po/xh.po      | 208 ---------------------------------------------------------
+ po/yi.po      | 208 ---------------------------------------------------------
+ po/yo.po      | 208 ---------------------------------------------------------
+ po/zh-Hans.po | 208 ---------------------------------------------------------
+ po/zu.po      | 208 ---------------------------------------------------------
+ 74 files changed, 11 insertions(+), 14990 deletions(-)
+
+commit eea08f6b34bdfd58f31451874a4f9646131b997f
+Author: Martin Wimpress <code@flexion.org>
+Date:   Wed Jun 8 17:23:01 2016 +0100
+
+    Bump version to 1.15.0
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit ee78d4b121f23618f630e26f183073b51d4ef4d0
+Author: Martin Wimpress <code@flexion.org>
+Date:   Wed Jun 8 17:17:57 2016 +0100
+
+    sync with Transiflex.
+
+ po/af.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/an.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/az.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/bs.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/crh.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/csb.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/cv.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/de_CH.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_419.po  | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_AR.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_CL.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_CO.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_CR.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_DO.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_EC.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_ES.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_MX.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_NI.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_PA.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_PE.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_PR.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_SV.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_US.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_UY.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_VE.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fa.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fil.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fo.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fr_CA.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fur.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fy.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/gd.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ha.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ia.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ig.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ja.po      |  17 ++---
+ po/jv.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ka.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/km.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ks.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ku.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ku_IQ.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/la.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/lb.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/li.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/lo.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/mg.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/mi.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/mn.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/my.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/nah.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/nds.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/nqo.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/nso.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/om.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/pms.po     | 209 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ps.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ro.po      |   7 +-
+ po/sc.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sco.po     | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/so.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sw.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/tg.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/tk.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/tl.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ts.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/tt.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ur_PK.po   | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/wa.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/xh.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/yi.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/yo.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/zh-Hans.po | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/zu.po      | 208 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 74 files changed, 14990 insertions(+), 11 deletions(-)
+
+commit 047fb59684322e7689fc69832333328fd2af15e9
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 14:43:49 2016 +0300
+
+    Release 1.14.0
+
+ NEWS         | 2 +-
+ configure.ac | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit de8a578f8fdcf30595b62c91ee35d9605aa20f61
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 13:34:51 2016 +0300
+
+    update NEWS to mention Changelog generation
+
+ NEWS | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 5ea5a23f1c326c429196cc781717dc9ac6df9390
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 13:28:26 2016 +0300
+
+    fix Changelog generation
+
+ Makefile.am | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit b44c610a62919f364c962c7c3bde81dd907b40fa
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 13:27:07 2016 +0300
+
+    po: add new languages from Transifex
+
+ po/LINGUAS |   4 ++
+ po/cy.po   | 209 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/frp.po  | 209 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/si.po   | 209 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/uz.po   | 208 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 839 insertions(+)
+
+commit 941df06441c9b5dc056499c85ec1696c453b0443
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 13:23:15 2016 +0300
+
+    update translations from Transifex
+
+ po/am.po          | 171 ++++++++------------
+ po/ar.po          | 167 +++++++------------
+ po/as.po          | 266 +++++++++++++-----------------
+ po/ast.po         | 167 +++++++------------
+ po/be.po          | 165 +++++++------------
+ po/bg.po          | 258 +++++++++++------------------
+ po/bn.po          | 300 +++++++++++-----------------------
+ po/bn_IN.po       | 249 +++++++++++-----------------
+ po/br.po          | 256 ++++++++++++-----------------
+ po/ca.po          | 267 ++++++++++++------------------
+ po/ca@valencia.po | 263 +++++++++++-------------------
+ po/cmn.po         | 167 +++++++------------
+ po/cs.po          | 265 ++++++++++++------------------
+ po/da.po          | 169 ++++++++-----------
+ po/de.po          | 170 ++++++++-----------
+ po/dz.po          | 218 ++++++++++++++++++-------
+ po/el.po          | 264 +++++++++++-------------------
+ po/en_AU.po       | 170 ++++++++-----------
+ po/en_CA.po       | 230 +++++++++++++++++++-------
+ po/en_GB.po       | 166 +++++++------------
+ po/eo.po          | 253 +++++++++++------------------
+ po/es.po          |   9 +-
+ po/et.po          | 165 +++++++------------
+ po/eu.po          | 248 +++++++++++-----------------
+ po/fi.po          | 257 +++++++++++------------------
+ po/fr.po          |   2 +-
+ po/ga.po          | 269 +++++++++++++-----------------
+ po/gl.po          | 167 +++++++------------
+ po/gu.po          | 259 ++++++++++++-----------------
+ po/he.po          | 252 +++++++++++------------------
+ po/hi.po          | 165 +++++++------------
+ po/hr.po          | 186 +++++++++------------
+ po/hu.po          | 255 ++++++++++++-----------------
+ po/hy.po          |   2 +-
+ po/id.po          | 232 ++++++++++++--------------
+ po/is.po          | 159 +++++++-----------
+ po/it.po          |   2 +-
+ po/ja.po          | 266 ++++++++++++------------------
+ po/kk.po          | 157 +++++++-----------
+ po/kn.po          | 251 +++++++++++-----------------
+ po/ko.po          | 167 +++++++------------
+ po/ky.po          | 157 +++++++-----------
+ po/lt.po          |   4 +-
+ po/lv.po          | 252 +++++++++++------------------
+ po/mai.po         | 202 +++++++++++------------
+ po/mk.po          | 221 +++++++++++++++++++------
+ po/ml.po          | 253 +++++++++++------------------
+ po/mr.po          | 165 +++++++------------
+ po/ms.po          | 165 +++++++------------
+ po/nb.po          |  23 +--
+ po/ne.po          |   2 +-
+ po/nl.po          | 272 ++++++++++++-------------------
+ po/nn.po          | 250 +++++++++++-----------------
+ po/oc.po          | 217 +++++++++++++------------
+ po/or.po          | 262 +++++++++++++-----------------
+ po/pa.po          | 264 +++++++++++-------------------
+ po/pl.po          | 261 ++++++++++++------------------
+ po/pt.po          | 167 +++++++------------
+ po/pt_BR.po       | 477 ++++++++++++------------------------------------------
+ po/ro.po          | 270 ++++++++++++-------------------
+ po/ru.po          | 169 ++++++++-----------
+ po/rw.po          | 271 +++++++++++++++++++++----------
+ po/sk.po          |   2 +-
+ po/sl.po          | 167 +++++++------------
+ po/sq.po          | 222 +++++++++++++++++++------
+ po/sr.po          | 163 +++++++------------
+ po/sr@latin.po    | 270 +++++++++++--------------------
+ po/sv.po          | 262 ++++++++++++------------------
+ po/ta.po          | 256 +++++++++++------------------
+ po/te.po          | 259 +++++++++++++----------------
+ po/th.po          | 260 ++++++++++++-----------------
+ po/tr.po          | 266 +++++++++++++-----------------
+ po/ug.po          | 242 ++++++++++++---------------
+ po/uk.po          | 168 ++++++++-----------
+ po/ur.po          | 165 +++++++------------
+ po/vi.po          | 296 +++++++++++++--------------------
+ po/zh_CN.po       | 258 ++++++++++++-----------------
+ po/zh_HK.po       | 251 +++++++++++-----------------
+ po/zh_TW.po       | 258 ++++++++++++-----------------
+ 79 files changed, 6574 insertions(+), 9586 deletions(-)
+
+commit 16b3a89f4eabb45cd4523cb2e6f730f4162f7ace
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Apr 8 13:11:33 2016 +0300
+
+    po: drop language not present on Transifex
+
+ po/LINGUAS    |   1 -
+ po/en@shaw.po | 259 ----------------------------------------------------------
+ 2 files changed, 260 deletions(-)
+
+commit 341f26821969ea614165ded941bccfe96f581f69
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Apr 7 18:16:25 2016 +0300
+
+    drop ancient gnome news
+
+ NEWS.GNOME | 138 -------------------------------------------------------------
+ 1 file changed, 138 deletions(-)
+
+commit bede0a783733e96de09e22bc36d98189851332be
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Apr 7 16:48:59 2016 +0300
+
+    po: add missing language to LINGUAS
+
+ po/LINGUAS | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit c4afeb749aa51af7138c99538b2f0d9e2333e800
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Apr 7 16:47:49 2016 +0300
+
+    po: fix sorting and remove trailing spaces in LINGUAS
+
+ po/LINGUAS | 47 +++++++++++++++++++++++------------------------
+ 1 file changed, 23 insertions(+), 24 deletions(-)
+
+commit 1095580857dd7a6b292ef09056dc57c8a4ab600e
+Author: monsta <monsta@inbox.ru>
+Date:   Tue Apr 5 15:31:16 2016 +0300
+
+    update NEWS a bit
+
+ NEWS | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 02f5ce7322bb7b36acecd4ff8f30a882630922df
+Author: Martin Wimpress <code@flexion.org>
+Date:   Fri Feb 19 14:23:58 2016 +0000
+
+    Sync with Transifex
+
+ po/es.po | 278 +++++++++++++++++++++++----------------------------------------
+ po/fr.po | 166 ++++++++++++++------------------------
+ po/hy.po | 163 ++++++++++++++-----------------------
+ po/it.po | 257 +++++++++++++++++++++++-----------------------------------
+ po/lt.po | 262 +++++++++++++++++++++++------------------------------------
+ po/nb.po | 247 ++++++++++++++++++++++----------------------------------
+ po/ne.po | 235 ++++++++++++++++++++++++++++++++++++++---------------
+ po/sk.po | 166 ++++++++++++++------------------------
+ 8 files changed, 756 insertions(+), 1018 deletions(-)
+
+commit 2cca6f53c72f9452ab0c92b261c25d6632f34dc8
+Author: monsta <monsta@inbox.ru>
+Date:   Tue Jan 26 17:43:55 2016 +0300
+
+    release 1.13.0
+
+ NEWS | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit c5e3fe80b51fed3b47817321c2db814fded4aa36
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Jan 21 13:10:21 2016 +0300
+
+    [GTK+3] fix deprecated usage of GtkMisc and GtkVBox
+
+ src/caja-share-bar.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+commit e3d899644ab5da7780dd8e5c44c4ab765aea28fe
+Author: Wolfgang Ulbrich <chat-to-me@raveit.de>
+Date:   Tue Jan 5 03:37:07 2016 +0100
+
+    pre-bump version to 1.13.0
+
+ NEWS         | 2 ++
+ configure.ac | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit f8a5bed1fb03cfed71c2d46892b8cba44c6547df
+Author: Monsta <monsta@inbox.ru>
+Date:   Sun Jan 3 01:12:48 2016 +0300
+
+    drop MateConf migration script
+
+ data/Makefile.am             | 4 ----
+ data/mate-user-share.convert | 9 ---------
+ 2 files changed, 13 deletions(-)
+
+commit 8e283c3161346b5526d02b72eb57466b36f85bd6
+Author: Monsta <monsta@inbox.ru>
+Date:   Fri Nov 6 15:08:39 2015 +0300
+
+    don't translate Keywords filed in .desktop files
+
+ data/mate-user-share-obexftp.desktop.in.in  | 2 +-
+ data/mate-user-share-obexpush.desktop.in.in | 2 +-
+ data/mate-user-share-webdav.desktop.in.in   | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit f4f63f51a5925dbf10242a9cf85c9b2d4f9f9fa0
+Author: Clement Lefebvre <clement.lefebvre@linuxmint.com>
+Date:   Tue Nov 3 14:57:11 2015 +0000
+
+    1.12.0
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d87f134b9612469bb4a567b98f771147b91fe001
+Author: Clement Lefebvre <clement.lefebvre@linuxmint.com>
+Date:   Tue Nov 3 14:56:58 2015 +0000
+
+    Sync translations with transifex
+
+ po/hy.po | 252 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 252 insertions(+)
+
+commit 233a3c0e2caae3497fcb457f7cd6500f6a757913
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Oct 30 16:43:09 2015 +0300
+
+    update NEWS for 1.12
+
+ NEWS | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 342c72ea5781d409b199d5337ebb6b9114d193d4
+Author: monsta <monsta@inbox.ru>
+Date:   Fri Oct 9 14:23:38 2015 +0300
+
+    Add NEWS for 1.11.0
+
+ NEWS | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit e174a16da5ae7feb2f2579ae442cab1d2ec6ed5c
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Tue Oct 6 18:11:22 2015 +0200
+
+    pre-bump version to 1.11.0
+
+ NEWS         | 2 ++
+ configure.ac | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 391023c7de9819ad9eb47e6ceea374cb4ff19284
+Merge: 9712b02 d8b8c33
+Author: Martin Wimpress <code@flexion.org>
+Date:   Mon Sep 28 09:15:21 2015 +0100
+
+    Merge pull request #36 from monsta/cleanup
+    
+    configure.ac: drop dbus-1 requirement
+
+commit d8b8c3311253008c065c1033b5e073d02d3092ef
+Author: Monsta <monsta@inbox.ru>
+Date:   Fri Sep 25 10:25:41 2015 +0300
+
+    configure.ac: drop dbus-1 requirement
+    
+    not needed after https://github.com/mate-desktop/mate-user-share/commit/dadcc6243c6f3a7bcf7aba443816c50e987fc6e4
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9712b02bf86cf5a4f8bab7e55a156e2ac937e315
+Merge: dadcc62 1d22e70
+Author: Martin Wimpress <code@flexion.org>
+Date:   Wed Sep 23 16:42:56 2015 +0100
+
+    Merge pull request #35 from monsta/ancient
+    
+    some cleanup
+
+commit 1d22e70e9aa963f762391ca1eacfcbf16bb4375e
+Author: Monsta <monsta@inbox.ru>
+Date:   Tue Sep 8 17:07:14 2015 +0300
+
+    configure.ac: indicate that we support apache >= 2.2, not just 2.2
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5487116f2f65631346038d7192e2d9e7297d0bfa
+Author: Monsta <monsta@inbox.ru>
+Date:   Tue Sep 8 16:49:32 2015 +0300
+
+    drop apache 2.0 config, it's ancient
+
+ data/Makefile.am       |  2 +-
+ data/dav_user_2.0.conf | 40 ----------------------------------------
+ 2 files changed, 1 insertion(+), 41 deletions(-)
+
+commit dadcc6243c6f3a7bcf7aba443816c50e987fc6e4
+Author: Monsta <monsta@inbox.ru>
+Date:   Tue Aug 25 17:59:55 2015 +0300
+
+    some cleanup from upstream
+    
+    https://git.gnome.org/browse/gnome-user-share/commit/?id=447db6a8eaf551fd9de53d600885847d1e1eb0ac
+    https://git.gnome.org/browse/gnome-user-share/commit/?id=032d88e1c4e89bef92540b3e613f5ad7baa6bedb
+    https://git.gnome.org/browse/gnome-user-share/commit/?id=2bbc6384cb0d8a85dcf0208ec5d75d28e2d89049
+
+ src/http.c       | 44 ++------------------------------------------
+ src/user_share.c |  2 --
+ 2 files changed, 2 insertions(+), 44 deletions(-)
+
+commit 7d6ade70a6012a72f6d98d4f86b73a41dfbcb28a
+Author: monsta <monsta@inbox.ru>
+Date:   Wed Aug 19 10:53:56 2015 +0300
+
+    configure.ac: drop obsolete macro
+    
+    It's been a no-op for a long time.
+    See https://mail.gnome.org/archives/commits-list/2011-December/msg00681.html for example.
+
+ configure.ac | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 017c4afd935c91720edcc107543eaa85182d2087
+Author: Clement Lefebvre <clement.lefebvre@linuxmint.com>
+Date:   Fri Sep 4 22:08:24 2015 +0100
+
+    Switch to org.gnome.SessionManager
+
+ src/user_share.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 973b934698ef3113e03411c41fe14b896d3bc194
+Author: Monsta <monsta@inbox.ru>
+Date:   Fri Jul 10 10:27:05 2015 +0300
+
+    help: corrected feedback page link
+
+ help/C/index.docbook | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 700b653b28ce1a2d697c5c4280039612fd6ddc8c
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed May 6 19:38:20 2015 +0200
+
+    Bump version to 1.10.0
+
+ NEWS         | 2 +-
+ configure.ac | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 453c91d77341acacb2d8a6efaa89c6e4fb906af2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Apr 6 11:03:43 2015 +0200
+
+    Bump version to 1.9.90
+
+ NEWS         | 2 +-
+ configure.ac | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 737824c6bb0d2f35d3584c81420edc5b5941350d
+Author: mate-i18n <mate-i18n@ml.mate-desktop.org>
+Date:   Mon Apr 6 11:03:31 2015 +0200
+
+    Sync translations with transifex
+
+ po/LINGUAS  |   7 +-
+ po/be.po    | 252 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/de.po    | 221 +++++++++++++++++++++++-----------------------------
+ po/en_AU.po |   8 +-
+ po/en_GB.po | 196 +++++++++++++++++++++-------------------------
+ po/et.po    | 231 ++++++++++++++++++++++++++++++-------------------------
+ po/fr.po    | 205 ++++++++++++++++++++++--------------------------
+ po/kk.po    | 252 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ky.po    | 252 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/pt.po    | 209 ++++++++++++++++++++++---------------------------
+ po/sr.po    | 214 ++++++++++++++++++++++-----------------------------
+ 11 files changed, 1352 insertions(+), 695 deletions(-)
+
+commit 8227316d41c44dea94e5b82dc4f9f5e0245ed1ab
+Author: monsta <monsta@inbox.ru>
+Date:   Wed Mar 4 17:50:46 2015 +0300
+
+    obexftp: fix spacing a bit
+    
+    Closes https://github.com/mate-desktop/mate-user-share/pull/28
+
+ src/obexftp.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 3d5ee3fb42945c03bda045411419d024389daefe
+Author: Monsta <monsta@inbox.ru>
+Date:   Thu Mar 5 11:28:50 2015 +0300
+
+    first connect to settings, then read them.
+    
+    fixes the issue with GLib >= 2.43,
+    https://git.gnome.org/browse/glib/commit/?id=8ff5668a458344da22d30491e3ce726d861b3619
+    
+    Closes https://github.com/mate-desktop/mate-user-share/pull/29
+
+ src/file-share-properties.c |  4 +---
+ src/user_share.c            | 32 +++++++++++++++++++++++---------
+ 2 files changed, 24 insertions(+), 12 deletions(-)
+
+commit ac77fb9abfa4504d965cd9e9c9837dc0bb4f5b81
+Author: Monsta <monsta@inbox.ru>
+Date:   Wed Jan 14 14:01:01 2015 +0300
+
+    renamed extension lib
+    
+    this has a few benefits:
+    - the new name looks more consistent among other caja extension libs
+    - less chance to confuse it with caja-share extension
+    - proper extension description and about dialog due to the new name
+      corresponding to .caja-extension file name (see https://github.com/mate-desktop/mate-user-share/issues/26)
+
+ src/Makefile.am | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 8faecc75ba26efd13de44353debf6424494a98ce
+Author: infirit <infirit@gmail.com>
+Date:   Sat Jan 10 20:00:55 2015 +0100
+
+    Add user-share caja extension ini file
+
+ configure.ac                                 | 1 +
+ data/Makefile.am                             | 7 ++++++-
+ data/libcaja-user-share.caja-extension.in.in | 7 +++++++
+ po/POTFILES.in                               | 1 +
+ 4 files changed, 15 insertions(+), 1 deletion(-)
+
+commit c05ff8fa8048d65ad0f9a35a2b1d2942074489b4
+Author: monsta <monsta@inbox.ru>
+Date:   Thu Dec 25 14:49:21 2014 +0300
+
+    fix UI load in GTK+3 build
+
+ data/file-share-properties.ui | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 23404abfa19c5656098eb3284c943a7dcaed3b77
+Author: Monsta <monsta@inbox.ru>
+Date:   Sun Dec 28 13:55:18 2014 +0300
+
+    help: remove out-of-place directory
+    
+    Slovenian translation is at help/sl, not here
+
+ help/po/sl.po | 252 ----------------------------------------------------------
+ 1 file changed, 252 deletions(-)
+
+commit 5148d2ae05d6e6d8fa5041025c4d1b44e8e4b819
+Author: Monsta <monsta@inbox.ru>
+Date:   Sun Dec 28 13:52:30 2014 +0300
+
+    help: remove autogenerated files
+
+ help/de/legal.xml | 13 ----------
+ help/es/legal.xml | 13 ----------
+ help/ro/legal.xml | 72 -------------------------------------------------------
+ help/sv/legal.xml | 72 -------------------------------------------------------
+ 4 files changed, 170 deletions(-)
+
+commit 3bdb9dbbff12728bfea54525c7e57abfaf3065af
+Author: infirit <infirit@gmail.com>
+Date:   Thu Dec 25 12:20:17 2014 +0100
+
+    Gtk3: Fix gdk-x11 check in configure.ac
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b642ee7d64402c2a0d6625a2b8ce5115c68f67a7
+Author: Monsta <monsta@inbox.ru>
+Date:   Wed Nov 19 21:22:41 2014 +0300
+
+    Fix memory leak
+    
+    Closes https://github.com/mate-desktop/mate-user-share/pull/22
+
+ src/http.c            | 1 +
+ src/share-extension.c | 6 +++---
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 0040e135e587c476abd7d99d7a47ae146bad0f55
+Author: Monsta <monsta@inbox.ru>
+Date:   Wed Nov 19 21:18:59 2014 +0300
+
+    Fixed logic flow (out-of-bounds array access if bluetooth is disabled)
+
+ src/share-extension.c | 16 +++++++++-------
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+
+commit 4b5d33e7ee3a5bdd8d40972a1e2ee78875616dcb
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Sep 30 10:56:09 2014 +0200
+
+    Add missing variable type
+    
+    Closes https://github.com/mate-desktop/mate-user-share/issues/21
+    Regression introduced in https://github.com/mate-desktop/mate-user-share/commit/4c6a1bdb10a2c554aedb6bb75a24ca61ef421d6d
+
+ src/user_share.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a3f3e68ded7f864fdf5897bd834d7bf54586702f
+Author: mate-i18n <mate-i18n@ml.mate-desktop.org>
+Date:   Sat Jul 12 10:32:58 2014 +0200
+
+    Sync translations with transifex
+
+ po/ast.po | 233 +++++++++++++++++++++++++++++---------------------------------
+ po/hr.po  |  88 ++++++++++++------------
+ po/mr.po  | 224 +++++++++++++++++++++++++++++++----------------------------
+ po/sk.po  |  14 ++--
+ 4 files changed, 278 insertions(+), 281 deletions(-)
+
+commit 1b7d966804562fb97df69f855802a6d036979e98
+Author: mate-i18n <mate-i18n@ml.mate-desktop.org>
+Date:   Thu May 1 00:27:33 2014 +0200
+
+    Sync translations with transifex
+
+ po/hi.po | 248 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 130 insertions(+), 118 deletions(-)
+
+commit bfcec988d6b602ddd707f77114d5139b03cef513
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu May 1 00:24:06 2014 +0200
+
+    Bump version to 1.9.0
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit dab8524fbf8eb2564c00ef929487ebae83c2d3a9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu May 1 00:23:36 2014 +0200
+
+    Update NEWS
+
+ NEWS | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit e7a375cde22393e07215dd1cede2a7f521f4a9ee
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu May 1 00:23:11 2014 +0200
+
+    Add GTK3 support
+
+ configure.ac | 34 +++++++++++++++++++++++++++++++---
+ 1 file changed, 31 insertions(+), 3 deletions(-)
+
+commit 511c4fcb016c212a7d7f6311ec39f36702640bcc
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Date:   Sat Apr 26 12:07:54 2014 +0200
+
+    Add keywords key to .desktop files
+    
+    Closes https://github.com/mate-desktop/mate-user-share/issues/19
+
+ data/mate-user-share-properties.desktop.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 191f78c0b7150abbc79b842f86eed76cb901a12a
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat Mar 1 14:53:18 2014 +0100
+
+    Bump version to 1.8.0
+
+ NEWS         | 2 +-
+ configure.ac | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 7a59985bc5891535ad12c6350b583aee71b5f8df
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Feb 23 19:32:54 2014 +0100
+
+    Sync translations with transifex
+
+ po/LINGUAS  |  11 +-
+ po/am.po    | 252 ++++++++++++++++++++++++++++++
+ po/ar.po    | 204 +++++++++++-------------
+ po/cmn.po   | 254 ++++++++++++++++++++++++++++++
+ po/da.po    | 204 +++++++++++-------------
+ po/en_AU.po | 253 ++++++++++++++++++++++++++++++
+ po/gl.po    | 221 ++++++++++++--------------
+ po/hr.po    | 252 ++++++++++++++++++++++++++++++
+ po/is.po    | 252 ++++++++++++++++++++++++++++++
+ po/ko.po    | 199 ++++++++++++------------
+ po/ms.po    | 252 ++++++++++++++++++++++++++++++
+ po/ru.po    | 181 +++++++++++-----------
+ po/sk.po    | 213 ++++++++++++-------------
+ po/sl.po    | 505 ++++++++++++++++++++++++++++++------------------------------
+ po/uk.po    | 194 +++++++++++------------
+ po/ur.po    | 254 ++++++++++++++++++++++++++++++
+ 16 files changed, 2676 insertions(+), 1025 deletions(-)
+
+commit de26656a5c95c574c34b0e9438cfb62bcccbb711
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Feb 23 19:32:45 2014 +0100
+
+    Add transifex configuration file
+
+ .tx/config | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit cf9d2896616ea50accc59617d08a51bc2984c582
+Author: infirit <infirit@gmail.com>
+Date:   Wed Feb 19 23:36:37 2014 +0100
+
+    Bump version to 1.7.90
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 10b613f3f1f000b3a057f38bd86e867245210a03
+Author: infirit <infirit@gmail.com>
+Date:   Wed Feb 19 23:35:47 2014 +0100
+
+    Update NEWS
+
+ NEWS | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit e5f0552e331f050e28ee8b202f47ac58292e61c1
+Author: infirit <infirit@gmail.com>
+Date:   Wed Feb 19 23:30:42 2014 +0100
+
+    Disbale bluetooth by default
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c0f0c63c670d799dee4fa7577083d0cbace56db4
+Author: infirit <infirit@gmail.com>
+Date:   Mon Feb 10 02:31:30 2014 +0100
+
+    Restore user-guide and port to yelp
+
+ Makefile.am                                  |   2 +-
+ autogen.sh                                   |   7 +-
+ configure.ac                                 |   3 +-
+ help/C/figures/file-sharing-preferences.png  | Bin 0 -> 34673 bytes
+ help/C/figures/receiving-over-bluetooth.png  | Bin 0 -> 11176 bytes
+ help/C/figures/sharing-over-bluetooth.png    | Bin 0 -> 9216 bytes
+ help/C/figures/sharing-over-the-network.png  | Bin 0 -> 10333 bytes
+ help/C/index.docbook                         | 202 +++++++++++
+ help/C/legal.xml                             |  72 ++++
+ help/Makefile.am                             |  12 +
+ help/ca/ca.po                                | 500 ++++++++++++++++++++++++++
+ help/ca/figures/file-sharing-preferences.png | Bin 0 -> 43590 bytes
+ help/ca/figures/receiving-over-bluetooth.png | Bin 0 -> 11162 bytes
+ help/ca/figures/sharing-over-bluetooth.png   | Bin 0 -> 10140 bytes
+ help/ca/figures/sharing-over-the-network.png | Bin 0 -> 10862 bytes
+ help/cs/cs.po                                | 494 ++++++++++++++++++++++++++
+ help/de/de.po                                | 512 +++++++++++++++++++++++++++
+ help/de/figures/file-sharing-preferences.png | Bin 0 -> 55163 bytes
+ help/de/figures/receiving-over-bluetooth.png | Bin 0 -> 11733 bytes
+ help/de/figures/sharing-over-bluetooth.png   | Bin 0 -> 14150 bytes
+ help/de/figures/sharing-over-the-network.png | Bin 0 -> 13453 bytes
+ help/de/legal.xml                            |  13 +
+ help/el/el.po                                | 510 ++++++++++++++++++++++++++
+ help/en_GB/en_GB.po                          | 491 +++++++++++++++++++++++++
+ help/es/es.po                                | 503 ++++++++++++++++++++++++++
+ help/es/figures/file-sharing-preferences.png | Bin 0 -> 40587 bytes
+ help/es/figures/receiving-over-bluetooth.png | Bin 0 -> 12819 bytes
+ help/es/figures/sharing-over-bluetooth.png   | Bin 0 -> 10290 bytes
+ help/es/figures/sharing-over-the-network.png | Bin 0 -> 10856 bytes
+ help/es/legal.xml                            |  13 +
+ help/fr/figures/file-sharing-preferences.png | Bin 0 -> 42838 bytes
+ help/fr/figures/receiving-over-bluetooth.png | Bin 0 -> 11257 bytes
+ help/fr/figures/sharing-over-bluetooth.png   | Bin 0 -> 9623 bytes
+ help/fr/figures/sharing-over-the-network.png | Bin 0 -> 9764 bytes
+ help/fr/fr.po                                | 510 ++++++++++++++++++++++++++
+ help/it/it.po                                | 484 +++++++++++++++++++++++++
+ help/mate-user-share.omf.in                  |  11 +
+ help/po/sl.po                                | 252 +++++++++++++
+ help/pt_BR/pt_BR.po                          | 502 ++++++++++++++++++++++++++
+ help/ro/figures/file-sharing-preferences.png | Bin 0 -> 48215 bytes
+ help/ro/figures/receiving-over-bluetooth.png | Bin 0 -> 16692 bytes
+ help/ro/figures/sharing-over-bluetooth.png   | Bin 0 -> 15066 bytes
+ help/ro/figures/sharing-over-the-network.png | Bin 0 -> 12491 bytes
+ help/ro/legal.xml                            |  72 ++++
+ help/ro/ro.po                                | 504 ++++++++++++++++++++++++++
+ help/sl/sl.po                                | 252 +++++++++++++
+ help/sv/figures/file-sharing-preferences.png | Bin 0 -> 42219 bytes
+ help/sv/figures/receiving-over-bluetooth.png | Bin 0 -> 12986 bytes
+ help/sv/figures/sharing-over-bluetooth.png   | Bin 0 -> 11585 bytes
+ help/sv/figures/sharing-over-the-network.png | Bin 0 -> 11938 bytes
+ help/sv/legal.xml                            |  72 ++++
+ help/sv/sv.po                                | 250 +++++++++++++
+ help/zh_CN/zh_CN.po                          | 448 +++++++++++++++++++++++
+ src/file-share-properties.c                  |   2 +-
+ 54 files changed, 6689 insertions(+), 4 deletions(-)
+
+commit 954a44d6d56f54880ad91f0ed9ba1fd34fb14b10
+Author: infirit <infirit@gmail.com>
+Date:   Mon Feb 10 00:56:48 2014 +0100
+
+    Bump version to 1.7.0
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 41459020ad2bc6f413512ad4531629a0a611bbe0
+Author: infirit <infirit@gmail.com>
+Date:   Mon Feb 10 00:55:44 2014 +0100
+
+    Update NEWS
+
+ NEWS | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 7a0305478295e9e7c284372677a4cbc382444482
+Merge: e06c424 906172b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Jan 2 11:28:32 2014 -0800
+
+    Merge pull request #17 from NiceandGently/master
+    
+    do not use download dir for incoming bluetooth downloads if mate-blueto...
+
+commit e06c4244b79f9230da48fa186412749b8357d855
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jan 1 13:43:33 2014 +0100
+
+    Updates for make dist and make distcheck
+
+ NEWS             | 1 +
+ data/Makefile.am | 1 +
+ po/POTFILES.in   | 1 -
+ po/POTFILES.skip | 7 ++++---
+ 4 files changed, 6 insertions(+), 4 deletions(-)
+
+commit 56d3db9ebe0d4b1697995a885fdc494272967b49
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jan 1 13:33:40 2014 +0100
+
+    Create empty NEWS file for MATE
+
+ NEWS | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 91de84636f91b60de9ff393e6b616dd8f3929681
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jan 1 13:33:20 2014 +0100
+
+    Rename NEWS as NEWS.GNOME
+
+ NEWS => NEWS.GNOME | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1ee57560466a9a200cd6488043a892cc32972d7a
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jan 1 13:32:59 2014 +0100
+
+    Create xz tarball
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 906172bb95b10dd064d0b0fde0d0510434d34b96
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Thu Nov 21 11:24:55 2013 +0100
+
+    do not use download dir for incomming bluetooth downloads if mate-bluetooth isn't installed
+
+ src/share-extension.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 77a60402b58e004651f769b5baa98ab8574864f1
+Merge: 2a7238b 0b94fd9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Sep 19 08:28:42 2013 -0700
+
+    Merge pull request #15 from NiceandGently/master
+    
+    fix typo in share-extension.c
+
+commit 0b94fd94e24f7e21e1386c993db0a313512030ef
+Author: Wolfgang Ulbrich <chat-to-me@raveit.de>
+Date:   Thu Sep 19 17:15:41 2013 +0200
+
+    fix typo in share-extension.c
+
+ src/share-extension.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2a7238bee32de88d24b541acdc06a1d1b3b73b02
+Merge: 48b2c97 4729935
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Sep 11 01:01:44 2013 -0700
+
+    Merge pull request #14 from NiceandGently/master
+    
+    Add support for Apache HTTPD 2.4
+
+commit 472993545c41fa1c77e672b3e4d0df205a6fa98f
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Tue Sep 10 14:34:04 2013 +0200
+
+    add desktop files for autostart folder
+
+ data/mate-user-share-obexftp.desktop.in.in  | 11 +++++++++++
+ data/mate-user-share-obexpush.desktop.in.in | 11 +++++++++++
+ data/mate-user-share-webdav.desktop.in.in   | 11 +++++++++++
+ 3 files changed, 33 insertions(+)
+
+commit 6b2d9e48c82b8b73fd2af640fce4c1ba27eb7b50
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Wed Aug 21 23:46:40 2013 +0200
+
+    make bluetooth really optional
+
+ configure.ac          | 33 ++++++++++++++++++++-------------
+ src/share-extension.c | 13 ++++++++++++-
+ 2 files changed, 32 insertions(+), 14 deletions(-)
+
+commit 8701e25197a994f544c8b65561f25478dafc0b5b
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Wed Aug 21 22:53:14 2013 +0200
+
+    build: Add build options summary
+
+ configure.ac | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit 1f1f66fc0bf276baa9896b96ba31d814b509e3cc
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Wed Aug 21 22:44:49 2013 +0200
+
+    OpenBSD suffers from the same httpd race condition as the other BSDs
+
+ src/http.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cf632626d056a8a221c0295c62aa5509d3484172
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Wed Aug 21 22:41:35 2013 +0200
+
+    Fix turning on sharing not starting mate-user-share
+
+ configure.ac                       | 4 +++-
+ data/Makefile.am                   | 6 ++++--
+ data/mate-user-share.desktop.in.in | 9 ---------
+ po/POTFILES.in                     | 4 +++-
+ po/POTFILES.skip                   | 4 +++-
+ 5 files changed, 13 insertions(+), 14 deletions(-)
+
+commit 5f09ce6843a1d1a96db95a1d9fe487d4a2afb4d7
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Tue Jul 30 16:10:58 2013 +0200
+
+    Require dbus >= 1.1.1
+
+ configure.ac | 8 +-------
+ src/http.c   | 9 ---------
+ 2 files changed, 1 insertion(+), 16 deletions(-)
+
+commit 21f1837929f4e7416ffac87c019e96baef7a8cc0
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Tue Jul 30 12:19:04 2013 +0200
+
+    Use mate-session to track the active session
+
+ configure.ac     |   2 +-
+ src/user_share.c | 178 +++++++++++++++++--------------------------------------
+ 2 files changed, 54 insertions(+), 126 deletions(-)
+
+commit 5190ffa41272e449e6bb6d38cd98cff576d9b4b9
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Tue Jul 30 01:52:52 2013 +0200
+
+    Add support for Apache HTTPD 2.4
+
+ data/Makefile.am       |  2 +-
+ data/dav_user_2.2.conf |  2 +-
+ data/dav_user_2.4.conf | 78 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 80 insertions(+), 2 deletions(-)
+
+commit 48b2c97f8a0c7e8cc0d999d5c427c37daf5aabda
+Merge: 4593b40 b58df42
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jun 26 06:04:37 2013 -0700
+
+    Merge pull request #13 from NiceandGently/master
+    
+    fix automake-1.13 deprecations
+
+commit b58df42d26197fe1d775c3e59a71765a51ee69f2
+Author: raveit <chat-to-me@raveit.de>
+Date:   Wed Jun 26 14:46:54 2013 +0200
+
+    fix automake-1.13 deprecations
+
+ autogen.sh                   | 2 +-
+ configure.in => configure.ac | 0
+ src/Makefile.am              | 2 +-
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 4593b4088ca16d54d9f6c006a97242edc9a0ed18
+Author: Scott Balneaves <sbalneav@mate-desktop.org>
+Date:   Tue Apr 30 13:38:59 2013 -0500
+
+    Added manpage.  Closes #10
+
+ Makefile.am                      |  2 +-
+ configure.in                     |  1 +
+ man/Makefile.am                  |  6 ++++++
+ man/mate-file-share-properties.1 | 15 +++++++++++++++
+ 4 files changed, 23 insertions(+), 1 deletion(-)
+
+commit 86a4c47fb645ef8895557c52b6ef67c7091ad6e9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Apr 30 14:56:26 2013 +0200
+
+    Fix data passed to disabled_timeout_callback
+    
+    In mate-user-share/src/user_share.c, the wrong variable is being passed as
+    a gsettings pointer to the disabled_timeout_callback.
+    https://bugs.launchpad.net/linuxmint/+bug/1005649/comments/36
+
+ src/user_share.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 435664a07d51b5db3e1e8171700843e254813c11
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Apr 2 23:48:49 2013 +0200
+
+    Bump version to 1.6.0
+
+ configure.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit be989cc3e0f1598f1f7a0c2ba6219fdac8e08bf8
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Apr 2 23:48:36 2013 +0200
+
+    Add empty ChangeLog to allow build from git
+
+ ChangeLog | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 0f4310718da062c9f0db6ceff6102e0246bb7e4b
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sun Mar 24 16:33:15 2013 -0400
+
+    "Removed ChangeLog"
+
+ ChangeLog | 410 --------------------------------------------------------------
+ 1 file changed, 410 deletions(-)
+
+commit 661e8214156dc4fb5289d92ae8e637cc6b27f043
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat Mar 23 15:07:16 2013 +0100
+
+    Bump version to 1.5.1
+
+ configure.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f57504c6daf74a4c9a606de0bd1d4d6c2837d61b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat Mar 23 15:06:49 2013 +0100
+
+    Fix GSettings path
+
+ data/org.mate.FileSharing.gschema.xml | 2 +-
+ src/user_share-private.h              | 1 -
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+
+commit 3b15531a8d6f85bf654289deffe67c0893c70857
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Feb 28 12:59:23 2013 +0100
+
+    Use libnotify instead of libmatenotify
+
+ configure.in   | 2 +-
+ src/obexpush.c | 5 ++---
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+
+commit c282e8252547c454257fddaf8056f4f5808581f9
+Merge: 14aa67d 70c8508
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Dec 25 08:35:33 2012 -0800
+
+    Merge pull request #9 from cygwinports/master
+    
+    Add mateconf-gsettings-data-convert file
+
+commit 70c85086415f1b61c8c366f6077bc1f0bd63b178
+Author: Yaakov Selkowitz <yselkowitz@users.sourceforge.net>
+Date:   Mon Dec 24 19:36:31 2012 -0600
+
+    Add mateconf-gsettings-data-convert file
+
+ data/Makefile.am             | 3 +++
+ data/mate-user-share.convert | 9 +++++++++
+ 2 files changed, 12 insertions(+)
+
+commit 14aa67d5e878cde2ef5ee34d3a138a82e8b491b0
+Merge: bc18e5b be79522
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Dec 7 01:00:28 2012 -0800
+
+    Merge pull request #6 from jasmineaura/develop
+    
+    [all] Only add Bluetooth support to build if Bluetooth is available
+
+commit be795227964c7b24027d525eaa634048e08c0df4
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Thu Dec 6 21:03:24 2012 +0200
+
+    [all] Only add Bluetooth support to build if Bluetooth is available
+
+ configure.in                  | 13 ++++++++++++-
+ data/file-share-properties.ui | 10 +++++-----
+ src/Makefile.am               | 14 ++++++++++----
+ src/file-share-properties.c   | 45 +++++++++++++++++++++++++++++++++++++------
+ src/user_share.c              | 44 ++++++++++++++++++++++++++++++++++--------
+ 5 files changed, 102 insertions(+), 24 deletions(-)
+
+commit bc18e5b352952b6365e5dff9de0f02f03f8efb13
+Merge: 85ab680 2a73967
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Nov 16 05:09:45 2012 -0800
+
+    Merge pull request #5 from jasmineaura/develop
+    
+    improve the sharebar, make it an GtkInfoBar, and some fixes
+
+commit 2a7396735127cf392c93bd74a4e39c2f65bf1ded
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Wed Oct 17 07:37:20 2012 +0200
+
+    [bar] Hide the share bar when Bluetooth is disabled
+    
+    A bar always appears on top of XDG_DOWNLOAD_DIR view in caja even
+    without a bluetooth adapter present or enabled.
+    This patch uses BluetoothClient's "default-adapter" property to
+    detect whether we have an enabled bluetooth adapter, and only if
+    so, show the bar telling the user they can receive files over
+    bluetooth into this folder.
+    Patch adapted for mate-user-share from Baptiste Mille-Mathias'
+    patch against gnome-user-share, for the same issue.
+    Origin: https://bugzilla.gnome.org/show_bug.cgi?id=613584
+
+ configure.in          |  2 +-
+ src/share-extension.c | 33 ++++++++++++++++++++++++++++++++-
+ 2 files changed, 33 insertions(+), 2 deletions(-)
+
+commit 40d028e599d8b81f087cf68cb16593e8080d9d17
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 08:20:51 2012 +0200
+
+    [file-share-properties] simplify launching mate-user-share
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=8acfa630af2bab6eb2f5b04e37c4a36d0d55d20f
+
+ src/file-share-properties.c | 17 +----------------
+ 1 file changed, 1 insertion(+), 16 deletions(-)
+
+commit 4c6a1bdb10a2c554aedb6bb75a24ca61ef421d6d
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:56:23 2012 +0200
+
+    [user-share] declare the x_fd variable as unused
+    
+    Fixes a GCC warning about set but not used variables.
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=ba5961cb3973df00a2260adc2826ec49077c2484
+
+ src/user_share.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 67a0c3eda9daf320470855a2417a7ddb8e16a43a
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:50:12 2012 +0200
+
+    [obexpush] fix a compiler warning, and change g_message to g_debug
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=db151a9292e9ff372a7bf6a82071abbedd006d9f
+
+ src/obexpush.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e01be1188f02dd096b4ea9c1f519c4294cd492d5
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:47:17 2012 +0200
+
+    [obexpush] don't special case GTK <= 2.14
+    
+    Since we already depend on > 3.0 in configure.
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=4b60c40dfa44382868c5b41b85368b9398c99a4a
+
+ src/obexpush.c | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 7039b007c196b8733f78a213ab3be7828c7a967c
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:44:48 2012 +0200
+
+    [share-extension] remove empty finalize method & private structure
+    
+    share-extension: remove empty finalize method
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=48a3b06deb29042731350fd24815e9d56ad1df4a
+    
+    share-extension: remove empty private structure
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=aa18c570a147b1488507aaff3a3018485a210a24
+
+ src/share-extension.c | 33 ---------------------------------
+ 1 file changed, 33 deletions(-)
+
+commit 5c7c3b4bf19b2c53cb20519999ab23c6ece2ac3d
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:36:25 2012 +0200
+
+    [share-extension] remove code that does nothing
+    
+    We keep track of widgets, but don't do anything with them, so just
+    remove this code.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=f4349765c814b51372702feb47ba45100287fd2b
+
+ src/share-extension.c | 28 ----------------------------
+ 1 file changed, 28 deletions(-)
+
+commit 9acddbc84bec236ca91fa210b6b2164a60895615
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:33:06 2012 +0200
+
+    [user-share] add missing glib/gstdio.h include
+    
+    This is needed for g_rename()
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=676515
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=0a5f5e09ee21207b9fb21a5bb661d0adb8d8e927
+
+ src/user_share.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 15ff0663135e48ad2cc50e7e0059da948887f0d4
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 06:47:32 2012 +0200
+
+    [share-bar] simplify code
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=532c0b17416bff0937722d568f699597d9e54a66
+
+ src/caja-share-bar.c | 12 ++++--------
+ 1 file changed, 4 insertions(+), 8 deletions(-)
+
+commit 7b59638eafc0950ac4778d144558311abfc4dcf6
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 06:38:41 2012 +0200
+
+    [share-bar] make it a (improved) GtkInfoBar
+    
+    1. Instead of a GtkBox. This fixes the different appearance of the bar
+    from the rest of the stock Nautilus bars.
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=1cfba2417317e5059635568cb49e5093e989e4fa
+    
+    => Note: Don't use GTK3 functions: gtk_box_new(), gtk_widget_set_halign()
+    Stick with gtk_vbox_new() and gtk_misc_set_alignment(), for now.
+    
+    2. share-bar: remove unused nautilus_share_bar_get_button()
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=71f364b6646a470e829f87bb1f076ca360fc24c5
+    
+    3. share-bar: make the label property write only
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=c307a0196399f0ff29be4a7a4fad0a6c43a22e1b
+    
+    4. share-bar: don't set italic text
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=05df1dd95aef7b164932d89d91004df264bbdbe4
+    
+    5. Improve the nautilus cluebar (text more concise and bar more compact)
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=8ae76ce81119e63ac6fdfdd537d256bf82069e0a
+    
+    6. share-bar: remove empty finalize method
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=d1c1de37ba47b723a43c0adff9f78a2fa56e45ae
+
+ src/caja-share-bar.c  | 158 +++++++++++++-------------------------------------
+ src/caja-share-bar.h  |   6 +-
+ src/share-extension.c |  19 +++---
+ 3 files changed, 55 insertions(+), 128 deletions(-)
+
+commit dc95eb7d3665927604cfd582dbc2027655fd6c7d
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:17:16 2012 +0200
+
+    [common] Add missing string.h include
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=664929
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=e53cb4ddde2ed09433862b3f93d6885075e824e7
+
+ src/user_share-common.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 366798a5cd8020de0c1771ca58e2b5c02ce6a482
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Date:   Mon Oct 29 07:15:08 2012 +0200
+
+    [http] Fix http sharing not workin on Linux 3.0
+    
+    gnome-user-share tries to discover a free port to run Apache on by
+    bind()ing a struct sockaddr_in with no port specified in
+    src/http.c:get_port(). However, it neglects to specify an address
+    family, so that attempt fails with EINVAL, and the -1 returned gets
+    passed to spawn_httpd() as the port that Apache should be listening on,
+    which causes to Apache promptly and silently bail.
+    
+    This error was caused by a regression in Linux 3.0:
+    http://thread.gmane.org/gmane.linux.network/205326/focus=205328
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=660146
+    
+    http://git.gnome.org/browse/gnome-user-share/commit/?id=24cc0e2ecc60619af0e51e730ef68bf750182dcf
+
+ src/http.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 9af4eb021fd5b34ec1fa4ee6eb01eab0b3924ebc
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:42:44 2012 +0200
+
+    fix incorrect FSF address
+
+ src/caja-share-bar.c        | 2 +-
+ src/caja-share-bar.h        | 2 +-
+ src/file-share-properties.c | 2 +-
+ src/http.c                  | 2 +-
+ src/http.h                  | 2 +-
+ src/obexftp.c               | 2 +-
+ src/obexftp.h               | 2 +-
+ src/obexpush.c              | 2 +-
+ src/obexpush.h              | 2 +-
+ src/share-extension.c       | 4 ++--
+ src/user_share-common.c     | 2 +-
+ src/user_share-common.h     | 2 +-
+ src/user_share-private.c    | 2 +-
+ src/user_share-private.h    | 2 +-
+ src/user_share.c            | 2 +-
+ src/user_share.h            | 2 +-
+ 16 files changed, 17 insertions(+), 17 deletions(-)
+
+commit 37872c257eea61429dc9cd802b8cc744620a658c
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:56:24 2012 +0200
+
+    add COPYING
+
+ COPYING | 340 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 340 insertions(+)
+
+commit 79e17605f7676248e95aa413d3b5f377f30496be
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:54:42 2012 +0200
+
+    remove COPYING
+
+ COPYING | 340 ----------------------------------------------------------------
+ 1 file changed, 340 deletions(-)
+
+commit 85ab680ab5b17c84c3b62c59e830e532b03df09a
+Author: Nelson Marques <nmo.marques@gmail.com>
+Date:   Thu Oct 18 16:33:44 2012 +0100
+
+    remove MATE from Categories in .desktop file
+
+ data/mate-user-share-properties.desktop.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 86940174c83b2a436e78b425e3e424764fdc7657
+Merge: 8af5555 a434c10
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Oct 12 16:03:56 2012 -0700
+
+    Merge pull request #3 from NiceandGently/master
+    
+    fix incorrect FSF address
+
+commit a434c10a58f3792733ec38f340ddd90bcea51027
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:56:24 2012 +0200
+
+    add COPYING
+
+ COPYING | 340 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 340 insertions(+)
+
+commit 674debfafa66df928f87e67c90cefbc710d662d3
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:54:42 2012 +0200
+
+    remove COPYING
+
+ COPYING | 340 ----------------------------------------------------------------
+ 1 file changed, 340 deletions(-)
+
+commit 58ce78d53ed34f5a89b88f3ba7c1ce50c4eca97b
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Sat Oct 13 00:42:44 2012 +0200
+
+    fix incorrect FSF address
+
+ src/caja-share-bar.c        | 2 +-
+ src/caja-share-bar.h        | 2 +-
+ src/file-share-properties.c | 2 +-
+ src/http.c                  | 2 +-
+ src/http.h                  | 2 +-
+ src/obexftp.c               | 2 +-
+ src/obexftp.h               | 2 +-
+ src/obexpush.c              | 2 +-
+ src/obexpush.h              | 2 +-
+ src/share-extension.c       | 4 ++--
+ src/user_share-common.c     | 2 +-
+ src/user_share-common.h     | 2 +-
+ src/user_share-private.c    | 2 +-
+ src/user_share-private.h    | 2 +-
+ src/user_share.c            | 2 +-
+ src/user_share.h            | 2 +-
+ 16 files changed, 17 insertions(+), 17 deletions(-)
+
+commit 8af5555721e4791d09db088a41c784bf2c4fd7f5
+Merge: 8b06eb1 c0ea7fe
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Oct 3 07:33:50 2012 -0700
+
+    Merge pull request #2 from NiceandGently/master
+    
+    convert mateconf to gsettings
+
+commit c0ea7fefe55f518145afd68f201bb6ed07d6e866
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Fri Sep 28 13:56:41 2012 +0200
+
+    fix gsettings again
+    remove g_object_unref
+    add static GSettings* settings
+    add g_signal_connect as substitution for mateconf_client_notify_add
+
+ src/file-share-properties.c |  3 +--
+ src/user_share.c            | 45 ++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 45 insertions(+), 3 deletions(-)
+
+commit 8326e3b51e36244b8ae04f4d8dd010b9fbf25af1
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Fri Sep 28 12:50:39 2012 +0200
+
+    fix gsettings in user_share.c
+
+ src/user_share.c | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+commit 99c20ca79435c5ab1130258801008b963dd2d098
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Fri Sep 28 12:34:50 2012 +0200
+
+    convert to gsettings
+
+ configure.in                              |  16 +-
+ data/Makefile.am                          |  22 +--
+ data/desktop_mate_file_sharing.schemas.in |  94 -----------
+ data/org.mate.FileSharing.gschema.xml     |  44 +++++
+ src/file-share-properties.c               | 270 ++++++++++++------------------
+ src/http.c                                |  14 +-
+ src/obexftp.c                             |  14 +-
+ src/obexpush.c                            |  11 +-
+ src/user_share-private.h                  |  20 +--
+ src/user_share.c                          | 159 +++++-------------
+ 10 files changed, 235 insertions(+), 429 deletions(-)
+
+commit 8b06eb18651798d1f02bd358fa43119d914a744f
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Wed Jul 18 13:34:11 2012 -0400
+
+    Preparing for 1.4.1 release.
+
+ ChangeLog    | 410 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ configure.in |   2 +-
+ 2 files changed, 411 insertions(+), 1 deletion(-)
+
+commit a0c34b6506cf0ae9cd64f3b28167f4b6e516da9d
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Wed Jul 18 13:30:31 2012 -0400
+
+    Changed references of gconf to mateconf.
+    
+    Closes mate-user-share issue #1.
+
+ data/desktop_mate_file_sharing.schemas.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a265ec67c1ce8a90a0b3ae514bac73a739e8e51f
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon Jul 16 17:18:19 2012 -0400
+
+    Preparing for 1.4 relase.
+
+ ChangeLog.pre-git | 1069 -----------------------------------------------------
+ configure.in      |    2 +-
+ 2 files changed, 1 insertion(+), 1070 deletions(-)
+
+commit 99decf574faf932e20c2ab74cb2abd3266bb03fa
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sun Jul 15 20:50:42 2012 -0400
+
+    Created po/gnome-copyrights.txt
+
+ po/gnome-copyrights.txt | 788 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 788 insertions(+)
+
+commit d2f872502685cf401034113501459cc42bacab8e
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sat May 19 09:35:49 2012 -0400
+
+    Changes from yesterday.
+
+ configure.in   | 6 +++---
+ src/obexpush.c | 3 ++-
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+
+commit b0d8bc177549912af56861c143dda59b2cbfb9fd
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu May 17 14:26:29 2012 -0400
+
+    More fixes.
+
+ Makefile.am                                  |   2 +-
+ configure.in                                 |  13 +-
+ data/Makefile.am                             |  14 +-
+ help/C/figures/file-sharing-preferences.png  | Bin 34673 -> 0 bytes
+ help/C/figures/receiving-over-bluetooth.png  | Bin 11176 -> 0 bytes
+ help/C/figures/sharing-over-bluetooth.png    | Bin 9216 -> 0 bytes
+ help/C/figures/sharing-over-the-network.png  | Bin 10333 -> 0 bytes
+ help/C/legal.xml                             |  73 ----
+ help/C/mate-user-share.xml                   | 202 -----------
+ help/Makefile.am                             |  14 -
+ help/ca/ca.po                                | 500 --------------------------
+ help/ca/figures/file-sharing-preferences.png | Bin 43590 -> 0 bytes
+ help/ca/figures/receiving-over-bluetooth.png | Bin 11162 -> 0 bytes
+ help/ca/figures/sharing-over-bluetooth.png   | Bin 10140 -> 0 bytes
+ help/ca/figures/sharing-over-the-network.png | Bin 10862 -> 0 bytes
+ help/cs/cs.po                                | 495 --------------------------
+ help/de/de.po                                | 512 ---------------------------
+ help/de/figures/file-sharing-preferences.png | Bin 55163 -> 0 bytes
+ help/de/figures/receiving-over-bluetooth.png | Bin 11733 -> 0 bytes
+ help/de/figures/sharing-over-bluetooth.png   | Bin 14150 -> 0 bytes
+ help/de/figures/sharing-over-the-network.png | Bin 13453 -> 0 bytes
+ help/de/legal.xml                            |  13 -
+ help/el/el.po                                | 511 --------------------------
+ help/en_GB/en_GB.po                          | 491 -------------------------
+ help/es/es.po                                | 504 --------------------------
+ help/es/figures/file-sharing-preferences.png | Bin 40587 -> 0 bytes
+ help/es/figures/receiving-over-bluetooth.png | Bin 12819 -> 0 bytes
+ help/es/figures/sharing-over-bluetooth.png   | Bin 10290 -> 0 bytes
+ help/es/figures/sharing-over-the-network.png | Bin 10856 -> 0 bytes
+ help/es/legal.xml                            |  13 -
+ help/fr/figures/file-sharing-preferences.png | Bin 42838 -> 0 bytes
+ help/fr/figures/receiving-over-bluetooth.png | Bin 11257 -> 0 bytes
+ help/fr/figures/sharing-over-bluetooth.png   | Bin 9623 -> 0 bytes
+ help/fr/figures/sharing-over-the-network.png | Bin 9764 -> 0 bytes
+ help/fr/fr.po                                | 510 --------------------------
+ help/it/it.po                                | 484 -------------------------
+ help/mate-user-share.omf.in                  |  11 -
+ help/po/sl.po                                | 253 -------------
+ help/pt_BR/pt_BR.po                          | 503 --------------------------
+ help/ro/figures/file-sharing-preferences.png | Bin 48215 -> 0 bytes
+ help/ro/figures/receiving-over-bluetooth.png | Bin 16692 -> 0 bytes
+ help/ro/figures/sharing-over-bluetooth.png   | Bin 15066 -> 0 bytes
+ help/ro/figures/sharing-over-the-network.png | Bin 12491 -> 0 bytes
+ help/ro/legal.xml                            |  72 ----
+ help/ro/ro.po                                | 504 --------------------------
+ help/sl/sl.po                                | 253 -------------
+ help/sv/figures/file-sharing-preferences.png | Bin 42219 -> 0 bytes
+ help/sv/figures/receiving-over-bluetooth.png | Bin 12986 -> 0 bytes
+ help/sv/figures/sharing-over-bluetooth.png   | Bin 11585 -> 0 bytes
+ help/sv/figures/sharing-over-the-network.png | Bin 11938 -> 0 bytes
+ help/sv/legal.xml                            |  72 ----
+ help/sv/sv.po                                | 251 -------------
+ help/zh_CN/zh_CN.po                          | 448 -----------------------
+ 53 files changed, 14 insertions(+), 6704 deletions(-)
+
+commit 06949d2edc168a17b1802d9db5183b9386f66808
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu May 17 12:40:49 2012 -0400
+
+    Fixed autogen.sh.
+
+ autogen.sh | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 08ee9fb62edeb3c802663e3be10446e7dd4d881a
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu May 17 12:09:50 2012 -0400
+
+    Fixed missing caja references. Removed some files.
+
+ Makefile.am                  |   2 +-
+ README.md                    |   2 -
+ configure.in                 |  22 ++---
+ gnome-user-share.doap        |  20 -----
+ help/C/gnome-user-share.xml  | 202 -------------------------------------------
+ help/gnome-user-share.omf.in |  11 ---
+ 6 files changed, 12 insertions(+), 247 deletions(-)
+
+commit cfae9c61218c5c27824a68aac3f17cfdce62b46f
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue May 15 11:39:11 2012 -0400
+
+    Updated help and po directories.
+
+ help/C/mate-user-share.xml  | 202 ++++++++++++++++++++++++++++++++++++++++++++
+ help/Makefile.am            |   4 +-
+ help/ca/ca.po               | 144 +++++++++++++++----------------
+ help/cs/cs.po               | 150 ++++++++++++++++----------------
+ help/de/de.po               | 136 ++++++++++++++---------------
+ help/el/el.po               | 152 ++++++++++++++++-----------------
+ help/en_GB/en_GB.po         | 148 ++++++++++++++++----------------
+ help/es/es.po               | 140 +++++++++++++++---------------
+ help/fr/fr.po               | 148 ++++++++++++++++----------------
+ help/it/it.po               | 136 ++++++++++++++---------------
+ help/mate-user-share.omf.in |  11 +++
+ help/po/sl.po               | 136 ++++++++++++++---------------
+ help/pt_BR/pt_BR.po         | 152 ++++++++++++++++-----------------
+ help/ro/ro.po               | 154 ++++++++++++++++-----------------
+ help/sl/sl.po               | 136 ++++++++++++++---------------
+ help/sv/sv.po               | 148 ++++++++++++++++----------------
+ help/zh_CN/zh_CN.po         | 134 ++++++++++++++---------------
+ po/ChangeLog                | 148 ++++++++++++++++----------------
+ po/POTFILES.in              |   8 +-
+ po/POTFILES.skip            |   2 +-
+ po/ar.po                    |  40 ++++-----
+ po/as.po                    |  40 ++++-----
+ po/ast.po                   |  52 ++++++------
+ po/bg.po                    |  46 +++++-----
+ po/bn.po                    |  44 +++++-----
+ po/bn_IN.po                 |  42 ++++-----
+ po/br.po                    |  50 +++++------
+ po/ca.po                    |  48 +++++------
+ po/ca@valencia.po           |  48 +++++------
+ po/cs.po                    |  56 ++++++------
+ po/da.po                    |  44 +++++-----
+ po/de.po                    |  54 ++++++------
+ po/dz.po                    |  14 +--
+ po/el.po                    |  44 +++++-----
+ po/en@shaw.po               |  50 +++++------
+ po/en_CA.po                 |  24 +++---
+ po/en_GB.po                 |  46 +++++-----
+ po/eo.po                    |  48 +++++------
+ po/es.po                    |  54 ++++++------
+ po/et.po                    |  10 +--
+ po/eu.po                    |  40 ++++-----
+ po/fi.po                    |  46 +++++-----
+ po/fr.po                    |  50 +++++------
+ po/ga.po                    |  42 ++++-----
+ po/gl.po                    |  52 ++++++------
+ po/gu.po                    |  46 +++++-----
+ po/he.po                    |  40 ++++-----
+ po/hi.po                    |  42 ++++-----
+ po/hu.po                    |  52 ++++++------
+ po/id.po                    |  52 ++++++------
+ po/it.po                    |  48 +++++------
+ po/ja.po                    |  50 +++++------
+ po/kn.po                    |  44 +++++-----
+ po/ko.po                    |  50 +++++------
+ po/lt.po                    |  46 +++++-----
+ po/lv.po                    |  52 ++++++------
+ po/mai.po                   |  42 ++++-----
+ po/mk.po                    |   8 +-
+ po/ml.po                    |  46 +++++-----
+ po/mr.po                    |  38 ++++-----
+ po/nb.po                    |  48 +++++------
+ po/ne.po                    |  18 ++--
+ po/nl.po                    |  50 +++++------
+ po/nn.po                    |  50 +++++------
+ po/oc.po                    |  40 ++++-----
+ po/or.po                    |  42 ++++-----
+ po/pa.po                    |  48 +++++------
+ po/pl.po                    |  46 +++++-----
+ po/pt.po                    |  48 +++++------
+ po/pt_BR.po                 |  44 +++++-----
+ po/ro.po                    |  48 +++++------
+ po/ru.po                    |  40 ++++-----
+ po/rw.po                    |  14 +--
+ po/sk.po                    |  66 +++++++--------
+ po/sl.po                    |  56 ++++++------
+ po/sq.po                    |  16 ++--
+ po/sr.po                    |  48 +++++------
+ po/sr@latin.po              |  48 +++++------
+ po/sv.po                    |  50 +++++------
+ po/ta.po                    |  46 +++++-----
+ po/te.po                    |  42 ++++-----
+ po/th.po                    |  48 +++++------
+ po/tr.po                    |  44 +++++-----
+ po/ug.po                    |  48 +++++------
+ po/uk.po                    |  46 +++++-----
+ po/vi.po                    |  40 ++++-----
+ po/zh_CN.po                 |  46 +++++-----
+ po/zh_HK.po                 |  44 +++++-----
+ po/zh_TW.po                 |  44 +++++-----
+ 89 files changed, 2805 insertions(+), 2592 deletions(-)
+
+commit 130eaa7d69ed4803041774442ccb6a9d7ea1ec4c
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon May 14 13:35:03 2012 -0400
+
+    Forked gnome-user-share. Work in progress.
+
+ AUTHORS                                      |    0
+ COPYING                                      |  340 ++++++++
+ ChangeLog.pre-git                            | 1069 ++++++++++++++++++++++++++
+ MAINTAINERS                                  |    9 +
+ Makefile.am                                  |   26 +
+ NEWS                                         |  138 ++++
+ README                                       |   13 +
+ autogen.sh                                   |   24 +
+ configure.in                                 |  207 +++++
+ data/Makefile.am                             |   42 +
+ data/dav_groupfile                           |    1 +
+ data/dav_user_2.0.conf                       |   40 +
+ data/dav_user_2.2.conf                       |   72 ++
+ data/desktop_mate_file_sharing.schemas.in    |   94 +++
+ data/file-share-properties.ui                |  364 +++++++++
+ data/icons/16x16/Makefile.am                 |    6 +
+ data/icons/16x16/mate-obex-server.png        |  Bin 0 -> 964 bytes
+ data/icons/16x16/mate-obex-server.svg        |  128 +++
+ data/icons/22x22/Makefile.am                 |    6 +
+ data/icons/22x22/mate-obex-server.png        |  Bin 0 -> 1537 bytes
+ data/icons/22x22/mate-obex-server.svg        |  136 ++++
+ data/icons/32x32/Makefile.am                 |    6 +
+ data/icons/32x32/mate-obex-server.png        |  Bin 0 -> 2582 bytes
+ data/icons/32x32/mate-obex-server.svg        |  151 ++++
+ data/icons/48x48/Makefile.am                 |    6 +
+ data/icons/48x48/mate-obex-server.png        |  Bin 0 -> 4581 bytes
+ data/icons/48x48/mate-obex-server.svg        |  171 ++++
+ data/icons/Makefile.am                       |   17 +
+ data/mate-user-share-properties.desktop.in   |   14 +
+ data/mate-user-share.desktop.in.in           |    9 +
+ git.mk                                       |  183 +++++
+ gnome-user-share.doap                        |   20 +
+ help/C/figures/file-sharing-preferences.png  |  Bin 0 -> 34673 bytes
+ help/C/figures/receiving-over-bluetooth.png  |  Bin 0 -> 11176 bytes
+ help/C/figures/sharing-over-bluetooth.png    |  Bin 0 -> 9216 bytes
+ help/C/figures/sharing-over-the-network.png  |  Bin 0 -> 10333 bytes
+ help/C/gnome-user-share.xml                  |  202 +++++
+ help/C/legal.xml                             |   73 ++
+ help/Makefile.am                             |   14 +
+ help/ca/ca.po                                |  500 ++++++++++++
+ help/ca/figures/file-sharing-preferences.png |  Bin 0 -> 43590 bytes
+ help/ca/figures/receiving-over-bluetooth.png |  Bin 0 -> 11162 bytes
+ help/ca/figures/sharing-over-bluetooth.png   |  Bin 0 -> 10140 bytes
+ help/ca/figures/sharing-over-the-network.png |  Bin 0 -> 10862 bytes
+ help/cs/cs.po                                |  495 ++++++++++++
+ help/de/de.po                                |  512 ++++++++++++
+ help/de/figures/file-sharing-preferences.png |  Bin 0 -> 55163 bytes
+ help/de/figures/receiving-over-bluetooth.png |  Bin 0 -> 11733 bytes
+ help/de/figures/sharing-over-bluetooth.png   |  Bin 0 -> 14150 bytes
+ help/de/figures/sharing-over-the-network.png |  Bin 0 -> 13453 bytes
+ help/de/legal.xml                            |   13 +
+ help/el/el.po                                |  511 ++++++++++++
+ help/en_GB/en_GB.po                          |  491 ++++++++++++
+ help/es/es.po                                |  504 ++++++++++++
+ help/es/figures/file-sharing-preferences.png |  Bin 0 -> 40587 bytes
+ help/es/figures/receiving-over-bluetooth.png |  Bin 0 -> 12819 bytes
+ help/es/figures/sharing-over-bluetooth.png   |  Bin 0 -> 10290 bytes
+ help/es/figures/sharing-over-the-network.png |  Bin 0 -> 10856 bytes
+ help/es/legal.xml                            |   13 +
+ help/fr/figures/file-sharing-preferences.png |  Bin 0 -> 42838 bytes
+ help/fr/figures/receiving-over-bluetooth.png |  Bin 0 -> 11257 bytes
+ help/fr/figures/sharing-over-bluetooth.png   |  Bin 0 -> 9623 bytes
+ help/fr/figures/sharing-over-the-network.png |  Bin 0 -> 9764 bytes
+ help/fr/fr.po                                |  510 ++++++++++++
+ help/gnome-user-share.omf.in                 |   11 +
+ help/it/it.po                                |  484 ++++++++++++
+ help/po/sl.po                                |  253 ++++++
+ help/pt_BR/pt_BR.po                          |  503 ++++++++++++
+ help/ro/figures/file-sharing-preferences.png |  Bin 0 -> 48215 bytes
+ help/ro/figures/receiving-over-bluetooth.png |  Bin 0 -> 16692 bytes
+ help/ro/figures/sharing-over-bluetooth.png   |  Bin 0 -> 15066 bytes
+ help/ro/figures/sharing-over-the-network.png |  Bin 0 -> 12491 bytes
+ help/ro/legal.xml                            |   72 ++
+ help/ro/ro.po                                |  504 ++++++++++++
+ help/sl/sl.po                                |  253 ++++++
+ help/sv/figures/file-sharing-preferences.png |  Bin 0 -> 42219 bytes
+ help/sv/figures/receiving-over-bluetooth.png |  Bin 0 -> 12986 bytes
+ help/sv/figures/sharing-over-bluetooth.png   |  Bin 0 -> 11585 bytes
+ help/sv/figures/sharing-over-the-network.png |  Bin 0 -> 11938 bytes
+ help/sv/legal.xml                            |   72 ++
+ help/sv/sv.po                                |  251 ++++++
+ help/zh_CN/zh_CN.po                          |  448 +++++++++++
+ po/.cvsignore                                |   14 +
+ po/ChangeLog                                 |  867 +++++++++++++++++++++
+ po/LINGUAS                                   |   71 ++
+ po/POTFILES.in                               |   12 +
+ po/POTFILES.skip                             |    4 +
+ po/ar.po                                     |  276 +++++++
+ po/as.po                                     |  253 ++++++
+ po/ast.po                                    |  270 +++++++
+ po/bg.po                                     |  272 +++++++
+ po/bn.po                                     |  315 ++++++++
+ po/bn_IN.po                                  |  268 +++++++
+ po/br.po                                     |  257 +++++++
+ po/ca.po                                     |  277 +++++++
+ po/ca@valencia.po                            |  278 +++++++
+ po/cs.po                                     |  274 +++++++
+ po/da.po                                     |  279 +++++++
+ po/de.po                                     |  283 +++++++
+ po/dz.po                                     |   98 +++
+ po/el.po                                     |  283 +++++++
+ po/en@shaw.po                                |  259 +++++++
+ po/en_CA.po                                  |   95 +++
+ po/en_GB.po                                  |  274 +++++++
+ po/eo.po                                     |  277 +++++++
+ po/es.po                                     |  287 +++++++
+ po/et.po                                     |  235 ++++++
+ po/eu.po                                     |  267 +++++++
+ po/fi.po                                     |  273 +++++++
+ po/fr.po                                     |  275 +++++++
+ po/ga.po                                     |  252 ++++++
+ po/gl.po                                     |  284 +++++++
+ po/gu.po                                     |  271 +++++++
+ po/he.po                                     |  269 +++++++
+ po/hi.po                                     |  242 ++++++
+ po/hu.po                                     |  265 +++++++
+ po/id.po                                     |  241 ++++++
+ po/it.po                                     |  267 +++++++
+ po/ja.po                                     |  269 +++++++
+ po/kn.po                                     |  270 +++++++
+ po/ko.po                                     |  264 +++++++
+ po/lt.po                                     |  267 +++++++
+ po/lv.po                                     |  267 +++++++
+ po/mai.po                                    |  231 ++++++
+ po/mk.po                                     |   88 +++
+ po/ml.po                                     |  270 +++++++
+ po/mr.po                                     |  240 ++++++
+ po/nb.po                                     |  263 +++++++
+ po/ne.po                                     |  108 +++
+ po/nl.po                                     |  283 +++++++
+ po/nn.po                                     |  263 +++++++
+ po/oc.po                                     |  201 +++++
+ po/or.po                                     |  249 ++++++
+ po/pa.po                                     |  278 +++++++
+ po/pl.po                                     |  273 +++++++
+ po/pt.po                                     |  277 +++++++
+ po/pt_BR.po                                  |  486 ++++++++++++
+ po/ro.po                                     |  277 +++++++
+ po/ru.po                                     |  261 +++++++
+ po/rw.po                                     |  116 +++
+ po/sk.po                                     |  274 +++++++
+ po/sl.po                                     |  253 ++++++
+ po/sq.po                                     |   87 +++
+ po/sr.po                                     |  282 +++++++
+ po/sr@latin.po                               |  282 +++++++
+ po/sv.po                                     |  273 +++++++
+ po/ta.po                                     |  272 +++++++
+ po/te.po                                     |  246 ++++++
+ po/th.po                                     |  271 +++++++
+ po/tr.po                                     |  247 ++++++
+ po/ug.po                                     |  253 ++++++
+ po/uk.po                                     |  267 +++++++
+ po/vi.po                                     |  272 +++++++
+ po/zh_CN.po                                  |  266 +++++++
+ po/zh_HK.po                                  |  265 +++++++
+ po/zh_TW.po                                  |  272 +++++++
+ src/Makefile.am                              |   81 ++
+ src/caja-share-bar.c                         |  215 ++++++
+ src/caja-share-bar.h                         |   61 ++
+ src/file-share-properties.c                  |  688 +++++++++++++++++
+ src/http.c                                   |  481 ++++++++++++
+ src/http.h                                   |   27 +
+ src/marshal.list                             |    1 +
+ src/obexftp.c                                |  162 ++++
+ src/obexftp.h                                |   29 +
+ src/obexpush.c                               |  563 ++++++++++++++
+ src/obexpush.h                               |   32 +
+ src/share-extension.c                        |  299 +++++++
+ src/user_share-common.c                      |   89 +++
+ src/user_share-common.h                      |   30 +
+ src/user_share-private.c                     |  102 +++
+ src/user_share-private.h                     |   57 ++
+ src/user_share.c                             |  572 ++++++++++++++
+ src/user_share.h                             |   25 +
+ 174 files changed, 32062 insertions(+)
+
+commit b42609046ef05f8d8be4b08ac50ea10a3c6dfe71
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon May 14 10:32:23 2012 -0700
+
+    initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
