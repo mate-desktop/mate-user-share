@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: thunk <thunk77@gmail.com>, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/mate/teams/13566/el/)\n"
@@ -93,7 +93,7 @@ msgid "Integrates with user-share"
 msgstr "Ενσωματώνεται με κοινή χρήση των χρηστών"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Κοινή χρήση προσωπικών αρχείων"
 
@@ -119,11 +119,11 @@ msgstr "Προσωπική κοινή χρήση αρχείων obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Προσωπική κοινή χρήση αρχείων webdav"
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Εκκίνηση προτιμήσεων κοινής χρήσης προσωπικών αρχείων"
 

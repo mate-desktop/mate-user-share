@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Mahdi Pourghasem <mahdipourghasem@gmail.com>, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/mate/teams/13566/fa/)\n"
@@ -91,7 +91,7 @@ msgid "Integrates with user-share"
 msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "فایل های به اشتراک گذاشته شخصی"
 
@@ -117,11 +117,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "تنظیمات"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "اجرای فایل های شخصی به اشتراک گذاشته"
 

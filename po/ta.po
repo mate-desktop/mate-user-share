@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Kamala Kannan, 2018\n"
 "Language-Team: Tamil (https://www.transifex.com/mate/teams/13566/ta/)\n"
@@ -92,7 +92,7 @@ msgid "Integrates with user-share"
 msgstr ""
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "அந்தரங்க கோப்பு பகிர்தல்"
 
@@ -118,11 +118,11 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "விருப்ப தேர்வுகள் "
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "தனிப்பட்ட கோப்பு பகிர்தல் விருப்பங்களை ஆரம்பி"
 

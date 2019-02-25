@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>, 2018\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
@@ -90,7 +90,7 @@ msgid "Integrates with user-share"
 msgstr "Sepadukan dengan kongs-pengguna"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Perkongsian Fail Peribadi"
 
@@ -116,11 +116,11 @@ msgstr "Perkongsian Fail Peribadi obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Perkongsian Fail Peribadi webdav"
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Keutamaan"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Lancar Keutamaan Perkongsian Fail Peribadi"
 

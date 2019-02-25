@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>, 2018\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
@@ -91,7 +91,7 @@ msgid "Integrates with user-share"
 msgstr "與 user-share 整合"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "個人檔案分享"
 
@@ -117,11 +117,11 @@ msgstr "個人檔案分享 obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "個人檔案分享 webdav"
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "執行個人檔案分享偏好設定"
 

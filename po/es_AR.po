@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Renzo Sparta <exequiel0210@gmail.com>, 2019\n"
 "Language-Team: Spanish (Argentina) (https://www.transifex.com/mate/teams/13566/es_AR/)\n"
@@ -94,7 +94,7 @@ msgid "Integrates with user-share"
 msgstr "Se integra con el usuario compartido"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Compartir archivos personales"
 
@@ -120,11 +120,11 @@ msgstr "Intercambio de archivos personales obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Compartir archivos personales webdav"
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Iniciar preferencias personales para compartir archivos"
 

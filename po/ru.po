@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-25 11:02+0100\n"
+"POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
@@ -92,7 +92,7 @@ msgid "Integrates with user-share"
 msgstr "Интегрируется с общим доступом к личным файлам"
 
 #: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:103
+#: ../src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Общий доступ к личным файлам"
 
@@ -118,11 +118,11 @@ msgstr "Общий доступ к личным файлам obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Общий доступ к личным файлам webdav"
 
-#: ../src/caja-share-bar.c:119
+#: ../src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Параметры"
 
-#: ../src/caja-share-bar.c:123
+#: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Открыть параметры общего доступа к личным файлам"
 
