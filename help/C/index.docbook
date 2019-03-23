@@ -8,10 +8,14 @@
 <article id="index" lang="en">
   <articleinfo>
 	 <title>Personal File Sharing Manual</title>
+     <copyright>
+       <year>2019</year>
+       <holder>MATE Documentation Project</holder>
+     </copyright>
 	 <copyright>
 		<year>2009</year>
 		<holder>Red Hat, Inc.</holder>
-         </copyright>
+     </copyright>
 
 	 <xi:include href="legal.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 	 <authorgroup>
