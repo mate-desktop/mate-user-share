@@ -193,7 +193,7 @@ if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
 else
 	AC_MSG_RESULT(no)
 fi
-			       
+
 AC_CONFIG_FILES([
 Makefile
 data/Makefile
@@ -221,7 +221,7 @@ else
 fi
 
 AC_MSG_NOTICE([mate-user-share was configured with the following options:])
-AC_MSG_NOTICE([** httpd location: $HTTP])
+AC_MSG_NOTICE([** httpd location: $HTTPD])
 AC_MSG_NOTICE([** httpd modules path: $MODULES_PATH])
 AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
 
