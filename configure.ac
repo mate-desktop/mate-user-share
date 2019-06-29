@@ -74,7 +74,7 @@ AC_SUBST(USER_SHARE_LIBS)
 PKG_CHECK_MODULES(USER_SHARE_CONFIG, glib-2.0 >= $GLIB_REQUIRED_VERSION gio-2.0 gtk+-3.0 >= $GTK_REQUIRED_VERSION)
 AC_SUBST(USER_SHARE_CONFIG_CFLAGS)
 AC_SUBST(USER_SHARE_CONFIG_LIBS)
-	
+
 AC_CHECK_LIB(socket, socket)
 
 have_socket=no
@@ -92,7 +92,7 @@ fi
 
 AC_PATH_PROG([GLIB_GENMARSHAL],[glib-genmarshal])
 
-dnl 
+dnl
 dnl Enable gsettigns schema macros
 dnl
 

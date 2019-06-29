@@ -154,7 +154,7 @@ show_notification (const char *filename)
 					g_strdup (file_uri), (GFreeFunc) g_free);
 
 	g_free (file_uri);
-	
+
 	g_signal_connect (G_OBJECT (notification), "closed", G_CALLBACK (on_close_notification), notification);
 
 	if (!notify_notification_show (notification, NULL)) {
@@ -344,7 +344,7 @@ transfer_completed_cb (DBusGProxy *session,
 		       gpointer user_data)
 {
 	GSettings *settings;
-	gboolean display_notify; 
+	gboolean display_notify;
 	const char *filename;
 
 	filename = (const char *) g_object_get_data (G_OBJECT (session), "filename");
@@ -353,11 +353,11 @@ transfer_completed_cb (DBusGProxy *session,
 
 	if (filename == NULL)
 		return;
-	
-	settings = g_settings_new (GSETTINGS_SCHEMA);	
+
+	settings = g_settings_new (GSETTINGS_SCHEMA);
 	display_notify = g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_NOTIFY);
 	g_object_unref (settings);
-	
+
 	if (display_notify) {
 		show_notification (filename);
 	} else {
@@ -538,9 +538,9 @@ obexpush_init (void)
 					   G_TYPE_STRING, G_TYPE_STRING, G_TYPE_UINT64, G_TYPE_INVALID);
 
 	if (!notify_init("mate-user-share")) {
-		g_warning("Unable to initialize the notification system\n");    
+		g_warning("Unable to initialize the notification system\n");
         }
-	
+
 	dbus_connection_set_exit_on_disconnect (dbus_g_connection_get_connection (connection), FALSE);
 
 	return TRUE;

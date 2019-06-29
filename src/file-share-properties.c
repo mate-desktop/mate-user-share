@@ -85,7 +85,7 @@ flush_password (void)
 
     if (g_object_get_data (G_OBJECT( password_entry), "user_edited")) {
 	password = gtk_entry_get_text (GTK_ENTRY (password_entry));
-	if (password != NULL && password[0] != 0) 
+	if (password != NULL && password[0] != 0)
 	    write_out_password (password);
     }
 }
@@ -425,7 +425,7 @@ error_dialog (const char *title,
 		(GTK_MESSAGE_DIALOG (error_dialog), "%s", reason);
 
 	gtk_window_set_title (GTK_WINDOW (error_dialog), ""); /* as per HIG */
-	gtk_container_set_border_width (GTK_CONTAINER (error_dialog), 5); 
+	gtk_container_set_border_width (GTK_CONTAINER (error_dialog), 5);
 	gtk_dialog_set_default_response (GTK_DIALOG (error_dialog),
 					 GTK_RESPONSE_OK);
 	gtk_window_set_modal (GTK_WINDOW (error_dialog), TRUE);
