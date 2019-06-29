@@ -371,8 +371,8 @@ spawn_httpd (int port, pid_t *pid_out)
 	got_pidfile = FALSE;
 	error = NULL;
 	for (i = 0; i < 5; i++) {
-		if (error != NULL) 
-			g_error_free (error); 
+		if (error != NULL)
+			g_error_free (error);
 		error = NULL;
 		if (g_file_get_contents (pid_filename, &pidfile, NULL, &error)) {
 			got_pidfile = TRUE;

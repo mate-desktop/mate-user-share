@@ -91,7 +91,7 @@ obex_services_start (void)
 	    	return;
 
 	settings = g_settings_new(GSETTINGS_SCHEMA);
-	
+
 	if (g_settings_get_boolean (settings, FILE_SHARING_BLUETOOTH_OBEXPUSH_ENABLED) == TRUE) {
 	    obexpush_up ();
 	}
@@ -127,7 +127,7 @@ session_properties_changed_cb (GDBusProxy      *session,
 		else
 			obex_services_shutdown ();
 
-		g_variant_unref (v); 
+		g_variant_unref (v);
 	}
 }
 

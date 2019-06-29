@@ -43,10 +43,10 @@ static char *accept_file_strings[] = {
 const char *
 password_string_from_setting (PasswordSetting setting)
 {
-    
+
     if (setting >= 0 && setting <= PASSWORD_ALWAYS)
 	return password_setting_strings[setting];
-    
+
     /* Fallback on secure pref */
     return password_setting_strings[PASSWORD_ALWAYS];
 }
@@ -65,7 +65,7 @@ password_setting_from_string (const char *str)
 	    return PASSWORD_ON_WRITE;
 	}
     }
-	
+
     /* Fallback on secure pref */
     return PASSWORD_ALWAYS;
 }
@@ -73,10 +73,10 @@ password_setting_from_string (const char *str)
 const char *
 accept_string_from_setting (AcceptSetting setting)
 {
-    
+
     if (setting >= 0 && setting <= ACCEPT_ASK)
 	return accept_file_strings[setting];
-    
+
     /* Fallback on secure pref */
     return accept_file_strings[ACCEPT_BONDED];
 }
@@ -96,7 +96,7 @@ accept_setting_from_string (const char *str)
 	    return ACCEPT_ASK;
 	}
     }
-	
+
     /* Fallback on secure pref */
     return ACCEPT_BONDED;
 }
