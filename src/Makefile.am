@@ -3,9 +3,9 @@ MARSHALFILES = marshal.c marshal.h
 BUILT_SOURCES = $(MARSHALFILES)
 
 marshal.c: marshal.h
-	 $(AM_V_GEN) ( $(GLIB_GENMARSHAL) --prefix=marshal $(srcdir)/marshal.list --header --body > marshal.c )
+	 $(AM_V_GEN) $(GLIB_GENMARSHAL) --quiet --prefix=marshal $(srcdir)/marshal.list --body > marshal.c
 marshal.h: marshal.list
-	$(AM_V_GEN) ( $(GLIB_GENMARSHAL) --prefix=marshal $(srcdir)/marshal.list --header > marshal.h )
+	$(AM_V_GEN) $(GLIB_GENMARSHAL) --quiet --prefix=marshal $(srcdir)/marshal.list --header > marshal.h
 
 
 bin_PROGRAMS= \
