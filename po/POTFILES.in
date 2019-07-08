@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-[type: gettext/glade]data/file-share-properties.ui
-[type: gettext/ini]data/libcaja-user-share.caja-extension.in.in
+data/file-share-properties.ui
+data/libcaja-user-share.caja-extension.in.in
 data/mate-user-share-properties.desktop.in
 data/mate-user-share-obexftp.desktop.in.in
 data/mate-user-share-obexpush.desktop.in.in

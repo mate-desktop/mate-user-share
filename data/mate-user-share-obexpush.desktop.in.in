@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=Personal File Sharing obexpush
-_Comment=Launch Personal File Sharing if enabled
+Name=Personal File Sharing obexpush
+Comment=Launch Personal File Sharing if enabled
 Keywords=share;files;bluetooth;obex;http;network;copy;send;
 AutostartCondition=GSettings org.mate.FileSharing bluetooth-obexpush-enabled
 Icon=folder-remote

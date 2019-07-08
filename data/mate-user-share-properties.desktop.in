@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=Personal File Sharing
-_Comment=Preferences for sharing of files
+Name=Personal File Sharing
+Comment=Preferences for sharing of files
 Exec=mate-file-share-properties
 Icon=folder-remote
 StartupNotify=true

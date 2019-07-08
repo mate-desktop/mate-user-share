@@ -1,17 +1,9 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = data po src man help
+SUBDIRS = po data src man help
 
 EXTRA_DIST =			\
-	autogen.sh		\
-	intltool-extract.in	\
-	intltool-merge.in	\
-	intltool-update.in
-
-DISTCLEANFILES =		\
-	intltool-extract	\
-	intltool-merge		\
-	intltool-update
+	autogen.sh
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-compile \
 	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
