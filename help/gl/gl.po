@@ -77,7 +77,7 @@ msgid ""
 "between several computers."
 msgstr ""
 "mate-user-share é un servizo de sesión que permite compartir ficheiros "
-"facilmente entre varias computadoras."
+"facilmente entre varios computadores."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:45

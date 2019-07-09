@@ -6,7 +6,7 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
-# Микола Ткач <chistomov@gmail.com>, 2018
+# Микола Ткач <chistomov@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-11 16:34+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2018\n"
+"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr "Від_крити доступ до файлів з мережі"
 
 #: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
-msgstr "_Потайслово:"
+msgstr "_Пароль:"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
