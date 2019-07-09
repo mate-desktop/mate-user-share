@@ -3,6 +3,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 SUBDIRS = data po src man help
 
 EXTRA_DIST =			\
+	autogen.sh		\
 	intltool-extract.in	\
 	intltool-merge.in	\
 	intltool-update.in
