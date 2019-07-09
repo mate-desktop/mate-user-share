@@ -1,14 +1,14 @@
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "POT-Creation-Date: 2018-12-25 11:20+0100\n"
-"PO-Revision-Date: 2018-12-25 11:04+0000\n"
+"PO-Revision-Date: 2019-03-16 17:39+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgid ""
 "between several computers."
 msgstr ""
 "mate-user-share é un servizo de sesión que permite compartir ficheiros "
-"facilmente entre varias computadoras."
+"facilmente entre varios computadores."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:45

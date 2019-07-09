@@ -1,13 +1,13 @@
 # Translators:
-# abuyop <abuyop@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# abuyop <abuyop@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "POT-Creation-Date: 2018-12-25 11:20+0100\n"
-"PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"PO-Revision-Date: 2019-03-16 17:39+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2019\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,32 +23,32 @@ msgstr "Abuyop"
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "Panduan Perkongsian Fail Peribadi"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:18
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:31
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:27
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:35
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "Panduan ini menerangkan versi 2.26 bagi mate-user-share."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:37
@@ -62,6 +62,9 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"Untuk melaporkan pepijat atau membuat saranan berkenaan aplikasi mate-user-"
+"share atau panduan ini, ikuti arahan di dalam <ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">Halaman Maklumbalas MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:41
@@ -69,21 +72,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"mate-user-share ialah sebuah perkhidmatan sesi yang membolehkan perkongsian "
+"mudah fail-fail antara beberapa komputer."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:45
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>mate-user-share</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:46
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>perkongsian fail</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:47
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>perkongsian</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:50
@@ -101,6 +106,14 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"mate-user-share ialah satu perkhidmatan sesi yang mengeksport kandungan "
+"folder <filename>Awam</filename> di dalam direktori rumah anda, supaya ia "
+"boleh dicapai daripada komputer lain tetapi dalam rangkaian setempat yang "
+"sama. Pada komputer lain, folder dikongsi akan muncul dengan nama seperti "
+"'fail kongsi <replaceable>pengguna</replaceable>' di dalam  tetingkap "
+"Rangkaian <application>caja</application>, yang mana "
+"<replaceable>pengguna</replaceable> akan digantikan dengan nama pengguna "
+"anda."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:54
@@ -109,6 +122,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"mate-user-share menggunakan pelayan WebDAV untuk berkongsi folder "
+"<filename>Awam</filename>, dan iklankan perkongsian dalam rangkaian setempat"
+" menggunakan mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:57
@@ -117,16 +133,19 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Selain itu, mate-user-share boleh jadikan fail dikongsi tersedia dengan "
+"ObexFTP melalui Bluetooth, dan terima fail yang dihantar ke dalam komputer "
+"anda dengan Bluetooth melalui ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:63
 msgid "Getting started"
-msgstr ""
+msgstr "Membiasakan diri"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:66
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "Memulakan mate-user-share"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:68
@@ -137,6 +156,12 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"Perkhidmatan mate-user-share biasanya bermula dengan <application>mate-"
+"session</application> ketika anda mendaftar masuk. Anda boleh mengubahnya "
+"dengan membuka <menuchoice><guimenu>Keutamaan</guimenu><guimenu>Aplikasi "
+"Permulaan</guimenu></menuchoice> di dalam menu <guimenu>Sistem</guimenu>, "
+"dan ubah suai masukan 'Perkongsian Pengguna' dalam senarai program "
+"permulaan."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -146,11 +171,15 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"Untuk mengkonfigur pelbagai aspek perkongsian fail, pergi ke Keutamaan Fail,"
+" boleh ditemui dalam menu <guimenu>Sistem</guimenu> di bawah "
+"<menuchoice><guimenu>Keutamaan</guimenu><guimenu>Perkongsian Fail "
+"Peribadi</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:77
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "Keutamaan Perkongsian Fail"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -163,11 +192,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:89
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Membenarkan perkongsian fail melalui rangkaian"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:90 C/index.docbook:134 C/index.docbook:159
@@ -176,11 +207,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Buka Keutamaan Perkongsian Fail melalui "
+"<menuchoice><guimenu>Keutamaan</guimenu><guimenu>Perkongsian Fail "
+"Peribadi</guimenu></menuchoice> di dalam menu <guimenu>Sistem</guimenu>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:95
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Kongsi Fail menerusi Rangkaian"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -193,6 +227,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:106
@@ -201,6 +237,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Sesetengah konfigurasi dinding api dalam komputer mungkin punca masalah "
+"dengan iklan, serta capaian ke fail dikongsi. Sila hubungi pentabdir sistem "
+"anda untuk perincian."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:109
@@ -208,6 +247,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Pilih <guilabel>Tidak Sesekali</guilabel> untuk membolehkan sesiapa sahaja "
+"bebas membaca dan menulis fail di dalam folder dikongsi."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:115
@@ -215,6 +256,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Pilih <guilabel>Sentiasa</guilabel> untuk perlukan kata laluan ketika "
+"membaca atau menulis fail dalam folder dikongsi."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:121
@@ -223,6 +266,9 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Pilih <guilabel>Ketika menulis fail</guilabel> untuk membolehkan sesiapa "
+"sahaja bebas membaca fail dalam folder dikongsi, tetapi perlukan kata laluan"
+" sekiranya mahu menulis fail."
 
 #. (itstool) path: note/para
 #: C/index.docbook:128
@@ -231,6 +277,10 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"Bila anda tetapkan satu kata laluan, anda perlu berikan kata laluan tersebut"
+" kepada pengguna yang diberikan capaian kepada fail terkongsi tersebut. Oleh"
+" itu, anda perlu berikan satu kata laluan yang berlainan daripada kata "
+"laluan yang anda biasa gunakan."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:104
@@ -241,16 +291,22 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"Untuk membolehkan perkongsian fail melalui WebDAV, gunakan kotak tanda "
+"<guilabel>Kongsi fail awam dalam rangkaian</guilabel>. Sekiranya perkongsian"
+" fail dibenarkan, kawalan perlindungan untuk benarkan kata laluan perlu "
+"tetapkan satu kata laluan yang perlu dinyatakan sebelum seorang pengguna "
+"pada komputer lain diberi capaian ke fail terkongsi tersebut. "
+"<_:note-1/><_:itemizedlist-2/><_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:133
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Membenarkan perkongsian fail melalui Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:139
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Kongsi Fail menerusi Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -263,6 +319,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:152
@@ -271,6 +329,10 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"Bila anda membenarkan peranti-peranti jauh tanpa batas mencapai fail "
+"terkongsi anda, sesiapa sahaja yang ada telefon bimbit didayakan-Bluetooth "
+"dalam jangkauan komputer anda dapat mencapai dan juga mungkin dapat "
+"mengubahsuai fail terkongsi anda."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:148
@@ -283,16 +345,23 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Untuk membenarkan perkongsian fail menerusi Bluetooth, gunakan kotak tanda "
+"<guilabel>Kongsi fail awam melalui Bluetooth</guilabel>. Supaya peranti jauh"
+" Bluetooth dapat memadam fail dalam folder terkongsi anda, gunakan kotak "
+"tanda <guilabel>Benarkan peranti jauh memadam fail</guilabel>. Untuk "
+"membolehkan peranti jauh Bluetooth mencapai fail terkongsi anda walaupun ia "
+"tidak terpaut dengan komputer anda, gunakan kotak tanda <guilabel>Perlukan "
+"peranti jauh berpasangan dengan komputer ini</guilabel>. <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:158
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Menerima Fail melalui Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:164
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Terima Fail melalui Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -305,12 +374,16 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:177
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Pilih <guilabel>Sentiasa</guilabel> untuk membolehkan apa jua peranti jauh "
+"dapat menghantar fail."
 
 #. (itstool) path: note/para
 #: C/index.docbook:184
@@ -318,6 +391,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Peranti terpaut adalah salah satu yang bersambung dengan komputer anda, dan "
+"perlu masukkan kod PIN supaya dapat berhubung antara satu sama lain."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:182
@@ -325,6 +400,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Pilih <guilabel>Hanya untuk peranti Terikat</guilabel> untuk menerima fail "
+"hanya dairpada peranti terikat."
 
 #. (itstool) path: note/para
 #: C/index.docbook:191
@@ -332,6 +409,9 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Peranti boleh ditanda sebagai dipercayai dalam <application>bluetooth-"
+"properties</application> pada seksyen <guilabel>Peranti "
+"diketahui</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:189
@@ -339,6 +419,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Pilih <guilabel>Hanya untuk peranti Terikat dan Dipercayai</guilabel> untuk "
+"menerima fail hanya daropada peranti terikat. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:173
@@ -351,6 +433,13 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"Untuk membolehkan peranti-peranti Bluetooth jauh menghantar fail ke dalam "
+"komputer anda, gunakan kotak tanda <guilabel>Terima fail ke dalam folder "
+"Muat Turun menerusi Bluetooth</guilabel>. Fail diterima akan disimpan dalam "
+"folder <filename>Muat Turun</filename> di dalam direktori rumah anda. Ketika"
+" penerimaan fail dibenarkan, pemilihan <guilabel>Terima fail</guilabel> "
+"membolehkan anda tentukan peranti jauh manakah dapat menghantar fail. "
+"<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:196
@@ -358,6 +447,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Guna kotak tanda <guilabel>Maklum berkenaan fail yang diterima</guilabel> "
+"untuk memilih sama ada anda mahu dimaklumlkan bilmana sesebuah fail diterima"
+" menerusi Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -389,6 +481,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Panduan ini adalah sebahagian dari koleksi panduan GNOME yang diedar bawah "
+"GFDL. Jika anda mahu edar panduan ini secara berasingan dari koleksi "
+"asalnya, anda boleh membuat sedemikian dengan menambah satu salinan lesen ke"
+" dalam panduan sepertimana yang dijelaskan dalam seksyen 6 lesen tersebut."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -399,6 +495,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Kebanyakan nama digunakan oleh syarikat untuk membezakan produk dan "
+"perkhidmatan mereka telah dituntut sebagai tanda dagangan. Jika nama "
+"tersebut ada di dalam mana-mana dokumentasi GNOME, dan ahli-ahli Projek "
+"Dokumentasi GNOME sedar akan tanda dagangan tersebut, kerana nama-nama "
+"tersebut telah di huruf besarkan atau huruf awalnya telah dihuruf besarkan."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -425,6 +526,27 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"DOKUMEN INI TELAH DISEDIAKAN SEBAGAI PANDUAN, TANPA APA-APA JAMINAN, SAMA "
+"ADA YANG TELAH DIUNGKAPKAN ATAU PUN DILAKSANAKAN, TERMASUKLAH, TANPA HAD, "
+"MENJAMIN DOKUMEN ATAU VERSI UBAHSUAI DOKUMEN INI BEBAS DARIPADA KESILAPAN, "
+"KESESUAIAN ATAS APA JUA TUJUAN ATAU TIDAK MELANGGAR. KESELURUHAN RISIKO "
+"TERHADAP KUALITI, KETEPATAN, DAN PRESTASI DOKUMEN ATAU DOKUMEN UBAHSUAI "
+"ADALAH ATAS DIRI ANDA SENDIRI. SEKIRANYA MANA-MANA DOKUMEN ATAU VERSI "
+"UBAHSUAINYA JELAS ADA KESILAPAN, ANDA (BUKANNYA PENULIS ASAL, PENGARANG ATAU"
+" PARA PENYUMBANG) SENDIRI BERTANGGUNGJAWAB ATAS KOS PERKHIDMATAN, PEMBAIKAN "
+"ATAU PEMBETULANNYA. PENAFIAN JAMINAN INI MELIBATKAN BAHAGIAN TERPENTING "
+"LESEN INI.TIADA PENGGUNAAN MANA-MANA DOKUMEN ATAU VERSI UBAHSUAINYA DISAHKAN"
+" KECUALI DENGAN PENAFIAN INI; DAN TANPA DI BAWAH APA-APA KEADAAN DAN TEORI "
+"PERUNDANGAN, SAMA ADA DALAM TORT (TERMASUKLAH KECUAIAN), KONTRAK, ATAU "
+"SEUMPAMA DENGANNYA, SI PENGARANG, PENULIS ASAL, MANA-MANA PENYUMBANG, ATAU "
+"MANA-MANA PENGEDAR DOKUMEN ATAU VERSI UBAHSUAI DOKUMEN, ATAU MANA-MANA "
+"PEMBEKAL ATAS APA JUA KUMPULAN, JUGA PADA MANA-MANA INDIVIDU ATAS KEROSAKAN "
+"SECARA LANGSUNG ATAU TIDAK LANGSUNG, SECARA KHUSUS, TIDAK SENGAJA ATAU, "
+"KEROSAKAN LANJUTAN TERHADAP SESIAPA SAHAJA, TERMASUKLAH TANPA HAD BAGI "
+"KEROSAKAN NAMA BAIK, GANGGUAN KERJA, KEGAGALAN ATAU KEROSAKAN KOMPUTER, ATAU"
+" MANA-MANA  MAHUPUN SEMUA KEROSAKAN LAIN BERKAITAN PENGGUNAAN DOKUMEN DAN "
+"VERSI UBAHSUAI DOKUMEN, WALAUPUN PIHAK TERSEBUT TELAH DIMAKLUMKAN ADANYA "
+"KEBARANGKALIAN KEROSAKAN SEBEGITU BOLEH BERLAKU."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28

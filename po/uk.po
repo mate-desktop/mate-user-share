@@ -4,9 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
-# Микола Ткач <chistomov@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Микола Ткач <chistomov@gmail.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-11 16:34+0100\n"
-"PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2018\n"
+"PO-Revision-Date: 2019-03-16 17:36+0000\n"
+"Last-Translator: Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "Від_крити доступ до файлів з мережі"
 
 #: ../data/file-share-properties.ui.h:6
 msgid "_Password:"
-msgstr "_Потайслово:"
+msgstr "_Пароль:"
 
 #: ../data/file-share-properties.ui.h:7
 msgid "_Require password:"
@@ -120,7 +121,7 @@ msgstr "Персональний загальний доступ до файлі
 
 #: ../src/caja-share-bar.c:115
 msgid "Preferences"
-msgstr "Налаштування"
+msgstr "Параметри"
 
 #: ../src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"

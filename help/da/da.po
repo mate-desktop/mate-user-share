@@ -1,13 +1,13 @@
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Joe Hansen <joedalton2@yahoo.dk>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "POT-Creation-Date: 2018-12-25 11:20+0100\n"
-"PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2019\n"
+"PO-Revision-Date: 2019-03-16 17:39+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +19,10 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Ask Hjorth Larsen, 2009\n"
-"Joe Hansen <joedalton2@yahoo.dk>, 2018\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
+"\"Joe Hansen, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.\\n\"\n"
+"\"\\n\"\n"
+"\"Dansk-gruppen <dansk@dansk-gruppen.dk>\\n\"\n"
+"\"Mere info: http://www.dansk-gruppen.dk\""
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
@@ -301,7 +300,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:133
 msgid "Enabling file sharing over Bluetooth"
-msgstr "Aktiver fildeling over Bluetotth"
+msgstr "Aktiver fildeling over Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:139
