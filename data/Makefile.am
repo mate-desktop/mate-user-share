@@ -21,7 +21,7 @@ extensiondir = $(datadir)/caja/extensions
 extension_in_files = libcaja-user-share.caja-extension.in
 extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
 %.caja-extension: %.caja-extension.in
-	$(AM_V_GEN) $(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = $(gsettings_SCHEMAS) \
 	$(app_DATA)		\
