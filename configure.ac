@@ -200,7 +200,7 @@ data/icons/16x16/Makefile
 data/icons/22x22/Makefile
 data/icons/32x32/Makefile
 data/icons/48x48/Makefile
-data/libcaja-user-share.caja-extension.in
+data/libcaja-user-share.desktop.in
 data/mate-user-share-webdav.desktop.in
 data/mate-user-share-obexftp.desktop.in
 data/mate-user-share-obexpush.desktop.in
