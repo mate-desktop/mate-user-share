@@ -18,9 +18,9 @@ gsettings_SCHEMAS = org.mate.FileSharing.gschema.xml
 @GSETTINGS_RULES@
 
 extensiondir = $(datadir)/caja/extensions
-extension_in_files = libcaja-user-share.caja-extension.in
-extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
-%.caja-extension: %.caja-extension.in
+extension_in_file = libcaja-user-share.desktop.in
+extension_DATA = $(extension_in_file:.desktop.in=.caja-extension)
+$(extension_DATA): $(extension_in_file)
 	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = $(gsettings_SCHEMAS) \
