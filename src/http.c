@@ -251,10 +251,8 @@ get_httpd_config (const char *httpd_program)
 	}
 
 	if (g_regex_match (version_regex, standard_output, 0, &match_info)) {
-		while (g_match_info_matches (match_info)) {
+		if (g_match_info_matches (match_info))
 			version_number = g_match_info_fetch (match_info, 0);
-			break;
-		}
 		g_match_info_free (match_info);
 		g_free (standard_output);
 	} else {
