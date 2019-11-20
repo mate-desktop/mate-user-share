@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mate-user-share 1.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 21:26+0100\n"
+"POT-Creation-Date: 2019-11-20 18:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,15 +76,16 @@ msgstr ""
 msgid "_Notify about received files"
 msgstr ""
 
-#: data/libcaja-user-share.desktop.in.in:3
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/libcaja-user-share.desktop.in.in:4
 msgid "user-share"
 msgstr ""
 
-#: data/libcaja-user-share.desktop.in.in:4
+#: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr ""
 
-#: data/libcaja-user-share.desktop.in.in:5
+#: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
 msgstr ""
 
@@ -96,14 +97,16 @@ msgstr ""
 msgid "Preferences for sharing of files"
 msgstr ""
 
-#: data/mate-user-share-properties.desktop.in:6
-#: data/mate-user-share-obexftp.desktop.in.in:7
-#: data/mate-user-share-obexpush.desktop.in.in:7
-#: data/mate-user-share-webdav.desktop.in.in:7
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/mate-user-share-properties.desktop.in:7
+#: data/mate-user-share-obexftp.desktop.in.in:9
+#: data/mate-user-share-obexpush.desktop.in.in:9
+#: data/mate-user-share-webdav.desktop.in.in:9
 msgid "folder-remote"
 msgstr ""
 
-#: data/mate-user-share-properties.desktop.in:11
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-properties.desktop.in:13
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
@@ -118,9 +121,10 @@ msgstr ""
 msgid "Launch Personal File Sharing if enabled"
 msgstr ""
 
-#: data/mate-user-share-obexftp.desktop.in.in:5
-#: data/mate-user-share-obexpush.desktop.in.in:5
-#: data/mate-user-share-webdav.desktop.in.in:5
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-obexftp.desktop.in.in:6
+#: data/mate-user-share-obexpush.desktop.in.in:6
+#: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr ""
 
