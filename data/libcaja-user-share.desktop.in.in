@@ -1,4 +1,5 @@
 [Caja Extension]
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=user-share
 Name=User Share
 Description=Integrates with user-share

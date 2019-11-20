@@ -1,8 +1,10 @@
 [Desktop Entry]
 Name=Personal File Sharing webdav
 Comment=Launch Personal File Sharing if enabled
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 Keywords=share;files;bluetooth;obex;http;network;copy;send;
 AutostartCondition=GSettings org.mate.FileSharing enabled
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=folder-remote
 Exec=@installdir@/mate-user-share
 Terminal=false
