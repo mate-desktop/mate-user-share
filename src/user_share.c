@@ -30,7 +30,6 @@
 #include <gio/gio.h>
 #include <X11/Xlib.h>
 
-#include "user_share.h"
 #include "user_share-private.h"
 #include "user_share-common.h"
 #include "http.h"
