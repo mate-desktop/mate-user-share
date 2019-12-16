@@ -37,7 +37,7 @@
 
 #include "marshal.h"
 #include "obexpush.h"
-#include "user_share.h"
+#include "user_share-common.h"
 #include "user_share-private.h"
 
 #define DBUS_TYPE_G_STRING_VARIANT_HASHTABLE (dbus_g_type_get_map ("GHashTable", G_TYPE_STRING, G_TYPE_STRING))

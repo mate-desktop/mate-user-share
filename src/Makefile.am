@@ -37,7 +37,6 @@ AM_CPPFLAGS=	\
 
 mate_user_share_SOURCES =	\
 	user_share.c		\
-	user_share.h		\
 	user_share-private.h	\
 	user_share-private.c	\
 	http.c			\
