@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-user-share package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -8,12 +8,11 @@
 # Francesc Famadas <kiski97@gmail.com>, 2018
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: mate-user-share 1.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 16:34+0100\n"
+"POT-Creation-Date: 2019-11-20 18:31+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
@@ -23,160 +22,190 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/file-share-properties.ui.h:1
+#: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
 msgstr "Preferències de la compartició de fitxers personals"
 
-#: ../data/file-share-properties.ui.h:2
+#: data/file-share-properties.ui:38
 msgid "_Close"
 msgstr "Tan_ca"
 
-#: ../data/file-share-properties.ui.h:3
+#: data/file-share-properties.ui:54
 msgid "_Help"
 msgstr "_Ajuda"
 
-#: ../data/file-share-properties.ui.h:4
+#: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Compartició de fitxers a través de la xarxa</b>"
 
-#: ../data/file-share-properties.ui.h:5
+#: data/file-share-properties.ui:140
 msgid "_Share public files on network"
 msgstr "_Comparteix els fitxers públics a la xarxa"
 
-#: ../data/file-share-properties.ui.h:6
+#: data/file-share-properties.ui:157
 msgid "_Password:"
 msgstr "_Contrasenya:"
 
-#: ../data/file-share-properties.ui.h:7
+#: data/file-share-properties.ui:171
 msgid "_Require password:"
 msgstr "_Requereix contrasenya:"
 
-#: ../data/file-share-properties.ui.h:8
+#: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Compartició de fitxers a través de Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:9
+#: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
 msgstr "Comparteix els fitxers públics a través de _Bluetooth"
 
-#: ../data/file-share-properties.ui.h:10
+#: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
 msgstr "Permet que els dispositius remots suprimeixin _fitxers"
 
-#: ../data/file-share-properties.ui.h:11
+#: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
 msgstr ""
 "Requereix que els dispositius _remots es vinculin amb aquest ordinador"
 
-#: ../data/file-share-properties.ui.h:12
+#: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Recepció de fitxers a través de Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:13
+#: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Desa els fitxers rebuts a través de Bluetooth a la carpeta _Baixades"
 
-#: ../data/file-share-properties.ui.h:14
+#: data/file-share-properties.ui:348
 msgid "_Accept files: "
 msgstr "_Accepta els fitxers: "
 
-#: ../data/file-share-properties.ui.h:15
+#: data/file-share-properties.ui:360
 msgid "_Notify about received files"
 msgstr "_Notifica en rebre fitxers"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/libcaja-user-share.desktop.in.in:4
+msgid "user-share"
+msgstr "user-share"
+
+#: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr "Comparticions de l'usuari"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+#: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
 msgstr "S'integra amb user-share"
 
-#: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Compartició de fitxers personals"
 
-#: ../data/mate-user-share-properties.desktop.in.h:2
+#: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "Preferències per a la compartició de fitxers"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/mate-user-share-properties.desktop.in:7
+#: data/mate-user-share-obexftp.desktop.in.in:9
+#: data/mate-user-share-obexpush.desktop.in.in:9
+#: data/mate-user-share-webdav.desktop.in.in:9
+msgid "folder-remote"
+msgstr "folder-remote"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-properties.desktop.in:13
+msgid ""
+"MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
+msgstr ""
+"MATE;personal;fitxer;compartició;preferències;propietats;ajusts;WebDAV;ObexFTP;"
+
+#: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
 msgstr "Compartició de fitxers personals obexftp"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
-#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+#: data/mate-user-share-obexftp.desktop.in.in:4
+#: data/mate-user-share-obexpush.desktop.in.in:4
+#: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Executa la compartició de fitxers personals si està habilitat"
 
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-obexftp.desktop.in.in:6
+#: data/mate-user-share-obexpush.desktop.in.in:6
+#: data/mate-user-share-webdav.desktop.in.in:6
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr "compartir;fitxers;bluetooth;obex;http;xarxa;còpia;enviar;"
+
+#: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
 msgstr "Compartició de fitxers personals obexpush"
 
-#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+#: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
 msgstr "Compartició de fitxers personals webdav"
 
-#: ../src/caja-share-bar.c:115
+#: src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Preferències"
 
-#: ../src/caja-share-bar.c:119
+#: src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Inicia les preferències de la compartició de fitxers personals"
 
-#: ../src/share-extension.c:73
+#: src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr ""
 "No es pot iniciar les preferències de la compartició de fitxers personals"
 
-#: ../src/share-extension.c:179
+#: src/share-extension.c:179
 msgid "May be used to share or receive files"
 msgstr "Es pot utilitzar per compartir o rebre fitxers"
 
-#: ../src/share-extension.c:181
+#: src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
 msgstr "Es pot compartir a través de la xarxa o per Bluetooth"
 
-#: ../src/share-extension.c:184
+#: src/share-extension.c:184
 msgid "May be shared over the network"
 msgstr "Es pot compartir a través de la xarxa"
 
-#: ../src/share-extension.c:190
+#: src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
 msgstr "Es pot utilitzar per rebre fitxers a través de Bluetooth"
 
-#: ../src/file-share-properties.c:416
+#: src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Cap motiu"
 
-#: ../src/file-share-properties.c:444
+#: src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "No s'ha pogut mostrar el contingut de l'ajuda."
 
-#: ../src/file-share-properties.c:480
+#: src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "No s'ha pogut construir la interfície."
 
-#: ../src/file-share-properties.c:516
+#: src/file-share-properties.c:516
 msgid "Never"
 msgstr "Mai"
 
-#: ../src/file-share-properties.c:519
+#: src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Quan s'escriguin fitxers"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: src/file-share-properties.c:522 src/file-share-properties.c:546
 msgid "Always"
 msgstr "Sempre"
 
-#: ../src/file-share-properties.c:549
+#: src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Només per a dispositius configurats"
 
-#: ../src/file-share-properties.c:554
+#: src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Pregunta"
 
@@ -189,36 +218,36 @@ msgstr "Pregunta"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:129
+#: src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "Fitxers públics de %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:133
+#: src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Fitxers públics de %s a %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:136
+#: src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Heu rebut «%s» a través de Bluetooth"
 
-#: ../src/obexpush.c:138
+#: src/obexpush.c:138
 msgid "You received a file"
 msgstr "Heu rebut un fitxer"
 
-#: ../src/obexpush.c:148
+#: src/obexpush.c:148
 msgid "Open File"
 msgstr "Obre el fitxer"
 
-#: ../src/obexpush.c:152
+#: src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Revela el fitxer"
 
-#: ../src/obexpush.c:169
+#: src/obexpush.c:169
 msgid "File reception complete"
 msgstr "S'ha completat la recepció del fitxer"

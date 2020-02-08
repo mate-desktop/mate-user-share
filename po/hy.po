@@ -1,17 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-user-share package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Siranush <ss.m.95@mail.ru>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: mate-user-share 1.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 16:34+0100\n"
+"POT-Creation-Date: 2019-11-20 18:31+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Siranush <ss.m.95@mail.ru>, 2018\n"
 "Language-Team: Armenian (https://www.transifex.com/mate/teams/13566/hy/)\n"
@@ -21,158 +20,187 @@ msgstr ""
 "Language: hy\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/file-share-properties.ui.h:1
+#: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
 msgstr "Անձնական ֆայլի փոխանակման Նախընտրանքներ"
 
-#: ../data/file-share-properties.ui.h:2
+#: data/file-share-properties.ui:38
 msgid "_Close"
 msgstr "_Փակել"
 
-#: ../data/file-share-properties.ui.h:3
+#: data/file-share-properties.ui:54
 msgid "_Help"
 msgstr "_Օգնություն"
 
-#: ../data/file-share-properties.ui.h:4
+#: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Համօգտագործել Ցանցի վրայի ֆայլերը</b>"
 
-#: ../data/file-share-properties.ui.h:5
+#: data/file-share-properties.ui:140
 msgid "_Share public files on network"
 msgstr "_Համօգտագործել ցանցի հանրային ֆայլերը"
 
-#: ../data/file-share-properties.ui.h:6
+#: data/file-share-properties.ui:157
 msgid "_Password:"
 msgstr "_Գաղտնաբառ"
 
-#: ../data/file-share-properties.ui.h:7
+#: data/file-share-properties.ui:171
 msgid "_Require password:"
 msgstr "_Պահանջում է գաղտնաբառը:"
 
-#: ../data/file-share-properties.ui.h:8
+#: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Համօգտագործել Bluetooth֊ի ֆայերը</b>"
 
-#: ../data/file-share-properties.ui.h:9
+#: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
 msgstr "Համօգտագործել _Bluetooth֊ի վրայի հանրային ֆայլերը "
 
-#: ../data/file-share-properties.ui.h:10
+#: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
 msgstr "Թույլ տալ, որ հեռավոր սարքերը ջնջեն ֆայլերը"
 
-#: ../data/file-share-properties.ui.h:11
+#: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Պահանջում է հեռավոր սարքերի հետ կապ այս համակարգչում"
 
-#: ../data/file-share-properties.ui.h:12
+#: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Bluetooth֊ի միջոցով ստանալ ֆայլեր</b>"
 
-#: ../data/file-share-properties.ui.h:13
+#: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Ստանալ ֆայլեր Bluetooth֊ի  _Ներբեռնումների թղթապանակից"
 
-#: ../data/file-share-properties.ui.h:14
+#: data/file-share-properties.ui:348
 msgid "_Accept files: "
 msgstr "_Ընդունել ֆայլեր."
 
-#: ../data/file-share-properties.ui.h:15
+#: data/file-share-properties.ui:360
 msgid "_Notify about received files"
 msgstr "_Տեղեկացնել ստացված ֆայլերի մասին "
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/libcaja-user-share.desktop.in.in:4
+msgid "user-share"
+msgstr ""
+
+#: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr "Օգտագործողի Մաս"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+#: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
 msgstr "Ինտեգրվել օգտագործողի մասի հետ"
 
-#: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Անձնական ֆայլ Կիսում"
 
-#: ../data/mate-user-share-properties.desktop.in.h:2
+#: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "ֆայլերի փոխանակման համար նախընտրանքներ"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/mate-user-share-properties.desktop.in:7
+#: data/mate-user-share-obexftp.desktop.in.in:9
+#: data/mate-user-share-obexpush.desktop.in.in:9
+#: data/mate-user-share-webdav.desktop.in.in:9
+msgid "folder-remote"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-properties.desktop.in:13
+msgid ""
+"MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
+msgstr ""
+
+#: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
 msgstr "Անձնական Ֆայլի Բաժանում obexftp"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
-#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+#: data/mate-user-share-obexftp.desktop.in.in:4
+#: data/mate-user-share-obexpush.desktop.in.in:4
+#: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Գործարկել Անձնական Ֆայլերի փոխանակումը, եթե թույլատրվում է"
 
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-obexftp.desktop.in.in:6
+#: data/mate-user-share-obexpush.desktop.in.in:6
+#: data/mate-user-share-webdav.desktop.in.in:6
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr ""
+
+#: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
 msgstr "Անձնական Ֆայլի Բաժանում obexpush"
 
-#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+#: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
 msgstr "Անձնական Ֆայլի Բաժանում webdav"
 
-#: ../src/caja-share-bar.c:115
+#: src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Հատկություններ"
 
-#: ../src/caja-share-bar.c:119
+#: src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Գործարկել Անձնական ֆայլի փոխանակման Նախընտրանքները"
 
-#: ../src/share-extension.c:73
+#: src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Անհնար է գործարկել անհատական ֆայլի փոխանակման նախընտրությունները"
 
-#: ../src/share-extension.c:179
+#: src/share-extension.c:179
 msgid "May be used to share or receive files"
 msgstr "Կարող է օգտագործվել մասը կամ ստանալ ֆայլեր"
 
-#: ../src/share-extension.c:181
+#: src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
 msgstr "Կարող է կիսվել ավելի քան ցանցի կամ Bluetooth "
 
-#: ../src/share-extension.c:184
+#: src/share-extension.c:184
 msgid "May be shared over the network"
 msgstr "Կարող է կիսվել ավելի քան ցանցի"
 
-#: ../src/share-extension.c:190
+#: src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
 msgstr "Կարող է օգտագործեց Bluetooth֊ի միջոցով ֆայլեր ստանալու համար"
 
-#: ../src/file-share-properties.c:416
+#: src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Ոչ մի պատճառ չկա"
 
-#: ../src/file-share-properties.c:444
+#: src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Չհաջողվեց ցուցադրել օգնության բովանդակությունը:"
 
-#: ../src/file-share-properties.c:480
+#: src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Չհաջողվեց կառուցել ինտերֆեյսը."
 
-#: ../src/file-share-properties.c:516
+#: src/file-share-properties.c:516
 msgid "Never"
 msgstr "Երբեք"
 
-#: ../src/file-share-properties.c:519
+#: src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Երբ գրում են ֆայլեր"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: src/file-share-properties.c:522 src/file-share-properties.c:546
 msgid "Always"
 msgstr "Մշտապես"
 
-#: ../src/file-share-properties.c:549
+#: src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Միայն սահմանված սարքերի համար"
 
-#: ../src/file-share-properties.c:554
+#: src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Հարցնել"
 
@@ -185,36 +213,36 @@ msgstr "Հարցնել"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:129
+#: src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%s's հանրային ֆայլեր"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:133
+#: src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s's հանրային ֆայլեր %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:136
+#: src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Դուք ստացել եք \"%s\" Bluetooth- ի միջոցով"
 
-#: ../src/obexpush.c:138
+#: src/obexpush.c:138
 msgid "You received a file"
 msgstr "Դուք ստացել ֆայլը"
 
-#: ../src/obexpush.c:148
+#: src/obexpush.c:148
 msgid "Open File"
 msgstr "ֆայլը բացել"
 
-#: ../src/obexpush.c:152
+#: src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Ֆայլի բացահայտում"
 
-#: ../src/obexpush.c:169
+#: src/obexpush.c:169
 msgid "File reception complete"
 msgstr "ֆայլ ամբողջական ընդունում"

@@ -1,17 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-user-share package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: mate-user-share 1.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 16:34+0100\n"
+"POT-Creation-Date: 2019-11-20 18:31+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Oriya (https://www.transifex.com/mate/teams/13566/or/)\n"
@@ -21,158 +20,187 @@ msgstr ""
 "Language: or\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/file-share-properties.ui.h:1
+#: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
 msgstr "ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗ ପସନ୍ଦଗୁଡ଼ିକ"
 
-#: ../data/file-share-properties.ui.h:2
+#: data/file-share-properties.ui:38
 msgid "_Close"
 msgstr "ବନ୍ଦ କରନ୍ତୁ (_C)"
 
-#: ../data/file-share-properties.ui.h:3
+#: data/file-share-properties.ui:54
 msgid "_Help"
 msgstr "ସହାୟତା (_H)"
 
-#: ../data/file-share-properties.ui.h:4
+#: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>ନେଟୱର୍କ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ</b>"
 
-#: ../data/file-share-properties.ui.h:5
+#: data/file-share-properties.ui:140
 msgid "_Share public files on network"
 msgstr "ନେଟୱର୍କରେ ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ (_S)"
 
-#: ../data/file-share-properties.ui.h:6
+#: data/file-share-properties.ui:157
 msgid "_Password:"
 msgstr "ପ୍ରବେଶ ସଂଙ୍କେତ (_P):"
 
-#: ../data/file-share-properties.ui.h:7
+#: data/file-share-properties.ui:171
 msgid "_Require password:"
 msgstr "ପ୍ରବେଶ ସଂକେତ ଆବଶ୍ୟକ (_R):"
 
-#: ../data/file-share-properties.ui.h:8
+#: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>ବ୍ଲୁଟୁଥ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ</b>"
 
-#: ../data/file-share-properties.ui.h:9
+#: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
 msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରନ୍ତୁ (_B)"
 
-#: ../data/file-share-properties.ui.h:10
+#: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
 msgstr "ସୂଦୂର ଉଫକରଣକୁ ଫାଇଲ ଅପସାରଣ କରିବା ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ (_w)"
 
-#: ../data/file-share-properties.ui.h:11
+#: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
 msgstr "ଏହି କମ୍ପୁଟର ସହିତ ବାନ୍ଧିହେବା ପାଇଁ ସୂଦୂର ଉପକରଣ ଆବଶ୍ୟକ (_m)"
 
-#: ../data/file-share-properties.ui.h:12
+#: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>ବ୍ଲୁଟୁଥ ଉପରେ ଫାଇଲଗୁଡ଼ିକୁ ଗ୍ରହଣ କରନ୍ତୁ</b>"
 
-#: ../data/file-share-properties.ui.h:13
+#: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "ବ୍ଲୁଟୁଥ ଉପରେ ଆହରଣ ଫୋଲଡରରେ ଫାଇଲଗୁଡ଼ିକୁ ଗ୍ରହଣ କରିଥାଏ (_D)"
 
-#: ../data/file-share-properties.ui.h:14
+#: data/file-share-properties.ui:348
 msgid "_Accept files: "
 msgstr "ଫାଇଲ ଗ୍ରହଣ କରନ୍ତୁ (_A):"
 
-#: ../data/file-share-properties.ui.h:15
+#: data/file-share-properties.ui:360
 msgid "_Notify about received files"
 msgstr "ଗ୍ରହଣ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକ ବିଷୟରେ ବିଜ୍ଞପ୍ତି ଦିଅନ୍ତୁ (_N)"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/libcaja-user-share.desktop.in.in:4
+msgid "user-share"
+msgstr ""
+
+#: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr ""
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+#: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
 msgstr ""
 
-#: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗ"
 
-#: ../data/mate-user-share-properties.desktop.in.h:2
+#: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "ଫାଇଲଗୁଡ଼ିକୁ ସହଭାଗ କରିବା ପାଇଁ ପସନ୍ଦ"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/mate-user-share-properties.desktop.in:7
+#: data/mate-user-share-obexftp.desktop.in.in:9
+#: data/mate-user-share-obexpush.desktop.in.in:9
+#: data/mate-user-share-webdav.desktop.in.in:9
+msgid "folder-remote"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-properties.desktop.in:13
+msgid ""
+"MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
+msgstr ""
+
+#: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
 msgstr ""
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
-#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+#: data/mate-user-share-obexftp.desktop.in.in:4
+#: data/mate-user-share-obexpush.desktop.in.in:4
+#: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
 msgstr "ଯଦି ସକ୍ରିୟ ଥାଏ ତେବେ ବ୍ୟକ୍ତିଗତ ଫାଇଲ ସହଭାଗକୁ ଆରମ୍ଭ କରନ୍ତୁ"
 
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-obexftp.desktop.in.in:6
+#: data/mate-user-share-obexpush.desktop.in.in:6
+#: data/mate-user-share-webdav.desktop.in.in:6
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr ""
+
+#: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
 msgstr ""
 
-#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+#: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: ../src/caja-share-bar.c:115
+#: src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "ପସନ୍ଦ"
 
-#: ../src/caja-share-bar.c:119
+#: src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr ""
 
-#: ../src/share-extension.c:73
+#: src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr ""
 
-#: ../src/share-extension.c:179
+#: src/share-extension.c:179
 msgid "May be used to share or receive files"
 msgstr ""
 
-#: ../src/share-extension.c:181
+#: src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
 msgstr ""
 
-#: ../src/share-extension.c:184
+#: src/share-extension.c:184
 msgid "May be shared over the network"
 msgstr ""
 
-#: ../src/share-extension.c:190
+#: src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
 msgstr ""
 
-#: ../src/file-share-properties.c:416
+#: src/file-share-properties.c:416
 msgid "No reason"
 msgstr "କୌଣସି କାରଣ ନାହିଁ"
 
-#: ../src/file-share-properties.c:444
+#: src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "ସହାୟତା ସୂଚୀକୁ ଦର୍ଶାଇ ହେବ ନାହିଁ।"
 
-#: ../src/file-share-properties.c:480
+#: src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "ଅନ୍ତରାପୃଷ୍ଠ ନିର୍ମାଣ କରିହେବ ନାହିଁ।"
 
-#: ../src/file-share-properties.c:516
+#: src/file-share-properties.c:516
 msgid "Never"
 msgstr "କେବେ ନୁହେଁ"
 
-#: ../src/file-share-properties.c:519
+#: src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "ଫାଇଲ ଲେଖିବା ସମୟରେ"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: src/file-share-properties.c:522 src/file-share-properties.c:546
 msgid "Always"
 msgstr "ସର୍ବଦା"
 
-#: ../src/file-share-properties.c:549
+#: src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr ""
 
-#: ../src/file-share-properties.c:554
+#: src/file-share-properties.c:554
 msgid "Ask"
 msgstr "ପଚାର"
 
@@ -185,36 +213,36 @@ msgstr "ପଚାର"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:129
+#: src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "%sର ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକ"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:133
+#: src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s ଉପରେ %sର ସାର୍ବଜନିକ ଫାଇଲଗୁଡ଼ିକ"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:136
+#: src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "ଆପଣ ବ୍ଲୁଟୁଥ ମାଧ୍ଯମରେ \"%s\" କୁ ଗ୍ରହଣ କରିଛନ୍ତି"
 
-#: ../src/obexpush.c:138
+#: src/obexpush.c:138
 msgid "You received a file"
 msgstr "ଆପଣ ଗୋଟିଏ ଫାଇଲ ଗ୍ରହଣ କରିଛନ୍ତି"
 
-#: ../src/obexpush.c:148
+#: src/obexpush.c:148
 msgid "Open File"
 msgstr "ଫାଇଲକୁ ଖୋଲନ୍ତୁ"
 
-#: ../src/obexpush.c:152
+#: src/obexpush.c:152
 msgid "Reveal File"
 msgstr "ଫାଇଲ ପ୍ରକଟକରନ୍ତୁ"
 
-#: ../src/obexpush.c:169
+#: src/obexpush.c:169
 msgid "File reception complete"
 msgstr ""

@@ -1,19 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-user-share package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2018
+# abuyop <abuyop@gmail.com>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: mate-user-share 1.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 16:34+0100\n"
+"POT-Creation-Date: 2019-11-20 18:31+0100\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2018\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2019\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,158 +20,188 @@ msgstr ""
 "Language: ms\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/file-share-properties.ui.h:1
+#: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
 msgstr "Keutamaan Perkongsian Fail Peribadi"
 
-#: ../data/file-share-properties.ui.h:2
+#: data/file-share-properties.ui:38
 msgid "_Close"
 msgstr "_Tutup"
 
-#: ../data/file-share-properties.ui.h:3
+#: data/file-share-properties.ui:54
 msgid "_Help"
 msgstr "_Bantuan"
 
-#: ../data/file-share-properties.ui.h:4
+#: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
 msgstr "<b>Kongsi Fail menerusi Rangkaian</b>"
 
-#: ../data/file-share-properties.ui.h:5
+#: data/file-share-properties.ui:140
 msgid "_Share public files on network"
 msgstr "_Kongsi fail awam menerusi rangkaian"
 
-#: ../data/file-share-properties.ui.h:6
+#: data/file-share-properties.ui:157
 msgid "_Password:"
 msgstr "_Kata Laluan:"
 
-#: ../data/file-share-properties.ui.h:7
+#: data/file-share-properties.ui:171
 msgid "_Require password:"
 msgstr "Kata laluan diperl_ukan:"
 
-#: ../data/file-share-properties.ui.h:8
+#: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
 msgstr "<b>Kongsi Fail menerusi Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:9
+#: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
 msgstr "Kongsi fail awam menerusi _Bluetooth"
 
-#: ../data/file-share-properties.ui.h:10
+#: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
 msgstr "Be_narkan peranti jauh memadam fail"
 
-#: ../data/file-share-properties.ui.h:11
+#: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
 msgstr "Perlukan peranti _jauh diikat dengan komputer ini"
 
-#: ../data/file-share-properties.ui.h:12
+#: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
 msgstr "<b>Terima Fail menerusi Bluetooth</b>"
 
-#: ../data/file-share-properties.ui.h:13
+#: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
 msgstr "Terima fail dalam folder _Muat Turun menerusi Bluetooth"
 
-#: ../data/file-share-properties.ui.h:14
+#: data/file-share-properties.ui:348
 msgid "_Accept files: "
 msgstr "_Terima fail:"
 
-#: ../data/file-share-properties.ui.h:15
+#: data/file-share-properties.ui:360
 msgid "_Notify about received files"
 msgstr "_Maklum mengenai fail diterima"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/libcaja-user-share.desktop.in.in:4
+msgid "user-share"
+msgstr "user-share"
+
+#: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr "Kongsi Pengguna"
 
-#: ../data/libcaja-user-share.caja-extension.in.in.h:2
+#: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
 msgstr "Sepadukan dengan kongs-pengguna"
 
-#: ../data/mate-user-share-properties.desktop.in.h:1
-#: ../src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
 msgid "Personal File Sharing"
 msgstr "Perkongsian Fail Peribadi"
 
-#: ../data/mate-user-share-properties.desktop.in.h:2
+#: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "Keutamaan untuk perkongsian fail"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/mate-user-share-properties.desktop.in:7
+#: data/mate-user-share-obexftp.desktop.in.in:9
+#: data/mate-user-share-obexpush.desktop.in.in:9
+#: data/mate-user-share-webdav.desktop.in.in:9
+msgid "folder-remote"
+msgstr "folder-remote"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-properties.desktop.in:13
+msgid ""
+"MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
+msgstr ""
+"MATE;peribadi;fail;perkongsian;keutamaan;sifat;tetapan;WebDAV;ObexFTP;"
+
+#: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
 msgstr "Perkongsian Fail Peribadi obexftp"
 
-#: ../data/mate-user-share-obexftp.desktop.in.in.h:2
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:2
-#: ../data/mate-user-share-webdav.desktop.in.in.h:2
+#: data/mate-user-share-obexftp.desktop.in.in:4
+#: data/mate-user-share-obexpush.desktop.in.in:4
+#: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Lacar Perkongsian Fail Peribadi jika dibenarkan"
 
-#: ../data/mate-user-share-obexpush.desktop.in.in.h:1
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-user-share-obexftp.desktop.in.in:6
+#: data/mate-user-share-obexpush.desktop.in.in:6
+#: data/mate-user-share-webdav.desktop.in.in:6
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr "kongsi;fail;bluetooth;obex;http;rangkaian;salin;hantar;"
+
+#: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
 msgstr "Perkongsian Fail Peribadi obexpush"
 
-#: ../data/mate-user-share-webdav.desktop.in.in.h:1
+#: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
 msgstr "Perkongsian Fail Peribadi webdav"
 
-#: ../src/caja-share-bar.c:115
+#: src/caja-share-bar.c:115
 msgid "Preferences"
 msgstr "Keutamaan"
 
-#: ../src/caja-share-bar.c:119
+#: src/caja-share-bar.c:119
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Lancar Keutamaan Perkongsian Fail Peribadi"
 
-#: ../src/share-extension.c:73
+#: src/share-extension.c:73
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Tidak dapat lancarkan keutamaan Perkongsian Fail Peribadi"
 
-#: ../src/share-extension.c:179
+#: src/share-extension.c:179
 msgid "May be used to share or receive files"
 msgstr "Mungkin digunakan untuk kongsi atau terima fail"
 
-#: ../src/share-extension.c:181
+#: src/share-extension.c:181
 msgid "May be shared over the network or Bluetooth"
 msgstr "Mungkin dikongsi melalui rangkaian atau Bluetooth"
 
-#: ../src/share-extension.c:184
+#: src/share-extension.c:184
 msgid "May be shared over the network"
 msgstr "Mungkin dikongsi melalui rangkaian"
 
-#: ../src/share-extension.c:190
+#: src/share-extension.c:190
 msgid "May be used to receive files over Bluetooth"
 msgstr "Mungkin digunakan untuk terima fail melalui Bluetooth"
 
-#: ../src/file-share-properties.c:416
+#: src/file-share-properties.c:416
 msgid "No reason"
 msgstr "Tiada sebab"
 
-#: ../src/file-share-properties.c:444
+#: src/file-share-properties.c:444
 msgid "Could not display the help contents."
 msgstr "Tidak dapat papar kandungan bantuan."
 
-#: ../src/file-share-properties.c:480
+#: src/file-share-properties.c:480
 msgid "Could not build interface."
 msgstr "Tidak dapat bina antaramuka"
 
-#: ../src/file-share-properties.c:516
+#: src/file-share-properties.c:516
 msgid "Never"
 msgstr "Tidak sesekali"
 
-#: ../src/file-share-properties.c:519
+#: src/file-share-properties.c:519
 msgid "When writing files"
 msgstr "Bila menulis fail"
 
-#: ../src/file-share-properties.c:522 ../src/file-share-properties.c:546
+#: src/file-share-properties.c:522 src/file-share-properties.c:546
 msgid "Always"
 msgstr "Sentiasa"
 
-#: ../src/file-share-properties.c:549
+#: src/file-share-properties.c:549
 msgid "Only for set up devices"
 msgstr "Hanya untuk persediaan peranti"
 
-#: ../src/file-share-properties.c:554
+#: src/file-share-properties.c:554
 msgid "Ask"
 msgstr "Tanya"
 
@@ -185,36 +214,36 @@ msgstr "Tanya"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: ../src/http.c:129
+#: src/http.c:129
 #, c-format
 msgid "%s's public files"
 msgstr "fail awam %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: ../src/http.c:133
+#: src/http.c:133
 #, c-format
 msgid "%s's public files on %s"
 msgstr "Fail awam %s dalam %s"
 
 #. Translators: %s is the name of the filename received
-#: ../src/obexpush.c:136
+#: src/obexpush.c:136
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Anda telah menerima \"%s\" melalui Bluetooth"
 
-#: ../src/obexpush.c:138
+#: src/obexpush.c:138
 msgid "You received a file"
 msgstr "Anda telah menerima satu fail"
 
-#: ../src/obexpush.c:148
+#: src/obexpush.c:148
 msgid "Open File"
 msgstr "Buka Fail"
 
-#: ../src/obexpush.c:152
+#: src/obexpush.c:152
 msgid "Reveal File"
 msgstr "Dedah Fail"
 
-#: ../src/obexpush.c:169
+#: src/obexpush.c:169
 msgid "File reception complete"
 msgstr "Penerimaan fail selesai"
