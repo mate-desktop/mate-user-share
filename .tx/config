@@ -1,14 +1,14 @@
 [main]
 host = https://www.transifex.com
  
-[MATE.master--mate-user-share]
+[MATE.1-24--mate-user-share]
 file_filter = po/<lang>.po
 source_file = mate-user-share.pot
 source_lang = en
 type = PO
 minimum_perc = 2
 
-[MATE.master--mate-user-share-user-guide]
+[MATE.1-24--mate-user-share-user-guide]
 file_filter = help/<lang>/<lang>.po
 source_file = help/mate-user-share.pot
 source_lang = en
