@@ -68,6 +68,7 @@ requires:
     - autopoint
     - clang
     - clang-tools
+    - gcc
     - git
     - intltool
     - libcaja-extension-dev
