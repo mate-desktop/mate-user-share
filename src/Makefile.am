@@ -17,23 +17,24 @@ libexec_PROGRAMS= \
 noinst_LTLIBRARIES = libuser-share-common.la
 libuser_share_common_la_SOURCES = user_share-common.c user_share-common.h
 
-AM_CPPFLAGS=	\
-	-DPREFIX=\""$(prefix)"\" 			\
-	-DBINDIR=\""$(bindir)"\" 			\
-	-DLIBEXECDIR=\""$(libexecdir)"\"		\
+AM_CPPFLAGS= \
+	-DPREFIX=\""$(prefix)"\" \
+	-DBINDIR=\""$(bindir)"\" \
+	-DLIBEXECDIR=\""$(libexecdir)"\" \
 	-DUSER_SHARE_PROGRAM=\""$(libexecdir)/mate-user-share"\" \
-	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
-	-DDATADIR=\""$(datadir)/mate-user-share/"\"	\
-	-DHTTPD_CONFIG_TEMPLATE=\""$(datadir)/mate-user-share/dav_user_%s.conf"\"	\
-	-DHTTPD_PROGRAM=\""$(HTTPD)"\"	\
-	-DHTTPD_MODULES_PATH=\""$(MODULES_PATH)"\"	\
-	-I$(top_srcdir) 				\
-	-I$(top_builddir) 				\
-	$(EXTENSION_CFLAGS)				\
-	$(USER_SHARE_CFLAGS)				\
-	$(BLUETOOTH_CFLAGS)				\
-	$(USER_SHARE_CONFIG_CFLAGS)			\
-	$(X_CFLAGS)
+	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
+	-DDATADIR=\""$(datadir)/mate-user-share/"\" \
+	-DHTTPD_CONFIG_TEMPLATE=\""$(datadir)/mate-user-share/dav_user_%s.conf"\" \
+	-DHTTPD_PROGRAM=\""$(HTTPD)"\" \
+	-DHTTPD_MODULES_PATH=\""$(MODULES_PATH)"\" \
+	-I$(top_srcdir) \
+	-I$(top_builddir) \
+	$(EXTENSION_CFLAGS) \
+	$(USER_SHARE_CFLAGS) \
+	$(BLUETOOTH_CFLAGS) \
+	$(USER_SHARE_CONFIG_CFLAGS) \
+	$(X_CFLAGS) \
+	$(WARN_CFLAGS)
 
 mate_user_share_SOURCES =	\
 	user_share.c		\

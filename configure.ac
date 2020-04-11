@@ -11,6 +11,8 @@ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 AM_SANITY_CHECK
 AM_MAINTAINER_MODE
 
+MATE_COMPILE_WARNINGS
+
 YELP_HELP_INIT
 
 AC_C_CONST
@@ -148,50 +150,6 @@ AC_SUBST(CAJADIR)
 AC_MSG_NOTICE([installing caja plugin in ${ac_with_cajadir}])
 AC_SUBST([CAJADIR],[${ac_with_cajadir}])
 
-dnl ==========================================================================
-
-dnl Turn on the additional warnings last, so -Werror doesnt affect other tests.
-
-AC_ARG_ENABLE(more-warnings,
-[  --enable-more-warnings  Maximum compiler warnings],
-set_more_warnings="$enableval",[
-if test -f $srcdir/CVSVERSION; then
-	is_cvs_version=true
-	set_more_warnings=yes
-else
-	set_more_warnings=no
-fi
-])
-AC_MSG_CHECKING(for more warnings, including -Werror)
-if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
-	AC_MSG_RESULT(yes)
-	CFLAGS="\
-	-Wall \
-	-Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes \
-	-Wnested-externs -Wpointer-arith \
-	-Wcast-align -Wsign-compare \
-	-Werror \
-	$CFLAGS"
-
-	for option in -Wno-strict-aliasing -Wno-sign-compare; do
-		SAVE_CFLAGS="$CFLAGS"
-		CFLAGS="$CFLAGS $option"
-		AC_MSG_CHECKING([whether gcc understands $option])
-		AC_TRY_COMPILE([], [],
-			has_option=yes,
-			has_option=no,)
-		if test $has_option = no; then
-			CFLAGS="$SAVE_CFLAGS"
-		fi
-		AC_MSG_RESULT($has_option)
-		unset has_option
-		unset SAVE_CFLAGS
-	done
-	unset option
-else
-	AC_MSG_RESULT(no)
-fi
-
 AC_CONFIG_FILES([
 Makefile
 data/Makefile
@@ -218,11 +176,21 @@ else
 	AC_MSG_NOTICE([   Bluetooth support disabled])
 fi
 
-AC_MSG_NOTICE([mate-user-share was configured with the following options:])
-AC_MSG_NOTICE([** httpd location: $HTTPD])
-AC_MSG_NOTICE([** httpd modules path: $MODULES_PATH])
-AC_MSG_NOTICE([** caja extension path: $ac_with_cajadir])
+dnl ---------------------------------------------------------------------------
+dnl - Show summary
+dnl ---------------------------------------------------------------------------
 
 echo "
 Do note Apache >= 2.2 and mod_dnssd 0.6 are required to use mate-user-share.
+
+       mate-user-share $VERSION
+       `echo mate-user-share $VERSION | sed "s/./=/g"`
+
+       prefix:               ${prefix}
+       compiler:             ${CC}
+       cflags:               ${CFLAGS}
+       warning flags:        ${WARN_CFLAGS}
+       httpd location:       ${HTTPD}
+       httpd modules path:   ${MODULES_PATH}
+       caja extension path:  ${ac_with_cajadir}
 "
