@@ -4,6 +4,7 @@
 requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/mate-user-share
+    - autoconf-archive
     - caja
     - clang
     - dbus-glib
@@ -21,6 +22,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-user-share
+    - autoconf-archive
     - autopoint
     - clang
     - clang-tools
@@ -44,6 +46,7 @@ requires:
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-user-share.git
+    - autoconf-archive
     - caja-devel
     - clang
     - clang-analyzer
@@ -65,6 +68,7 @@ requires:
     - yelp-tools
 
   ubuntu:
+    - autoconf-archive
     - autopoint
     - clang
     - clang-tools
@@ -109,6 +113,17 @@ before_scripts:
   -     curl -Ls -o debian.sh https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/debian.sh
   -     bash ./debian.sh
   - fi
+  - cd ${START_DIR}
+  - '[ -f mate-common-1.24.1.tar.xz ] || curl -Ls -o mate-common-1.24.1.tar.xz https://github.com/mate-desktop/mate-common/releases/download/v1.24.1/mate-common-1.24.1.tar.xz'
+  - tar xf mate-common-1.24.1.tar.xz
+  - cd mate-common-1.24.1
+  - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
+  -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
+  - else
+  -     ./configure --prefix=/usr
+  - fi
+  - make
+  - make install
 
 build_scripts:
   - ./autogen.sh
