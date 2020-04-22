@@ -7,6 +7,7 @@ EXTRA_DIST =			\
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-compile \
 	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
+	--enable-compile-warnings=no \
 	CFLAGS='-Wno-deprecated-declarations'
 
 # Build ChangeLog from GIT  history
