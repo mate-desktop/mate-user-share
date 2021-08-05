@@ -1,15 +1,17 @@
+# 
 # Translators:
-# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
+# Kristoffer Grundström <lovaren@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Daniel Gullbransen <daniel@llama.nu>, 2018
+# Daniel Gullbransen, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Luna Jernberg <bittin@cafe8bitar.se>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 16:27+0100\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2019\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,12 +47,12 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
@@ -170,6 +172,8 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
@@ -200,6 +204,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -270,6 +276,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -312,6 +320,8 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181

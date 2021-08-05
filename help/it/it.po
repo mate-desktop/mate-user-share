@@ -1,3 +1,4 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Marco Z. <minaz666@gmail.com>, 2018
@@ -22,7 +23,9 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Enrico Bella, 2019"
+msgstr ""
+"Enrico Bella, 2019\n"
+"Alessandro Volturno, 2020"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
@@ -72,9 +75,10 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
-"Per segnalare un malfunzionamento o un suggerimento per mate-user-share o "
-"questo manuale, segui le indicazioni nella <ulink url=\"help:mate-user-"
-"guide/feedback\" type=\"help\">Pagina di feedback di MATE</ulink>."
+"Per segnalare un malfunzionamento o un suggerimento sull'applicazione mate-"
+"user-share o su questo manuale, seguire le indicazioni nella <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">Pagina di feedback di "
+"MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -119,10 +123,10 @@ msgstr ""
 "mate-user-share è un servizio che condivide il contenuto della cartella "
 "<filename>Pubblici</filename> presente nella tua cartella home in modo che "
 "sia accessibile agli altri computer nella stessa rete locale. Negli altri "
-"computer, la cartella apparira con un nome simile a 'File condivisi di "
+"computer, la cartella apparirà con un nome simile a 'File condivisi di "
 "<replaceable>utente</replaceable>' nella sezione Rete di "
 "<application>caja</application> , dove <replaceable>utente</replaceable> "
-"sarà sostituito dal tuo nome utente."
+"sarà sostituito dal vostro nome utente."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -142,8 +146,8 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
-"Inoltre, mate-user-share può gestire i file tramite protocollo Bluetooth "
-"usando ObexFTP per la condivisione e ObexPush per la ricezione."
+"Inoltre, mate-user-share può gestire i file tramite Bluetooth usando ObexFTP"
+" per la condivisione e ObexPush per la ricezione."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
@@ -165,8 +169,8 @@ msgid ""
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
 "Il servizio mate-user-share viene solitamente avviato da <application>mate-"
-"session</application> ogni volta che si effettua l'accesso. Puoi modificare "
-"questa impostazione dalle "
+"session</application> ogni volta che si effettua l'accesso. È possibile "
+"modificare questa impostazione da "
 "<menuchoice><guimenu>Preferenze</guimenu><guimenu>Applicazioni "
 "d'avvio</guimenu></menuchoice> nel menu <guimenu>Sistema</guimenu>  e "
 "modificando la voce 'Condivisione file' nell'elenco."
@@ -179,7 +183,7 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
-"Per configurare le impostazioni di condivisione, usa le Preferenze di "
+"Per configurare le impostazioni di condivisione, usare le Preferenze di "
 "Condivisione di file personali nel menu <guimenu>Sistema</guimenu>, "
 "<menuchoice><guimenu>Preferenze</guimenu> e quindi <guimenu>Condivisione di "
 "file personali</guimenu></menuchoice>."
@@ -247,7 +251,8 @@ msgid ""
 msgstr ""
 "Alcune configurazioni del firewall sul computer locale potrebbero causare "
 "problemi con la pubblicazione dei file sulla rete, così come l'accesso ai "
-"file condivisi. Consulta l'amministratore di sistema per maggiori dettagli."
+"file condivisi. Consultare l'amministratore di sistema per maggiori "
+"dettagli."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -255,8 +260,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
-"Seleziona <guilabel>Mai</guilabel>per non permettere a nessuno di leggere o "
-"scrivere file nella cartella condivisa."
+"Selezionare <guilabel>Mai</guilabel>per non permettere a nessuno di leggere "
+"o scrivere file nella cartella condivisa."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -264,8 +269,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
-"Seleziona <guilabel>Sempre</guilabel> per richiedere la password per leggere"
-" o scrivere file nella cartella condivisa"
+"Selezionare <guilabel>Sempre</guilabel> per richiedere la password per "
+"leggere o scrivere file nella cartella condivisa"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -274,9 +279,9 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
-"Seleziona <guilabel>Quando si scrivo file</guilabel> per permettere a tutti "
-"di leggere i file condivisi liberamente, ma richiedere una password quando "
-"si tenta di scrivere file."
+"Selezionare <guilabel>Quando si scrivono file</guilabel> per permettere a "
+"tutti di leggere i file condivisi liberamente, ma richiedere una password "
+"quando si tenta di scrivere file."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -299,10 +304,10 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
-"Per abilitare la condivisione via WebDAV, usa la casella "
-"<guilabel>Condividere file pubblici sulla rete</guilabel>.  Quando la "
-"condivisione dei file abilitata, i controlli di protezione consentono di "
-"impostare una password necessaria affinchè un utente su un altro computer "
+"Per abilitare la condivisione via WebDAV, spuntare la casella "
+"<guilabel>Condividere file pubblici sulla rete</guilabel>. Quando la "
+"condivisione dei file è abilitata, i controlli di protezione consentono di "
+"impostare una password necessaria prima che un utente su un altro computer "
 "abbia accesso ai file condivisi. <_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
@@ -351,12 +356,12 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
-"Per abilitare la condivisione via Bluetooth, usa la casella "
+"Per abilitare la condivisione via Bluetooth, spuntare la casella "
 "<guilabel>Condividere file pubblici tramite Bluetooth</guilabel>. Per "
-"permettere ai dispositivi remoti di cancellare file, seleziona "
+"permettere ai dispositivi remoti di cancellare file, selezionare "
 "<guilabel>Consentire ai dispositivi remoti di eliminare i file</guilabel>. "
 "Per consentire ai dispositivi Bluetooth remoti di accedere ai file condivisi"
-" anche quando non sono associati al computer, utilizza l'opzione "
+" anche quando non sono associati al computer, utilizzare l'opzione "
 "<guilabel>Richiedi l'associazione dei dispositivi remoti</guilabel>. "
 "<_:note-1/>"
 
@@ -389,7 +394,7 @@ msgstr ""
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
-"Seleziona <guilabel>Sempre</guilabel> per permettere ad ogni dispositivo "
+"Selezionare<guilabel>Sempre</guilabel> per permettere ad ogni dispositivo "
 "remoto di inviare file"
 
 #. (itstool) path: note/para
@@ -407,8 +412,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
-"Seleziona <guilabel>Solo da dispositivi associati</guilabel> per accettare "
-"file solo dai dispositivi associati. <_:note-1/>"
+"Selezionare <guilabel>Solo da dispositivi associati</guilabel> per accettare"
+" file solo dai dispositivi associati. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -426,7 +431,7 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
-"Seleziona <guilabel>Solo da dispositi associati o fidati</guilabel> per "
+"Selezionare <guilabel>Solo da dispositivi associati o fidati</guilabel> per "
 "accettare file solo dai dispositivi associati o fidati. <_:note-1/>"
 
 #. (itstool) path: sect2/para
@@ -454,9 +459,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
-"Usa la casella <guilabel>Notificare i file ricevuti</guilabel> per decidere "
-"se si vuole ricevere una notifica quando un file viene ricevuto tramite "
-"Bluetooth."
+"Usare la casella <guilabel>Notificare i file ricevuti</guilabel> per "
+"decidere se si vuole ricevere una notifica quando un file viene ricevuto "
+"tramite Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9

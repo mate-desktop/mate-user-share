@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.23.0\n"
+"Project-Id-Version: mate-user-share 1.25.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 18:31+0100\n"
+"POT-Creation-Date: 2021-06-25 17:23+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
@@ -83,12 +83,6 @@ msgstr "_Dosyaları kabul et: "
 msgid "_Notify about received files"
 msgstr "Alınan _dosyaları bildir"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/libcaja-user-share.desktop.in.in:4
-msgid "user-share"
-msgstr ""
-
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr "Kullanıcı Paylaşımı"
@@ -97,22 +91,13 @@ msgstr "Kullanıcı Paylaşımı"
 msgid "Integrates with user-share"
 msgstr "Kullanıcı-paylaşımı ile bütünleştir"
 
-#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
 msgstr "Kişisel Dosya Paylaşımı"
 
 #: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "Dosyaların paylaşımı için tercihler"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/mate-user-share-properties.desktop.in:7
-#: data/mate-user-share-obexftp.desktop.in.in:9
-#: data/mate-user-share-obexpush.desktop.in.in:9
-#: data/mate-user-share-webdav.desktop.in.in:9
-msgid "folder-remote"
-msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -147,63 +132,63 @@ msgstr "Kişisel Dosya Paylaşımı obexpush"
 msgid "Personal File Sharing webdav"
 msgstr "Kişisel Dosya Paylaşımı webdav"
 
-#: src/caja-share-bar.c:115
+#: src/caja-share-bar.c:116
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: src/caja-share-bar.c:119
+#: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Kişisel Dosya Paylaşımı Tercihlerini Başlat"
 
-#: src/share-extension.c:73
+#: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "Kişisel Dosya Paylaşımı tercihleri başlatılamadı"
 
-#: src/share-extension.c:179
+#: src/share-extension.c:180
 msgid "May be used to share or receive files"
 msgstr "Paylaşmak veya dosya almak için kullanılabilir"
 
-#: src/share-extension.c:181
+#: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
 msgstr "Network ya da Bluetooth üzerinden paylaşım olabilir"
 
-#: src/share-extension.c:184
+#: src/share-extension.c:185
 msgid "May be shared over the network"
 msgstr "Network üzerinden paylaşım olabilir"
 
-#: src/share-extension.c:190
+#: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
 msgstr "Bluetooth üzerinden dosya almak için kullanılabilir"
 
-#: src/file-share-properties.c:416
+#: src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Sebep yok"
 
-#: src/file-share-properties.c:444
+#: src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Yardım içeriği gösterilemedi."
 
-#: src/file-share-properties.c:480
+#: src/file-share-properties.c:481
 msgid "Could not build interface."
 msgstr "Arayüz inşa edilemedi."
 
-#: src/file-share-properties.c:516
+#: src/file-share-properties.c:517
 msgid "Never"
 msgstr "Asla"
 
-#: src/file-share-properties.c:519
+#: src/file-share-properties.c:520
 msgid "When writing files"
 msgstr "Dosya yazılmaya çalışıldığında"
 
-#: src/file-share-properties.c:522 src/file-share-properties.c:546
+#: src/file-share-properties.c:523 src/file-share-properties.c:547
 msgid "Always"
 msgstr "Her zaman"
 
-#: src/file-share-properties.c:549
+#: src/file-share-properties.c:550
 msgid "Only for set up devices"
 msgstr "Sadece kurulu cihazlar için"
 
-#: src/file-share-properties.c:554
+#: src/file-share-properties.c:555
 msgid "Ask"
 msgstr "Sor"
 
@@ -216,36 +201,36 @@ msgstr "Sor"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: src/http.c:129
+#: src/http.c:130
 #, c-format
 msgid "%s's public files"
 msgstr "%s kullanıcısının genel dosyaları"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: src/http.c:133
+#: src/http.c:134
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s kullanıcısının %s üzerindeki genel dosyaları"
 
 #. Translators: %s is the name of the filename received
-#: src/obexpush.c:136
+#: src/obexpush.c:137
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "Bluetooth aracılığıyla \"%s\" aldınız"
 
-#: src/obexpush.c:138
+#: src/obexpush.c:139
 msgid "You received a file"
 msgstr "Bir dosya aldınız"
 
-#: src/obexpush.c:148
+#: src/obexpush.c:149
 msgid "Open File"
 msgstr "Dosya Aç"
 
-#: src/obexpush.c:152
+#: src/obexpush.c:153
 msgid "Reveal File"
 msgstr "Dosyayı Göster"
 
-#: src/obexpush.c:169
+#: src/obexpush.c:170
 msgid "File reception complete"
 msgstr "Dosya alımı tamamlandı"

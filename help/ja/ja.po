@@ -1,15 +1,16 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # ABE Tsunehiko, 2018
-# あわしろいくや <ikunya@gmail.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Green, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 16:27+0100\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2019\n"
+"Last-Translator: Green, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,52 +22,53 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"相花 毅 <takeshi.aihana@gmail.com>\n"
-"佐藤 暁 <ss@gnome.gr.jp>\n"
-"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
-"Akira TAGOH <tagoh@gnome.gr.jp>\n"
-"Yukihiro Nakai <nakai@gnome.gr.jp>\n"
-"Yuusuke Tahara <tahara@gnome.gr.jp>\n"
-"Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>\n"
-"やまね ひでき <henrich@debian.or.jp>\n"
-"草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
-"松澤 二郎 <jmatsuzawa@gnome.org>\n"
-"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
+"相花 毅 \n"
+"佐藤 暁 \n"
+"KAMAGASAKO Masatoshi \n"
+"Akira TAGOH \n"
+"Yukihiro Nakai \n"
+"Yuusuke Tahara \n"
+"Akira Higuchi \n"
+"やまね ひでき \n"
+"草野 貴之 \n"
+"松澤 二郎 \n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/\n"
+"MATE 文書化チーム https://www.transifex.com/mate/ "
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "個人用ファイル共有アプリ・マニュアル"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE 文書化プロジェクト</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009年</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "このマニュアルは、MATE ユーザ共有アプリ 2.26 版について説明しています。"
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
@@ -80,28 +82,30 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"MATE ユーザ共有アプリケーションや本マニュアルに関する不具合や提案を報告するには、<ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">MATE フィードバック・ページ</ulink>の方法に従ってください。"
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
 msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
-msgstr ""
+msgstr "MATE ユーザ共有は、複数のコンピュータ間でファイルを簡単に共有できるセッションサービスです。"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>MATE ユーザ共有</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>ファイル共有</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>共有</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -119,6 +123,10 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"MATE "
+"ユーザ共有は、ホームディレクトリ内の<filename>パブリック</filename>フォルダの内容をエクスポートする、セッションサービスです。これを使うと、同じローカルネットワーク上の他のコンピュータから、パブリックフォルダに簡単にアクセスできます。他のコンピュータ上には、共有フォルダが<application>Caja</application>"
+" "
+"ネットワーク・ウィンドウに「<replaceable>ユーザ</replaceable>の共有ファイル」のような名前で表示されます。ここで<replaceable>ユーザ</replaceable>は自分のユーザー名に置き換えられます。"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -127,6 +135,8 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"MATE ユーザ共有は、WebDAV サーバを使用して<filename>パブリック</filename>フォルダを共有し、ローカルネットワーク上で "
+"mDNS を使用して情報の共有を行います。"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -135,6 +145,8 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"さらに、MATE ユーザ共有は Bluetooth 経由・ObexFTP 経由でファイルの共有を利用可能にし、ObexPush 経由・Bluetooth"
+" 経由でコンピュータに送信されたファイルを受信することができます。"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
@@ -144,7 +156,7 @@ msgstr "接続してみる"
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "MATE ユーザ共有を開始する"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -155,6 +167,8 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"ユーザ共有サービスは通常、ログイン時に <application>MATE "
+"セッション</application>によって開始されます。これを変更するには、<guimenu>システム</guimenu>メニューで<menuchoice><guimenu>設定</guimenu><guimenu>自動起動するアプリケーション</guimenu></menuchoice>を開き、自動起動するプログラムのリストで「ユーザ共有」エントリを変更します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -164,11 +178,12 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"ファイル共有のさまざまな局面を設定するには、ファイルの共有設定を使用します。この設定は、<guimenu>システム</guimenu>メニューの<menuchoice><guimenu>設定</guimenu><guimenu>個人用ファイルの共有</guimenu></menuchoice>にあります。"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "ファイル共有の設定"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -181,11 +196,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "ネットワーク経由でファイル共有を有効にする"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -194,11 +211,12 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"<guimenu>システム</guimenu>メニューの<menuchoice><guimenu>設定</guimenu><guimenu>個人用ファイルの共有</guimenu></menuchoice>を使用して、ファイル共有の設定を開きます。"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "ネットワーク越しのファイル共有"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -211,6 +229,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -219,6 +239,7 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"ローカルマシン上のファイアウォール設定によっては、情報伝達や共有ファイルへのアクセスで問題が起きることがあります。詳細については、システム管理者に問い合わせてください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -226,6 +247,7 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"<guilabel>確認しない</guilabel>を選択すると、すべてのユーザーが共有フォルダ内のファイルを自由に読み書きできるようになります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -233,6 +255,7 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"<guilabel>常に</guilabel>を選択すると、共有フォルダ内のファイルの読み取り、または書き込みにパスワードが必要になります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -241,6 +264,7 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"<guilabel>ファイル書き込み時</guilabel>を選択すると、すべてのユーザーが共有フォルダ内のファイルを自由に読み込めますが、書き込むときにパスワードが必要になります。"
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -249,6 +273,7 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"パスワードを設定する場合は、共有ファイルへのアクセスを許可するユーザー全員にパスワードを与える必要があります。したがって、他で使うパスワードとは異なるパスワードを使用する必要があります。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -259,16 +284,18 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"WebDAV "
+"経由によるファイル共有を有効にするには、<guilabel>ネットワーク越しにファイルを共有する</guilabel>チェックボックスを使用します。ファイル共有が有効な場合、パスワード保護のコントロールによって、別のコンピュータ上のユーザーに共有ファイルへのアクセス権を付与する前に、必要なパスワードの設定を行うことができます。<_:note-1/><_:itemizedlist-2/><_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Bluetooth 経由でファイル共有を有効にする"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Bluetooth 経由でファイルを共有する"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -281,6 +308,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -289,6 +318,8 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"紐付けられていないリモートデバイスに共有ファイルへのアクセスを許可した場合、コンピュータの近くで Bluetooth "
+"対応の携帯電話を持っている人なら誰でも、共有ファイルへアクセスしたり、共有ファイルを書き換えたりできてしまいます。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -301,16 +332,21 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Bluetooth 経由のファイル共有を有効にするには、<guilabel>Bluetooth "
+"経由でパブリックファイルを共有する</guilabel>チェックボックスを使用します。リモートの Bluetooth "
+"デバイスが共有フォルダ内のファイルを削除できるようにするには、<guilabel>リモートデバイスによるファイルの削除を許可する</guilabel>チェックボックスを使用します。リモートの"
+" Bluetooth "
+"デバイスがコンピュータと結合されていない場合でも、共有ファイルへアクセスできるようにするには、<guilabel>リモートデバイスにこのコンピュータとのペアリングを要求する</guilabel>チェックボックスを使用します。<_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Bluetooth 越しにファイル共有する"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Bluetooth 越しのファイル共有"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -323,19 +359,21 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
-msgstr ""
+msgstr "<guilabel>常に</guilabel>を選択すると、すべてのリモートデバイスがファイルを送信できるようになります。"
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
 msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
-msgstr ""
+msgstr "結合されたデバイスとは、コンピュータに接続されていたデバイスで、接続時または接続先から PIN コードを入力する必要があったデバイスです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -343,6 +381,7 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"<guilabel>結合されたデバイスのみ</guilabel>を選択すると、結合デバイスからのファイルだけを受け入れます。<_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -350,6 +389,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"デバイスは、<application>bluetooth "
+"プロパティ</application>の<guilabel>既知のデバイス</guilabel>項目で、信頼できるデバイスとしてマークできます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -357,6 +398,7 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"<guilabel>結合デバイスと信頼するデバイスのみ</guilabel>を選択すると、結合されたデバイスからのファイルだけを受け入れます。<_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -369,6 +411,8 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"リモートの Bluetooth デバイスからコンピュータにファイルを送信できるようにするには、<guilabel>Bluetooth "
+"経由でダウンロードフォルダのファイルを受信する</guilabel>チェックボックスを使用します。受信したファイルは、ホームディレクトリの<filename>ダウンロード</filename>・フォルダに保存されます。ファイルの受信が有効になっている場合、<guilabel>ファイルを受け入れる</guilabel>を選択すると、ファイルの送信を許可するリモートデバイスを指定できます。<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -376,6 +420,7 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"<guilabel>受信したファイルについて通知する</guilabel>チェックボックスを使用すると、ファイルがBluetooth経由で受信された時、通知を受けるか否かを選択できます。"
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -392,6 +437,9 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"この文書をフリーソフトウェア財団発行の GNU 自由文書ライセンス（第 1.1 "
+"版かそれ以降から１つを選択）が定める条件の下で複製、頒布、あるいは改変することを許可します。変更不可部分、表カバーテキスト、裏カバーテキストは存在しません。このライセンスの複製物は<_:ulink-1/>、またはこの文書と共に配布されている"
+" COPYING-DOCS というファイルに中に記載されています。"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -401,9 +449,8 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"本ドキュメントは GFDL の下で配布されているその他の MATE "
-"マニュアル集の一部である。これらのマニュアルとは別に本ドキュメントを別個に配布する場合は、GFDL "
-"のセクション6で説明しているように、そのマニュアル集に対するライセンスの複製を添付することで実現できる。"
+"本文書は GFDL の下で配布されているその他の MATE マニュアル集の一部です。これらのマニュアルとは別に本文書を別個に配布する場合は、GFDL "
+"の第6節で説明しているように、そのマニュアル集に対してライセンスの複製を添付してください。"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -414,9 +461,9 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"企業は自分達の製品とサービスを区別するために使用する多くの名称が登録商標であると主張している。これらの名称が MATE "
-"のドキュメントの中に表記されていたり、これらの登録商標が MATE "
-"ドキュメンテーション・プロジェクトのメンバに提示している箇所は全部を大文字または最初の文字を大文字にしている。"
+"企業が自らの製品とサービスを区別する目的で使用する名称の多くは、登録商標であると主張しています。こうした名称が MATE "
+"の文書の中に記載されていて、この登録商標が MATE "
+"文書化プロジェクトのメンバーによって了解されている箇所については、名称を大文字または頭文字を大文字で表示しています。"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -477,3 +524,5 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"この文書およびその修正版は、以下の点をさらに了解しているという前提で、GNU 自由文書ライセンス "
+"の条件の下で配布されています：<_:orderedlist-1/>"

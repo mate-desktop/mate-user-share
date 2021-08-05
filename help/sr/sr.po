@@ -1,13 +1,14 @@
+# 
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 16:27+0100\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,42 +24,43 @@ msgstr "Мирослав Николић <miroslavnikolic@rocketmail.com>"
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "Упутство делења личних датотека"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
 msgstr ""
+"<year>2015-2020</year> <holder>Пројекат Мејтове документације</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Матијас</firstname> <surname>Класен</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Матијас Класен <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "Ово упуство је написано за мејтово корисничко дељење 2.26."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
 msgid "Feedback"
-msgstr ""
+msgstr "Примедбе"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:42
@@ -67,6 +69,9 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"Да пријавите грешку или да дате предлог у вези програма мејтовог корисничког"
+" дељења или овог упутства, пратите смернице на <ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">Мејтовој страни за примедбе</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -74,21 +79,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"Мејтово корисничко дељење је услуга сесије која омогућује лако дељење "
+"датотека између неколико рачунара."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>мејтово-корисничко-дељење</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>дељење датотека</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>дељење</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -106,6 +113,13 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"мејтово-корисничко-дељење је услуга сесије која извози садржај фасцикле "
+"<filename>Јавно</filename> у вашу личну фасциклу, тако да им се може лако "
+"приступити са других рачунара у истој локалној мрежи. На осталим рачунарима,"
+" дељена фасцикла ће се појавити са називом попут "
+"„<replaceable>корисничке</replaceable> дељене датотеке“ у "
+"<application>цајином</application> прозору мреже, где ће "
+"<replaceable>корисник</replaceable> бити замењен вашим корисничким именом."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -114,6 +128,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"мејтово-корисничко-дељење користи ВебДАВ сервер за дељење "
+"<filename>Јавне</filename> фасцикле, и упозорава о дељењу на локалној мрежи "
+"користећи мДНС."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -122,16 +139,19 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Уз то, мејтово-корисничко-дељење може да учини дељене датотеке доступним "
+"путем ОбексФТП-а преко Блутута, и да прими датотеке које су послате ка вашем"
+" рачунару путем Блутута путем ОбексГурања."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
 msgid "Getting started"
-msgstr ""
+msgstr "Први кораци"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "Покретање мејтовог-корисничког-дељења"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -142,6 +162,11 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"Услуга мејтовог-корисничког-дељења се обично покреће  <application>мејтовом "
+"сесијом</application> када се пријавите. Ово можете да измените отваривши "
+"<menuchoice><guimenu>Поставке</guimenu><guimenu>Почетни "
+"програми</guimenu></menuchoice> у изборнику <guimenu>Систем</guimenu>, и "
+"изменивши унос „Корисничко дељење“ на списку почетних програма."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -151,11 +176,15 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"Да подесите разна дејства дељења датотека, користите поставке дељења "
+"датотека, које можете наћи у изборнику <guimenu>Систем</guimenu> затим "
+"<menuchoice><guimenu>Поставке</guimenu><guimenu>Дељење личних "
+"датотека</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "Поставке дељења датотека"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -168,11 +197,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Омогућавање дељења датотека преко мреже"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -181,11 +212,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Отворите поставке дељења датотека користећи "
+"<menuchoice><guimenu>Поставке</guimenu><guimenu>Дељење личних "
+"датотека</guimenu></menuchoice> у изборнику <guimenu>Систем</guimenu>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Делите датотеке преко мреже"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -198,6 +232,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -206,6 +242,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Нека подешавања мрежне баријере на локалном рачунару могу довести до "
+"проблема са упозорењем, као и са приступом дељеним датотекама. Посаветујте "
+"се са администратором система за више детаља."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -213,6 +252,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Изаберите <guilabel>Никад</guilabel> да дозволите свакоме да слободно чита "
+"или записује датотеке у дељеној фасцикли."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -220,6 +261,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Изаберите <guilabel>Увек</guilabel> да захтевате лозинку за читање или "
+"записивање датотека у дељеној фасцикли."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -228,6 +271,9 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Изаберите <guilabel>Приликом писања датотека</guilabel> да дозволите свакоме"
+" да слободно чита датотеке у дељеној фасцикли, али да захтевате лозинку "
+"приликом писања датотека."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -236,6 +282,9 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"Када поставите лозинку, треба да дате лозинку свим корисницима за које "
+"желите да имају приступ дељеним датотекама. Исто тако, треба да користите "
+"лозинку која се разликује од других лозинки које користите."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -246,16 +295,21 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"Да омогућите дељење датотека путем ВебДАВ-а, користите поље за потврду "
+"<guilabel>Дели јавне датотеке на мрежи</guilabel>. Када је дељење датотека "
+"омогућено, контроле за заштиту лозинком омогућавају постављање лозинке која "
+"треба да буде наведена пре него што се кориснику на другом рачунару одобри "
+"приступ дељеним датотекама. <_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Омогућавање дељења датотека преко Блутута"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Делите датотеке преко Блутута"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -268,6 +322,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -276,6 +332,9 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"Када дозволите несвезаним удаљеним уређајима да приступе вашим дељеним "
+"датотекама, свако ко има Блутут мобилни телефон у близини вашег рачунара "
+"може приступити и чак и да изменити ваше дељене датотеке."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -288,16 +347,24 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Да омогућите дељење датотека путем Блутута, користите поље за избор "
+"<guilabel>Дели јавне датотеке путем Блутута</guilabel>. Да дозволите "
+"удаљеним Блутут уређајима да бришу датотеке у вашој дељеној фасцикли, "
+"користите поље за избор <guilabel>Дозволи удаљеним уређајима да бришу "
+"датотеке</guilabel>. Да омогућите удаљеним Блутут уређајима приступ дељеним "
+"датотекама чак и када нису повезани са рачунаром, користите поље за избор "
+"<guilabel>Захтевај да се удаљени уређаји упарују са овим "
+"рачунаром</guilabel>. <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Пријем датотека преко Блутута"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Примајте датотека преко Блутута"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -310,12 +377,16 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Изаберите <guilabel>Увек</guilabel> да дозволите сваком удаљеном уређају да "
+"шаље датотеке."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -323,6 +394,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Свезани уређаји су они који су повезани на ваш уређај, и треба да унесу ПИН "
+"код за повезивање."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -330,6 +403,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Изаберите <guilabel>Само за свезане уређаје</guilabel> да прихватите "
+"датотеке само са свезаних уређаја. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -337,6 +412,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Уређаји могу бити означени као поверљиви у <application>блутут-"
+"својстава</application> одељку <guilabel>Познати уређај</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -344,6 +421,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Изаберите <guilabel>Само за свезане и поверљиве уређаје</guilabel> да "
+"прихватите датотеке само са свезаних уређаја. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -356,6 +435,13 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"Да дозволите удаљеним Блутут уређајима да шаљу датотеке на ваш рачунар, "
+"користите поље за избор <guilabel>Прими датотеке у фасциклу преузимања преко"
+" Блутута</guilabel>. Примљене датотеке ће се чувати у фасцикли "
+"<filename>Преузимања</filename> у вашој личној фасцикли. Када је примање "
+"датотека омогућено, избор <guilabel>Прихвати датотеке</guilabel> вам "
+"омогућава да одредите којим удаљеним уређајима је дозвољено слање датотека. "
+"<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -363,6 +449,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Користите кућицу за избор <guilabel>Обавести о примљеним "
+"датотекама</guilabel> да изаберете да ли желите да будете обавештени кад год"
+" датотека буде примљена путем Блутута."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -379,6 +468,12 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"Дозвољено је умножавање, расподела, вршење измена овог документа под "
+"условима Гну-ове Лиценце Слободне Документације (ГЛСД), верзије 1.1 или било"
+" које касније верзије без непромењивих одељака, текста на насловној и "
+"последњој страни, а коју је објавила Задужбина Слободног Софтвера. Примерак "
+"ГЛСД можете пронаћи на овој <_:ulink-1/> или у датотеци „COPYING-DOCS“ која "
+"је приложена уз ово упутство."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -388,6 +483,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Ово упутство је део скупа Мејтових докумената објављених под GFDL. Уколико "
+"желите да расподељујете ово упутство одвојено од скупа, то можете урадити "
+"додавањем примерка лиценце документу, како је описано у одељку 6 саме "
+"лиценце."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -398,6 +497,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Многи називи које компаније користе у циљу препознатљивости својих производа"
+" и услуга представљају робне марке. Када (уколико) се такви називи "
+"појављују(спомињу) у било којем Мејтовом документу, а чланови Мејтовог "
+"документационог пројекта имају сазнања о томе, тада су називи исписани "
+"великим словима или са великим почетним словима."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -414,6 +518,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"ДОКУМЕНТ ЈЕ ДОСТУПАН СА СВИМ СВОЈИМ ДОБРИМ И ЛОШИМ СТРАНАМА БЕЗ БИЛО КАКВОГ "
+"ЈАМСТВА, БИЛО ОНО ИЗРЕЧЕНО ИЛИ НЕ, УКЉУЧУЈУЋИ БЕЗ ОГРАНИЧЕЊА, ЈАМСТВО ДА ЈЕ "
+"ОВАЈ ДОКУМЕНТ ИЛИ ЊЕГОВА ИЗМЕЊЕНА ВЕРЗИЈА БЕЗ НЕДОСТАТАКА, СПРЕМАН ЗА "
+"ТРЖИШТЕ, СВРСИСХОДАН И НЕ НАРУШАВА ЗАКОНСКЕ НОРМЕ. ЦЕЛОКУПАН РИЗИК КОЈИ СЕ "
+"ОДНОСИ НА КВАЛИТЕТ, ТАЧНОСТ И ДОМЕТ (УЧИНАК) ДОКУМЕНТА ИЛИ ЊЕГОВЕ ИЗМЕЊЕНЕ "
+"ВЕРЗИЈЕ СНОСИ КОРИСНИК. УКОЛИКО СЕ У БИЛО КОЈЕМ ДОКУМЕНТУ ИЛИ ЊЕГОВОЈ "
+"ИЗМЕЊЕНОЈ ВЕРЗИЈИ ПОЈАВИ НЕДОСТАТАК (ГРЕШКА) БИЛО КОЈЕ ВРСТЕ, КОРИСНИК (А НЕ"
+" АУТОР ИЗВОРНЕ ВЕРЗИЈЕ, БИЛО КОЈИ ДРУГИ АУТОР ИЛИ САРАДНИК) СНОСИ СВЕ "
+"ТРОШКОВЕ НЕОПХОДНОГ СЕРВИСИРАЊА, ПОПРАВКЕ ИЛИ ИСПРАВКЕ. ОВО ОГРАНИЧЕЊЕ "
+"ЈАМСТВА ПРЕДСТАВЉА САСТАВНИ ДЕО ОВЕ ДОЗВОЛЕ. УПОТРЕБА БИЛО КОЈЕГ ДОКУМЕНТА "
+"ИЛИ ЊЕГОВЕ ИЗМЕЊЕНЕ ВЕРЗИЈЕ НИЈЕ ДОЗВОЉЕНА ОСИМ ПОД УСЛОВИМА ОВОГ ОГРАНИЧЕЊА"
+" ЈАМСТВА; И"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55
@@ -429,6 +545,15 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"НИ ПОД КАКВИМ ОКОЛНОСТИМА ИЛИ ЗАКОНУ, БИЛО ЗБОГ КРШЕЊА (ИЛИ НЕМАРА) УГОВОРА,"
+" ИЛИ НА БИЛО КОЈИ ДРУГИ НАЧИН, АУТОР (ПРВОБИТНЕ ВЕРЗИЈЕ), САРАДНИК ИЛИ "
+"ИСПОРУЧИВАЛАЦ ДОКУМЕНТА ИЛИ ЊЕГОВЕ ИЗМЕЊЕНЕ ВЕРЗИЈЕ, НИТИ ДОБАВЉАЧ БИЛО КОЈЕ"
+" ОД НАВЕДЕНИХ СТРАНА НЕЋЕ СНОСИТИ МАТЕРИЈАЛНУ ОДГОВОРНОСТ ЗА НАСТАЛА "
+"ДИРЕКТНА, ИНДИРЕКТНА, ПОСЕБНА, СЛУЧАЈНА ИЛИ ТИМЕ НАСТАЛА ОШТЕЋЕЊА БИЛО КОЈЕ "
+"ВРСТЕ УКЉУЧУЈУЋИ, БЕЗ ОГРАНИЧЕЊА, ШТЕТУ НАНЕСЕНУ УГЛЕДУ ФИРМЕ, ПРЕСТАНКУ "
+"ПРОИЗВОДЊЕ, ОТКАЗИВАЊЕ РАДА РАЧУНАРА ИЛИ КВАРА КАО И ЗА СВЕ ОСТАЛЕ ШТЕТЕ ИЛИ"
+" ГУБИТКЕ НАСТАЛЕ УСЛЕД КОРИШЋЕЊА ДОКУМЕНТА И ЊЕГОВИХ ИЗМЕЊЕНИХ ВЕРЗИЈА ЧАК И"
+" АКО ЈЕ ОШТЕЋЕНА СТРАНА БИЛА ОБАВЕШТЕНА О МОГУЋНОСТИ НАСТАНКА ТЕ ШТЕТЕ."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28
@@ -437,3 +562,5 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"OVAJ DOKUMENT I NJEGOVE IZMENJENE VERZIJE SU DOSTUPNE POD USLOVIMA GNU-OVE "
+"SLOBODNE DOKUMENTACIONE DOZVOLE UZ DODATNU SAGLASNOST DA: <_:orderedlist-1/>"

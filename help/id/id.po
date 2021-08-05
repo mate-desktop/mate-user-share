@@ -1,3 +1,4 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Kukuh Syafaat <syafaatkukuh@gmail.com>, 2018
@@ -40,22 +41,22 @@ msgstr "<year>2015-2020</year> <holder>Projek Dokumentasi MATE</holder>"
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
@@ -133,7 +134,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
 msgid "Getting started"
-msgstr ""
+msgstr "Memulai"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
@@ -205,6 +206,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -275,6 +278,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -317,6 +322,8 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
@@ -386,6 +393,13 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"Hak diberikan untuk menyalin, mendistribusikan, dan/atau mengubah dokumen "
+"ini di bawah persyaratan GNU Free Documentation License (GFDL, Lisensi "
+"Dokumentasi Bebas GNU), Versi 1.1 atau sebarang versi setelahnya yang "
+"dipublikasikan oleh Free Software Foundation tanpa Invariant Section, tanpa "
+"Front-Cover Texts, dan tanpa Back-Cover Texts. Anda dapat menemukan salinan "
+"dari GFDL pada <_:ulink-1/> atau di dalam berkas COPYING-DOCS yang "
+"didistribusikan bersama manual ini."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12

@@ -7,14 +7,15 @@
 # KAMI KAMI <kami911@gmail.com>, 2018
 # Rezső Páder <rezso@rezso.net>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.23.0\n"
+"Project-Id-Version: mate-user-share 1.25.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 18:31+0100\n"
+"POT-Creation-Date: 2021-06-25 17:23+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,12 +83,6 @@ msgstr "_Fájlok elfogadása: "
 msgid "_Notify about received files"
 msgstr "Értesítés f_ogadott fájlokról"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/libcaja-user-share.desktop.in.in:4
-msgid "user-share"
-msgstr ""
-
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr "Felhasználói megosztás"
@@ -96,7 +91,7 @@ msgstr "Felhasználói megosztás"
 msgid "Integrates with user-share"
 msgstr "Beépül a elhasználói megosztásba"
 
-#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
 msgstr "Személyes fájlmegosztás"
 
@@ -104,21 +99,13 @@ msgstr "Személyes fájlmegosztás"
 msgid "Preferences for sharing of files"
 msgstr "Fájlmegosztás beállításai"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/mate-user-share-properties.desktop.in:7
-#: data/mate-user-share-obexftp.desktop.in.in:9
-#: data/mate-user-share-obexpush.desktop.in.in:9
-#: data/mate-user-share-webdav.desktop.in.in:9
-msgid "folder-remote"
-msgstr ""
-
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: data/mate-user-share-properties.desktop.in:13
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
+"MATE;személyes;fájl;megosztás;beállítások;tulajdonságok;beállítások;WebDAV;ObexFTP;"
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
@@ -136,7 +123,7 @@ msgstr "Személyes fájlmegosztás indítása, ha engedélyezett"
 #: data/mate-user-share-obexpush.desktop.in.in:6
 #: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "megosztás;fájlok;bluetooth;obex;http;hálózat;másolás;küldés;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
@@ -146,63 +133,63 @@ msgstr "Személyes fájlmegosztás (obexpush)"
 msgid "Personal File Sharing webdav"
 msgstr "Személyes fájlmegosztás (webdav)"
 
-#: src/caja-share-bar.c:115
+#: src/caja-share-bar.c:116
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: src/caja-share-bar.c:119
+#: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
 msgstr "Személyes fájlmegosztás beállításainak indítása"
 
-#: src/share-extension.c:73
+#: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "A Személyes fájlmegosztás beállításai nem indítható"
 
-#: src/share-extension.c:179
+#: src/share-extension.c:180
 msgid "May be used to share or receive files"
 msgstr "Fájlok megosztására vagy fogadására használható"
 
-#: src/share-extension.c:181
+#: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
 msgstr "Megosztható a hálózaton vagy Bluetooth-on"
 
-#: src/share-extension.c:184
+#: src/share-extension.c:185
 msgid "May be shared over the network"
 msgstr "Megosztható a hálózaton"
 
-#: src/share-extension.c:190
+#: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
 msgstr "Fájlok fogadására használható Bluetooth-on"
 
-#: src/file-share-properties.c:416
+#: src/file-share-properties.c:417
 msgid "No reason"
 msgstr "Nincs ok"
 
-#: src/file-share-properties.c:444
+#: src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "Nem lehet megjeleníteni a súgótartalmat."
 
-#: src/file-share-properties.c:480
+#: src/file-share-properties.c:481
 msgid "Could not build interface."
 msgstr "A felület nem építhető fel."
 
-#: src/file-share-properties.c:516
+#: src/file-share-properties.c:517
 msgid "Never"
 msgstr "Soha"
 
-#: src/file-share-properties.c:519
+#: src/file-share-properties.c:520
 msgid "When writing files"
 msgstr "Fájlok írásakor"
 
-#: src/file-share-properties.c:522 src/file-share-properties.c:546
+#: src/file-share-properties.c:523 src/file-share-properties.c:547
 msgid "Always"
 msgstr "Mindig"
 
-#: src/file-share-properties.c:549
+#: src/file-share-properties.c:550
 msgid "Only for set up devices"
 msgstr "Csak párosított eszközöknek"
 
-#: src/file-share-properties.c:554
+#: src/file-share-properties.c:555
 msgid "Ask"
 msgstr "Kérdezzen"
 
@@ -215,36 +202,36 @@ msgstr "Kérdezzen"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: src/http.c:129
+#: src/http.c:130
 #, c-format
 msgid "%s's public files"
 msgstr "%s nyilvános fájljai"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: src/http.c:133
+#: src/http.c:134
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s nyilvános fájljai ezen: %s"
 
 #. Translators: %s is the name of the filename received
-#: src/obexpush.c:136
+#: src/obexpush.c:137
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "„%s” érkezett Bluetooth-on"
 
-#: src/obexpush.c:138
+#: src/obexpush.c:139
 msgid "You received a file"
 msgstr "Fájl érkezett"
 
-#: src/obexpush.c:148
+#: src/obexpush.c:149
 msgid "Open File"
 msgstr "Fájl megnyitása"
 
-#: src/obexpush.c:152
+#: src/obexpush.c:153
 msgid "Reveal File"
 msgstr "Fájl felfedése"
 
-#: src/obexpush.c:169
+#: src/obexpush.c:170
 msgid "File reception complete"
 msgstr "Fájlfogadás kész"

@@ -1,70 +1,67 @@
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020
+# Slimane Selyan AMIRI <selyan.kab@protonmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 16:27+0100\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020\n"
-"Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
+"Last-Translator: Slimane Selyan AMIRI <selyan.kab@protonmail.com>, 2020\n"
+"Language-Team: Kabyle (https://www.transifex.com/mate/teams/13566/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
+"Language: kab\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
-"Proxecto Trasno <proxecto@trasno.gal>"
+"Launchpad Contributions:\n"
+"  Belkacem Mohammed https://launchpad.net/~belkacem77\n"
+"  Slimane Amiri https://launchpad.net/~slimaneamiri"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr "Manual para compartir ficheiros persoais"
+msgstr ""
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
 msgstr ""
-"<year>2015-2020</year> <holder>Proxecto de documentación do MATE</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
+msgstr ""
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
+msgstr ""
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
+msgstr ""
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr "Este manual describe a versión 2.26 do mate-user-share."
+msgstr ""
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
 msgid "Feedback"
-msgstr "Comentarios"
+msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:42
@@ -73,9 +70,6 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
-"Para informar dun fallo ou facer unha suxestión sobre a aplicación mate-"
-"user-share ou este manual, siga as instrucións na <ulink url=\"help:mate-"
-"user-guide/feedback\" type=\"help\">páxina de comentarios do MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -83,28 +77,26 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
-"mate-user-share é un servizo de sesión que permite compartir ficheiros "
-"facilmente entre varios computadores."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr "<primary>mate-user-share</primary>"
+msgstr ""
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr "<primary>compartición de ficheiros</primary>"
+msgstr ""
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr "<primary>compartición</primary>"
+msgstr ""
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
 msgid "Introduction"
-msgstr "Introdución"
+msgstr "Tazwart"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:55
@@ -117,13 +109,6 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
-"mate-user-share é un servizo de sesión que exporta o contido do cartafol "
-"<filename>Público</filename> no seu directorio persoal, para que poidan "
-"acceder facilmente dende outros computadores da mesma rede local. Nos outros"
-" computadores, o cartafol compartido aparecerá cun nome como «ficheiros "
-"compartidos de <replaceable>usuario</replaceable>» na xanela da Rede de "
-"<application>caja</application>, onde <replaceable>usuario</replaceable> "
-"será substituído polo seu nome de usuario."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -132,9 +117,6 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
-"mate-user-share usa un servidor WebDAV para compartir o cartafol "
-"<filename>Público</filename> e anuncia a compartición na rede local mediante"
-" mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -143,19 +125,16 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
-"Ademais, o  mate-user-share pode facer que os ficheiros compartidos estean "
-"dispoñibles a través de ObexFTP a través de Bluetooth e recibir os ficheiros"
-" que se envían ao ordenador a través de Bluetooth a través de ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
 msgid "Getting started"
-msgstr "Comezando"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr "Iniciando mate-user-share"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -166,12 +145,6 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
-"O servizo do mate-user-share normalmente é iniciado por <application>mate-"
-"session</application> ao iniciar sesión. Pode cambiar isto abrindo "
-"<menuchoice><guimenu>Preferencias</guimenu><guimenu>Aplicacións de "
-"inicio</guimenu></menuchoice> no menú <guimenu>Sistema</guimenu> e "
-"modificando a entrada «Compartición de usuario» (User Sharing) na lista de "
-"programas de inicio."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -181,16 +154,11 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
-"Para configurar varios aspectos do intercambio de ficheiros, utilice as "
-"preferencias de compartir ficheiros, que se poden atopar no menú "
-"<guimenu>Sistema baixo</guimenu> baixo <menuchoice><guimenu> "
-"Preferencias</guimenu><guimenu>Compartir ficheiros "
-"persoais</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr "Preferencias de compartir ficheiros"
+msgstr ""
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -203,13 +171,11 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
-"external ref='figures/file-sharing-preferences.png' "
-"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr "Activando a compartición de ficheiros mediante a rede"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -218,14 +184,11 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
-"Abre as preferencias de compartir ficheiros empregando "
-"<menuchoice><guimenu>Preferencias</guimenu><guimenu> Compartir ficheiros "
-"persoais</guimenu></menuchoice> no menú <guimenu>Sistema</guimenu>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr "Compartir os ficheiros na rede"
+msgstr ""
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -238,8 +201,6 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
-"external ref='figures/sharing-over-the-network.png' "
-"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -248,9 +209,6 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
-"Algunhas configuracións de devasa na máquina local poden causar problemas "
-"coa publicidade, así como o acceso aos ficheiros compartidos. Consulte co "
-"administrador do sistema para obter máis detalles."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -258,8 +216,6 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
-"Seleccione <guilabel>Nunca</guilabel> para que todos poidan ler ou escribir "
-"libremente ficheiros no cartafol compartido."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -267,8 +223,6 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
-"Seleccione <guilabel>Sempre</guilabel> para esixir o contrasinal para ler ou"
-" escribir ficheiros no cartafol compartido."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -277,9 +231,6 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
-"Seleccione <guilabel>Ao escribir ficheiros</guilabel> para que todos poidan "
-"ler libremente ficheiros no cartafol compartido, pero require un contrasinal"
-" ao escribir ficheiros."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -288,9 +239,6 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
-"Cando estabelece un contrasinal, debe entregar o contrasinal a tódolos "
-"usuarios que queira que teñan acceso aos ficheiros compartidos. Polo tanto, "
-"debe usar un contrasinal diferente aos outros contrasinais que empregue."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -301,22 +249,16 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
-"Para activar o uso compartido de ficheiros a través de WebDAV, use a caixa "
-"de verificación <guilabel>Compartir ficheiros públicos na rede</guilabel>. "
-"Cando se activa o uso compartido de ficheiros, os controis de protección por"
-" contrasinal permiten estabelecer un contrasinal que cómpre especificar "
-"antes de que se lle permita a un usuario doutro computador o acceso aos "
-"ficheiros compartidos. <_:note-1/><_:itemizedlist-2/><_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr "Activando a compartición de ficheiros mediante Bluetooth"
+msgstr ""
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr "Compartir os ficheiros mediante Bluetooth"
+msgstr ""
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -329,8 +271,6 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
-"external ref='figures/sharing-over-bluetooth.png' "
-"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -339,10 +279,6 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
-"Cando permita que os dispositivos remotos sen vincular accedan aos seus "
-"ficheiros compartidos, calquera persoa cun teléfono móbil co Bluetooth "
-"activado nas proximidades do seu computador pode acceder e quizais incluso "
-"modificar os seus ficheiros compartidos."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -355,25 +291,16 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
-"Para activar o uso compartido de ficheiros mediante Bluetooth, use a caixa "
-"de verificación <guilabel>Compartir ficheiros públicos mediante "
-"Bluetooth</guilabel>. Para permitir aos dispositivos Bluetooth remotos "
-"eliminar ficheiros do seu cartafol compartido, use a caixa de verificación "
-"<guilabel>Permitir que os dispositivos remotos eliminen "
-"ficheiros</guilabel>. Para permitir aos dispositivos Bluetooth remotos "
-"acceder aos seus ficheiros compartidos mesmo cando non están vinculados ao "
-"seu computador, use a caixa de verificación <guilabel>Requirir dispositivos "
-"remotos para emparellarse con este computador<_:note-1/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr "Recepción de ficheiros mediante Bluetooth"
+msgstr ""
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr "Recibir ficheiros mediante Bluetooth"
+msgstr ""
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -386,16 +313,12 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
-"external ref='figures/receiving-over-bluetooth.png' "
-"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
-"Seleccione <guilabel>Sempre</guilabel> para permitir que calquera "
-"dispositivo remoto envíe ficheiros."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -403,8 +326,6 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
-"Os dispositivos vinculados son os que estiveron conectados ao ordenador e "
-"tiveron que introducir un código PIN para conectarse a ou dende."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -412,8 +333,6 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
-"Seleccione <guilabel>Só para dispositivos vinculados</guilabel> para aceptar"
-" ficheiros só de dispositivos vinculados."
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -421,9 +340,6 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
-"Os dispositivos pódense marcar como de confianza en <application>propiedades"
-" do bluetooth</application> na sección de <guilabel>Dispositivos "
-"coñecidos</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -431,9 +347,6 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
-"Seleccione <guilabel>Só para dispositivos vinculados e de "
-"confianza</guilabel> para aceptar ficheiros só de dispositivos enlazados. "
-"<_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -446,13 +359,6 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
-"Para permitir que os dispositivos Bluetooth remotos envíen ficheiros ao seu "
-"computador, use a caixa de verificación <guilabel>Recibir ficheiros no "
-"cartafol <filename>Descargas</filename> mediante Bluetooth</guilabel>. Os "
-"ficheiros recibidos almacenaranse no cartafol Descargas do seu directorio "
-"persoal. Cando a recepción de ficheiros está activada, a selección "
-"<guilabel>Aceptar ficheiros</guilabel> permítelle determinar que "
-"dispositivos remotos poden enviar ficheiros<_:itemizedlist-1/>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -460,14 +366,11 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
-"Use a caixa de verificación <guilabel>Notificar sobre os ficheiros "
-"recibidos</guilabel> para seleccionar se quere ser avisado cando se reciba "
-"un ficheiro a través do Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
 msgid "link"
-msgstr "ligazón"
+msgstr "aseɣwen"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:2
@@ -479,12 +382,6 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
-"Autorízase a copia, distribución e/ou modificación deste documento baixo os "
-"termos da Licenza de Documentación Libre de GNU (GFDL), versión 1.1 ou "
-"calquera outra versión posterior publicada pola Free Software Foundation sen"
-" seccións invariantes, sen textos de cuberta e sen textos de cuberta "
-"traseira. Pode atopar unha copia da GFDL en <_:ulink-1/> ou no ficheiro "
-"COPYING-DOCS distribuído con este manual."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -494,10 +391,6 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Este manual forma parte da colección de manuais MATE distribuídos baixo a "
-"licenza GFDL. Se quere distribuír este manual separadamente da colección, "
-"pode facelo engadindo unha copia da licenza ao manual, tal e como está "
-"descrito na sección 6 da licenza."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -508,11 +401,6 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"Moitos dos nomes utilizados polas empresas para distinguir os seus produtos "
-"e servizos son reivindicados como marcas comerciais. Cando estes nomes "
-"aparecen en calquera documentación de MATE e os membros do Proxecto de "
-"documentación de MATE son conscientes das marcas rexistradas, os nomes están"
-" en letras maiúsculas ou maiúsculas iniciais."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -529,18 +417,6 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"O DOCUMENTO FORNÉCESE «TAL E COMO É», SEN GARANTÍA DE NINGÚN TIPO, NIN "
-"EXPLÍCITA NIN IMPLÍCITA INCLUÍNDO, SEN LIMITACIÓN, GARANTÍA DE QUE O "
-"DOCUMENTO OU VERSIÓN MODIFICADA DESTE CAREZA DE DEFECTOS COMERCIAIS, SEXA "
-"AXEITADO A UN FIN CONCRETO OU INCUMPRA ALGUNHA NORMATIVA. TODO O RISCO "
-"RELATIVO Á CALIDADE, PRECISIÓN E UTILIDADE DO DOCUMENTO OU A SÚA VERSIÓN "
-"MODIFICADA RECAE EN VOSTEDE. SE CALQUERA DOCUMENTO OU VERSIÓN MODIFICADA "
-"DAQUEL RESULTARA DEFECTUOSO EN CALQUERA ASPECTO, VOSTEDE (E NON O REDACTOR "
-"INICIAL, AUTOR OU COLABORADOR) ASUMIRÁ OS CUSTOS DE TODA REPARACIÓN, "
-"MANTEMENTO OU CORRECCIÓN NECESARIOS. ESTA RENUNCIA DE GARANTÍA É UNHA PARTE "
-"ESENCIAL DESTA LICENZA. NON SE AUTORIZA O USO DE NINGÚN DOCUMENTO NIN "
-"VERSIÓN MODIFICADA DESTE POLO PRESENTE, SALVO DENTRO DO CUMPRIMENTO DA "
-"RENUNCIA; E"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55
@@ -556,17 +432,6 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"BAIXO NINGUNHA CIRCUNSTANCIA NIN BAIXO NINGUNHA TEORÍA LEGAL, SEXA POR ERRO "
-"(INCLUÍNDO NEGLIXENCIA), CONTRATO OU DE ALGÚN OUTRO MODO, O AUTOR, O "
-"ESCRITOR INICIAL, CALQUERA COLABORADOR, OU CALQUERA DISTRIBUIDOR DO "
-"DOCUMENTO OU VERSIÓN MODIFICADA DO DOCUMENTO, OU CALQUERA PROVEDOR DE "
-"CALQUERA DESAS PARTES, SERÁ RESPONSÁBEL ANTE NINGUNHA PERSOA POR NINGÚN DANO"
-" DIRECTO, INDIRECTO, ESPECIAL, INCIDENTAL OU DERIVADO DE NINGÚN TIPO, "
-"INCLUÍNDO, SEN LIMITACIÓN DANOS POR PERDA DE MERCANCÍAS, PARO TÉCNICO, FALLO"
-" INFORMÁTICO OU MAL FUNCIONAMENTO OU CALQUERA OUTRO POSÍBEL DANO OU PERDAS "
-"DERIVADAS OU RELACIONADAS CO USO DO DOCUMENTO OU AS SÚAS VERSIÓNS "
-"MODIFICADAS, AÍNDA QUE DITA PARTE TEÑA SIDO INFORMADA DA POSIBILIDADE DE QUE"
-" SE PRODUCISEN DITOS DANOS."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28
@@ -575,6 +440,3 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
-"O DOCUMENTO E AS VERSIÓNS MODIFICADAS DO DOCUMENTO FORNÉCENSE BAIXO OS "
-"TERMOS DA LICENZA LIBRE DE DOCUMENTACIÓN DE GNU CO ACORDO ADICIONAL "
-"DE:<_:orderedlist-1/>"

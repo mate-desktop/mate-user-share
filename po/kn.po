@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.23.0\n"
+"Project-Id-Version: mate-user-share 1.25.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 18:31+0100\n"
+"POT-Creation-Date: 2021-06-25 17:23+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: karthik holla <karthikholla87@gmail.com>, 2018\n"
 "Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
@@ -82,12 +82,6 @@ msgstr "ಕಡತಗಳನ್ನು ಅಂಗೀಕರಿಸು(_A): "
 msgid "_Notify about received files"
 msgstr "ಸ್ವೀಕರಿಸಲಾದ ಕಡತಗಳ ಬಗ್ಗೆ ಸೂಚನೆ ನೀಡು(_N)"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/libcaja-user-share.desktop.in.in:4
-msgid "user-share"
-msgstr ""
-
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
 msgstr ""
@@ -96,22 +90,13 @@ msgstr ""
 msgid "Integrates with user-share"
 msgstr ""
 
-#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:99
+#: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
 msgstr "ವೈಯಕ್ತಿಕ ಕಡತ ಹಂಚಿಕೆ"
 
 #: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
 msgstr "ಕಡತಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಆದ್ಯತೆಗಳು"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/mate-user-share-properties.desktop.in:7
-#: data/mate-user-share-obexftp.desktop.in.in:9
-#: data/mate-user-share-obexpush.desktop.in.in:9
-#: data/mate-user-share-webdav.desktop.in.in:9
-msgid "folder-remote"
-msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -146,63 +131,63 @@ msgstr ""
 msgid "Personal File Sharing webdav"
 msgstr ""
 
-#: src/caja-share-bar.c:115
+#: src/caja-share-bar.c:116
 msgid "Preferences"
 msgstr "ಆದ್ಯತೆಗಳು"
 
-#: src/caja-share-bar.c:119
+#: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
 msgstr "ವೈಯಕ್ತಿಕ ಕಡತ ಹಂಚಿಕೆಯ ಆದ್ಯತೆಗಳನ್ನು ಆರಂಭಿಸಿ"
 
-#: src/share-extension.c:73
+#: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr "ವೈಯಕ್ತಿಕ ಕಡತ ಹಂಚಿಕೆಯ ಆದ್ಯತೆಗಳನ್ನು ಆರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: src/share-extension.c:179
+#: src/share-extension.c:180
 msgid "May be used to share or receive files"
 msgstr ""
 
-#: src/share-extension.c:181
+#: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
 msgstr ""
 
-#: src/share-extension.c:184
+#: src/share-extension.c:185
 msgid "May be shared over the network"
 msgstr ""
 
-#: src/share-extension.c:190
+#: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
 msgstr ""
 
-#: src/file-share-properties.c:416
+#: src/file-share-properties.c:417
 msgid "No reason"
 msgstr "ಯಾವುದೆ ಕಾರಣ ಇಲ್ಲ"
 
-#: src/file-share-properties.c:444
+#: src/file-share-properties.c:445
 msgid "Could not display the help contents."
 msgstr "ನೆರವಿನ ವಿಷಯಗಳನ್ನು ತೋರಿಸಲಾಗಲಿಲ್ಲ."
 
-#: src/file-share-properties.c:480
+#: src/file-share-properties.c:481
 msgid "Could not build interface."
 msgstr "ಸಂಪರ್ಕಸಾಧನವನ್ನು ನಿರ್ಮಿಸಲಾಗಲಿಲ್ಲ."
 
-#: src/file-share-properties.c:516
+#: src/file-share-properties.c:517
 msgid "Never"
 msgstr "ಎಂದೂ ಬೇಡ"
 
-#: src/file-share-properties.c:519
+#: src/file-share-properties.c:520
 msgid "When writing files"
 msgstr "ಕಡತಗಳನ್ನು ಬರೆಯುವಾಗ"
 
-#: src/file-share-properties.c:522 src/file-share-properties.c:546
+#: src/file-share-properties.c:523 src/file-share-properties.c:547
 msgid "Always"
 msgstr "ಯಾವಾಗಲೂ"
 
-#: src/file-share-properties.c:549
+#: src/file-share-properties.c:550
 msgid "Only for set up devices"
 msgstr "ಕೇವಲ ಸಿದ್ಧಗೊಳಿಸಲಾದ ಸಾಧನಗಳಿಂದ ಮಾತ್ರ"
 
-#: src/file-share-properties.c:554
+#: src/file-share-properties.c:555
 msgid "Ask"
 msgstr "ಅನುಮತಿಯನ್ನು ಕೇಳು"
 
@@ -215,36 +200,36 @@ msgstr "ಅನುಮತಿಯನ್ನು ಕೇಳು"
 #. which will match the user name string passed by the C code,
 #. but not put the user name in the final string. This is to
 #. avoid the warning that msgfmt might otherwise generate.
-#: src/http.c:129
+#: src/http.c:130
 #, c-format
 msgid "%s's public files"
 msgstr "%s ನ ಸಾರ್ವಜನಿಕ ಕಡತಗಳು"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
-#: src/http.c:133
+#: src/http.c:134
 #, c-format
 msgid "%s's public files on %s"
 msgstr "%s ನ ಸಾರ್ವಜನಿಕ ಕಡತಗಳು %s ನಲ್ಲಿವೆ"
 
 #. Translators: %s is the name of the filename received
-#: src/obexpush.c:136
+#: src/obexpush.c:137
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
 msgstr "ಬ್ಲೂಟೂತ್‌ನ ಮೂಲಕ ನಿಮಗೆ \"%s\" ಬಂದಿದೆ"
 
-#: src/obexpush.c:138
+#: src/obexpush.c:139
 msgid "You received a file"
 msgstr "ನೀವು ಕಡತವನ್ನು ಸ್ವೀಕರಿಸಿದ್ದೀರಿ"
 
-#: src/obexpush.c:148
+#: src/obexpush.c:149
 msgid "Open File"
 msgstr "ಕಡತವನ್ನು ತೆರೆ"
 
-#: src/obexpush.c:152
+#: src/obexpush.c:153
 msgid "Reveal File"
 msgstr "ಕಡತವನ್ನು ತೋರಿಸು"
 
-#: src/obexpush.c:169
+#: src/obexpush.c:170
 msgid "File reception complete"
 msgstr "ಕಡತ ಸ್ವೀಕರಣೆ ಪೂರ್ತಿಗೊಂಡಿದೆ"
