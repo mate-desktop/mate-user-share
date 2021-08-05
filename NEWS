@@ -1,5 +1,8 @@
-### mate-user-share 1.25.0
+### mate-user-share 1.26.0
 
+  * Translations update
+  * update copyright to 2021
+  * use MATE_COMPILE_WARNINGS from mate-common
 
 ### mate-user-share 1.24.0
 
