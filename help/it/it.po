@@ -5,32 +5,32 @@
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Giuseppe Pignataro <rogepix@gmail.com>, 2019
 # Enrico B. <enricobe@hotmail.com>, 2019
-# Alessandro Volturno <alelvb@inwind.it>, 2020
+# Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-13 16:27+0100\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Enrico Bella, 2019\n"
-"Alessandro Volturno, 2020"
+"Alessandro Volturno, 2020, 2022"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr "Manuale di Condivisione di file personali"
+msgstr "Manuale di Personal File Sharing"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
@@ -72,8 +72,9 @@ msgstr "Commenti"
 #: C/index.docbook:42
 msgid ""
 "To report a bug or make a suggestion regarding the mate-user-share "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Per segnalare un malfunzionamento o un suggerimento sull'applicazione mate-"
 "user-share o su questo manuale, seguire le indicazioni nella <ulink "
@@ -97,7 +98,7 @@ msgstr "<primary>mate-user-share</primary>"
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr "<primary>Condivisione file</primary>"
+msgstr "<primary>Condividere file</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
@@ -121,10 +122,10 @@ msgid ""
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
 "mate-user-share è un servizio che condivide il contenuto della cartella "
-"<filename>Pubblici</filename> presente nella tua cartella home in modo che "
-"sia accessibile agli altri computer nella stessa rete locale. Negli altri "
-"computer, la cartella apparirà con un nome simile a 'File condivisi di "
-"<replaceable>utente</replaceable>' nella sezione Rete di "
+"<filename>Pubblici</filename> presente nella vostra cartella home in modo "
+"che sia accessibile agli altri computer nella stessa rete locale. Negli "
+"altri computer, la cartella apparirà con un nome simile a 'File condivisi di"
+" <replaceable>utente</replaceable>' nella sezione Rete di "
 "<application>caja</application> , dove <replaceable>utente</replaceable> "
 "sarà sostituito dal vostro nome utente."
 
@@ -191,7 +192,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr "Preferenze di Condivisione di file personali"
+msgstr "Preferenze di Personal File Sharing"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -219,9 +220,9 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
-"Apri le Preferenze di Condivisione di file personali dalla categoria "
+"Aprire le Preferenze di Condivisione di file personali dalla categoria "
 "<menuchoice><guimenu>Preferenze</guimenu><guimenu>Condivisione di file "
-"personali</guimenu></menuchoice> nel menu <guimenu>Sistema</guimenu> ."
+"personali</guimenu></menuchoice> nel menù <guimenu>Sistema</guimenu> ."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
@@ -250,8 +251,8 @@ msgid ""
 "system administrator for more details."
 msgstr ""
 "Alcune configurazioni del firewall sul computer locale potrebbero causare "
-"problemi con la pubblicazione dei file sulla rete, così come l'accesso ai "
-"file condivisi. Consultare l'amministratore di sistema per maggiori "
+"problemi con la pubblicazione dei file sulla rete, così come all'accesso dei"
+" file condivisi. Consultare l'amministratore di sistema per maggiori "
 "dettagli."
 
 #. (itstool) path: listitem/para
@@ -270,7 +271,7 @@ msgid ""
 "files in the shared folder."
 msgstr ""
 "Selezionare <guilabel>Sempre</guilabel> per richiedere la password per "
-"leggere o scrivere file nella cartella condivisa"
+"leggere o scrivere file nella cartella condivisa."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -403,7 +404,7 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
-"I dispositivi associati sono quelli conessi al tuo computer e che "
+"I dispositivi associati sono quelli conessi al vostro computer e che "
 "necessitano di un PIN per potersi collegare da/al computer."
 
 #. (itstool) path: listitem/para
@@ -421,9 +422,9 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
-"I dispositivi possono essere impostati come fidati tramite <application"
-">bluetooth-properties</application> nella sezione <guilabel>Dispositivi "
-"conosciuti</guilabel>."
+"I dispositivi possono essere impostati come fidati tramite "
+"<application>bluetooth-properties</application> nella sezione "
+"<guilabel>Dispositivi conosciuti</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -448,9 +449,9 @@ msgstr ""
 "Per permettere ai dispositivi Bluetooth di inviare file al computer, "
 "seleziona la casella <guilabel>Ricevi file via Bluetooth nella cartella "
 "Download</guilabel>. I file ricevuti saranno salvati nella cartella "
-"<filename>Downloads</filename> nella tua cartella home. Quando la ricezione "
-"dei file è attiva, la sezione <guilabel>Accetta file</guilabel> permette di "
-"vedere quali dispositivi sono autorizzati all'invio dei file. "
+"<filename>Downloads</filename> della vostra cartella home. Quando la "
+"ricezione dei file è attiva, la sezione <guilabel>Accetta file</guilabel> "
+"permette di vedere quali dispositivi sono autorizzati all'invio dei file. "
 "<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
@@ -493,7 +494,7 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Questo manuale fa parte di una raccolta di manuali MATE distribuita in "
+"Questo manuale fa parte di una raccolta di manuali MATE distribuiti in "
 "conformità con la GFDL. Per poter distribuire questo manuale separatamente, "
 "è necessario inserirvi una copia della licenza, come descritto nella sezione"
 " 6 della licenza."
@@ -540,7 +541,7 @@ msgstr ""
 "REDATTORE INIZIALE, DELL'AUTORE O DI ALTRI COLLABORATORI). QUESTA "
 "LIMITAZIONE DELLA GARANZIA COSTITUISCE PARTE ESSENZIALE DELLA LICENZA. L'USO"
 " DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE È CONSENTITO SOLO ENTRO I "
-"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA;"
+"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA; E "
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55

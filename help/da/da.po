@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Joe Hansen <joedalton2@yahoo.dk>, 2020
+# Joe Hansen <joedalton2@yahoo.dk>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-13 16:27+0100\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2020\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2021\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,8 +20,7 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Ask Hjorth Larsen, 2009\n"
-"Joe Hansen <joedalton2@yahoo.dk>, 2018\n"
+"Joe Hansen 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021.\n"
 "\n"
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
@@ -70,8 +69,9 @@ msgstr "Tilbagemelding"
 #: C/index.docbook:42
 msgid ""
 "To report a bug or make a suggestion regarding the mate-user-share "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "For at rapportere en fejl eller komme med et forslag jævnfør programmet "
 "mate-user-share eller denne manual, så følg retningslinjerne i <ulink "

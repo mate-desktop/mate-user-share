@@ -2,14 +2,14 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Martin Wimpress <code@flexion.org>, 2018
-# Andi Chandler <andi@gowling.com>, 2020
+# Andi Chandler <andi@gowling.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 16:27+0100\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2020\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2022\n"
 "Language-Team: English (United Kingdom) (https://www.transifex.com/mate/teams/13566/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr "Martin Wimpress"
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "Personal File Sharing Manual"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
@@ -35,27 +35,27 @@ msgstr "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
 msgid "Matthias Clasen <email>mclasen@redhat.com</email>"
-msgstr ""
+msgstr "Matthias Clasen <email>mclasen@redhat.com</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:31
 msgid "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
-msgstr ""
+msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "This manual describes version 2.26 of mate-user-share."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
@@ -66,9 +66,14 @@ msgstr "Feedback"
 #: C/index.docbook:42
 msgid ""
 "To report a bug or make a suggestion regarding the mate-user-share "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
+"To report a bug or make a suggestion regarding the mate-user-share "
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -76,21 +81,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"mate-user-share is a session service that enables easy sharing of files "
+"between several computers."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>mate-user-share</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>file sharing</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>sharing</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -108,6 +115,13 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"mate-user-share is a session service that exports the contents of the "
+"<filename>Public</filename> folder in your home directory, so that they can "
+"easily be accessed from other computers on the same local network. On the "
+"other computers, the shared folder will appear with a name like "
+"'<replaceable>user</replaceable>'s shared files' in the "
+"<application>caja</application> Network window, where "
+"<replaceable>user</replaceable> will be replaced by your user name."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -116,6 +130,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"mate-user-share uses a WebDAV server to share the "
+"<filename>Public</filename> folder, and advertises the share on the local "
+"network using mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -124,16 +141,19 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Additionally, mate-user-share can make the shared files available via "
+"ObexFTP over Bluetooth, and receive files that are sent to your computer via"
+" Bluetooth via ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
 msgid "Getting started"
-msgstr ""
+msgstr "Getting started"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "Starting mate-user-share"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -144,6 +164,11 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"The mate-user-share service is normally started by <application>mate-"
+"session</application> when you log in. You can change this by opening "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Startup "
+"Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
+"and modifying the 'User Sharing' entry in the list of startup programs."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -153,11 +178,15 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"To configure various aspects of file sharing, use the File Sharing "
+"Preferences, which can be found in the <guimenu>System</guimenu> menu under "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
+"Sharing</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "File Sharing Preferences"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -170,11 +199,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Enabling file sharing over the network"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -183,11 +214,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Open the File Sharing Preferences using "
+"<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
+"Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Share Files over the Network"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -200,6 +234,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -208,6 +244,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Some firewall configurations on the local machine might cause problems with "
+"the advertisement, as well as the access to the shared files. Consult your "
+"system administrator for more details."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -215,6 +254,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
+" files in the shared folder."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -222,6 +263,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Select <guilabel>Always</guilabel> to require the password to read or write "
+"files in the shared folder."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -230,6 +273,9 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Select <guilabel>When writing files</guilabel> to allow everybody to freely "
+"read files in the shared folder, but require the password when writing "
+"files."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -238,6 +284,9 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"When you set a password, you have to give the password to all users that you"
+" want to have access to the shared files. Therefore, you should use a "
+"password that is different from other passwords you use."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -248,16 +297,21 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"To enable file sharing via WebDAV, use the <guilabel>Share public files on "
+"network</guilabel> checkbox. When file sharing it enabled, the controls for "
+"password protection allow to set a password that needs to be specified "
+"before a user on another computer is granted access to the shared files. "
+"<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Enabling file sharing over Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Share Files over Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -270,6 +324,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -278,6 +334,9 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"When you allow unbonded remote devices to access your shared files, anybody "
+"with a Bluetooth-enabled cell phone in the vicinity of your computer can "
+"access and perhaps even modify your shared files."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -290,16 +349,23 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"To enable file sharing via Bluetooth, use the <guilabel>Share public files "
+"over Bluetooth</guilabel> checkbox. To allow remote Bluetooth devices to "
+"delete files in your shared folder, use the <guilabel>Allow remote devices "
+"to delete files</guilabel> checkbox. To allow remote Bluetooth devices to "
+"access your shared files even when they are not bonded with your computer, "
+"use the <guilabel>Require remote devices to pair with this "
+"computer</guilabel> checkbox. <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Receiving Files over Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Receive Files over Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -312,12 +378,15 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Select <guilabel>Always</guilabel> to allow any remote device to send files."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -325,6 +394,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Bonded devices are the ones that were connected to your computer, and had to"
+" enter a PIN code to connect to or from."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -332,6 +403,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
+"from bonded devices. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -339,6 +412,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Devices can be marked as trusted in the <application>bluetooth-"
+"properties</application>'s <guilabel>Known devices</guilabel> section."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -346,6 +421,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
+"files only from bonded devices. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -358,6 +435,13 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"To let remote Bluetooth devices send files to your computer, use the "
+"<guilabel>Receive files in Downloads folder over Bluetooth</guilabel> "
+"checkbox. Received files will be stored in the "
+"<filename>Downloads</filename> folder in your home directory. When receiving"
+" files is enabled, the <guilabel>Accept files</guilabel> selection allows "
+"you to determine which remote devices are allowed to send files. "
+"<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -365,6 +449,8 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Use the <guilabel>Notify about received files</guilabel> checkbox to select "
+"whether you want to be notified whenever a file is received via Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9

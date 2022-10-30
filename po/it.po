@@ -4,29 +4,29 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Giuseppe Pignataro <rogepix@gmail.com>, 2018
-# Marco Bartolucci <nap.84@live.it>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Giuseppe Pignataro <rogepix@gmail.com>, 2018
+# Marco Bartolucci, 2018
 # Dario Di Nucci <linkin88mail@gmail.com>, 2018
-# Alessandro Volturno <alelvb@inwind.it>, 2020
+# Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.25.0\n"
+"Project-Id-Version: mate-user-share 1.26.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 17:23+0200\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
-msgstr "Preferenze di condivisione di file personali"
+msgstr "Preferenze di Condivisione dei Fle Personali"
 
 #: data/file-share-properties.ui:38
 msgid "_Close"
@@ -34,19 +34,19 @@ msgstr "_Chiudi"
 
 #: data/file-share-properties.ui:54
 msgid "_Help"
-msgstr "_Aiuto"
+msgstr "Aiuto"
 
 #: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
-msgstr "<b>Condividi file tramite la rete</b>"
+msgstr "<b>Condividi file sulla Rete</b>"
 
 #: data/file-share-properties.ui:140
 msgid "_Share public files on network"
-msgstr "C_ondividi file pubblici sulla rete"
+msgstr "Condividi file pubblici sulla rete"
 
 #: data/file-share-properties.ui:157
 msgid "_Password:"
-msgstr "Pass_word:"
+msgstr "_Password:"
 
 #: data/file-share-properties.ui:171
 msgid "_Require password:"
@@ -54,7 +54,7 @@ msgstr "_Richiedi la password:"
 
 #: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr "<b>Condividi file tramite Bluetooth</b>"
+msgstr "<b>Condividi file via Bluetooth</b>"
 
 #: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
@@ -62,7 +62,7 @@ msgstr "Condividi file pubblici tramite _Bluetooth"
 
 #: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
-msgstr "Con_senti ai dispositivi remoti di eliminare file"
+msgstr "Consenti ai dispositivi remoti di eliminare i file"
 
 #: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
@@ -70,11 +70,11 @@ msgstr "Richiedi ai dispositivi re_moti di associarsi con questo computer"
 
 #: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr "<b>Ricevi file tramite Bluetooth</b>"
+msgstr "<b>Ricevi i file tramite Bluetooth</b>"
 
 #: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr "Ricevi i file nella cartella Scar_icati tramite Bluetooth"
+msgstr "Ricevi i file nella cartella Scaricati tramite Bluetooth"
 
 #: data/file-share-properties.ui:348
 msgid "_Accept files: "
@@ -82,11 +82,11 @@ msgstr "_Accetta i file: "
 
 #: data/file-share-properties.ui:360
 msgid "_Notify about received files"
-msgstr "_Notifica sui i file ricevuti"
+msgstr "_Notifica i file ricevuti"
 
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
-msgstr "Condivdi Utente"
+msgstr "Condivisione dell'Utente"
 
 #: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
@@ -94,7 +94,7 @@ msgstr "Integra con user-share"
 
 #: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
-msgstr "Condivisione di file personali"
+msgstr "Condivisione dei file personali"
 
 #: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
@@ -110,13 +110,13 @@ msgstr ""
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
-msgstr "Condivisione di file personali obexftp"
+msgstr "Condivisione dei file personali obexftp"
 
 #: data/mate-user-share-obexftp.desktop.in.in:4
 #: data/mate-user-share-obexpush.desktop.in.in:4
 #: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
-msgstr "Avvia la condivisione di file personali se abilitata"
+msgstr "Avvia la Condivisione dei File Personali se abilitata"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -128,11 +128,11 @@ msgstr "share;files;bluetooth;obex;http;network;copy;send;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
-msgstr "Condivisione di file personali obexpush"
+msgstr "Condivisione dei File Personali obexpush"
 
 #: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
-msgstr "Condivisione di file personali webdav"
+msgstr "Condivisione dei File Personali webdav"
 
 #: src/caja-share-bar.c:116
 msgid "Preferences"
@@ -140,11 +140,11 @@ msgstr "Preferenze"
 
 #: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
-msgstr "Avvia le preferenze di condivisione dei file personali"
+msgstr "Avvia le Preferenze di Condivisione dei File Personali"
 
 #: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr "Impossibile avviare le preferenze di condivisione dei file personali"
+msgstr "Impossibile avviare le Preferenze di Condivisione dei File Personali"
 
 #: src/share-extension.c:180
 msgid "May be used to share or receive files"
@@ -152,7 +152,7 @@ msgstr "Può essere usato per condividere o ricevere file"
 
 #: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
-msgstr "Può essere condiviso sulla rete o su Bluetooth"
+msgstr "Può essere condiviso sulla rete o Bluetooth"
 
 #: src/share-extension.c:185
 msgid "May be shared over the network"
@@ -160,7 +160,7 @@ msgstr "Può essere condiviso sulla rete"
 
 #: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
-msgstr "Può essere usato per ricevere file su Bluetooth"
+msgstr "Può essere usato per ricevere file via Bluetooth"
 
 #: src/file-share-properties.c:417
 msgid "No reason"
@@ -168,11 +168,11 @@ msgstr "Nessun motivo"
 
 #: src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr "Impossibile visualizzare il sommario della guida."
+msgstr "Non è stato possibile visualizzare il sommario della guida."
 
 #: src/file-share-properties.c:481
 msgid "Could not build interface."
-msgstr "Impossibile generare l'interfaccia."
+msgstr "Non è stato possibile costruire l'interfaccia."
 
 #: src/file-share-properties.c:517
 msgid "Never"
@@ -188,7 +188,7 @@ msgstr "Sempre"
 
 #: src/file-share-properties.c:550
 msgid "Only for set up devices"
-msgstr "Solo per dispositivi configurati"
+msgstr "Solo per i dispositivi configurati"
 
 #: src/file-share-properties.c:555
 msgid "Ask"
@@ -219,7 +219,7 @@ msgstr "File pubblici di %s su %s"
 #: src/obexpush.c:137
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr "Hai ricevuto «%s» tramite Bluetooth"
+msgstr "Hai ricevuto \"%s\" via Bluetooth"
 
 #: src/obexpush.c:139
 msgid "You received a file"
@@ -227,12 +227,12 @@ msgstr "Hai ricevuto un file"
 
 #: src/obexpush.c:149
 msgid "Open File"
-msgstr "Apri file"
+msgstr "Apri il file"
 
 #: src/obexpush.c:153
 msgid "Reveal File"
-msgstr "Rivela file"
+msgstr "Rivela il file"
 
 #: src/obexpush.c:170
 msgid "File reception complete"
-msgstr "Ricezionel file completata"
+msgstr "Ricezione del file completata"

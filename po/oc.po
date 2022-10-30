@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.25.0\n"
+"Project-Id-Version: mate-user-share 1.26.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 17:23+0200\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
 "Last-Translator: Quentin PAGÈS, 2021\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
@@ -65,7 +65,7 @@ msgstr "_Permetre als periferics distants de suprimir de fichièrs"
 
 #: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
-msgstr ""
+msgstr "Requerir que lo _periferic distant s’associe a aqueste ordenador"
 
 #: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
@@ -73,7 +73,7 @@ msgstr "<b>Recebre de fichièrs via Bluetooth</b>"
 
 #: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr ""
+msgstr "Recebre los fichièrs via Bluetooth dins lo dossièr _Telecargaments"
 
 #: data/file-share-properties.ui:348
 msgid "_Accept files: "
@@ -89,7 +89,7 @@ msgstr "Partatge utilizaire"
 
 #: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "S'intègra amb lo partiment utilizaire"
 
 #: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
@@ -109,13 +109,13 @@ msgstr ""
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Partiment de fichièrs personals obexftp"
 
 #: data/mate-user-share-obexftp.desktop.in.in:4
 #: data/mate-user-share-obexpush.desktop.in.in:4
 #: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
-msgstr ""
+msgstr "Lançar lo partiment de fichièrs personals se activat"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -128,11 +128,11 @@ msgstr ""
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Partiment de fichièrs personals obexpush"
 
 #: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Partiment de fichièrs personals webdav"
 
 #: src/caja-share-bar.c:116
 msgid "Preferences"
@@ -140,23 +140,24 @@ msgstr "Preferéncias"
 
 #: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
-msgstr ""
+msgstr "Lançar las preferéncias de partiment de fichièrs personals"
 
 #: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
 msgstr ""
+"Dubertura impossibla de las preferéncias de partiment de fichièrs personals"
 
 #: src/share-extension.c:180
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Pòt servir per partejar o recebre de fichièrs"
 
 #: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Pòt èsser partejat per la ret o lo Bluetooth"
 
 #: src/share-extension.c:185
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Pòt èsser partejat per la ret"
 
 #: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
@@ -188,7 +189,7 @@ msgstr "Totjorn"
 
 #: src/file-share-properties.c:550
 msgid "Only for set up devices"
-msgstr ""
+msgstr "Sonque pels periferics configurats"
 
 #: src/file-share-properties.c:555
 msgid "Ask"

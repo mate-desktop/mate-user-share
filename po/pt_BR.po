@@ -9,20 +9,21 @@
 # Victor Gonçalves <hotcyv@gmail.com>, 2018
 # Samuel Henrique <samueloph@debian.org>, 2018
 # Herick Vinicius <herick.gustavo@gmail.com>, 2018
+# Luciano Luck, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-user-share 1.25.0\n"
+"Project-Id-Version: mate-user-share 1.26.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 17:23+0200\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Herick Vinicius <herick.gustavo@gmail.com>, 2018\n"
+"Last-Translator: Luciano Luck, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
@@ -106,6 +107,7 @@ msgstr "Preferências para compartilhamento de arquivos"
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
+"MATE;pessoal;arquivo;compartilhamento;preferências;ajustes;WebDAV;ObexFTP;"
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
@@ -123,7 +125,7 @@ msgstr "Lança compartilhamento de arquivos pessoais se habilitado"
 #: data/mate-user-share-obexpush.desktop.in.in:6
 #: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "compartilhar;arquivos;bluetooth;obex;http;rede;copiar;enviar;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"

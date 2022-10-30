@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-13 16:27+0100\n"
+"POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
 "Last-Translator: Michael Hartmann, 2020\n"
 "Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
@@ -76,8 +76,9 @@ msgstr "Rückmeldungen"
 #: C/index.docbook:42
 msgid ""
 "To report a bug or make a suggestion regarding the mate-user-share "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para
