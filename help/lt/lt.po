@@ -3,14 +3,15 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Moo, 2018
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020\n"
-"Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Lithuanian (https://app.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,7 +190,7 @@ msgstr ""
 "Naudokite Failų bendrinimo nuostatas, kad konfigūruotumėte įvairius "
 "dalijimosi failais aspektus. Jas rasite <guimenu>Sistemos</guimenu> meniu, "
 "<menuchoice><guimenu>Nuostatos</guimenu><guimenu>Asmeninių failų "
-"bendrinimas</menuchoice>."
+"bendrinimas</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81

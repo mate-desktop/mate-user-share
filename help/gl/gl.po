@@ -1,17 +1,17 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020\n"
-"Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Galician (https://app.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -364,7 +364,7 @@ msgstr ""
 "ficheiros</guilabel>. Para permitir aos dispositivos Bluetooth remotos "
 "acceder aos seus ficheiros compartidos mesmo cando non están vinculados ao "
 "seu computador, use a caixa de verificación <guilabel>Requirir dispositivos "
-"remotos para emparellarse con este computador<_:note-1/>."
+"remotos para emparellarse con este computador</guilabel>.<_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
