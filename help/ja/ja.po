@@ -3,15 +3,15 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # ABE Tsunehiko, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Green, 2021
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Green, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,7 +127,7 @@ msgstr ""
 "MATE "
 "ユーザ共有は、ホームディレクトリ内の<filename>パブリック</filename>フォルダの内容をエクスポートする、セッションサービスです。これを使うと、同じローカルネットワーク上の他のコンピュータから、パブリックフォルダに簡単にアクセスできます。他のコンピュータ上には、共有フォルダが<application>Caja</application>"
 " "
-"ネットワーク・ウィンドウに「<replaceable>ユーザ</replaceable>の共有ファイル」のような名前で表示されます。ここで<replaceable>ユーザ</replaceable>は自分のユーザー名に置き換えられます。"
+"ネットワーク・ウィンドウに「<replaceable>ユーザ</replaceable>の共有ファイル」のような名前で表示されます。ここで<replaceable>ユーザ</replaceable>は自分のユーザ名に置き換えられます。"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -248,7 +248,7 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
-"<guilabel>確認しない</guilabel>を選択すると、すべてのユーザーが共有フォルダ内のファイルを自由に読み書きできるようになります。"
+"<guilabel>確認しない</guilabel>を選択すると、すべてのユーザが共有フォルダ内のファイルを自由に読み書きできるようになります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -265,7 +265,7 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
-"<guilabel>ファイル書き込み時</guilabel>を選択すると、すべてのユーザーが共有フォルダ内のファイルを自由に読み込めますが、書き込むときにパスワードが必要になります。"
+"<guilabel>ファイル書き込み時</guilabel>を選択すると、すべてのユーザが共有フォルダ内のファイルを自由に読み込めますが、書き込むときにパスワードが必要になります。"
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -274,7 +274,7 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
-"パスワードを設定する場合は、共有ファイルへのアクセスを許可するユーザー全員にパスワードを与える必要があります。したがって、他で使うパスワードとは異なるパスワードを使用する必要があります。"
+"パスワードを設定する場合は、共有ファイルへのアクセスを許可するユーザ全員にパスワードを与える必要があります。したがって、他で使うパスワードとは異なるパスワードを使用する必要があります。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -286,7 +286,7 @@ msgid ""
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
 "WebDAV "
-"経由によるファイル共有を有効にするには、<guilabel>ネットワーク越しにファイルを共有する</guilabel>チェックボックスを使用します。ファイル共有が有効な場合、パスワード保護のコントロールによって、別のコンピュータ上のユーザーに共有ファイルへのアクセス権を付与する前に、必要なパスワードの設定を行うことができます。<_:note-1/><_:itemizedlist-2/><_:note-3/>"
+"経由によるファイル共有を有効にするには、<guilabel>ネットワーク越しにファイルを共有する</guilabel>チェックボックスを使用します。ファイル共有が有効な場合、パスワード保護のコントロールによって、別のコンピュータ上のユーザに共有ファイルへのアクセス権を付与する前に、必要なパスワードの設定を行うことができます。<_:note-1/><_:itemizedlist-2/><_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137

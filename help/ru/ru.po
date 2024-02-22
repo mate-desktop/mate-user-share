@@ -7,14 +7,16 @@
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Olesya Gerasimenko <gammaray@basealt.ru>, 2020
 # Павел Коваленко, 2021
+# Andrei Stepanov, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Павел Коваленко, 2021\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Last-Translator: Sergej A. <Ser82-png@yandex.ru>, 2022\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,21 +119,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"mate-user-share - это сеансовая служба, которая позволяет легко обмениваться"
+" файлами между несколькими компьютерами."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>mate-user-share</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>файлы общего доступа</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>общий доступ</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -149,6 +153,13 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"mate-user-share - это сеансовая служба, которая экспортирует содержимое "
+"папки <filename>Общедоступные</filename> вашего домашнего каталога, чтобы к "
+"нему можно было легко получить доступ с других компьютеров той же локальной "
+"сети. На других компьютерах общая папка появится с названием типа «Название-"
+"папки на <replaceable>user</replaceable>» в окне «Сеть» приложения "
+"<application>caja</application>, где <replaceable>user</replaceable> будет "
+"заменён на ваше имя пользователя."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -157,6 +168,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"mate-user-share использует сервер WebDAV для создания доступа к папке "
+"<filename>Общедоступные</filename> и объявляет ресурс общего доступа в "
+"локальной сети с использованием MDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -165,6 +179,9 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Кроме того, mate-user-share может сделать файлы общедоступными через "
+"Bluetooth посредством ObexFTP, и также получать файлы, которые отправляются "
+"на ваш компьютер по Bluetooth, используя ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
@@ -174,7 +191,7 @@ msgstr "Начало работы"
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "Запуск mate-user-share"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -185,6 +202,11 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"Служба mate-user-share обычно загружается при запуске <application>mate-"
+"session</application> при входе в систему. Вы можете изменить это, открыв "
+"<menuchoice><guimenu>Параметры</guimenu><guimenu>Запускаемые "
+"приложения</guimenu></menuchoice> в <guimenu>системном</guimenu> меню, и "
+"изменить «Общий доступ к личным файлам» в списке запускаемых программ."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -194,11 +216,16 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"Для настройки различных аспектов общего доступа к файлам используйте "
+"параметры общего доступа к файлам, которые можно найти в "
+"<guimenu>системном</guimenu> меню в разделе "
+"<menuchoice><guimenu>Параметры</guimenu><guimenu>Общий доступ к личным "
+"файлам</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "Параметры общего доступа к файлам"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -211,11 +238,13 @@ msgid ""
 "external ref='figures/file-sharing-preferences.png' "
 "md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 msgstr ""
+"external ref='figures/file-sharing-preferences.png' "
+"md5='7ae616b8043b36be1f4943ba06d8a5ed'"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Включение общего доступа к файлам по сети"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -224,11 +253,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Открыть параметры общего доступа к личным файлам можно с помощью раздела "
+"<menuchoice><guimenu>Параметры</guimenu><guimenu>Общий доступ к личным "
+"файлам</guimenu></menuchoice> в <guimenu>системном</guimenu> меню."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Общий доступ к файлам по сети"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -241,6 +273,8 @@ msgid ""
 "external ref='figures/sharing-over-the-network.png' "
 "md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 msgstr ""
+"external ref='figures/sharing-over-the-network.png' "
+"md5='ee8b44eb1290e4d1ae9b1e8fe8501860'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:110
@@ -249,6 +283,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Некоторые конфигурации брандмауэра на локальном компьютере могут вызвать "
+"проблемы с оповещением, а также с доступом к общим файлам. Обратитесь к "
+"системному администратору для получения более подробной информации."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -256,6 +293,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Выберите <guilabel>Никогда</guilabel>, чтобы разрешить всем свободно читать "
+"или записывать файлы в общую папку."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -263,6 +302,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Выберите <guilabel>Всегда</guilabel>, чтобы запрашивать пароль для чтения "
+"или записи файлов в общей папке."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -271,6 +312,9 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Выберите <guilabel>При записи файлов</guilabel>, чтобы разрешить всем "
+"свободно читать файлы в общей папке, но запрашивать пароль при записи "
+"файлов."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -279,6 +323,9 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"Когда вы установите пароль, то должны предоставить его всем пользователям, "
+"которым хотите дать доступ к общим файлам. Поэтому вы должны использовать "
+"пароль, который отличается от других паролей, что вы пользуете."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -289,16 +336,22 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"Чтобы включить общий доступ к файлам через WebDAV, отметьте параметр "
+"<guilabel>Общий доступ к файлам по сети</guilabel>. Когда общий доступ к "
+"файлам включён, элементы управления защитой паролем позволяют установить "
+"пароль, который должен быть указан до того, как пользователю на другом "
+"компьютере будет предоставлен доступ к общим файлам. <_:note-1/> "
+"<_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Включение общего доступа к файлам через Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Общий доступ к файлам через Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -311,6 +364,8 @@ msgid ""
 "external ref='figures/sharing-over-bluetooth.png' "
 "md5='0a950502b42b1e7fdb9a57d5017e919c'"
 msgstr ""
+"external ref='figures/sharing-over-bluetooth.png' "
+"md5='0a950502b42b1e7fdb9a57d5017e919c'"
 
 #. (itstool) path: note/para
 #: C/index.docbook:156
@@ -319,6 +374,10 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"Когда вы разрешаете удалённым устройствам доступ к вашим общим файлам, "
+"любой, у кого есть сотовый телефон с поддержкой Bluetooth рядом с вашим "
+"компьютером, может получить доступ и, возможно, даже изменить ваши файлы "
+"общего доступа."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -331,16 +390,24 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Чтобы включить общий доступ к файлам через Bluetooth, отметьте параметр "
+"<guilabel>Общий доступ к файлам через Bluetooth</guilabel>. Чтобы разрешить "
+"удаленным устройствам Bluetooth удалять файлы в общей папке, отметьте пункт "
+"<guilabel>Разрешить удалённым устройствам удалять файлы</guilabel>. Чтобы "
+"разрешить удалённым Bluetooth-устройствам доступ к вашим общим файлам, даже "
+"если они не сопряжены с вашим компьютером, отметьте пункт "
+"<guilabel>Требовать от удалённых устройств соединения с "
+"компьютером</guilabel>. <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Получение файлов по Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Получить файлы по Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -353,12 +420,16 @@ msgid ""
 "external ref='figures/receiving-over-bluetooth.png' "
 "md5='f292daef06767f39e346b222d3c448be'"
 msgstr ""
+"external ref='figures/receiving-over-bluetooth.png' "
+"md5='f292daef06767f39e346b222d3c448be'"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:181
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Выберите <guilabel>Всегда</guilabel>, чтобы разрешить отправку файлов любому"
+" удалённому устройству."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -366,6 +437,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Сопряжённые устройства — это те устройства, которые были подключены к вашему"
+" компьютеру, и для подключения требовалось ввести PIN-код."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -373,6 +446,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Выберите <guilabel>Только для сопряжённых устройств</guilabel>, чтобы "
+"принимать файлы только с сопряжённых устройств. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -380,6 +455,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Устройства можно пометить как доверенные в разделе <application>bluetooth-"
+"properties</application> <guilabel>Известные устройства</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -387,6 +464,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Выберите <guilabel>Только для сопряжённых и доверенных устройств</guilabel>,"
+" чтобы принимать файлы только с сопряженных устройств. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -399,6 +478,13 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"Чтобы разрешить удалённым Bluetooth-устройствам отправлять файлы на ваш "
+"компьютер, отметьте пункт <guilabel>Принимать файлы через Bluetooth в папку "
+"«Загрузки»</guilabel>. Полученные файлы будут сохраняться в папке "
+"<filename>Загрузки</filename> вашего домашнего каталога. Когда получение "
+"файлов включено, параметр <guilabel>Принимать файлы</guilabel> позволяет "
+"определить, каким удалённым устройствам разрешено отправлять файлы. "
+"<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -406,6 +492,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Отметьте параметр <guilabel>Извещать пользователя о получаемых "
+"файлах</guilabel>, если хотите получать уведомления при получении файла "
+"через Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
