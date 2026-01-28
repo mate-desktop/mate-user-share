@@ -11,20 +11,25 @@ infoend() {
 # Required packages on Archlinux
 requires=(
 	ccache # Use ccache to speed up build
+	clang  # Build with clang on Archlinux
 )
 
+# https://gitlab.archlinux.org/archlinux/packaging/packages/mate-user-share
 requires+=(
 	autoconf-archive
 	caja
 	dbus-glib
 	gcc
+	gettext
 	git
-	intltool
+	glib2-devel
+	gtk3
 	itstool
 	libcanberra
 	libnotify
 	make
 	mate-common
+	mod_dnssd
 	which
 	yelp-tools
 )
