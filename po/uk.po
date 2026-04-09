@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Анатолій Романович Шаповалов <elrond.716.smith@gmail.com>, 2018
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
 # Микола Ткач <chistomov@gmail.com>, 2021
 # 
 msgid ""
