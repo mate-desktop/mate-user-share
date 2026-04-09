@@ -1,17 +1,17 @@
-# 
 # Translators:
 # Kristoffer Grundström <lovaren@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Daniel Gullbransen, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2019
 # Luna Jernberg <droidbittin@gmail.com>, 2020
+# Daniel Nylander <po@danielnylander.se>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>, 2020\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,22 +27,22 @@ msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
 msgid "Personal File Sharing Manual"
-msgstr ""
+msgstr "Manual för Personlig fildelning"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:11
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE-dokumentationsprojekt</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:15
 msgid "<year>2009</year> <holder>Red Hat, Inc.</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Red Hat, Inc.</holder>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:22
 msgid "<firstname>Matthias</firstname> <surname>Clasen</surname>"
-msgstr ""
+msgstr "<firstname>Matthias</firstname> <surname>Clasen</surname>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:35
@@ -57,7 +57,7 @@ msgstr "<revnumber>1.0</revnumber> <date>2009</date> <_:revdescription-1/>"
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:39
 msgid "This manual describes version 2.26 of mate-user-share."
-msgstr ""
+msgstr "Denna manual beskriver version 2.26 av mate-user-share."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:41
@@ -72,6 +72,10 @@ msgid ""
 "url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>."
 msgstr ""
+"Om du vill rapportera en bugg eller komma med ett förslag angående mate-"
+"user-share-programmet eller den här handboken följer du anvisningarna på "
+"<ulink url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:45
@@ -79,21 +83,23 @@ msgid ""
 "mate-user-share is a session service that enables easy sharing of files "
 "between several computers."
 msgstr ""
+"mate-user-share är en sessionstjänst som gör det enkelt att dela filer "
+"mellan flera datorer."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:49
 msgid "<primary>mate-user-share</primary>"
-msgstr ""
+msgstr "<primary>mate-user-share</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:50
 msgid "<primary>file sharing</primary>"
-msgstr ""
+msgstr "<primary>fildelning</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:51
 msgid "<primary>sharing</primary>"
-msgstr ""
+msgstr "<primary>delning</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:54
@@ -111,6 +117,13 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
+"mate-user-share är en sessionstjänst som exporterar innehållet i den "
+"<filename>offentliga</filename> mappen i din hemkatalog, så att det enkelt "
+"kan nås från andra datorer i samma lokala nätverk. På de andra datorerna "
+"kommer den delade mappen att visas med ett namn som "
+"\"<replaceable>användarens</replaceable> delade filer\" i "
+"<application>caja</application> Network-fönstret, där "
+"<replaceable>användaren</replaceable> ersätts med ditt användarnamn."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -119,6 +132,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
+"mate-user-share använder en WebDAV-server för att dela den "
+"<filename>offentliga</filename> mappen och annonserar den delade mappen i "
+"det lokala nätverket med hjälp av mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -127,6 +143,9 @@ msgid ""
 "ObexFTP over Bluetooth, and receive files that are sent to your computer via"
 " Bluetooth via ObexPush."
 msgstr ""
+"Dessutom kan mate-user-share göra de delade filerna tillgängliga via ObexFTP"
+" över Bluetooth och ta emot filer som skickas till din dator via Bluetooth "
+"via ObexPush."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:67
@@ -136,7 +155,7 @@ msgstr "Komma igång"
 #. (itstool) path: sect2/title
 #: C/index.docbook:70
 msgid "Starting mate-user-share"
-msgstr ""
+msgstr "Starta mate-user-share"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:72
@@ -147,6 +166,11 @@ msgid ""
 "Applications</guimenu></menuchoice> in the <guimenu>System</guimenu> menu, "
 "and modifying the 'User Sharing' entry in the list of startup programs."
 msgstr ""
+"Tjänsten mate-user-share startas normalt av <application>mate-"
+"session</application> när du loggar in. Du kan ändra detta genom att öppna "
+"<menuchoice><guimenu>Inställningar</guimenu><guimenu>Starta "
+"program</guimenu></menuchoice> i <guimenu>Systemmenyn</guimenu> och ändra "
+"posten \"User Sharing\" i listan över startprogram."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:76
@@ -156,11 +180,15 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice>."
 msgstr ""
+"För att konfigurera olika aspekter av fildelning använder du File Sharing "
+"Preferences, som finns i menyn <guimenu>System</guimenu> under "
+"<menuchoice><guimenu>Inställningar</guimenu><guimenu>Personlig "
+"fildelning</guimenu></menuchoice>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:81
 msgid "File Sharing Preferences"
-msgstr ""
+msgstr "Inställningar för fildelning"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -179,7 +207,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:93
 msgid "Enabling file sharing over the network"
-msgstr ""
+msgstr "Möjliggör fildelning över nätverket"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:94 C/index.docbook:138 C/index.docbook:163
@@ -188,11 +216,14 @@ msgid ""
 "<menuchoice><guimenu>Preferences</guimenu><guimenu>Personal File "
 "Sharing</guimenu></menuchoice> in the <guimenu>System</guimenu> menu."
 msgstr ""
+"Öppna inställningarna för fildelning med hjälp av "
+"<menuchoice><guimenu>Inställningar</guimenu><guimenu>Personlig "
+"fildelning</guimenu></menuchoice> i menyn <guimenu>System</guimenu>."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:99
 msgid "Share Files over the Network"
-msgstr ""
+msgstr "Dela filer över nätverket"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -215,6 +246,9 @@ msgid ""
 "the advertisment, as well as the access to the shared files. Consult your "
 "system administrator for more details."
 msgstr ""
+"Vissa brandväggskonfigurationer på den lokala datorn kan orsaka problem med "
+"annonseringen och med åtkomsten till de delade filerna. Kontakta din "
+"systemadministratör för mer information."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -222,6 +256,8 @@ msgid ""
 "Select <guilabel>Never</guilabel> to allow everybody to freely read or write"
 " files in the shared folder."
 msgstr ""
+"Välj <guilabel>Aldrig</guilabel> för att tillåta alla att fritt läsa eller "
+"skriva filer i den delade mappen."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:119
@@ -229,6 +265,8 @@ msgid ""
 "Select <guilabel>Always</guilabel> to require the password to read or write "
 "files in the shared folder."
 msgstr ""
+"Välj <guilabel>Alltid</guilabel> för att kräva lösenord för att läsa eller "
+"skriva filer i den delade mappen."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:125
@@ -237,6 +275,8 @@ msgid ""
 "read files in the shared folder, but require the password when writing "
 "files."
 msgstr ""
+"Välj <guilabel>När du skriver filer</guilabel> om du vill tillåta alla att "
+"läsa filer i den delade mappen, men kräva lösenord när du skriver filer."
 
 #. (itstool) path: note/para
 #: C/index.docbook:132
@@ -245,6 +285,9 @@ msgid ""
 " want to have access to the shared files. Therefore, you should use a "
 "password that is different from other passwords you use."
 msgstr ""
+"När du anger ett lösenord måste du ge lösenordet till alla användare som du "
+"vill ska ha tillgång till de delade filerna. Därför bör du använda ett "
+"lösenord som skiljer sig från andra lösenord som du använder."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:108
@@ -255,16 +298,21 @@ msgid ""
 "before a user on another computer is granted access to the shared files. "
 "<_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 msgstr ""
+"Om du vill aktivera fildelning via WebDAV använder du kryssrutan "
+"<guilabel>Share public files on network.</guilabel> När fildelning är "
+"aktiverad kan du i kontrollerna för lösenordsskydd ange ett lösenord som "
+"måste anges innan en användare på en annan dator får tillgång till de delade"
+" filerna. <_:note-1/> <_:itemizedlist-2/> <_:note-3/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:137
 msgid "Enabling file sharing over Bluetooth"
-msgstr ""
+msgstr "Möjliggör fildelning via Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:143
 msgid "Share Files over Bluetooth"
-msgstr ""
+msgstr "Dela filer via Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -287,6 +335,9 @@ msgid ""
 "with a Bluetooth-enabled cell phone in the vicinity of your computer can "
 "access and perhaps even modify your shared files."
 msgstr ""
+"När du tillåter obundna fjärrenheter att komma åt dina delade filer kan vem "
+"som helst med en Bluetooth-aktiverad mobiltelefon i närheten av din dator "
+"komma åt och kanske till och med ändra dina delade filer."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:152
@@ -299,16 +350,24 @@ msgid ""
 "use the <guilabel>Require remote devices to pair with this "
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
+"Om du vill aktivera fildelning via Bluetooth använder du kryssrutan "
+"<guilabel>Share public files over Bluetooth.</guilabel> Om du vill tillåta "
+"att fjärrenheter med Bluetooth raderar filer i den delade mappen använder du"
+" kryssrutan <guilabel>Tillåt fjärrenheter att radera</guilabel> filer. Om du"
+" vill tillåta att Bluetooth-enheter på distans får åtkomst till dina delade "
+"filer även om de inte är <guilabel>kopplade</guilabel> till din dator, "
+"använder du kryssrutan <guilabel>Kräv att fjärrenheter kopplas till den här "
+"datorn.</guilabel> <_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
 msgid "Receiving Files over Bluetooth"
-msgstr ""
+msgstr "Ta emot filer via Bluetooth"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:168
 msgid "Receive Files over Bluetooth"
-msgstr ""
+msgstr "Ta emot filer via Bluetooth"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -329,6 +388,8 @@ msgstr ""
 msgid ""
 "Select <guilabel>Always</guilabel> to allow any remote device to send files."
 msgstr ""
+"Välj <guilabel>Alltid</guilabel> för att tillåta alla fjärrenheter att "
+"skicka filer."
 
 #. (itstool) path: note/para
 #: C/index.docbook:188
@@ -336,6 +397,8 @@ msgid ""
 "Bonded devices are the ones that were connected to your computer, and had to"
 " enter a PIN code to connect to or from."
 msgstr ""
+"Bondade enheter är de som var anslutna till din dator och som du var tvungen"
+" att ange en PIN-kod för att ansluta till eller från."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:186
@@ -343,6 +406,8 @@ msgid ""
 "Select <guilabel>Only for Bonded devices</guilabel> to accept files only "
 "from bonded devices. <_:note-1/>"
 msgstr ""
+"Välj <guilabel>Only for Bonded devices</guilabel> för att endast acceptera "
+"filer från bondade enheter. <_:note-1/>"
 
 #. (itstool) path: note/para
 #: C/index.docbook:195
@@ -350,6 +415,8 @@ msgid ""
 "Devices can be marked as trusted in the <application>bluetooth-"
 "properties</application>'s <guilabel>Known devices</guilabel> section."
 msgstr ""
+"Enheter kan markeras som betrodda i avsnittet <guilabel>Kända</guilabel> "
+"enheter i <application>Bluetooth-properties</application>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:193
@@ -357,6 +424,8 @@ msgid ""
 "Select <guilabel>Only for Bonded and Trusted devices</guilabel> to accept "
 "files only from bonded devices. <_:note-1/>"
 msgstr ""
+"Välj <guilabel>Only for Bonded and Trusted devices för</guilabel> att endast"
+" acceptera filer från bondade enheter. <_:note-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:177
@@ -369,6 +438,13 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
+"Använd kryssrutan <guilabel>Receive</guilabel> files in "
+"<guilabel>Downloads</guilabel> folder over Bluetooth för att låta "
+"<guilabel>Bluetooth-enheter</guilabel> skicka filer till din dator. Mottagna"
+" filer lagras i mappen <filename>Downloads</filename> i din hemkatalog. När "
+"mottagning av filer är aktiverat kan du med hjälp av valet "
+"<guilabel>Acceptera</guilabel> filer bestämma vilka fjärrenheter som får "
+"skicka filer. <_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -376,6 +452,9 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
+"Använd kryssrutan <guilabel>Notify about received files (Meddela</guilabel> "
+"om mottagna filer) för att välja om du vill bli meddelad när en fil tas emot"
+" via Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -392,6 +471,12 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"Tillstånd ges att kopiera, distribuera och/eller modifiera detta dokument "
+"enligt villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+"senare version publicerad av Free Software Foundation utan invarianta "
+"sektioner, utan texter på framsidan och utan texter på baksidan. Du kan "
+"hitta en kopia av GFDL på denna <_:ulink-1/> eller i filen COPYING-DOCS som "
+"distribueras med den här handboken."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -484,3 +569,6 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS ENLIGT "
+"VILLKOREN I GNU:S LICENS FÖR FRI DOKUMENTATION MED DEN YTTERLIGARE "
+"ÖVERENSKOMMELSEN ATT: <_:beställningslista-1/>"
