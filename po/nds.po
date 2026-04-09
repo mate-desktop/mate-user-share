@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Benedikt Straub <benedikt-straub@web.de>, 2023
+# Benedikt Straub <benedikt-straub@web.de>, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
 "PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2023\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2025\n"
 "Language-Team: Low German (https://app.transifex.com/mate/teams/13566/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
-msgstr ""
+msgstr "Instellens för Persöönlike Dateien Delen"
 
 #: data/file-share-properties.ui:38
 msgid "_Close"
@@ -31,15 +31,15 @@ msgstr "Di_chtmaken"
 
 #: data/file-share-properties.ui:54
 msgid "_Help"
-msgstr "_Hölp"
+msgstr "_Hülp"
 
 #: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
-msgstr ""
+msgstr "<b>Dateien över de Nettwark delen</b>"
 
 #: data/file-share-properties.ui:140
 msgid "_Share public files on network"
-msgstr ""
+msgstr "Publike Dateien im _Nettwark delen"
 
 #: data/file-share-properties.ui:157
 msgid "_Password:"
@@ -47,55 +47,55 @@ msgstr "_Passwoord:"
 
 #: data/file-share-properties.ui:171
 msgid "_Require password:"
-msgstr ""
+msgstr "Passwoord ve_rlangen:"
 
 #: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr ""
+msgstr "<b>Dateien över Bluetooth delen</b>"
 
 #: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
-msgstr ""
+msgstr "Publike Dateien över _Bluetooth delen"
 
 #: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
-msgstr ""
+msgstr "Feernen Gereedskuppen verlöven, Dateien to _lösken"
 
 #: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
-msgstr ""
+msgstr "Verlangen, dat feerne Gereedskuppen mit deesem Reekner _koppeln"
 
 #: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr ""
+msgstr "<b>Dateien över Bluetooth kriegen</b>"
 
 #: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr ""
+msgstr "Dateien över Bluetooth im _Daalladens-Verteeknis kriegen"
 
 #: data/file-share-properties.ui:348
 msgid "_Accept files: "
-msgstr ""
+msgstr "Dateien _annehmen:"
 
 #: data/file-share-properties.ui:360
 msgid "_Notify about received files"
-msgstr ""
+msgstr "Över kregen Dateien b_enarichtigen"
 
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
-msgstr ""
+msgstr "Bruker-Delen"
 
 #: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "Integreert mit Bruker-Delen"
 
 #: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
-msgstr ""
+msgstr "Persöönlike Dateien Delen"
 
 #: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
-msgstr ""
+msgstr "Instellens för ’t Delen vun Dateien"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -103,16 +103,17 @@ msgstr ""
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
+"MATE;persöönlik;Datei;Delen;Instellens;Eegenskuppen;Optioonen;WebDAV;ObexFTP;"
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Persöönlike Dateien Delen obexftp"
 
 #: data/mate-user-share-obexftp.desktop.in.in:4
 #: data/mate-user-share-obexpush.desktop.in.in:4
 #: data/mate-user-share-webdav.desktop.in.in:4
 msgid "Launch Personal File Sharing if enabled"
-msgstr ""
+msgstr "Persöönlike Dateien Delen utföhren wenn anknipst"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -120,15 +121,15 @@ msgstr ""
 #: data/mate-user-share-obexpush.desktop.in.in:6
 #: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "delen;Dateien;bluetooth;obex;http;Nettwark;koperen;schicken;sennen;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Persöönlike Dateien Delen obexpush"
 
 #: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Persöönlike Dateien Delen webdav"
 
 #: src/caja-share-bar.c:116
 msgid "Preferences"
@@ -136,39 +137,39 @@ msgstr "Instellens"
 
 #: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
-msgstr ""
+msgstr "Instellens för Persöönlike Dateien Delen opmaken"
 
 #: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr ""
+msgstr "Kann de Instellens för Persöönlike Dateien Delen nich opmaken"
 
 #: src/share-extension.c:180
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Kann tum Delen of Kriegen vun Dateien bruukt worden"
 
 #: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Kann över de Nettwark of Bluetooth deelt worden"
 
 #: src/share-extension.c:185
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Kann över de Nettwark deelt worden"
 
 #: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Kann bruukt worden, um Dateien över Bluetooth to kriegen"
 
 #: src/file-share-properties.c:417
 msgid "No reason"
-msgstr ""
+msgstr "Keen Grund"
 
 #: src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr ""
+msgstr "Kann de Inholl vun de Hülp nich wiesen."
 
 #: src/file-share-properties.c:481
 msgid "Could not build interface."
-msgstr ""
+msgstr "Kunn de Schnittstee nich bauen."
 
 #: src/file-share-properties.c:517
 msgid "Never"
@@ -176,19 +177,19 @@ msgstr "Nie nich"
 
 #: src/file-share-properties.c:520
 msgid "When writing files"
-msgstr ""
+msgstr "Bi’m Schrieven vun Dateien"
 
 #: src/file-share-properties.c:523 src/file-share-properties.c:547
 msgid "Always"
-msgstr "Jümmers"
+msgstr "Alltieden"
 
 #: src/file-share-properties.c:550
 msgid "Only for set up devices"
-msgstr ""
+msgstr "Blots för inricht Gereedskuppen"
 
 #: src/file-share-properties.c:555
 msgid "Ask"
-msgstr ""
+msgstr "Fragen"
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
@@ -202,33 +203,33 @@ msgstr ""
 #: src/http.c:130
 #, c-format
 msgid "%s's public files"
-msgstr ""
+msgstr "Publike Dateien vun %s"
 
 #. Translators: This is similar to the string before, only it
 #. has the hostname in it too.
 #: src/http.c:134
 #, c-format
 msgid "%s's public files on %s"
-msgstr ""
+msgstr "Publike Dateien vun %s up %s"
 
 #. Translators: %s is the name of the filename received
 #: src/obexpush.c:137
 #, c-format
 msgid "You received \"%s\" via Bluetooth"
-msgstr ""
+msgstr "Du hest »%s« över Bluetooth kregen"
 
 #: src/obexpush.c:139
 msgid "You received a file"
-msgstr ""
+msgstr "Du hest eene Datei kregen"
 
 #: src/obexpush.c:149
 msgid "Open File"
-msgstr ""
+msgstr "Datei opmaken"
 
 #: src/obexpush.c:153
 msgid "Reveal File"
-msgstr ""
+msgstr "Datei wiesen"
 
 #: src/obexpush.c:170
 msgid "File reception complete"
-msgstr ""
+msgstr "Datei-Empfang kumpleet"
