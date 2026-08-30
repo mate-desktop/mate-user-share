@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-user-share package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2018
-# 
+# 김인수 <simmon@nplob.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-user-share 1.26.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
-"PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2018\n"
-"Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
+"PO-Revision-Date: 2026-06-16 08:10+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/mate-"
+"desktop/mate-user-share/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
@@ -44,11 +46,11 @@ msgstr "네트워크를 통해 공개 디렉터리 공유(_S)"
 
 #: data/file-share-properties.ui:157
 msgid "_Password:"
-msgstr "암호(_P):"
+msgstr "비밀번호(_P):"
 
 #: data/file-share-properties.ui:171
 msgid "_Require password:"
-msgstr "암호 필요(_R):"
+msgstr "비밀번호 요구(_R):"
 
 #: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
@@ -104,6 +106,7 @@ msgstr "파일 공유에 대한 기본 설정"
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
+"MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;개인;파일;공유;기본설정;속성;설정;"
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
@@ -122,6 +125,7 @@ msgstr "사용자 공유를 (사용할 경우) 시작합니다"
 #: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr ""
+"share;files;bluetooth;obex;http;network;copy;send;공유;파일;블루투스;네트워크;복사;전송;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
@@ -133,7 +137,7 @@ msgstr "webdav로 공유하는 개인 파일"
 
 #: src/caja-share-bar.c:116
 msgid "Preferences"
-msgstr "기본 설정"
+msgstr "설정"
 
 #: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
@@ -153,7 +157,7 @@ msgstr "파일을 네트워크 또는 블루투스로 공유합니다"
 
 #: src/share-extension.c:185
 msgid "May be shared over the network"
-msgstr "네트워크로 공유합니다 "
+msgstr "네트워크를 통해 공유 될 수 있습니다"
 
 #: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
@@ -210,7 +214,7 @@ msgstr "%s의 공용 파일"
 #: src/http.c:134
 #, c-format
 msgid "%s's public files on %s"
-msgstr "%2$s에 있는 %1$s의 공용 파일"
+msgstr "%s 에 있는 %s 의 공용 파일"
 
 #. Translators: %s is the name of the filename received
 #: src/obexpush.c:137
