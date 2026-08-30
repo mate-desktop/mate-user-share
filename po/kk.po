@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-user-share package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2018
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2018, 2026.
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# 
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-user-share 1.26.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
-"PO-Revision-Date: 2018-03-12 09:11+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-30 04:18+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-user-share/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: data/file-share-properties.ui:18
 msgid "Personal File Sharing Preferences"
@@ -35,11 +36,11 @@ msgstr "Көм_ек"
 
 #: data/file-share-properties.ui:94
 msgid "<b>Share Files over the Network</b>"
-msgstr ""
+msgstr "<b>Файлдарды желі арқылы ортақ пайдалану</b>"
 
 #: data/file-share-properties.ui:140
 msgid "_Share public files on network"
-msgstr ""
+msgstr "Желідегі жария файлдарды ортақ па_йдалану"
 
 #: data/file-share-properties.ui:157
 msgid "_Password:"
@@ -47,47 +48,47 @@ msgstr "_Пароль:"
 
 #: data/file-share-properties.ui:171
 msgid "_Require password:"
-msgstr ""
+msgstr "Парольді _талап ету:"
 
 #: data/file-share-properties.ui:206
 msgid "<b>Share Files over Bluetooth</b>"
-msgstr ""
+msgstr "<b>Файлдарды Bluetooth арқылы ортақ пайдалану</b>"
 
 #: data/file-share-properties.ui:229
 msgid "Share public files over _Bluetooth"
-msgstr ""
+msgstr "Жария файлдарды _Bluetooth арқылы ортақ пайдалану"
 
 #: data/file-share-properties.ui:244
 msgid "Allo_w remote devices to delete files"
-msgstr ""
+msgstr "Қашықтағы құрылғыларға файлдарды өшіруге рұқсат _ету"
 
 #: data/file-share-properties.ui:259
 msgid "Require re_mote devices to bond with this computer"
-msgstr ""
+msgstr "Қашықтағы құрылғылардан осы компьютермен жұп_тасуды талап ету"
 
 #: data/file-share-properties.ui:297
 msgid "<b>Receive Files over Bluetooth</b>"
-msgstr ""
+msgstr "<b>Bluetooth арқылы файлдарды қабылдау</b>"
 
 #: data/file-share-properties.ui:320
 msgid "Receive files in _Downloads folder over Bluetooth"
-msgstr ""
+msgstr "Bluetooth арқылы «_Жүктемелер» бумасына файлдарды қабылдау"
 
 #: data/file-share-properties.ui:348
 msgid "_Accept files: "
-msgstr ""
+msgstr "Файлдарды қ_абылдау: "
 
 #: data/file-share-properties.ui:360
 msgid "_Notify about received files"
-msgstr ""
+msgstr "Қабылданған файлдар туралы _хабарлау"
 
 #: data/libcaja-user-share.desktop.in.in:5
 msgid "User Share"
-msgstr ""
+msgstr "Пайдаланушылық бөлісу"
 
 #: data/libcaja-user-share.desktop.in.in:6
 msgid "Integrates with user-share"
-msgstr ""
+msgstr "user-share жүйесімен интеграцияланады"
 
 #: data/mate-user-share-properties.desktop.in:3 src/caja-share-bar.c:100
 msgid "Personal File Sharing"
@@ -95,7 +96,7 @@ msgstr "Жеке файлдармен бөлісу"
 
 #: data/mate-user-share-properties.desktop.in:4
 msgid "Preferences for sharing of files"
-msgstr ""
+msgstr "Файлдарды ортақ пайдалану баптаулары"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -103,10 +104,12 @@ msgstr ""
 msgid ""
 "MATE;personal;file;sharing;preferences;properties;settings;WebDAV;ObexFTP;"
 msgstr ""
+"MATE;жеке;файл;ортақ "
+"пайдалану;баптаулар;қасиеттер;параметрлер;WebDAV;ObexFTP;"
 
 #: data/mate-user-share-obexftp.desktop.in.in:3
 msgid "Personal File Sharing obexftp"
-msgstr ""
+msgstr "Жеке файлдарды ортақ пайдалану obexftp"
 
 #: data/mate-user-share-obexftp.desktop.in.in:4
 #: data/mate-user-share-obexpush.desktop.in.in:4
@@ -120,15 +123,15 @@ msgstr "Іске қосулы болса, жеке файлдармен бөлі
 #: data/mate-user-share-obexpush.desktop.in.in:6
 #: data/mate-user-share-webdav.desktop.in.in:6
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "ортақ пайдалану;файлдар;bluetooth;obex;http;желі;көшіру;жіберу;"
 
 #: data/mate-user-share-obexpush.desktop.in.in:3
 msgid "Personal File Sharing obexpush"
-msgstr ""
+msgstr "Жеке файлдарды ортақ пайдалану obexpush"
 
 #: data/mate-user-share-webdav.desktop.in.in:3
 msgid "Personal File Sharing webdav"
-msgstr ""
+msgstr "Жеке файлдарды ортақ пайдалану webdav"
 
 #: src/caja-share-bar.c:116
 msgid "Preferences"
@@ -136,27 +139,27 @@ msgstr "Баптаулар"
 
 #: src/caja-share-bar.c:120
 msgid "Launch Personal File Sharing Preferences"
-msgstr ""
+msgstr "Жеке файлдарды ортақ пайдалану баптауларын іске қосу"
 
 #: src/share-extension.c:74
 msgid "Unable to launch the Personal File Sharing preferences"
-msgstr ""
+msgstr "Жеке файлдарды ортақ пайдалану баптауларын іске қосу мүмкін емес"
 
 #: src/share-extension.c:180
 msgid "May be used to share or receive files"
-msgstr ""
+msgstr "Файлдарды ортақ пайдалану немесе қабылдау үшін қолданылуы мүмкін"
 
 #: src/share-extension.c:182
 msgid "May be shared over the network or Bluetooth"
-msgstr ""
+msgstr "Желі немесе Bluetooth арқылы ортақ пайдаланылуы мүмкін"
 
 #: src/share-extension.c:185
 msgid "May be shared over the network"
-msgstr ""
+msgstr "Желі арқылы ортақ пайдаланылуы мүмкін"
 
 #: src/share-extension.c:191
 msgid "May be used to receive files over Bluetooth"
-msgstr ""
+msgstr "Bluetooth арқылы файлдарды қабылдау үшін қолданылуы мүмкін"
 
 #: src/file-share-properties.c:417
 msgid "No reason"
@@ -164,11 +167,11 @@ msgstr "Себебі жоқ"
 
 #: src/file-share-properties.c:445
 msgid "Could not display the help contents."
-msgstr ""
+msgstr "Көмек мазмұнын көрсету мүмкін болмады."
 
 #: src/file-share-properties.c:481
 msgid "Could not build interface."
-msgstr ""
+msgstr "Интерфейсті құрастыру мүмкін болмады."
 
 #: src/file-share-properties.c:517
 msgid "Never"
@@ -176,7 +179,7 @@ msgstr "Ешқашан"
 
 #: src/file-share-properties.c:520
 msgid "When writing files"
-msgstr ""
+msgstr "Файлдарды жазу кезінде"
 
 #: src/file-share-properties.c:523 src/file-share-properties.c:547
 msgid "Always"
@@ -184,11 +187,11 @@ msgstr "Әрқашан"
 
 #: src/file-share-properties.c:550
 msgid "Only for set up devices"
-msgstr ""
+msgstr "Тек бапталған құрылғылар үшін"
 
 #: src/file-share-properties.c:555
 msgid "Ask"
-msgstr ""
+msgstr "Сұрау"
 
 #. Translators: The %s will get filled in with the user name
 #. of the user, to form a genitive. If this is difficult to
