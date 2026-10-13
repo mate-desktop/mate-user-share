@@ -51,7 +51,7 @@ fi
 
 AC_SUBST(HTTPD)
 
-BLUETOOTH_PKG="mate-bluetooth-1.0 >= 1.2.0"
+BLUETOOTH_PKG="mate-bluetooth-1.0 >= 1.2.0 dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk3"
 AC_ARG_ENABLE(bluetooth, AS_HELP_STRING([--disable-bluetooth],[compile without bluetooth support]),,enable_bluetooth=no)
 AS_IF([test "x$enable_bluetooth" = "xyes"],[
  PKG_CHECK_MODULES(BLUETOOTH, $BLUETOOTH_PKG)
@@ -67,7 +67,7 @@ GTK_REQUIRED_VERSION=3.22.0
 
 dnl ==========================================================================
 
-PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= $GLIB_REQUIRED_VERSION gio-2.0 gdk-x11-3.0 gtk+-3.0 >= $GTK_REQUIRED_VERSION dbus-glib-1 libnotify >= 0.7.0 libcanberra-gtk3 $BLUETOOTH_PKG)
+PKG_CHECK_MODULES(USER_SHARE, glib-2.0 >= $GLIB_REQUIRED_VERSION gio-2.0 gdk-x11-3.0 gtk+-3.0 >= $GTK_REQUIRED_VERSION $BLUETOOTH_PKG)
 AC_SUBST(USER_SHARE_CFLAGS)
 AC_SUBST(USER_SHARE_LIBS)
 

@@ -9,7 +9,11 @@ desktop_in_files = mate-user-share-properties.desktop.in
 
 autostartdir = $(sysconfdir)/xdg/autostart/
 autostart_DATA = $(autostart_in_files:.desktop.in=.desktop)
-autostart_in_files = mate-user-share-obexftp.desktop.in mate-user-share-obexpush.desktop.in mate-user-share-webdav.desktop.in
+autostart_in_files = mate-user-share-webdav.desktop.in
+
+if USE_BLUETOOTH
+autostart_in_files += mate-user-share-obexftp.desktop.in mate-user-share-obexpush.desktop.in
+endif
 
 appdir = $(datadir)/mate-user-share
 app_DATA=dav_user_2.2.conf dav_user_2.4.conf dav_groupfile file-share-properties.ui
