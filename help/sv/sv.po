@@ -4,25 +4,26 @@
 # Daniel Gullbransen, 2018
 # Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2019
 # Luna Jernberg <droidbittin@gmail.com>, 2020
-# Daniel Nylander <po@danielnylander.se>, 2025
-# 
+# Daniel Nylander <po@danielnylander.se>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:25+0200\n"
-"PO-Revision-Date: 2018-12-25 11:04+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
-"Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
+"PO-Revision-Date: 2026-10-11 22:37+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/mate-user-share-help/sv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
+msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:10
@@ -117,13 +118,12 @@ msgid ""
 "<application>caja</application> Network window, where "
 "<replaceable>user</replaceable> will be replaced by your user name."
 msgstr ""
-"mate-user-share är en sessionstjänst som exporterar innehållet i den "
-"<filename>offentliga</filename> mappen i din hemkatalog, så att det enkelt "
-"kan nås från andra datorer i samma lokala nätverk. På de andra datorerna "
-"kommer den delade mappen att visas med ett namn som "
-"\"<replaceable>användarens</replaceable> delade filer\" i "
-"<application>caja</application> Network-fönstret, där "
-"<replaceable>användaren</replaceable> ersätts med ditt användarnamn."
+"mate-user-share är en sessionstjänst som delar innehållet i mappen <filename>"
+"Public</filename> i din hemkatalog så att det enkelt kan nås från andra "
+"datorer i samma lokala nätverk. På de andra datorerna visas den delade "
+"mappen i nätverksfönstret i <application>caja</application> med ett namn som "
+"”<replaceable>user</replaceable>s delade filer”, där <replaceable>user</"
+"replaceable> ersätts med ditt användarnamn."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:58
@@ -132,9 +132,9 @@ msgid ""
 "<filename>Public</filename> folder, and advertises the share on the local "
 "network using mDNS."
 msgstr ""
-"mate-user-share använder en WebDAV-server för att dela den "
-"<filename>offentliga</filename> mappen och annonserar den delade mappen i "
-"det lokala nätverket med hjälp av mDNS."
+"mate-user-share använder en WebDAV-server för att dela mappen <filename>"
+"Public</filename> och annonserar den delade mappen i det lokala nätverket "
+"med hjälp av mDNS."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:61
@@ -351,13 +351,13 @@ msgid ""
 "computer</guilabel> checkbox. <_:note-1/>"
 msgstr ""
 "Om du vill aktivera fildelning via Bluetooth använder du kryssrutan "
-"<guilabel>Share public files over Bluetooth.</guilabel> Om du vill tillåta "
-"att fjärrenheter med Bluetooth raderar filer i den delade mappen använder du"
-" kryssrutan <guilabel>Tillåt fjärrenheter att radera</guilabel> filer. Om du"
-" vill tillåta att Bluetooth-enheter på distans får åtkomst till dina delade "
-"filer även om de inte är <guilabel>kopplade</guilabel> till din dator, "
-"använder du kryssrutan <guilabel>Kräv att fjärrenheter kopplas till den här "
-"datorn.</guilabel> <_:note-1/>"
+"<guilabel>Dela offentliga filer via Bluetooth</guilabel>. Om du vill tillåta "
+"att fjärrenheter med Bluetooth raderar filer i den delade mappen använder du "
+"kryssrutan <guilabel>Tillåt fjärrenheter att radera filer</guilabel>. Om du "
+"vill tillåta att Bluetooth-enheter på distans får åtkomst till dina delade "
+"filer även om de inte är kopplade till din dator använder du kryssrutan "
+"<guilabel>Kräv att fjärrenheter kopplas till den här datorn</guilabel>. "
+"<_:note-1/>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:162
@@ -438,13 +438,12 @@ msgid ""
 "you to determine which remote devices are allowed to send files. "
 "<_:itemizedlist-1/>"
 msgstr ""
-"Använd kryssrutan <guilabel>Receive</guilabel> files in "
-"<guilabel>Downloads</guilabel> folder over Bluetooth för att låta "
-"<guilabel>Bluetooth-enheter</guilabel> skicka filer till din dator. Mottagna"
-" filer lagras i mappen <filename>Downloads</filename> i din hemkatalog. När "
-"mottagning av filer är aktiverat kan du med hjälp av valet "
-"<guilabel>Acceptera</guilabel> filer bestämma vilka fjärrenheter som får "
-"skicka filer. <_:itemizedlist-1/>"
+"Använd kryssrutan <guilabel>Ta emot filer i hämtningsmappen via Bluetooth</"
+"guilabel> för att låta fjärrenheter med Bluetooth skicka filer till din "
+"dator. Mottagna filer lagras i mappen <filename>Downloads</filename> i din "
+"hemkatalog. När mottagning av filer är aktiverat kan du med valet <guilabel>"
+"Acceptera filer</guilabel> bestämma vilka fjärrenheter som får skicka filer. "
+"<_:itemizedlist-1/>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:200
@@ -452,9 +451,8 @@ msgid ""
 "Use the <guilabel>Notify about received files</guilabel> checkbox to select "
 "whether you want to be notified whenever a file is received via Bluetooth."
 msgstr ""
-"Använd kryssrutan <guilabel>Notify about received files (Meddela</guilabel> "
-"om mottagna filer) för att välja om du vill bli meddelad när en fil tas emot"
-" via Bluetooth."
+"Använd kryssrutan <guilabel>Meddela om mottagna filer</guilabel> för att "
+"välja om du vill få en avisering varje gång en fil tas emot via Bluetooth."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -525,15 +523,15 @@ msgstr ""
 "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
 "DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
 "ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET"
-" LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
 "VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
 "HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
 "NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
 "SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
 "EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
 "ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
-"UNDER DENNA ANSVARSFRISKRIVNING;"
+"UNDER DENNA ANSVARSFRISKRIVNING"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55
@@ -571,4 +569,4 @@ msgid ""
 msgstr ""
 "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS ENLIGT "
 "VILLKOREN I GNU:S LICENS FÖR FRI DOKUMENTATION MED DEN YTTERLIGARE "
-"ÖVERENSKOMMELSEN ATT: <_:beställningslista-1/>"
+"ÖVERENSKOMMELSEN ATT: <_:orderedlist-1/>"
